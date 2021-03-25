@@ -1,4 +1,4 @@
-baseURL = "http://www.example.com"
+baseURL = "https://sidmulajkar.github.io/"
 title = "> sidmulajkar"
 theme = "hugo-coder"
 languageCode = "en"
@@ -18,7 +18,7 @@ keywords = "blog,developer,personal"
 info = "A software developer/entrepreneur who is passionately curious. "
 #avatarURL = "images/avatar.jpg"
 #gravatar = "john.doe@example.com"
-footerContent = "Copyright ©2021 All rights reserved"
+footerContent = "Copyright ©2021 | All rights reserved"
 dateFormat = "January 2, 2006"
 hideFooter = false
 hideCredits = true
@@ -110,25 +110,17 @@ weight = 1
 url = "mailto:tss9.creators@gmail.com"
 
 [[params.social]]
+name = "LinkedIn"
+icon = "fa fa-linkedin"
+weight = 4
+url = "https://www.linkedin.com/in/siddhant-mulajkar/"
+
+[[params.social]]
 name = "Twitter"
 icon = "fa fa-twitter"
 weight = 3
 url = "https://twitter.com/mulajksiddhant"
 
-[[params.social]]
-name = "LinkedIn"
-icon = "fa fa-linkedin-square"
-weight = 4
-url = "https://www.linkedin.com/in/siddhant-mulajkar/"
-
-
-[[params.social]]
-name = "RSS"
-icon = "fa fa-rss"
-weight = 6
-url = "https://myhugosite.com/index.xml"
-rel = "alternate"
-type = "application/rss+xml"
 
 [languages.en]
 languageName = ":uk:"
@@ -144,8 +136,13 @@ weight = 2
 url = "posts/"
 
 [[languages.en.menu.main]]
-name = "Projects"
+name = "Experience"
 weight = 3
+url = "experience/"
+
+[[languages.en.menu.main]]
+name = "Projects"
+weight = 4
 url = "projects/"
 
 

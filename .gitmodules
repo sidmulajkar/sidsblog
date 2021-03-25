@@ -1,0 +1,4 @@
+[submodule "sidmulajkar/public"]
+	path = sidmulajkar/public
+	url = https://github.com/sidmulajkar/sidmulajkar.github.io.git
+	branch = main
