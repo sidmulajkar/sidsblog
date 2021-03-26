@@ -5,7 +5,8 @@
     <link>https://sidmulajkar.github.io/</link>
     <description>Recent content on &gt; sidmulajkar</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://sidmulajkar.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Fri, 25 Dec 2020 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Experience</title>
       <link>https://sidmulajkar.github.io/experience/</link>
@@ -25,8 +26,9 @@ Description:  Well, TSS was just a brain child of mine, created with simple noti
       <pubDate>Thu, 25 Mar 2021 19:09:26 +0530</pubDate>
       
       <guid>https://sidmulajkar.github.io/projects/</guid>
-      <description>Sentiment-Predictor-for-Stress-Detection-using-Voice    B.E Project | Datta Meghe College of Engineering | Dec 2019 - May 2020
-A Machine Learning Project based on the deep learning model that helps in predicting Emotions which eventually helps in detecting the mental state of the person. Trained the model on the RAVDESS Dataset (24 Actors, 1440 audio files) using the CNN Model with the raw mfcc voice sets. This method helped in improving the overall accuracy from 74% to 93% from the other methods.</description>
+      <description>Github Link for projects: https://github.com/sidmulajkar
+ Sentiment-Predictor-for-Stress-Detection-using-Voice    B.E Project | Datta Meghe College of Engineering | Dec 2019 - May 2020
+A Machine Learning Project based on the deep learning model that helps in predicting Emotions which eventually helps in detecting the mental state of the person. Trained the model on the RAVDESS Dataset (24 Actors, 1440 audio files) using the CNN Model with the raw mfcc voice sets.</description>
     </item>
     
     <item>
@@ -37,6 +39,15 @@ A Machine Learning Project based on the deep learning model that helps in predic
       <guid>https://sidmulajkar.github.io/about/</guid>
       <description>&amp;ldquo;I have no special talents. I am only passionately curious.&amp;rdquo;
 Ever since i saw the computer at my friend&amp;rsquo;s house, computers have been my passion. This inspiring zeal carried me through my education at DMCE (not IIT or NIIT😉)&amp;hellip; getting the bachelor&amp;rsquo;s degree in Computer Engineering, learnt new things and started my career freelancing to starting a startup, all with pretty much the same fascination that drove me as kid.</description>
+    </item>
+    
+    <item>
+      <title>Best Hosting Provider in 2020</title>
+      <link>https://sidmulajkar.github.io/posts/best-hosting-provider-2020/</link>
+      <pubDate>Fri, 25 Dec 2020 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.github.io/posts/best-hosting-provider-2020/</guid>
+      <description>hi there!</description>
     </item>
     
   </channel>
