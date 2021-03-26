@@ -89,7 +89,7 @@ url = "mailto:tss9.creators@gmail.com"
 
 [[params.social]]
 name = "LinkedIn"
-icon = "fa fa-linkedin-square"
+icon = "fa fa-linkedin"
 weight = 4
 url = "https://www.linkedin.com/in/siddhant-mulajkar/"
 
