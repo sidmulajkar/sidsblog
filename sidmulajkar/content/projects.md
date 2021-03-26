@@ -4,7 +4,7 @@ date: 2021-03-25T19:09:26+05:30
 draft: false
 ---
 
-Github Link for projects: [https://github.com/sidmulajkar](https://github.com/sidmulajkar)
+Github Link: [https://github.com/sidmulajkar](https://github.com/sidmulajkar)
 
 ----------------------------------------------------------------------------
 ### Sentiment-Predictor-for-Stress-Detection-using-Voice
@@ -20,11 +20,13 @@ A Machine Learning Project based on the deep learning model **that helps in pred
 ------------------------------------------------------------------------------
 ### Netflix-Clone-Using-React
 
-Basic Netflix Clone created to understand the concepts of react. The stack that is being used: **React(custom hooks, context, portals),Firebase (Firestore/Auth),Compound & styled components**. I thought to make everything static (movies, series, shows, ...) but then I found this really cool TMDB API through which you can pull data of most popular movies, top rated shows, what’s trending, collections, lists and much more.
+Basic Netflix Clone created to understand the concepts of react. The stack that is being used: **React(custom hooks, context, portals),Firebase (Firestore/Auth),Compound & styled components**. I thought to make everything static (movies, series, shows, ...) but then I found this really cool **TMDB API** through which you can pull data of most popular movies, top rated shows, what’s trending, collections, lists and much more.
 
 **Technologies**: React(Compound Components), Firebase, Tmdb Api, Git
 
 **Link**: [https://github.com/sidmulajkar/netflix-clone-using-react](https://github.com/sidmulajkar/netflix-clone-using-react)
+
+![Netflix Front Page](/images/demo1.png)
 
 ------------------------------------------------------------------------------
 ### Smart-Mirror-with-Voice-Assistant-using-Raspberrypi

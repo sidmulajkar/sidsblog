@@ -3303,7 +3303,7 @@ img.emoji {
     display: none; }
     @media only screen and (max-width: 768px) {
       .navigation #menu-toggle:checked + label > i {
-        color: #fff; }
+        color: #222; }
       .navigation #menu-toggle:checked + label + ul {
         visibility: visible;
         opacity: 1;
