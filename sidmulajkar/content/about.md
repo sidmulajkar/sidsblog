@@ -12,7 +12,7 @@ Ever since i saw the computer at my friend's house, computers have been my passi
 
 **Currently Working on Technologies**: React, SwiftUI, Node, Python, Machine Learning, Flutter(Beginner)
 
-Contriver by heart 💚, developer by profession.. 
+Contriver by heart 💚,developer by profession.. 
 
 Contact me at tss9.creators@gmail.com 
 
