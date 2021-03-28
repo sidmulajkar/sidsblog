@@ -1,6 +1,7 @@
 ---
 title: "Top JavaScript Blogs to Improve Coding Skills"
 categories: [javascript, development, blogs]
+tags: [javascript, development, blogs, top javascript blogs]
 date: 2021-03-27T17:26:04+05:30
 draft: false
 ---
@@ -74,3 +75,5 @@ Conclusion
 Here are the top best JavaScript blogs to improve your coding skills. The blogs and mix of other content types will help you to keep up with new changes in JavaScript field, and improve yourself accordingly.
 
 Also, don’t forget to leave a mail on how the JavaScript post page can be improved and want more **in-depth content** then also drop us a mail regarding this. We are listening!
+
+{{ template "_internal/disqus.html" . }}
