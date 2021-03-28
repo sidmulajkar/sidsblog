@@ -1,7 +1,7 @@
 ---
 title: "Best Hosting Provider in 2020"
 date: 2020-12-25T17:26:04+05:30
-categories: [best hosting provider, hosting service, 2020, best service provider 2020, blogs]
+categories: [a2hosting, hosting service, 2020, blogs]
 tags: [best hosting provider, a2hosting, hosting service, 2020, blogs]
 draft: false
 ---
@@ -66,6 +66,3 @@ But **A2 Hosting** has no **dirt to hide**, and what it claims to offer really i
 [A2 Hosting Link if you want to just check out](http://www.a2hosting.com?aid=fceb43ba)
 
 A2 Hosting may have flown under the radar in comparison to more popular hosts, but if it keeps up its speedy service, it’s sure to overtake popular brand names like GoDaddy and HostGator. **A2 sets a great example, you should never have to settle for anything less than this level of high-performance hosting**.
-
-
-{{ template "_internal/disqus.html" . }}

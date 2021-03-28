@@ -61,13 +61,14 @@ Learning JavaScript, on the other hand, can be a tricky proposition. New librari
 If you are looking for a [Superhero.js](http://superherojs.com) to fetch you the best resources on JavaScript, then you have finally found one. Superhero.js is a simple website that aims to collect everything related to JavaScript including videos, articles, presentations, etc. The content is divided into meaningful sections such as “Understanding JavaScript”, “Organize Your Code”, etc. Also, the page is regularly updated with new information.
 
 ```
-4. JavaScript Playground
+4. Jack Franklin
 ```
 
-![JSPlayground Poster](/images/postimgs/jsplayground.png)
+![Jack Franklin](/images/postimgs/jsplayground.png)
 
-[JavaScript Playground](https://www.jackfranklin.co.uk/blog/refactoring-javascript-code-with-tests) is yet another great place to get started with all the different JavaScript frameworks, API, and libraries. The focus is to work with the JavaScript ecosystem and provide high quality blog articles, screencast, and podcast for the audience. They also blog about different JavaScript guidelines, tips, and tricks.
+[Jack Franklin](https://www.jackfranklin.co.uk/blog/refactoring-javascript-code-with-tests) is yet another great place to get started with all the different JavaScript frameworks, API, and libraries. The focus is to work with the JavaScript ecosystem and provide high quality blog articles, screencast, and podcast for the audience. They also blog about different JavaScript guidelines, tips, and tricks.
 
+-------------------------------------------------------------------------------
 ```
 Conclusion
 ```
@@ -76,4 +77,4 @@ Here are the top best JavaScript blogs to improve your coding skills. The blogs 
 
 Also, don’t forget to leave a mail on how the JavaScript post page can be improved and want more **in-depth content** then also drop us a mail regarding this. We are listening!
 
-{{ template "_internal/disqus.html" . }}
+-------------------------------------------------------------------------------
