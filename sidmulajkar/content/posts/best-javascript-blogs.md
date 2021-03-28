@@ -1,5 +1,6 @@
 ---
 title: "Top JavaScript Blogs to Improve Coding Skills"
+categories: [javascript, development, blogs]
 date: 2021-03-27T17:26:04+05:30
 draft: false
 ---

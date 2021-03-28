@@ -9,11 +9,11 @@ pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 enableEmoji = true
 # Enable Disqus comments
-# disqusShortname = "yourdiscussshortname"
+disqusShortname = "sidmulajkar.disqus.com"
 
 [params]
 author = "Hi, I'm Siddhant Mulajkar!"
-description = "Software Engineer and Ethical Hacker"
+description = "A software developer/entrepreneur who is passionately curious about technology and shares his valuable insights with the community through his blogs"
 keywords = "blog,developer,personal,hacker,javascript blogs,react blogs, development blogs"
 info = "A software developer/entrepreneur who is passionately curious. "
 avatarURL = "images/sid.jpg"
