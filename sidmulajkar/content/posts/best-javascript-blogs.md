@@ -26,8 +26,9 @@ Learning JavaScript, on the other hand, can be a tricky proposition. New librari
     - Varaiable Shadowing
     - Illegal Shadowing
 9. Callback Functions
-10. Async Javascript & Event loop
-11. JS Engine Architecture
+10. Async vs Defer in Javascript & Event loop
+11. Currying in Javascript
+12. JS Engine Architecture
     - V8 from Google
     - SpiderMonkey by Mozilla
     - JavaScriptCore by Apple

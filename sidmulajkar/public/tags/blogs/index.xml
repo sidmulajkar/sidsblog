@@ -6,7 +6,18 @@
     <description>Recent content in blogs on &gt; sidmulajkar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 27 Mar 2021 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.github.io/tags/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Mar 2021 16:04:37 +0530</lastBuildDate><atom:link href="https://sidmulajkar.github.io/tags/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting up Pi-hole as a recursive DNS server</title>
+      <link>https://sidmulajkar.github.io/posts/setting-up-pihole-as-a-recursive-dns-server/</link>
+      <pubDate>Tue, 30 Mar 2021 16:04:37 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.github.io/posts/setting-up-pihole-as-a-recursive-dns-server/</guid>
+      <description>What is a Pi-hole?    Network-wide ad blocking via your own Linux hardware
+The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.
+Web Interface    Pi-hole as All-Around DNS Solution    The problem: Whom can you trust? Pi-hole includes a caching and forwarding DNS server, now known as FTLDNS. After applying the blocking lists, it forwards requests made by the clients to configured upstream DNS server(s).</description>
+    </item>
+    
     <item>
       <title>Top JavaScript Blogs to Improve Coding Skills</title>
       <link>https://sidmulajkar.github.io/posts/best-javascript-blogs/</link>
