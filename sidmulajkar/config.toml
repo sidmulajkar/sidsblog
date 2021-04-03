@@ -99,6 +99,12 @@ icon = "fa fa-twitter"
 weight = 3
 url = "https://twitter.com/mulajksiddhant"
 
+[[params.social]]
+name = "Youtube"
+icon = "fa fa-youtube-play"
+weight = 5
+url = "https://www.youtube.com/channel/UCxTfTsXXenAJFTFI4UFoypg/featured"
+
 
 [languages.en]
 languageName = ":uk:"
@@ -113,14 +119,11 @@ name = "Blogs"
 weight = 2
 url = "posts/"
 
-[[languages.en.menu.main]]
-name = "Experience"
-weight = 3
-url = "experience/"
+
 
 [[languages.en.menu.main]]
 name = "Projects"
-weight = 4
+weight = 3
 url = "projects/"
 
 

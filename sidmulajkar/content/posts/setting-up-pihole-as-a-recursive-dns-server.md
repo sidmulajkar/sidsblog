@@ -3,14 +3,16 @@ title: "Setting up Pi-hole as a recursive DNS server"
 categories: [pihole, dns, blogs]
 tags: [pihole, dns, blogs, recursive-dns]
 date: 2021-03-30T16:04:37+05:30
+description: "setting up recursive dns using pihole for raspberrypi"
 draft: false
 ---
+
+**Got an old Raspberry Pi lying around? Hate seeing ads while browsing the web? Pi-hole is an open source software project that blocks ads for all devices on your home network by routing all advertising servers into nowhere. What's best is it takes just a few minutes to set up.**
+
 ![Pihole](/images/pihole-rdns/logo.png)
 
 ### What is a Pi-hole?
-Network-wide ad blocking via your own Linux hardware
-
-The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.
+Network-wide ad blocking via your own Linux hardware. The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.
 
 ##### Web Interface
 
@@ -43,9 +45,10 @@ Highlights:
 - Listen only for queries from the local Pi-hole installation (on port 5335)
 - Listen for both UDP and TCP requests
 - Verify DNSSEC signatures, discarding BOGUS domains
-- Apply a few security and privacy tricks using your text editor or use **nano**
-- **/etc/unbound/unbound.conf.d/pi-hole.conf**:
-
+- Apply a few security and privacy tricks using your presonal preferred text editor or use **nano** to copy the given code below in the path mentioned next line.
+```
+sudo nano /etc/unbound/unbound.conf.d/pi-hole.conf
+```
 ```
 server:
     # If no logfile is specified, syslog is used

@@ -3,6 +3,7 @@ title: "Top JavaScript Blogs to Improve Coding Skills"
 categories: [javascript, development, blogs]
 tags: [javascript, development, blogs, top javascript blogs]
 date: 2021-03-27T17:26:04+05:30
+description: "Best javascript blog resources to read online"
 draft: false
 ---
 
@@ -28,7 +29,8 @@ Learning JavaScript, on the other hand, can be a tricky proposition. New librari
 9. Callback Functions
 10. Async vs Defer in Javascript & Event loop
 11. Currying in Javascript
-12. JS Engine Architecture
+12. Debouncing & Throttling in Javascript
+13. JS Engine Architecture
     - V8 from Google
     - SpiderMonkey by Mozilla
     - JavaScriptCore by Apple
