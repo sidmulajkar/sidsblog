@@ -4,6 +4,8 @@ categories: [javascript, development, blogs]
 tags: [javascript, development, blogs, top javascript blogs]
 date: 2021-03-27T17:26:04+05:30
 description: "Best javascript blog resources to read online"
+layout: default
+comments: true
 draft: false
 ---
 

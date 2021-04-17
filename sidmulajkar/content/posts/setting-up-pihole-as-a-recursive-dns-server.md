@@ -4,6 +4,8 @@ categories: [pihole, dns, blogs]
 tags: [pihole, dns, blogs, recursive-dns]
 date: 2021-03-30T16:04:37+05:30
 description: "setting up recursive dns using pihole for raspberrypi"
+layout: default
+comments: true
 draft: false
 ---
 
