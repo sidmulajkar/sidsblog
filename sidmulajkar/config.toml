@@ -9,7 +9,7 @@ pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 enableEmoji = true
 # Enable Disqus comments
-#disqusShortname = "sidmulajkar.disqus.com"
+disqusShortname = "sidmulajkar.disqus.com"
 
 [params]
 author = "Hi, I'm Siddhant Mulajkar!"
