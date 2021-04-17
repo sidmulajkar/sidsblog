@@ -19,4 +19,4 @@ There's certainly yet more to learn, more problems to solve, and more to build. 
 
 Contact me at tss9.creators@gmail.com 
 
-[If instrested do checkout my Resume by clicking this 👈](https://drive.google.com/file/d/17rge0vxwHTzPfmHMS0_xL9QvFY3rTkhU/view)
+[If instrested do checkout my Resume by clicking this 👈](https://drive.google.com/file/d/1Ps6nlEJ6nufSENFCgZAdekFErOPUUH92/view)
