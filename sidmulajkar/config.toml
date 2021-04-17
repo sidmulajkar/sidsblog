@@ -4,12 +4,13 @@ theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
 paginate = 20
-pygmentsStyle = "b2"
+pygmentsStyle = "bw"
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 enableEmoji = true
 # Enable Disqus comments
-disqusShortname = "sidmulajkar.disqus.com"
+disqusShortname = "sidmulajkar"
+googleAnalytics = "269318419"
 
 [params]
 author = "Hi, I'm Siddhant Mulajkar!"

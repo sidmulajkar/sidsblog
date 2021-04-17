@@ -221,7 +221,7 @@ Pi-hole includes a caching and forwarding DNS server, now known as FTLDNS. After
   </a>
 </h3>
 <p>We will use unbound, a secure open-source recursive DNS server primarily developed by NLnet Labs, VeriSign Inc., Nominet, and Kirei. The first thing you need to do is to install the recursive DNS resolver:</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo apt install unbound
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo apt install unbound
 </code></pre></div><p><strong>Configure unbound</strong></p>
 <p>Highlights:</p>
 <ul>
@@ -230,8 +230,8 @@ Pi-hole includes a caching and forwarding DNS server, now known as FTLDNS. After
 <li>Verify DNSSEC signatures, discarding BOGUS domains</li>
 <li>Apply a few security and privacy tricks using your presonal preferred text editor or use <strong>nano</strong> to copy the given code below in the path mentioned next line.</li>
 </ul>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo nano /etc/unbound/unbound.conf.d/pi-hole.conf
-</code></pre></div><div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">server:
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo nano /etc/unbound/unbound.conf.d/pi-hole.conf
+</code></pre></div><div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">server:
     # If no logfile is specified, syslog is used
     # logfile: &#34;/var/log/unbound/unbound.log&#34;
     verbosity: 0
@@ -294,7 +294,7 @@ Pi-hole includes a caching and forwarding DNS server, now known as FTLDNS. After
 <p><img src="/images/pihole-rdns/recursiveresolve.png" alt="Pihole-web"></p>
 <p><strong>(don&rsquo;t forget to hit Return or click on Save)</strong></p>
 <p><strong>Lastly, restart unbound:</strong></p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo service unbound restart
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo service unbound restart
 </code></pre></div><hr>
 <h2 id="and-thats-it-new-unblocked-dns-requests-will-be-made-directly-to-the-authoritative-servers-instead-of-routing-through-a-third-party-like-quad9-or-google-etc">
   <strong>And that’s it! New unblocked DNS requests will be made directly to the authoritative servers instead of routing through a third party like Quad9 or Google, etc.</strong>
@@ -323,7 +323,7 @@ Pi-hole includes a caching and forwarding DNS server, now known as FTLDNS. After
             return;
         }
         var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "sidmulajkar.disqus.com" + '.disqus.com/embed.js';
+        s.src = '//' + "sidmulajkar" + '.disqus.com/embed.js';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
     })();
