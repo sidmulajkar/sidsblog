@@ -10,6 +10,7 @@ pygmentsCodeFencesGuessSyntax = true
 enableEmoji = true
 # Enable Disqus comments
 disqusShortname = "sidmulajkar"
+show_comments = true
 googleAnalytics = "269318419"
 
 [params]
