@@ -1,4 +1,4 @@
-baseURL = "https://sidmulajkar.github.io/"
+baseURL = "https://sidmulajkar.com/"
 title = "> sidmulajkar"
 theme = "hugo-coder"
 languageCode = "en"
@@ -25,7 +25,7 @@ hideCredits = true
 hideCopyright = true
 since = 2019
 # Git Commit in Footer, uncomment the line below to enable it
-commit = "https://github.com/luizdepra/hugo-coder/tree/"
+# commit = "https://github.com/luizdepra/hugo-coder/tree/"
 # Right To Left, shift content direction for languagues such as Arabic
 rtl = false
 # Specify light/dark colorscheme
@@ -50,7 +50,7 @@ customJS = []
 
 # If you want to use Google Tag Manager(https://analytics.google.com/) for analytics, add this section
 # [params.googleTagManager]
-# id = "gid"
+id = "G-PLGJTJNG5Y"
 
 # If you want to implement a Content-Security-Policy, add this section
 [params.csp]
