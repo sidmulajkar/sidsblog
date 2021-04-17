@@ -68,6 +68,7 @@ stylesrc = [
 ]
 scriptsrc = ["'self'", "'unsafe-inline'", "https://www.google-analytics.com"]
 prefetchsrc = ["'self'"]
+connectsrc = ["'self'", "https://www.google-analytics.com"]
 
 [taxonomies]
 category = "categories"
