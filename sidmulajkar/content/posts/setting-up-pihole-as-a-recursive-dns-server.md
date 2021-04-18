@@ -1,7 +1,7 @@
 ---
 title: "Setting up Pi-hole as a recursive DNS server"
-categories: [pihole, dns, sidblogs, setting pihole as recursive-dns, raspberrypi,raspberrypi-pihole]
-tags: [pihole, raspberrypi, raspberrypi-pihole, dns, sidblogs, setting up pihole as recursive-dns, setting up pihole as recursive-dns using raspberrypi]
+categories: [pihole, dns, sidblogs, setting pihole as recursive-dns, raspberrypi,raspberry pi pihole]
+tags: [pihole, raspberrypi, raspberry pi pihole, dns, sidblogs, setting up pihole as recursive-dns, setting up pihole as recursive-dns using raspberrypi]
 date: 2021-03-30T16:04:37+05:30
 description: "setting up recursive dns using pihole for raspberrypi"
 author: Siddhant Mulajkar
