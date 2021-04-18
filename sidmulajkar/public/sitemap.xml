@@ -5,12 +5,6 @@
     <loc>https://sidmulajkar.com/</loc>
     <lastmod>2021-03-30T16:04:37+05:30</lastmod>
   </url><url>
-    <loc>https://sidmulajkar.com/tags/blogs/</loc>
-    <lastmod>2021-03-30T16:04:37+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/categories/blogs/</loc>
-    <lastmod>2021-03-30T16:04:37+05:30</lastmod>
-  </url><url>
     <loc>https://sidmulajkar.com/categories/</loc>
     <lastmod>2021-03-30T16:04:37+05:30</lastmod>
   </url><url>
@@ -29,14 +23,50 @@
     <loc>https://sidmulajkar.com/posts/</loc>
     <lastmod>2021-03-30T16:04:37+05:30</lastmod>
   </url><url>
-    <loc>https://sidmulajkar.com/tags/recursive-dns/</loc>
+    <loc>https://sidmulajkar.com/tags/raspberrypi/</loc>
+    <lastmod>2021-03-30T16:04:37+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/raspberrypi/</loc>
+    <lastmod>2021-03-30T16:04:37+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/raspberrypi-pihole/</loc>
+    <lastmod>2021-03-30T16:04:37+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/raspberrypi-pihole/</loc>
+    <lastmod>2021-03-30T16:04:37+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/setting-pihole-as-recursive-dns/</loc>
     <lastmod>2021-03-30T16:04:37+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/posts/setting-up-pihole-as-a-recursive-dns-server/</loc>
     <lastmod>2021-03-30T16:04:37+05:30</lastmod>
   </url><url>
+    <loc>https://sidmulajkar.com/tags/setting-up-pihole-as-recursive-dns/</loc>
+    <lastmod>2021-03-30T16:04:37+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/setting-up-pihole-as-recursive-dns-using-raspberrypi/</loc>
+    <lastmod>2021-03-30T16:04:37+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/sidblogs/</loc>
+    <lastmod>2021-03-30T16:04:37+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/sidblogs/</loc>
+    <lastmod>2021-03-30T16:04:37+05:30</lastmod>
+  </url><url>
     <loc>https://sidmulajkar.com/tags/</loc>
     <lastmod>2021-03-30T16:04:37+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/best-javascript-resources/</loc>
+    <lastmod>2021-03-27T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/best-javascript-resources/</loc>
+    <lastmod>2021-03-27T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/best-resources-for-javascript/</loc>
+    <lastmod>2021-03-27T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/best-resources-to-learn-javascript-in-2021/</loc>
+    <lastmod>2021-03-27T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/tags/development/</loc>
     <lastmod>2021-03-27T17:26:04+05:30</lastmod>
@@ -50,14 +80,8 @@
     <loc>https://sidmulajkar.com/categories/javascript/</loc>
     <lastmod>2021-03-27T17:26:04+05:30</lastmod>
   </url><url>
-    <loc>https://sidmulajkar.com/tags/top-javascript-blogs/</loc>
+    <loc>https://sidmulajkar.com/posts/best-javascript-resources/</loc>
     <lastmod>2021-03-27T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/posts/best-javascript-blogs/</loc>
-    <lastmod>2021-03-27T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/experience/</loc>
-    <lastmod>2021-03-25T19:56:23+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/projects/</loc>
     <lastmod>2021-03-25T19:09:26+05:30</lastmod>
@@ -65,29 +89,29 @@
     <loc>https://sidmulajkar.com/about/</loc>
     <lastmod>2021-03-25T17:26:04+05:30</lastmod>
   </url><url>
-    <loc>https://sidmulajkar.com/tags/2020/</loc>
-    <lastmod>2020-12-25T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/categories/2020/</loc>
-    <lastmod>2020-12-25T17:26:04+05:30</lastmod>
-  </url><url>
     <loc>https://sidmulajkar.com/tags/a2hosting/</loc>
-    <lastmod>2020-12-25T17:26:04+05:30</lastmod>
+    <lastmod>2021-02-25T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/a2hosting/</loc>
-    <lastmod>2020-12-25T17:26:04+05:30</lastmod>
+    <lastmod>2021-02-25T17:26:04+05:30</lastmod>
   </url><url>
-    <loc>https://sidmulajkar.com/tags/best-hosting-provider/</loc>
-    <lastmod>2020-12-25T17:26:04+05:30</lastmod>
+    <loc>https://sidmulajkar.com/tags/best-hosting-provider-2021/</loc>
+    <lastmod>2021-02-25T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/best-hosting-provider-2021/</loc>
+    <lastmod>2021-02-25T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/best-hosting-service-provider/</loc>
+    <lastmod>2021-02-25T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/posts/best-hosting-provider-2020/</loc>
-    <lastmod>2020-12-25T17:26:04+05:30</lastmod>
+    <lastmod>2021-02-25T17:26:04+05:30</lastmod>
   </url><url>
-    <loc>https://sidmulajkar.com/tags/hosting-service/</loc>
-    <lastmod>2020-12-25T17:26:04+05:30</lastmod>
+    <loc>https://sidmulajkar.com/tags/web-hosting-service/</loc>
+    <lastmod>2021-02-25T17:26:04+05:30</lastmod>
   </url><url>
-    <loc>https://sidmulajkar.com/categories/hosting-service/</loc>
-    <lastmod>2020-12-25T17:26:04+05:30</lastmod>
+    <loc>https://sidmulajkar.com/categories/web-hosting-service/</loc>
+    <lastmod>2021-02-25T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/authors/</loc>
   </url><url>

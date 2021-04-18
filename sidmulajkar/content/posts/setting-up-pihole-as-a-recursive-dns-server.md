@@ -1,11 +1,10 @@
 ---
 title: "Setting up Pi-hole as a recursive DNS server"
-categories: [pihole, dns, blogs]
-tags: [pihole, dns, blogs, recursive-dns]
+categories: [pihole, dns, sidblogs, setting pihole as recursive-dns, raspberrypi,raspberrypi-pihole]
+tags: [pihole, raspberrypi, raspberrypi-pihole, dns, sidblogs, setting up pihole as recursive-dns, setting up pihole as recursive-dns using raspberrypi]
 date: 2021-03-30T16:04:37+05:30
 description: "setting up recursive dns using pihole for raspberrypi"
-layout: default
-comments: true
+author: Siddhant Mulajkar
 draft: false
 ---
 
@@ -15,6 +14,9 @@ draft: false
 
 ### What is a Pi-hole?
 Network-wide ad blocking via your own Linux hardware. The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.
+
+##### What is a recursive DNS server?
+The first distinction we have to be aware of is whether a DNS server is authoritative or not. If I'm the authoritative server for, e.g., pi-hole.net, then I know which IP is the correct answer for a query. Recursive name servers, in contrast, resolve any query they receive by consulting the servers authoritative for this query by traversing the domain. Example: We want to resolve pi-hole.net. On behalf of the client, the recursive DNS server will traverse the path of the domain across the Internet to deliver the answer to the question.
 
 ##### Web Interface
 
@@ -29,8 +31,6 @@ Furthermore, from the point of an attacker, the DNS servers of larger providers 
 
 When you operate your own (tiny) recursive DNS server, then the likeliness of getting affected by such an attack is greatly reduced.
 
-##### What is a recursive DNS server?
-The first distinction we have to be aware of is whether a DNS server is authoritative or not. If I'm the authoritative server for, e.g., pi-hole.net, then I know which IP is the correct answer for a query. Recursive name servers, in contrast, resolve any query they receive by consulting the servers authoritative for this query by traversing the domain. Example: We want to resolve pi-hole.net. On behalf of the client, the recursive DNS server will traverse the path of the domain across the Internet to deliver the answer to the question.
 
 ### Setting up Pi-hole as a recursive DNS server solution
 
@@ -122,6 +122,6 @@ sudo service unbound restart
 ```
 
 -------------------------------------------------------------------------------
-**And that’s it! New unblocked DNS requests will be made directly to the authoritative servers instead of routing through a third party like Quad9 or Google, etc.**
+**And that’s it! New unblocked DNS requests will be made directly to the authoritative servers instead of routing through a third party dns services like Quad9 or Google, etc.**
 -------------------------------------------------------------------------------
 

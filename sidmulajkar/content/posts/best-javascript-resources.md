@@ -1,13 +1,14 @@
 ---
-title: "Top JavaScript Blogs to Improve Coding Skills"
-categories: [javascript, development, blogs]
-tags: [javascript, development, blogs, top javascript blogs]
+title: "Top 4 JavaScript Blogs/Resources to Improve Coding Skills"
+categories: [javascript, best javascript resources, best resources to learn javascript in 2021, development, sidblogs]
+tags: [javascript, development, sidblogs, best javascript resources, best resources for javascript]
 date: 2021-03-27T17:26:04+05:30
-description: "Best javascript blog resources to read online"
-layout: default
-comments: true
+description: "Best javascript blog resources, with two decades of improvement, JavaScript has become one of the most popular programming languages of all time."
+author: Siddhant Mulajkar
 draft: false
 ---
+
+![Javascript Poster](/images/postimgs/js1.png)
 
 With two decades of improvement, JavaScript has become one of the most popular programming languages of all time. The journey started in 1995 when Brendan Eich created JavaScript in just 10 days. From there, it has seen multiple revisions, drafts, and growth in the form of frameworks, API’s, modules, etc. Today, we will go forward and list the top JavaScript blogs from the internet so that you can enjoy the lastest development in the field of JavaScript.
 
@@ -16,6 +17,7 @@ According to RedMonk programming language rankings and GitHut.info, JavaScript i
 Learning JavaScript, on the other hand, can be a tricky proposition. New libraries, features, API’s or Style Guide, pop up almost every day. The speed of iteration is beyond imagination, and that is why reading leading JavaScript blogs are the best approach to keep up with new changes.
 
 **If you are new to JavaScript then the topics that are important to learn are**:
+
 ```
 1. What is Execution Context?
     - Phases of execution context
@@ -72,6 +74,19 @@ If you are looking for a [Superhero.js](http://superherojs.com) to fetch you the
 ![Jack Franklin](/images/postimgs/jsplayground.png)
 
 [Jack Franklin](https://www.jackfranklin.co.uk/blog/refactoring-javascript-code-with-tests) is yet another great place to get started with all the different JavaScript frameworks, API, and libraries. The focus is to work with the JavaScript ecosystem and provide high quality blog articles, screencast, and podcast for the audience. They also blog about different JavaScript guidelines, tips, and tricks.
+
+
+### What is the best resource to learn Javascript?
+
+**Javascript Resources**
+    
+    1. MDN JavaScript Guide. A large series of written guides curated by Mozilla contributors. 
+    2. Namaste Javascript a series by Akshay Saini on youtube. Handson best explanation!!
+
+**(If you're deadass seroius about this then definitely watch this series)**
+
+[![NAMASTE JAVASCRIPT](/images/postimgs/namaste_javascript.png)](https://www.youtube.com/watch?v=pN6jk0uUrD8 "NAMASTE JAVASCRIPT")
+
 
 -------------------------------------------------------------------------------
 ```
