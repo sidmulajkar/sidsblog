@@ -1,20 +1,24 @@
 ---
 title: "Top 4 JavaScript Blogs/Resources to Improve Coding Skills"
-categories: [javascript, best javascript resources, best resources to learn javascript in 2021, development, sidblogs]
-tags: [javascript, development, sidblogs, best javascript resources, best resources for javascript]
+categories: [javascript, best javascript resources, best resources to learn javascript in 2021, development, sidblogs, javascript tutorial, javascript interview questions, learn javascript]
+tags: [javascript, development, sidblogs, best javascript resources, best resources for javascript, spidermonkey, javascript tutorial, what is javascript, learn javascript]
 date: 2021-03-27T17:26:04+05:30
-description: "Best javascript blog resources, with two decades of improvement, JavaScript has become one of the most popular programming languages of all time."
+description: "Best javascript blogs/resources/tutorials, with two decades of improvement, JavaScript has become one of the most popular programming languages of all time. Want to learn more of it then definitely check it out."
 author: Siddhant Mulajkar
 draft: false
 ---
 
-![Javascript Poster](/images/postimgs/js1.png)
+![Javascript Poster](/images/postimgs/lovejs.png)
 
-With two decades of improvement, JavaScript has become one of the most popular programming languages of all time. The journey started in 1995 when Brendan Eich created JavaScript in just 10 days. From there, it has seen multiple revisions, drafts, and growth in the form of frameworks, API’s, modules, etc. Today, we will go forward and list the top JavaScript blogs from the internet so that you can enjoy the lastest development in the field of JavaScript.
+With two decades of improvement, **JavaScript has become one of the most popular programming languages of all time**. The journey started in 1995 when Brendan Eich **created** JavaScript in just **10 days**. From there, it has seen multiple revisions, drafts, and growth in the form of frameworks, API’s, modules, etc. Today, we will go forward and list the best resources of JavaScript blogs from the net so that you can enjoy the lastest development things in the field of JavaScript.
 
 According to RedMonk programming language rankings and GitHut.info, JavaScript is leading the pack in the terms of repositories and the most discussed programming language on StackOverFlow. The numbers itself speaks about the future of JavaScript as it has grown beyond the initial capabilities of simple DOM manipulations.
 
-Learning JavaScript, on the other hand, can be a tricky proposition. New libraries, features, API’s or Style Guide, pop up almost every day. The speed of iteration is beyond imagination, and that is why reading leading JavaScript blogs are the best approach to keep up with new changes.
+Learning **JavaScript, on the other hand, can be a tricky proposition. New libraries, features, API’s or Style Guide, pop up almost every day**. The **speed of iteration** is beyond imagination, and that is why reading leading JavaScript blogs are the best resources to approach and to keep up with new changes provided by the community.
+
+
+-------------------------------------------------------------------------------
+**Javascript Interview Questions also revolve around these topics**
 
 **If you are new to JavaScript then the topics that are important to learn are**:
 
@@ -40,8 +44,10 @@ Learning JavaScript, on the other hand, can be a tricky proposition. New librari
     - JavaScriptCore by Apple
     - Chakra for Internet Explorer by Microsoft
 ```
+-------------------------------------------------------------------------------
 
-### Top JavaScript Blogs to Improve Coding Skills
+
+### Best JavaScript Blogs to Improve Coding Skills
 
 ```
 1. David Walsh Blog

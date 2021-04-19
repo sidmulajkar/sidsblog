@@ -108,6 +108,13 @@ icon = "fa fa-youtube-play"
 weight = 5
 url = "https://www.youtube.com/channel/UCxTfTsXXenAJFTFI4UFoypg/featured"
 
+[[params.social]]
+name = "Categories"
+icon = "fa fa-skyatlas"
+weight = 6
+url = "https://sidmulajkar.com/categories/"
+
+
 
 [languages.en]
 languageName = ":uk:"
