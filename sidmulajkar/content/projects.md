@@ -20,9 +20,9 @@ A Machine Learning Project based on the deep learning model **that helps in pred
 ------------------------------------------------------------------------------
 ### Netflix-Clone-Using-React
 
-Basic Netflix Clone created to understand the concepts of react. The stack that is being used: **React(custom hooks, context, portals),Firebase (Firestore/Auth),Compound & styled components**. I thought to make everything static (movies, series, shows, ...) but then I found this really cool **TMDB API** through which you can pull data of most popular movies, top rated shows, what’s trending, collections, lists and much more.
+Basic Netflix Clone created to understand the concepts of react. The stack that is being used: **React(custom hooks, context, portals),Firebase(Firestore/Auth),Compound & styled components**. I thought to make everything static (movies, series, shows, ...) but then I found this really cool **TMDB API** through which you can pull data of most popular movies, top rated shows, what’s trending, collections, lists and much more.
 
-**Technologies**: React(Compound Components), Firebase, Tmdb Api, Git
+**Technologies**:React(Compound Components), Firebase, Tmdb Api, Git
 
 **Link**: [https://github.com/sidmulajkar/netflix-clone-using-react](https://github.com/sidmulajkar/netflix-clone-using-react)
 
