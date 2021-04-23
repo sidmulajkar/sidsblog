@@ -42,6 +42,8 @@ Learn more about all the compatible software options you’ll have access to at 
 
 ![A2 Features](/images/postimgs/features.png)
 
+### The real useage features make it best while using the service
+
 1. **Analytics** software provide website owners with statistics regarding their websites. The numbers are often reported with a combination of tables, graphs and charts. Some of the most used metrics include conversion rates, bounce rates, and traffic referral stats.
 
 An auction is a type of public or private sale where goods are sold to the highest bidder. If you’ve ever used the popular website eBay before, than you’re familiar with online auctions. Auction software helps you publish an auction-style site very similar to eBay.

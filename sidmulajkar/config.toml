@@ -12,6 +12,9 @@ enableEmoji = true
 # disqusShortname = "sidmulajkar"
 # show_comments = true
 googleAnalytics = "269318419"
+enableRobotsTXT = true
+canonifyURLs = true
+
 
 [params]
 author = "Hi, I'm Siddhant Mulajkar!"
@@ -86,32 +89,27 @@ url = "https://github.com/sidmulajkar/"
 
 [[params.social]]
 name = "Mail"
-icon = "fa fa-envelope-o"
+icon = "fa fa-envelope-open-o"
 weight = 1
-url = "mailto:tss9.creators@gmail.com"
+url = "mailto:hi@sidmulajkar.com"
 
 [[params.social]]
 name = "LinkedIn"
 icon = "fa fa-linkedin"
-weight = 4
+weight = 3
 url = "https://www.linkedin.com/in/siddhant-mulajkar/"
 
-[[params.social]]
-name = "Twitter"
-icon = "fa fa-twitter"
-weight = 3
-url = "https://twitter.com/mulajksiddhant"
 
 [[params.social]]
 name = "Youtube"
 icon = "fa fa-youtube-play"
-weight = 5
+weight = 4
 url = "https://www.youtube.com/channel/UCxTfTsXXenAJFTFI4UFoypg/featured"
 
 [[params.social]]
 name = "Categories"
-icon = "fa fa-skyatlas"
-weight = 6
+icon = "fa fa-stack-exchange"
+weight = 5
 url = "https://sidmulajkar.com/categories/"
 
 
@@ -136,6 +134,3 @@ name = "Projects"
 weight = 3
 url = "projects/"
 
-
-enableRobotsTXT = true
-canonifyURLs = true

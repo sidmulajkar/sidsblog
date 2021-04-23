@@ -17,6 +17,6 @@ There's certainly yet more to learn, more problems to solve, and more to build. 
 
 **Contriver** by heart 💚, **developer** by profession. 
 
-Contact me at tss9.creators@gmail.com 
+Contact me at hi@sidmulajkar.com 
 
-[If instrested do checkout my Resume by clicking this 👈](https://drive.google.com/file/d/1Ps6nlEJ6nufSENFCgZAdekFErOPUUH92/view)
+[If instrested do checkout my Resume by clicking this 👈](https://drive.google.com/file/d/1v70Py39fs1z2FXv6N13aSEFyEJIc11lZ/view?usp=sharing)
