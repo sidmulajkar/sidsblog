@@ -73,4 +73,3 @@ But **A2 Hosting** has no **dirt to hide**, and what it claims to offer really i
 
 **[A2 Hosting](http://www.a2hosting.com?aid=fceb43ba)** may have flown under the radar in comparison to more popular hosts, but if it keeps up its speedy service, it’s sure to overtake popular brand names like GoDaddy and HostGator. **A2 sets a great example, you should never have to settle for anything less than this level of high-performance hosting**.
 
-

@@ -9,8 +9,8 @@ pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 enableEmoji = true
 # Enable Disqus comments
-# disqusShortname = "sidmulajkar"
-# show_comments = true
+#disqusShortname = "sidmulajkar"
+#show_comments = true
 googleAnalytics = "269318419"
 enableRobotsTXT = true
 canonifyURLs = true

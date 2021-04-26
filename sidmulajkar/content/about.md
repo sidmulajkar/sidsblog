@@ -1,6 +1,7 @@
 ---
 title: "About"
 date: 2021-03-25T17:26:04+05:30
+description: "I have no special talents. I am only passionately curious. A software developer/entrepreneur who is passionately curious about technology and shares his valuable insights with the community through his blogs"
 draft: false
 ---
 
