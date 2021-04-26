@@ -11,7 +11,7 @@ enableEmoji = true
 # Enable Disqus comments
 #disqusShortname = "sidmulajkar"
 #show_comments = true
-googleAnalytics = "269318419"
+googleAnalytics = "G-PLGJTJNG5Y"
 enableRobotsTXT = true
 canonifyURLs = true
 
@@ -55,7 +55,7 @@ customJS = []
 
 # If you want to use Google Tag Manager(https://analytics.google.com/) for analytics, add this section
 [params.googleTagManager]
-id = "G-PLGJTJNG5Y"
+id = "GTM-5QX3JR3"
 
 # If you want to implement a Content-Security-Policy, add this section
 [params.csp]
