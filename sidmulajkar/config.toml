@@ -13,7 +13,7 @@ enableEmoji = true
 #show_comments = true
 # Google Analytics 4
 googleAnalyticsID = "G-PMN60C25CN"
-#googleAnalytics = "UA-120510472-2"
+# googleAnalytics = "UA-120510472-2"
 enableRobotsTXT = true
 canonifyURLs = true
 
@@ -57,7 +57,7 @@ customJS = []
 
 # If you want to use Google Tag Manager(https://analytics.google.com/) for analytics, add this section
 [params.googleTagManager]
-id = "G-PMN60C25CN"
+id = "GTM-5QX3JR3"
 
 # If you want to implement a Content-Security-Policy, add this section
 [params.csp]
