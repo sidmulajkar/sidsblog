@@ -57,7 +57,7 @@ customJS = []
 
 # If you want to use Google Tag Manager(https://analytics.google.com/) for analytics, add this section
 [params.googleTagManager]
-id = "GTM-5QX3JR3"
+id = "G-PMN60C25CN"
 
 # If you want to implement a Content-Security-Policy, add this section
 [params.csp]
