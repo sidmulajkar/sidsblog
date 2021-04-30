@@ -13,7 +13,7 @@ enableEmoji = true
 #show_comments = true
 # Google Analytics 4
 googleAnalyticsID = "G-PMN60C25CN"
-# googleAnalytics = "UA-120510472-2"
+#googleAnalytics = "UA-120510472-2"
 enableRobotsTXT = true
 canonifyURLs = true
 
@@ -59,6 +59,7 @@ customJS = []
 [params.googleTagManager]
 id = "G-PMN60C25CN"
 
+
 # If you want to implement a Content-Security-Policy, add this section
 [params.csp]
 childsrc = ["'self'"]
@@ -73,7 +74,19 @@ stylesrc = [
   "https://fonts.googleapis.com/",
   "https://cdn.jsdelivr.net/"
 ]
-scriptsrc = ["'self'", "'unsafe-inline'", "https://www.google-analytics.com"]
+scriptsrc = ["'self'",
+    "'unsafe-inline'",
+    "https://www.google-analytics.com",
+    "cse.google.com",
+    "https://www.google.com",
+    "https://pagead2.googlesyndication.com",
+    "https://adservice.google.com",
+    "https://www.googletagservices.com",
+    "disqus.com",
+    "disquscdn.com",
+    "*.disqus.com",
+    "*.disquscdn.com"]
+
 prefetchsrc = ["'self'"]
 connectsrc = ["'self'", "https://www.google-analytics.com"]
 
@@ -110,7 +123,7 @@ url = "https://www.youtube.com/channel/UCxTfTsXXenAJFTFI4UFoypg/featured"
 
 [[params.social]]
 name = "Categories"
-icon = "fa fa-stack-exchange"
+icon = "fa fa-history"
 weight = 5
 url = "https://sidmulajkar.com/categories/"
 
@@ -136,3 +149,15 @@ name = "Projects"
 weight = 3
 url = "projects/"
 
+
+
+[server]
+
+  [[server.headers]]
+    for = "/**.html"
+    [server.headers.values]
+      Content-Security-Policy = "script-src www.sidmulajkar.com sidmulajkar.com"
+      Referrer-Policy = "strict-origin-when-cross-origin"
+      X-Content-Type-Options = "nosniff"
+      X-Frame-Options = "DENY"
+      X-XSS-Protection = "1; mode=block"
