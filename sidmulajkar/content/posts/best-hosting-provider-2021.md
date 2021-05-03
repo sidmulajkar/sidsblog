@@ -20,10 +20,14 @@ And while nothing beats raw speed and power, there are other features to back it
 
 Still, most or all Linux features are there. A free SSL certificate is included, which you’ll need before you can process transactions, so it’s a huge save.
 
-![A2 Poster](/images/postimgs/a2main.png)
+![A2 MainPoster](/images/postimgs/a2main.png)
 
 High Powered Web Hosting For Your Unique Needs!
 We have a blazing fast web hosting solution perfect for you! Whether you have a low traffic, brand new blog or own a popular business site, A2 Hosting has got you covered! Whether you’ve never run a website before or are a professional developer, rest assured we have a web hosting solution to meet your unique needs!
+
+[![A2 Poster](/images/postimgs/a2hostmain.png)](http://www.a2hosting.com?aid=fceb43ba "A2 Poster")
+
+---------------------------------------------------------------------------------------------------------------------------------------------
 
 Experience The A2 Hosting Difference Today! **Up To 20X Faster Servers**
 Our exclusive Turbo Server option offers you the fastest hosting experience!
@@ -40,13 +44,62 @@ Our exclusive Turbo Server option offers you the fastest hosting experience!
 Best Software & Development Options
 Learn more about all the compatible software options you’ll have access to at A2 Hosting. There’s a ton to choose between! Once you select your solution, we’ll help you choose one of our high speed hosting packages to fit your specific needs.
 
+
+
 ![A2 Features](/images/postimgs/features.png)
 
-### The real useage features make it best while using the service
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+### What kind of hosting services does A2 Hosting provides?
+
+
+![A2 Services](/images/postimgs/typesofhosting.png)
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+### What impacts and seperates A2 from others?
+
+**Their single approach & aim to provide the industry with best web hosting solutions to their clients..**
+
+![A2 Features](/images/postimgs/whatseperateshosta2.png)
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+**What makes it even more promising and a go to choice other than features is..... Money Back Guarantee**
+
+
+It’s understandable. We have a lot of cool, exclusive, **“make your website fly”** sort of tools you want to try. So do it! Try us
+
+**risk-free**  with our  [Money Back Guarantee](https://www.a2hosting.com/about/policies/billing#6.-Refunds)
+
+..
+
+The thing is, we don’t think you’ll be canceling. If you do decide we’re not the right host for you though, we’ll give you a **hassle-free refund**. We may have to stock up on tissues if you cancel though because we hate break-ups, but we promise, no hard feelings. Just cancel your account within your first 30-days for a full refund, or receive a prorated refund of unused service after 30-days. It’s that easy.
+
+We don't want any customers to leave, but if you do we think you'll be back. Once you get used to A2 Hosting's **24/7 Guru Crew Support** team, ultra-reliable servers and ease of use, those other guys just won't cut it.
+
+**[GET STARTED NOW](http://www.a2hosting.com?aid=fceb43ba)**
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+### 99% Uptime is not meant for just as a display term for more feature rich thing as they completely mean by that uptime process..
+
+![A2 99Percent](/images/postimgs/99peruptime.png)
+
+**Still want to learn and know more well here is the [comparison](https://www.a2hosting.com/compare) link for more in-depth comparison.**
+
+![A2 best99](/images/postimgs/bestindustry99up.png)
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+### Now what real use-age features make it best while using the service
 
 1. **Analytics** software provide website owners with statistics regarding their websites. The numbers are often reported with a combination of tables, graphs and charts. Some of the most used metrics include conversion rates, bounce rates, and traffic referral stats.
 
-An auction is a type of public or private sale where goods are sold to the highest bidder. If you’ve ever used the popular website eBay before, than you’re familiar with online auctions. Auction software helps you publish an auction-style site very similar to eBay.
 
 **Ad serving solutions** include everything from Analytic programs to gain better insight into your web traffic to pixel tracking for your ads. Any website can use these solutions to learn more about what sort of marketing activities are leading to successful visitor interactions.
 
