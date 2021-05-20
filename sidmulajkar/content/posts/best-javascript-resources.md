@@ -10,6 +10,8 @@ draft: false
 
 ![Javascript Poster](/images/postimgs/lovejs.png)
 
+**Time, tide and Javascript never stops for anyone!!!**
+
 With two decades of improvement, **JavaScript has become one of the most popular programming languages of all time**. The journey started in 1995 when Brendan Eich **created** JavaScript in just **10 days**. From there, it has seen multiple revisions, drafts, and growth in the form of frameworks, API’s, modules, etc. Today, we will go forward and list the best resources of JavaScript blogs from the net so that you can enjoy the lastest development things in the field of JavaScript.
 
 According to RedMonk programming language rankings and GitHut.info, JavaScript is leading the pack in the terms of repositories and the most discussed programming language on StackOverFlow. The numbers itself speaks about the future of JavaScript as it has grown beyond the initial capabilities of simple DOM manipulations.
@@ -89,7 +91,7 @@ If you are looking for a [Superhero.js](http://superherojs.com) to fetch you the
     1. MDN JavaScript Guide. A large series of written guides curated by Mozilla contributors. 
     2. Namaste Javascript a series by Akshay Saini on youtube. Handson best explanation!!
 
-**(If you're deadass seroius about this then definitely watch this series)**
+**(If you're deadass serious about this then definitely watch this series)**
 
 [![NAMASTE JAVASCRIPT](/images/postimgs/namaste_javascript.png)](https://www.youtube.com/watch?v=pN6jk0uUrD8 "NAMASTE JAVASCRIPT")
 
