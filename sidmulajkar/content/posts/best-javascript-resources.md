@@ -10,9 +10,9 @@ draft: false
 
 ![Javascript Poster](/images/postimgs/lovejs.png)
 
-**Time, tide and Javascript never stops for anyone!!!**
+**Time, tide and Javascript never stop for anyone!!!**
 
-With two decades of improvement, **JavaScript has become one of the most popular programming languages of all time**. The journey started in 1995 when Brendan Eich **created** JavaScript in just **10 days**. From there, it has seen multiple revisions, drafts, and growth in the form of frameworks, API’s, modules, etc. Today, we will go forward and list the best resources of JavaScript blogs from the net so that you can enjoy the lastest development things in the field of JavaScript.
+With two decades of improvement, **JavaScript has become one of the most popular programming languages of all time**. The journey started in 1995 when Brendan Eich **created** JavaScript in just **10 days**. From there, it has seen multiple revisions, drafts, and growth in the form of frameworks, APIs, modules, etc. Today, we will go forward and list the best resources of JavaScript blogs from the net so that you can enjoy the lastest development things in the field of JavaScript.
 
 According to RedMonk programming language rankings and GitHut.info, JavaScript is leading the pack in the terms of repositories and the most discussed programming language on StackOverFlow. The numbers itself speaks about the future of JavaScript as it has grown beyond the initial capabilities of simple DOM manipulations.
 
@@ -65,7 +65,7 @@ Learning **JavaScript, on the other hand, can be a tricky proposition. New libra
 
 ![DAILYJS Poster](/images/postimgs/dailyjs.png)
 
- [DailyJS](https://medium.com/dailyjs) is one of the best JavaScript blogs on the internet. The blog was started by Alex R. Young, an entrepreneur and Node.js expert in 2009. However, there are recent changes that don’t sound great. Currently, the blog is no longer updated, but that does not make the content useless at all. The blog covers diverse content on JavaScript including frameworks, API’s, libraries, etc.
+ [DailyJS](https://medium.com/dailyjs) is one of the best JavaScript blogs on the internet. The blog was started by Alex R. Young, an entrepreneur and Node.js expert in 2009. However, there are recent changes that don’t sound great. Currently, the blog is no longer updated, but that does not make the content useless at all. The blog covers diverse content on JavaScript including frameworks, APIs, libraries, etc.
 
 ```
 3. Superhero.js
@@ -91,7 +91,7 @@ If you are looking for a [Superhero.js](http://superherojs.com) to fetch you the
     1. MDN JavaScript Guide. A large series of written guides curated by Mozilla contributors. 
     2. Namaste Javascript a series by Akshay Saini on youtube. Handson best explanation!!
 
-**(If you're deadass serious about this then definitely watch this series)**
+**(If you’re dead-ass serious about this then unquestionably watch this series)**
 
 [![NAMASTE JAVASCRIPT](/images/postimgs/namaste_javascript.png)](https://www.youtube.com/watch?v=pN6jk0uUrD8 "NAMASTE JAVASCRIPT")
 
@@ -101,7 +101,7 @@ If you are looking for a [Superhero.js](http://superherojs.com) to fetch you the
 Conclusion
 ```
 
-Here are the top best JavaScript blogs to improve your coding skills. The blogs and mix of other content types will help you to keep up with new changes in JavaScript field, and improve yourself accordingly.
+Here are the top best JavaScript blogs to improve your coding skills. The blogs and mix of other content types will help you to keep up with new changes in JavaScript field and improve yourself accordingly.
 
 Also, don’t forget to leave a mail on how the JavaScript post page can be improved and want more **in-depth content** then also drop us a mail regarding this. We are listening!
 

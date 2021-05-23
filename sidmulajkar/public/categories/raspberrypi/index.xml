@@ -13,7 +13,7 @@
       <pubDate>Tue, 30 Mar 2021 16:04:37 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/setting-up-pihole-as-a-recursive-dns-server/</guid>
-      <description>Got an old Raspberry Pi lying around? Hate seeing ads while browsing the web? Pi-hole is an open source software project that blocks ads for all devices on your home network by routing all advertising servers into nowhere. What&amp;rsquo;s best is it takes just a few minutes to set up.
+      <description>Got an old Raspberry Pi lying around? Hate seeing ads while browsing the web? Pi-hole is an open-source software project that blocks ads for all devices on your home network by routing all advertising servers into nowhere. What’s best is it takes just a few minutes to set up.
 What is a Pi-hole?    Network-wide ad blocking via your own Linux hardware. The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.</description>
     </item>
     

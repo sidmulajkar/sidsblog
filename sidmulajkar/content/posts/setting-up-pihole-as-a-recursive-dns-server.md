@@ -8,14 +8,16 @@ author: Siddhant Mulajkar
 draft: false
 ---
 
-**Got an old Raspberry Pi lying around? Hate seeing ads while browsing the web? Pi-hole is an open source software project that blocks ads for all devices on your home network by routing all advertising servers into nowhere. What's best is it takes just a few minutes to set up.**
+**Got an old Raspberry Pi lying around? Hate seeing ads while browsing the web? Pi-hole is an open-source software project that blocks ads for all devices on your home network by routing all advertising servers into nowhere. What’s best is it takes just a few minutes to set up.**
 
 ![Pihole](/images/pihole-rdns/logo.png)
 
 ### What is a Pi-hole?
+
 Network-wide ad blocking via your own Linux hardware. The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.
 
 ##### What is a recursive DNS server?
+
 The first distinction we have to be aware of is whether a DNS server is authoritative or not. If I'm the authoritative server for, e.g., pi-hole.net, then I know which IP is the correct answer for a query. Recursive name servers, in contrast, resolve any query they receive by consulting the servers authoritative for this query by traversing the domain. Example: We want to resolve pi-hole.net. On behalf of the client, the recursive DNS server will traverse the path of the domain across the Internet to deliver the answer to the question.
 
 ##### Web Interface
@@ -47,7 +49,7 @@ Highlights:
 - Listen only for queries from the local Pi-hole installation (on port 5335)
 - Listen for both UDP and TCP requests
 - Verify DNSSEC signatures, discarding BOGUS domains
-- Apply a few security and privacy tricks using your presonal preferred text editor or use **nano** to copy the given code below in the path mentioned next line.
+- Apply a few security and privacy tricks using your preferred text editor or use **nano** to copy the given code below in the path mentioned in the next line.
 ```
 sudo nano /etc/unbound/unbound.conf.d/pi-hole.conf
 ```
