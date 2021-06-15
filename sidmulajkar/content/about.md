@@ -9,15 +9,19 @@ draft: false
 
 Ever since I saw the computer at my friend's house, computers have been my passion. This inspiring zeal carried me through my education at DMCE getting a bachelor's degree in Computer Engineering, learned new things, and started my career **freelancing** to starting a **startup**, all with pretty much the same fascination that drove me as a kid.
 
-**Founder** of Tech Sid Solutions, which helped new aspiring entrepreneurs make a digital presence marking their first footprint.
+**Founder** of Tech Sid Solutions, helped new aspiring entrepreneurs make a digital presence marking their first footprint. 
+
+**Consultant** for **Startups**, Marketers, and have helped to launch new products, **Brand building**, Retention Marketing.
 
 **Currently Working on Technologies**: **Devops**, React, SwiftUI, Node, Python, Machine Learning, Flutter(Beginner)
 
-There's certainly yet more to learn, more problems to solve, and more to build. And for this, I'm very obliged.
+Highly Interested in **Blockchain Technology** and recently started exploring Ethereum Dapps Development.
+
+There's unequivocally yet more to learn, more problems to solve, and more to build. And for this, I'm very obliged.
 
 
 **Contriver** by heart 💚, **developer** by profession. 
 
 Contact me at hi@sidmulajkar.com 
 
-[If interested do check out my Resume by clicking this 👈](https://drive.google.com/file/d/1v70Py39fs1z2FXv6N13aSEFyEJIc11lZ/view?usp=sharing)
+[If interested do check out my Resume by clicking this 👈](https://drive.google.com/file/d/1ddlzp0KeOb_gJQT8nEM60fKvnQZtxsWH/view?usp=sharing)
