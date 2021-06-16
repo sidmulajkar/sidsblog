@@ -10,7 +10,6 @@ draft: false
 
 ![Javascript Poster](/images/postimgs/lovejs.png)
 
-**Time, tide and Javascript never stop for any!!!**
 
 With two decades of improvement, **JavaScript has become one of the most popular programming languages of all time**. The journey started in 1995 when Brendan Eich **created** JavaScript in just **10 days**. From there, it has seen multiple revisions, drafts, and growth in the form of frameworks, APIs, modules, etc. Today, we will go forward and list the best resources of JavaScript blogs from the net so that you can enjoy the lastest development things in the field of JavaScript.
 
