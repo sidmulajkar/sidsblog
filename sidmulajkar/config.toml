@@ -115,16 +115,16 @@ weight = 3
 url = "https://www.linkedin.com/in/siddhant-mulajkar/"
 
 
-[[params.social]]
-name = "Youtube"
-icon = "fa fa-youtube-play"
-weight = 4
-url = "https://www.youtube.com/channel/UCxTfTsXXenAJFTFI4UFoypg/featured"
+#[[params.social]]
+#name = "Youtube"
+#icon = "fa fa-youtube-play"
+#weight = 4
+#url = "https://www.youtube.com/channel/UCxTfTsXXenAJFTFI4UFoypg/featured"
 
 [[params.social]]
 name = "Categories"
 icon = "fa fa-history"
-weight = 5
+weight = 4
 url = "https://sidmulajkar.com/categories/"
 
 
