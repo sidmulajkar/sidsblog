@@ -7,11 +7,11 @@ draft: false
 
 "I have no **special talents**. I am only **passionately curious**."
 
-Ever since I saw the computer at my friend's house, computers have been my passion. This inspiring zeal carried me through my education at DMCE getting a bachelor's degree in Computer Engineering, learned new things, and started my career **freelancing** to starting a **startup**, all with pretty much the same fascination that drove me as a kid.
+Ever since I saw the computer at my friend's house, computers have been my passion. This inspiring zeal carried me through my education at DMCE, getting a bachelor's degree in Computer Engineering, learned new things, and started my career **freelancing** to starting a **startup**, all with pretty much the same fascination that drove me as a kid.
 
 **Founder** of Tech Sid Solutions, helped new aspiring entrepreneurs make a digital presence marking their first footprint. 
 
-**Consultant** for **Startups**, Marketers, and have helped to launch new products, **Brand building**, Retention Marketing.
+**Consultant** for **Startups**, Marketers and have helped to launch new products, **Brand building**, Retention Marketing.
 
 **Currently Working on Technologies**: **Devops**, React, SwiftUI, Node, Python, Machine Learning, Flutter(Beginner)
 
@@ -24,4 +24,4 @@ There's unequivocally yet more to learn, more problems to solve, and more to bui
 
 Contact me at hi@sidmulajkar.com 
 
-[If interested do check out my Resume by clicking this 👈](https://drive.google.com/file/d/1ddlzp0KeOb_gJQT8nEM60fKvnQZtxsWH/view?usp=sharing)
+[If interested do check out my Resume by clicking this 👈](https://drive.google.com/file/d/1EC4E_aXff5CLQsDD0LwAuEnAmdWq9-qZ/view?usp=sharing)
