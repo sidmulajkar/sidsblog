@@ -3,10 +3,49 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://sidmulajkar.com/</loc>
-    <lastmod>2021-03-30T16:04:37+05:30</lastmod>
+    <lastmod>2021-09-05T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/android-studio/</loc>
+    <lastmod>2021-09-05T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/</loc>
-    <lastmod>2021-03-30T16:04:37+05:30</lastmod>
+    <lastmod>2021-09-05T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/debian/</loc>
+    <lastmod>2021-09-05T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/flutter/</loc>
+    <lastmod>2021-09-05T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/flutter-installation/</loc>
+    <lastmod>2021-09-05T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/flutter-installation/</loc>
+    <lastmod>2021-09-05T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/flutter-installation-in-ubuntu/</loc>
+    <lastmod>2021-09-05T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/posts/flutter-installation-in-linux/</loc>
+    <lastmod>2021-09-05T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/linux/</loc>
+    <lastmod>2021-09-05T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/posts/</loc>
+    <lastmod>2021-09-05T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/sidsblog/</loc>
+    <lastmod>2021-09-05T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/sidsblog/</loc>
+    <lastmod>2021-09-05T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/</loc>
+    <lastmod>2021-09-05T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/ubuntu/</loc>
+    <lastmod>2021-09-05T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/tags/dns/</loc>
     <lastmod>2021-03-30T16:04:37+05:30</lastmod>
@@ -24,9 +63,6 @@
     <lastmod>2021-03-30T16:04:37+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/pihole-recursive-dns/</loc>
-    <lastmod>2021-03-30T16:04:37+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/posts/</loc>
     <lastmod>2021-03-30T16:04:37+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/tags/raspberry-pi-pihole/</loc>
@@ -57,9 +93,6 @@
     <lastmod>2021-03-30T16:04:37+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/sidblogs/</loc>
-    <lastmod>2021-03-30T16:04:37+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/tags/</loc>
     <lastmod>2021-03-30T16:04:37+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/tags/best-javascript-resources/</loc>

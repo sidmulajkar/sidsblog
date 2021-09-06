@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on &gt; sidmulajkar</title>
+    <link>https://sidmulajkar.com/tags/linux/</link>
+    <description>Recent content in linux on &gt; sidmulajkar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 05 Sep 2021 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to install Flutter in Linux(Debian) based Systems</title>
+      <link>https://sidmulajkar.com/posts/flutter-installation-in-linux/</link>
+      <pubDate>Sun, 05 Sep 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/posts/flutter-installation-in-linux/</guid>
+      <description>On Linux, you have two ways you can install Flutter.    Install Flutter using snapd    open your terminal and use this command to install flutter
+sudo snap install flutter --classic after installing the flutter for the first time type flutter in the terminal as it will install all its dependencies and files
+flutter wait for it to install and then move forward to the pre-requisite section.</description>
+    </item>
+    
+  </channel>
+</rss>
