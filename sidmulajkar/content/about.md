@@ -11,7 +11,7 @@ Ever since I saw the computer at my friend's house, computers have been my passi
 
 **Founder** of Tech Sid Solutions, helped new aspiring entrepreneurs make a digital presence marking their first footprint. 
 
-**Consultant** for **Startups**, Marketers and have helped to launch new products, **Brand building**, Retention Marketing.
+**Consultant** for **Startups**, and have helped to launch new mini-products, **Brand building**, Retention Marketing.
 
 **Currently Working on Technologies**: **Devops**, React, SwiftUI, Node, Python, Machine Learning, Flutter(Beginner)
 
@@ -24,4 +24,4 @@ There's unequivocally yet more to learn, more problems to solve, and more to bui
 
 Contact me at hi@sidmulajkar.com 
 
-[If interested do check out my Resume by clicking this 👈](https://drive.google.com/file/d/13NjAYjZFU6_GkuuHwxeSzL5f5c7U6J_j/view?usp=sharing)
+[If interested do check out my Resume by clicking this 👈](https://drive.google.com/file/d/1F9JkMZwlei66RFyIiKHq2MYEZXTyJr3N/view?usp=sharing)
