@@ -8,7 +8,10 @@ author: Siddhant Mulajkar
 draft: false
 ---
 
-**So, Ready to transform your Windows Enviornment in to your Linux Beast!!**
+**So, Ready to transform your Windows Environment in to your Linux Beast!!**
+
+![WSL Arch Image](/images/windowswsl2/wslarch.png)
+
 
 -------------------------------------------------------------------------------
 
