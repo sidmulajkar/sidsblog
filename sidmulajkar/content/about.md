@@ -24,4 +24,4 @@ There's unequivocally yet more to learn, more problems to solve, and more to bui
 
 Contact me at hi@sidmulajkar.com 
 
-[If interested do check out my Resume by clicking this 👈](https://drive.google.com/file/d/1F9JkMZwlei66RFyIiKHq2MYEZXTyJr3N/view?usp=sharing)
+[If interested do check out my Resume by clicking this 👈](https://drive.google.com/file/d/1xJOZJ_-vo4GqXAHD7zC_4ShSyz2uR4UR/view?usp=sharing)

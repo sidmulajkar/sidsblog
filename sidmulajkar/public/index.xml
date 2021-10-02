@@ -3,7 +3,7 @@
   <channel>
     <title>&gt; sidmulajkar</title>
     <link>https://sidmulajkar.com/</link>
-    <description>A software developer/entrepreneur who is passionately curious about technology and shares his valuable insights with the community through his blogs</description>
+    <description>A software developer/entrepreneur who is passionately curious about technology and shares his valuable insights with the community through his blogs.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 23 Sep 2021 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/index.xml" rel="self" type="application/rss+xml" />
@@ -13,8 +13,7 @@
       <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/linux-subsytem-in-windows-wsl2/</guid>
-      <description>So, Ready to transform your Windows Environment in to your Linux Beast!!
- Before prcoeeding with the tutorial check if you have the proper version of Windows 10 installed using the winver command in Windows Start options or using the &amp;ldquo;Run&amp;rdquo; command to use the WSL-2.    If you don&amp;rsquo;t have the similar version then try the updating the windows to work ahead.    1. Once you have the windows proper version then again open the windows start menu and then type &amp;ldquo;Turn on or off Windows Features&amp;rdquo; to open the dialog box as shown below.</description>
+      <description>So, Ready to transform your Windows Environment in to your Linux Beast!! Before prcoeeding with the tutorial check if you have the proper version of Windows 10 installed using the winver command in Windows Start options or using the &amp;ldquo;Run&amp;rdquo; command to use the WSL-2.    If you don&amp;rsquo;t have the similar version then try the updating the windows to work ahead.    1. Once you have the windows proper version then again open the windows start menu and then type &amp;ldquo;Turn on or off Windows Features&amp;rdquo; to open the dialog box as shown below.</description>
     </item>
     
     <item>
