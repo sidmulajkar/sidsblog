@@ -2,11 +2,65 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://sidmulajkar.com/course/</loc>
+    <lastmod>2021-10-02T19:09:26+05:30</lastmod>
+  </url><url>
     <loc>https://sidmulajkar.com/</loc>
-    <lastmod>2021-09-23T17:26:04+05:30</lastmod>
+    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/backend/</loc>
+    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/backend/</loc>
+    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/</loc>
-    <lastmod>2021-09-23T17:26:04+05:30</lastmod>
+    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/developement/</loc>
+    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/developement/</loc>
+    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/networking/</loc>
+    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/networking/</loc>
+    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/posts/</loc>
+    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/protocols/</loc>
+    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/protocols/</loc>
+    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/sidsblog/</loc>
+    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/ssidsblog/</loc>
+    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/</loc>
+    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/tcp/</loc>
+    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/tcp/</loc>
+    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/posts/tcp-and-udp/</loc>
+    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/udp/</loc>
+    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/udp/</loc>
+    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/posts/linux-subsytem-in-windows-wsl2/</loc>
     <lastmod>2021-09-23T17:26:04+05:30</lastmod>
@@ -23,16 +77,7 @@
     <loc>https://sidmulajkar.com/categories/linuxsubsystem/</loc>
     <lastmod>2021-09-23T17:26:04+05:30</lastmod>
   </url><url>
-    <loc>https://sidmulajkar.com/posts/</loc>
-    <lastmod>2021-09-23T17:26:04+05:30</lastmod>
-  </url><url>
     <loc>https://sidmulajkar.com/tags/sidsblog/</loc>
-    <lastmod>2021-09-23T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/categories/sidsblog/</loc>
-    <lastmod>2021-09-23T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/tags/</loc>
     <lastmod>2021-09-23T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/ubuntu/</loc>

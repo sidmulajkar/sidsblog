@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="color-scheme" content="light dark">
+
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120510472-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-120510472-2');
+</script>
+ 
+    
+    
+      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline' https://www.google-analytics.com cse.google.com https://www.google.com https://pagead2.googlesyndication.com https://adservice.google.com https://www.googletagservices.com disqus.com disquscdn.com *.disqus.com *.disquscdn.com; prefetch-src 'self';">
+    
+
+    <meta name="author" content="Hi, I&#39;m Siddhant Mulajkar!">
+    <meta name="description" content="Best tutorial to understand the building blocks TCP &amp; UDP to know which one to use">
+    <meta name="keywords" content="blog,developer,personal,hacker,javascript blogs,react blogs,development blogs">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="TCP and UDP - Simple yet Confusing🤔"/>
+<meta name="twitter:description" content="Best tutorial to understand the building blocks TCP &amp; UDP to know which one to use"/>
+
+    <meta property="og:title" content="TCP and UDP - Simple yet Confusing🤔" />
+<meta property="og:description" content="Best tutorial to understand the building blocks TCP &amp; UDP to know which one to use" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://sidmulajkar.com/posts/tcp-and-udp/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-10-02T17:26:04&#43;05:30" />
+<meta property="article:modified_time" content="2021-10-02T17:26:04&#43;05:30" />
+
+
+
+    <title>
+  TCP and UDP - Simple yet Confusing🤔 · &gt; sidmulajkar
+</title>
+
+    
+      <link rel="canonical" href="https://sidmulajkar.com/posts/tcp-and-udp/">
+    
+
+    
+    
+    <link rel="preload" href="https://sidmulajkar.com/fonts/forkawesome-webfont.woff2?v=1.1.7" as="font" type="font/woff2" integrity="sha256-hEIt6X6xzye8ubyk8/uxjz68cRZHsJxoKS9fQ8idUGQ=" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="https://sidmulajkar.com/css/coder.min.e2f6fb90ffc180bc98097d000f17e666c4c51278c72176942dd42fbb6cccdde1.css" integrity="sha256-4vb7kP/BgLyYCX0ADxfmZsTFEnjHIXaULdQvu2zM3eE=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="https://sidmulajkar.com/css/coder-dark.min.5d4a66b4da5625f547ad4a63f2dfc99ccd3f4f093e2adf653609d4d6a020c21f.css" integrity="sha256-XUpmtNpWJfVHrUpj8t/JnM0/Twk&#43;Kt9lNgnU1qAgwh8=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://sidmulajkar.com/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://sidmulajkar.com/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="https://sidmulajkar.com/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://sidmulajkar.com/images/apple-touch-icon.png">
+
+    
+
+    <meta name="generator" content="Hugo 0.82.0" />
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-auto"
+        onload=""
+  >
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+        <section class="container">
+          <a class="navigation-title" href="https://sidmulajkar.com/">
+            &gt; sidmulajkar
+            <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/sidmulajkar.com\/"
+        },
+        "articleSection" : "posts",
+        "name" : "TCP and UDP - Simple yet Confusing🤔",
+        "headline" : "TCP and UDP - Simple yet Confusing🤔",
+        "description" : "Best tutorial to understand the building blocks TCP \u0026 UDP to know which one to use",
+        "inLanguage" : "en-US",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2021",
+        "datePublished": "2021-10-02 17:26:04 \u002b0530 IST",
+        "dateModified" : "2021-10-02 17:26:04 \u002b0530 IST",
+        "url" : "https:\/\/sidmulajkar.com\/posts\/tcp-and-udp\/",
+        "wordCount" : "920",
+        "keywords" : [ "tcp","udp","networking","protocols","backend","developement","ssidsblog","Blog" ]
+    }
+</script>
+          </a>
+          
+            <input type="checkbox" id="menu-toggle" />
+            <label class="menu-button float-right" for="menu-toggle">
+              <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+            </label>
+            <ul class="navigation-list">
+              
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/about/">About</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/posts/">Blogs</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/projects/">Projects</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/course/">Course</a>
+                  </li>
+                
+              
+              
+            </ul>
+          
+        </section>
+</nav>
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://sidmulajkar.com/posts/tcp-and-udp/">
+              TCP and UDP - Simple yet Confusing🤔
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2021-10-02T17:26:04&#43;05:30'>
+                October 2, 2021
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              5-minute read
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="https://sidmulajkar.com/categories/tcp/">tcp</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/udp/">udp</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/networking/">networking</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/protocols/">protocols</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/backend/">backend</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/developement/">developement</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/sidsblog/">sidsblog</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <a href="https://sidmulajkar.com/tags/tcp/">tcp</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/udp/">udp</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/networking/">networking</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/protocols/">protocols</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/backend/">backend</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/developement/">developement</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/ssidsblog/">ssidsblog</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <h3 id="tcp-and-udp">
+  TCP and UDP
+  <a class="heading-link" href="#tcp-and-udp">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>A simple open-ended question that can test your whole sort of knowledge.</p>
+<hr>
+<h6 id="what-will-be-addressed-in-this-post">
+  What will be addressed in this post?
+  <a class="heading-link" href="#what-will-be-addressed-in-this-post">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h6>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">- The problem with packets (IP)
+- TCP pros and cons
+- TCP communication sample code
+
+- UDP pros and cons
+- UDP communication sample code
+
+- Some questions based on them
+</code></pre></div><hr>
+<p>To start, I was asked a question in an interview,</p>
+<p><strong>What to use UDP or TCP in Building a Backend Application?</strong></p>
+<p>I was like why only these 2 protocols, there are many others, like HTTP, HTTP2, XMPP, GRPC, QUIC</p>
+<p>Why?</p>
+<p>These two are the block fundamentals on which the other protocols work.</p>
+<p>So, once when we understand the TCP and UDP, we can determine which other protocols to use.</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">For eg, UDP over TCP, then QUIC over HTTP
+</code></pre></div><hr>
+<p>Highly recommend just know about the OSI Model before getting on to the TCP and UDP.</p>
+<p><strong>OSI is a model that standardized communication in the computer system, its what the internet runs on.</strong></p>
+<p><img src="https://sidmulajkar.com/images/tcpudp/osi.png" alt="OSI Model"></p>
+<hr>
+<p><strong>The problem with the packets:</strong></p>
+<p>The Internet Protocol (IP) describes how to split messages into multiple IP packets and route packets to their destination by hopping from router to router.</p>
+<p>IP does not handle all the consequences of packets, however. For example:</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">- Packets can arrive out of order
+- Packets can be corrupted
+- Packets can be lost due to problems
+- Similarly, packets might be duplicated
+</code></pre></div><p>Fortunately, there are higher-level protocols in the Internet protocol stack that can deal with these problems.</p>
+<p>Internet applications can choose the data transport protocol that makes the most sense for their application.</p>
+<hr>
+<p>TCP and UDP are the layer 4 protocols, i.e Transport Layer Protocols</p>
+<p>The transport layer is the fourth layer in the open system interconnection (OSI) model and is responsible for end-to-end communication over a network.</p>
+<p><img src="https://sidmulajkar.com/images/tcpudp/layer4.png" alt="Transport Layer"></p>
+<p>It provides logical communication between application processes running on different hosts within a layered architecture of protocols and other network modules.</p>
+<p>This layer is also responsible for the management of error correction, providing quality and reliability to the user.</p>
+<hr>
+<h3 id="transmission-control-protocol-tcp">
+  Transmission Control Protocol (TCP)
+  <a class="heading-link" href="#transmission-control-protocol-tcp">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>The TCP is a transport protocol that is used on top of IP to ensure reliable transmission of packets. It is a connection-oriented protocol.</p>
+<p>TCP includes mechanisms to solve many of the problems that arise from packet-based messaging, such as lost packets, out of order packets, duplicate packets, and corrupted packets.</p>
+<p>Since TCP is the protocol used most commonly on top of IP, the Internet protocol stack is sometimes referred to as TCP/IP.</p>
+<p>Packet Format</p>
+<p>When sending packets using TCP/IP, the data portion of each IP packet is formatted as a TCP segment.</p>
+<p><img src="https://sidmulajkar.com/images/tcpudp/tcpsegment.png" alt="TCP"></p>
+<p>When two computers want to send data to each other over TCP, they first need to establish a connection using a three-way handshake.</p>
+<p><img src="https://sidmulajkar.com/images/tcpudp/3wayhanshake.png" alt="TCP"></p>
+<hr>
+<p>TCP/IP Model vs OSI Model</p>
+<p><img src="https://sidmulajkar.com/images/tcpudp/tcpvsosi.jpg" alt="TCP vs OSI"></p>
+<hr>
+<h3 id="tcp-pros">
+  TCP Pros:
+  <a class="heading-link" href="#tcp-pros">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">- Acknowledgement
+- Guaranteed Delivery
+- Connection based(can be pro and con as well)
+- Congestion Control
+- Packet ordering and ack 
+- Error Control Mechanism
+</code></pre></div><p>Some follow up questions can be</p>
+<ul>
+<li>
+<p>As you mentioned congestion control can you explain more about TCP Slow start. How do you see it?</p>
+</li>
+<li>
+<p>What is Tunneling? Can you explain in detail?</p>
+</li>
+<li>
+<p>Have you heard about SCTP Protocol. What is it?</p>
+</li>
+</ul>
+<hr>
+<h3 id="tcp-cons">
+  TCP Cons:
+  <a class="heading-link" href="#tcp-cons">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">- Larger Packets
+- More Bandwidth
+- Slower than UDP
+- Stateful (whole new thing to mention about)
+- Server memory (hogs up server memory)
+</code></pre></div><p>Some follow up questions can be</p>
+<ul>
+<li>
+<p>Can you explain to me Stateful vs Stateless protocols?</p>
+</li>
+<li>
+<p>Okay, then is DOS Attack possible on TCP? How?</p>
+</li>
+<li>
+<p>How does this affect the connections limit on the server?</p>
+</li>
+</ul>
+<hr>
+<h3 id="user-datagram-protocol-udp">
+  User Datagram Protocol (UDP)
+  <a class="heading-link" href="#user-datagram-protocol-udp">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>The UDP is a lightweight data transport protocol that works on top of IP.</p>
+<p>UDP is simple but fast, at least in comparison to other protocols that work over IP.</p>
+<p><strong>What Kind Of Services Rely On UDP?</strong></p>
+<p>It&rsquo;s often used for time-sensitive applications (such as real-time video streaming) where speed is more important than accuracy.</p>
+<p>UDP provides a mechanism to detect corrupt data in packets, but it does not attempt to solve other problems that arise with packets, such as lost or out-of-order packets. That&rsquo;s why UDP is sometimes known as the Unreliable Data Protocol.</p>
+<hr>
+<h5 id="udp-cons">
+  UDP Cons:
+  <a class="heading-link" href="#udp-cons">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h5>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">- No Acknowledgement
+- No Guaranteed Delivery
+- Connectionless
+- No Congestion Control
+- No ordered Packets
+- Security
+</code></pre></div><h5 id="udp-pros">
+  UDP Pros:
+  <a class="heading-link" href="#udp-pros">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h5>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">- Smaller Packets
+- Less bandwidth
+- Faster than TCP
+- Stateless
+</code></pre></div><p>Some follow up questions:</p>
+<ul>
+<li>
+<p>How is UDP used in DDoS attacks?</p>
+</li>
+<li>
+<p>What is RPC? Can you explain it in a bit more detail?
+<a href="https://bit.ly/3Azn0ez">https://bit.ly/3Azn0ez</a></p>
+</li>
+</ul>
+<hr>
+<p><a href="https://www.geeksforgeeks.org/udp-server-client-implementation-c/">UDP Client-Server Implementation</a></p>
+<p>Follow the link</p>
+<p><strong>or</strong></p>
+<p>With this code we will be implementing UDP Simple connection using Nodejs and netcat. Create a file udp.js</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">const dgram = require(&#39;dgram&#39;);
+const socket = dgram.createSocket(&#39;udp4&#39;);
+
+socket.on(&#39;message&#39;, (msg, rinfo) =&gt; {
+  console.log(`server got: ${msg} from ${rinfo.address}:${rinfo.port}`);
+});
+
+socket.bind(8081);
+</code></pre></div><p>Run the code or Start Debugging from your IDE and also open terminal and type in this command, to start the 2 way communication.</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">echo &#34;foo&#34; | nc -w1 -u 127.0.0.1 41234
+</code></pre></div><hr>
+<p><a href="https://www.geeksforgeeks.org/tcp-server-client-implementation-in-c/">TCP  Client-Server Implementation</a></p>
+<p>Follow the link</p>
+<p><strong>or</strong></p>
+<p>With this code we will be implementing TCP Simple connection using Nodejs and Telnet. Create a file tcp.js</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">const net = require(&#34;net&#34;)
+
+const server = net.createServer(socket =&gt; {
+    socket.write(&#34;Hello.&#34;)
+    socket.on(&#34;data&#34;, data =&gt; {
+        console.log(data.toString())
+    })
+})
+
+server.listen(8080)
+</code></pre></div><p>Run the code or Start Debugging from your IDE and also open terminal and type in this command, to start the 2 way communication similar to udp.</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">telnet 127.0.0.1 8080
+</code></pre></div><hr>
+<p><strong>If you think this is interesting, follow me on <a href="https://twitter.com/sidmulajkar">twitter</a> and <a href="https://www.linkedin.com/in/siddhant-mulajkar/">linkedin</a> for more content like this.</strong></p>
+<hr>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>Copyright ©2021 | All rights reserved</p>
+      
+      
+      
+      
+    </section>
+  </footer>
+
+
+    </main>
+
+    
+      
+        
+        <script src="https://sidmulajkar.com/js/dark-mode.min.aee9c8a464eb7b3534c7110f7c5e169e7039e2fd92710e0626d451d6725af137.js" integrity="sha256-runIpGTrezU0xxEPfF4WnnA54v2ScQ4GJtRR1nJa8Tc="></script>
+      
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

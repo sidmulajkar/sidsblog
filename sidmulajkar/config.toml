@@ -142,12 +142,15 @@ name = "Blogs"
 weight = 2
 url = "posts/"
 
-
-
 [[languages.en.menu.main]]
 name = "Projects"
 weight = 3
 url = "projects/"
+
+[[languages.en.menu.main]]
+name = "Course"
+weight = 4
+url = "course/"
 
 
 

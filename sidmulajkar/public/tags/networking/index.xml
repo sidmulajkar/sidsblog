@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>networking on &gt; sidmulajkar</title>
+    <link>https://sidmulajkar.com/tags/networking/</link>
+    <description>Recent content in networking on &gt; sidmulajkar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 02 Oct 2021 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/tags/networking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TCP and UDP - Simple yet Confusing🤔</title>
+      <link>https://sidmulajkar.com/posts/tcp-and-udp/</link>
+      <pubDate>Sat, 02 Oct 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/posts/tcp-and-udp/</guid>
+      <description>TCP and UDP    A simple open-ended question that can test your whole sort of knowledge.
+ What will be addressed in this post?    - The problem with packets (IP) - TCP pros and cons - TCP communication sample code - UDP pros and cons - UDP communication sample code - Some questions based on them  To start, I was asked a question in an interview,</description>
+    </item>
+    
+  </channel>
+</rss>
