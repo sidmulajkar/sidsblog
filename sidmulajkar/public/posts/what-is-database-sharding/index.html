@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="color-scheme" content="light dark">
+
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120510472-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-120510472-2');
+</script>
+ 
+    
+    
+      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline' https://www.google-analytics.com cse.google.com https://www.google.com https://pagead2.googlesyndication.com https://adservice.google.com https://www.googletagservices.com disqus.com disquscdn.com *.disqus.com *.disquscdn.com; prefetch-src 'self';">
+    
+
+    <meta name="author" content="Hi, I&#39;m Siddhant Mulajkar!">
+    <meta name="description" content="This tutorial will clear all your doubts regarding the Database Sharding and do you actually need it">
+    <meta name="keywords" content="blog,developer,personal,hacker,javascript blogs,react blogs,development blogs">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="What actually is Database Sharding?"/>
+<meta name="twitter:description" content="This tutorial will clear all your doubts regarding the Database Sharding and do you actually need it"/>
+
+    <meta property="og:title" content="What actually is Database Sharding?" />
+<meta property="og:description" content="This tutorial will clear all your doubts regarding the Database Sharding and do you actually need it" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://sidmulajkar.com/posts/what-is-database-sharding/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-10-14T17:26:04&#43;05:30" />
+<meta property="article:modified_time" content="2021-10-14T17:26:04&#43;05:30" />
+
+
+
+    <title>
+  What actually is Database Sharding? · &gt; sidmulajkar
+</title>
+
+    
+      <link rel="canonical" href="https://sidmulajkar.com/posts/what-is-database-sharding/">
+    
+
+    
+    
+    <link rel="preload" href="https://sidmulajkar.com/fonts/forkawesome-webfont.woff2?v=1.1.7" as="font" type="font/woff2" integrity="sha256-hEIt6X6xzye8ubyk8/uxjz68cRZHsJxoKS9fQ8idUGQ=" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="https://sidmulajkar.com/css/coder.min.e2f6fb90ffc180bc98097d000f17e666c4c51278c72176942dd42fbb6cccdde1.css" integrity="sha256-4vb7kP/BgLyYCX0ADxfmZsTFEnjHIXaULdQvu2zM3eE=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="https://sidmulajkar.com/css/coder-dark.min.5d4a66b4da5625f547ad4a63f2dfc99ccd3f4f093e2adf653609d4d6a020c21f.css" integrity="sha256-XUpmtNpWJfVHrUpj8t/JnM0/Twk&#43;Kt9lNgnU1qAgwh8=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://sidmulajkar.com/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://sidmulajkar.com/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="https://sidmulajkar.com/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://sidmulajkar.com/images/apple-touch-icon.png">
+
+    
+
+    <meta name="generator" content="Hugo 0.82.0" />
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-auto"
+        onload=""
+  >
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+        <section class="container">
+          <a class="navigation-title" href="https://sidmulajkar.com/">
+            &gt; sidmulajkar
+            <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/sidmulajkar.com\/"
+        },
+        "articleSection" : "posts",
+        "name" : "What actually is Database Sharding?",
+        "headline" : "What actually is Database Sharding?",
+        "description" : "This tutorial will clear all your doubts regarding the Database Sharding and do you actually need it",
+        "inLanguage" : "en-US",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2021",
+        "datePublished": "2021-10-14 17:26:04 \u002b0530 IST",
+        "dateModified" : "2021-10-14 17:26:04 \u002b0530 IST",
+        "url" : "https:\/\/sidmulajkar.com\/posts\/what-is-database-sharding\/",
+        "wordCount" : "1272",
+        "keywords" : [ "sql","database","sharding","advantages","disadvantages","sidsblog","Blog" ]
+    }
+</script>
+          </a>
+          
+            <input type="checkbox" id="menu-toggle" />
+            <label class="menu-button float-right" for="menu-toggle">
+              <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+            </label>
+            <ul class="navigation-list">
+              
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/about/">About</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/posts/">Blogs</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/projects/">Projects</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/course/">Course</a>
+                  </li>
+                
+              
+              
+            </ul>
+          
+        </section>
+</nav>
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://sidmulajkar.com/posts/what-is-database-sharding/">
+              What actually is Database Sharding?
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2021-10-14T17:26:04&#43;05:30'>
+                October 14, 2021
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              6-minute read
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="https://sidmulajkar.com/categories/sql/">sql</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/database/">database</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/sharding/">sharding</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/benefits-of-sharding/">benefits-of-sharding</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/sidsblog/">sidsblog</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <a href="https://sidmulajkar.com/tags/sql/">sql</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/database/">database</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/sharding/">sharding</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/advantages/">advantages</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/disadvantages/">disadvantages</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/sidsblog/">sidsblog</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <h3 id="database-sharding">
+  Database Sharding
+  <a class="heading-link" href="#database-sharding">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>How often do you shard your database?</p>
+<p>Do you prematurely shard?</p>
+<p>Do you actually need that for your database?🤔</p>
+<p><img src="https://sidmulajkar.com/images/databasesharding/dbshardingintro.jpg" alt="Database Sharding"></p>
+<hr>
+<p><img src="https://sidmulajkar.com/images/databasesharding/dbshard.png" alt="Database Sharding1"></p>
+<hr>
+<p>Your application is growing. It has more active users, more features, and generates more data every day.</p>
+<p>Your database is now becoming a bottleneck for the rest of your application. Database sharding could be the solution to your problems.</p>
+<p>But Wait&hellip;</p>
+<h3 id="q-what-is-database-sharding">
+  Q) What is Database Sharding?
+  <a class="heading-link" href="#q-what-is-database-sharding">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Sharding is a method for distributing a single dataset across multiple databases, which can then be stored on multiple machines.</p>
+<p>This allows for larger datasets to be split in smaller chunks and stored in multiple data nodes, increasing the capacity.</p>
+<p>Sharding is a form of scaling known as horizontal scaling or scale-out, as additional nodes are brought on to share the load.</p>
+<p>Horizontal scaling allows for near-limitless scalability to handle big data and intense workloads.</p>
+<p><img src="https://sidmulajkar.com/images/databasesharding/horizontalscale.jpeg" alt="Horizontal Sharding"></p>
+<hr>
+<p>It can be helpful to think of horizontal partitioning in terms of how it relates to vertical partitioning.</p>
+<p><img src="https://sidmulajkar.com/images/databasesharding/partitioneg.png" alt="Types of Partition for Sharding"></p>
+<hr>
+<p>Database shards exemplify a shared-nothing architecture.😦</p>
+<p>This means that the shards are autonomous, they don’t share any of the same data or computing resources.</p>
+<h3 id="q-how-does-sharding-work">
+  Q) How Does Sharding Work?
+  <a class="heading-link" href="#q-how-does-sharding-work">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>To shard a database, we must answer several fundamental questions.</p>
+<ul>
+<li>
+<p>First, how will the data be distributed across shards?</p>
+</li>
+<li>
+<p>Second, what types of queries will be routed across shards?</p>
+</li>
+<li>
+<p>Finally, how will these shards be maintained?</p>
+</li>
+</ul>
+<p>First, how will the data be distributed across shards? This is the fundamental question behind any sharded database. The answer to this question will have effects on both performance and maintenance. More detail on this can be found in the “Sharding Architectures and Types” section.</p>
+<p>Second, what types of queries will be routed across shards? If the workload is primarily read operations, replicating data will be highly effective at increasing performance, and you may not need sharding at all. In contrast, a mixed read-write workload or even a primarily write-based workload will require a different architecture.</p>
+<p>Finally, how will these shards be maintained? Once you have sharded a database, over time, data will need to be redistributed among the various shards, and new shards may need to be created. Depending on the distribution of data, this can be an expensive process and should be considered ahead of time.</p>
+<hr>
+<h3 id="q-do-you-need-database-sharding">
+  Q) Do You Need Database Sharding?
+  <a class="heading-link" href="#q-do-you-need-database-sharding">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Whether or not we should implement a sharded database architecture has always been a matter of debate.</p>
+<p>Some see sharding as an inevitable outcome for databases that reach a certain size, while others see it as a headache that should be avoided unless it’s absolutely necessary, due to the operational complexity that sharding adds.</p>
+<p>Because of this added complexity, sharding is usually only performed when dealing with very large amounts of data. Here are some common scenarios where it may be beneficial to shard a database:</p>
+<ul>
+<li>The amount of application data grows to exceed the storage capacity of a single database node.</li>
+<li>The volume of writes or reads to the database surpasses what a single node or its read replicas can handle, resulting in slowed response times or timeouts.</li>
+<li>The network bandwidth required by the application outpaces the bandwidth available to a single database node and any read replicas, resulting in slowed response times or timeouts.</li>
+</ul>
+<p>Before sharding, you should exhaust all other options for optimizing your database. Some optimizations you might want to consider include:</p>
+<ul>
+<li>
+<p><strong>Setting up a remote database</strong> If you’re working with a monolithic application in which all of its components reside on the same server, you can improve your database’s performance by moving it over to its own machine. This doesn’t add as much complexity as sharding since the database’s tables remain intact. However, it still allows you to vertically scale your database apart from the rest of your infrastructure.</p>
+</li>
+<li>
+<p><strong>Implementing caching</strong> If your application’s read performance is what’s causing you trouble, caching is one strategy that can help to improve it. Caching involves temporarily storing data that has already been requested in memory, allowing you to access it much more quickly later on.</p>
+</li>
+<li>
+<p><strong>Creating one or more read replicas</strong> Another strategy that can help to improve read performance, this involves copying the data from one database server (the primary server) over to one or more secondary servers. Following this, every new write goes to the primary before being copied over to the secondaries, while reads are made exclusively to the secondary servers. Distributing reads and writes like this keeps any one machine from taking on too much of the load, helping to prevent slowdowns and crashes. <strong>Note that creating read replicas involves more computing resources and thus costs more money, which could be a significant constraint for some.</strong></p>
+</li>
+<li>
+<p><strong>Upgrading to a larger server</strong> In most cases, scaling up one’s database server to a machine with more resources requires less effort than sharding. As with creating read replicas, an upgraded server with more resources will likely cost more money. Accordingly, you should only go through with resizing if it truly ends up being your best option.</p>
+</li>
+</ul>
+<p><strong>Bear in mind that if your application or website grows past a certain point, none of these strategies will be enough to improve performance on their own. In such cases, sharding may indeed be the best option for you.</strong></p>
+<hr>
+<h3 id="advantages-of-database-sharding">
+  Advantages of Database Sharding:
+  <a class="heading-link" href="#advantages-of-database-sharding">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Sharding allows you to scale your database to handle the increased load to a nearly unlimited degree by providing increased read/write throughput, storage capacity, and high availability.</p>
+<p>Let’s look at each of those in a little more detail.</p>
+<ul>
+<li>Increased Read/Write Throughput —</li>
+</ul>
+<p>By distributing the dataset across multiple shards, both read and write operation capacity is increased as long as read and write operations are confined to a single shard.</p>
+<ul>
+<li>Increased Storage Capacity —</li>
+</ul>
+<p>Similarly, by increasing the number of shards, you can also increase overall total storage capacity, allowing near-infinite scalability.</p>
+<ul>
+<li>High Availability —</li>
+</ul>
+<p>Shards provide high availability in two ways.</p>
+<ol>
+<li>Since each shard is a replica set, every piece of data is replicated.</li>
+<li>Even if an entire shard becomes unavailable since the data is distributed, the database as a whole still remains partially functional.</li>
+</ol>
+<hr>
+<h3 id="disadvantages-of-sharding">
+  Disadvantages of Sharding:
+  <a class="heading-link" href="#disadvantages-of-sharding">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Sharding does come with several drawbacks, namely overhead in query result compilation, the complexity of administration, and increased infrastructure costs.</p>
+<ul>
+<li>Query Overhead —</li>
+</ul>
+<p>Each sharded database must have a separate machine or service which understands how to route a querying operation to the appropriate shard.</p>
+<p>This introduces additional latency on every operation.</p>
+<p>Furthermore, if the data required for the query is horizontally partitioned across multiple shards, the router must then query each shard and merge the result together.</p>
+<p>This can make an otherwise simple operation quite expensive and slow down response times.</p>
+<ul>
+<li>Complexity of Administration —</li>
+</ul>
+<p>With a single unsharded database, only the database server itself requires upkeep and maintenance.</p>
+<p>With every sharded database, on top of managing the shards themselves, there are additional service nodes to maintain.</p>
+<p>Plus, in cases where replication is being used, any data updates must be mirrored across each replicated node.</p>
+<p>Overall, a sharded database is a more complex system that requires more administration.</p>
+<ul>
+<li>Increased Infrastructure Costs —</li>
+</ul>
+<p>Sharding by its nature requires additional machines and compute power over a single database server.</p>
+<p>While this allows your database to grow beyond the limits of a single machine, each additional shard comes with higher costs.</p>
+<ul>
+<li>
+<p>Another major drawback is that once a database has been sharded, it can be very difficult to return it to its unsharded architecture.</p>
+</li>
+<li>
+<p>A final disadvantage to consider is that sharding isn’t natively supported by every database engine.</p>
+</li>
+</ul>
+<hr>
+<p>Having considered the pros and cons, let’s move forward and discuss the  implementation of few different architectures for sharded databases,</p>
+<p>in a new post&hellip;</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>Copyright ©2021 | All rights reserved</p>
+      
+      
+      
+      
+    </section>
+  </footer>
+
+
+    </main>
+
+    
+      
+        
+        <script src="https://sidmulajkar.com/js/dark-mode.min.aee9c8a464eb7b3534c7110f7c5e169e7039e2fd92710e0626d451d6725af137.js" integrity="sha256-runIpGTrezU0xxEPfF4WnnA54v2ScQ4GJtRR1nJa8Tc="></script>
+      
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

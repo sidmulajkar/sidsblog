@@ -2,19 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://sidmulajkar.com/</loc>
+    <lastmod>2021-10-14T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/advantages/</loc>
+    <lastmod>2021-10-14T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/benefits-of-sharding/</loc>
+    <lastmod>2021-10-14T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/</loc>
+    <lastmod>2021-10-14T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/database/</loc>
+    <lastmod>2021-10-14T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/database/</loc>
+    <lastmod>2021-10-14T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/disadvantages/</loc>
+    <lastmod>2021-10-14T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/posts/</loc>
+    <lastmod>2021-10-14T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/sharding/</loc>
+    <lastmod>2021-10-14T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/sharding/</loc>
+    <lastmod>2021-10-14T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/sidsblog/</loc>
+    <lastmod>2021-10-14T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/sidsblog/</loc>
+    <lastmod>2021-10-14T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/sql/</loc>
+    <lastmod>2021-10-14T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/sql/</loc>
+    <lastmod>2021-10-14T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/</loc>
+    <lastmod>2021-10-14T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/posts/what-is-database-sharding/</loc>
+    <lastmod>2021-10-14T17:26:04+05:30</lastmod>
+  </url><url>
     <loc>https://sidmulajkar.com/course/</loc>
     <lastmod>2021-10-02T19:09:26+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/</loc>
-    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/tags/backend/</loc>
     <lastmod>2021-10-02T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/backend/</loc>
-    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/categories/</loc>
     <lastmod>2021-10-02T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/tags/developement/</loc>
@@ -29,22 +71,10 @@
     <loc>https://sidmulajkar.com/categories/networking/</loc>
     <lastmod>2021-10-02T17:26:04+05:30</lastmod>
   </url><url>
-    <loc>https://sidmulajkar.com/posts/</loc>
-    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
-  </url><url>
     <loc>https://sidmulajkar.com/tags/protocols/</loc>
     <lastmod>2021-10-02T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/protocols/</loc>
-    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/categories/sidsblog/</loc>
-    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/tags/ssidsblog/</loc>
-    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/tags/</loc>
     <lastmod>2021-10-02T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/tags/tcp/</loc>
@@ -75,9 +105,6 @@
     <lastmod>2021-09-23T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/linuxsubsystem/</loc>
-    <lastmod>2021-09-23T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/tags/sidsblog/</loc>
     <lastmod>2021-09-23T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/ubuntu/</loc>
