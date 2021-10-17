@@ -50,46 +50,67 @@
     <loc>https://sidmulajkar.com/posts/what-is-database-sharding/</loc>
     <lastmod>2021-10-14T17:26:04+05:30</lastmod>
   </url><url>
+    <loc>https://sidmulajkar.com/tags/backend/</loc>
+    <lastmod>2021-10-06T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/backend/</loc>
+    <lastmod>2021-10-06T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/developement/</loc>
+    <lastmod>2021-10-06T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/developement/</loc>
+    <lastmod>2021-10-06T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/networking/</loc>
+    <lastmod>2021-10-06T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/networking/</loc>
+    <lastmod>2021-10-06T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/protocols/</loc>
+    <lastmod>2021-10-06T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/protocols/</loc>
+    <lastmod>2021-10-06T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/tcp/</loc>
+    <lastmod>2021-10-06T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/tcp/</loc>
+    <lastmod>2021-10-06T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/posts/tcp-and-udp/</loc>
+    <lastmod>2021-10-06T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/udp/</loc>
+    <lastmod>2021-10-06T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/udp/</loc>
+    <lastmod>2021-10-06T17:26:04+05:30</lastmod>
+  </url><url>
     <loc>https://sidmulajkar.com/course/</loc>
     <lastmod>2021-10-02T19:09:26+05:30</lastmod>
   </url><url>
-    <loc>https://sidmulajkar.com/tags/backend/</loc>
+    <loc>https://sidmulajkar.com/tags/congestion-control/</loc>
     <lastmod>2021-10-02T17:26:04+05:30</lastmod>
   </url><url>
-    <loc>https://sidmulajkar.com/categories/backend/</loc>
+    <loc>https://sidmulajkar.com/categories/congestion-control/</loc>
     <lastmod>2021-10-02T17:26:04+05:30</lastmod>
   </url><url>
-    <loc>https://sidmulajkar.com/tags/developement/</loc>
+    <loc>https://sidmulajkar.com/tags/mechanism/</loc>
     <lastmod>2021-10-02T17:26:04+05:30</lastmod>
   </url><url>
-    <loc>https://sidmulajkar.com/categories/developement/</loc>
+    <loc>https://sidmulajkar.com/categories/mechanism/</loc>
     <lastmod>2021-10-02T17:26:04+05:30</lastmod>
   </url><url>
-    <loc>https://sidmulajkar.com/tags/networking/</loc>
+    <loc>https://sidmulajkar.com/tags/slowstart/</loc>
     <lastmod>2021-10-02T17:26:04+05:30</lastmod>
   </url><url>
-    <loc>https://sidmulajkar.com/categories/networking/</loc>
+    <loc>https://sidmulajkar.com/categories/slowstart/</loc>
     <lastmod>2021-10-02T17:26:04+05:30</lastmod>
   </url><url>
-    <loc>https://sidmulajkar.com/tags/protocols/</loc>
-    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/categories/protocols/</loc>
-    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/tags/tcp/</loc>
-    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/categories/tcp/</loc>
-    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/posts/tcp-and-udp/</loc>
-    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/tags/udp/</loc>
-    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/categories/udp/</loc>
+    <loc>https://sidmulajkar.com/posts/tcp-slow-start/</loc>
     <lastmod>2021-10-02T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/posts/linux-subsytem-in-windows-wsl2/</loc>

@@ -64,7 +64,7 @@
     <item>
       <title>backend</title>
       <link>https://sidmulajkar.com/tags/backend/</link>
-      <pubDate>Sat, 02 Oct 2021 17:26:04 +0530</pubDate>
+      <pubDate>Wed, 06 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/tags/backend/</guid>
       <description></description>
@@ -73,7 +73,7 @@
     <item>
       <title>developement</title>
       <link>https://sidmulajkar.com/tags/developement/</link>
-      <pubDate>Sat, 02 Oct 2021 17:26:04 +0530</pubDate>
+      <pubDate>Wed, 06 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/tags/developement/</guid>
       <description></description>
@@ -82,7 +82,7 @@
     <item>
       <title>networking</title>
       <link>https://sidmulajkar.com/tags/networking/</link>
-      <pubDate>Sat, 02 Oct 2021 17:26:04 +0530</pubDate>
+      <pubDate>Wed, 06 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/tags/networking/</guid>
       <description></description>
@@ -91,7 +91,7 @@
     <item>
       <title>protocols</title>
       <link>https://sidmulajkar.com/tags/protocols/</link>
-      <pubDate>Sat, 02 Oct 2021 17:26:04 +0530</pubDate>
+      <pubDate>Wed, 06 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/tags/protocols/</guid>
       <description></description>
@@ -100,7 +100,7 @@
     <item>
       <title>tcp</title>
       <link>https://sidmulajkar.com/tags/tcp/</link>
-      <pubDate>Sat, 02 Oct 2021 17:26:04 +0530</pubDate>
+      <pubDate>Wed, 06 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/tags/tcp/</guid>
       <description></description>
@@ -109,9 +109,36 @@
     <item>
       <title>udp</title>
       <link>https://sidmulajkar.com/tags/udp/</link>
-      <pubDate>Sat, 02 Oct 2021 17:26:04 +0530</pubDate>
+      <pubDate>Wed, 06 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/tags/udp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>congestion-control</title>
+      <link>https://sidmulajkar.com/tags/congestion-control/</link>
+      <pubDate>Sat, 02 Oct 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/congestion-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mechanism</title>
+      <link>https://sidmulajkar.com/tags/mechanism/</link>
+      <pubDate>Sat, 02 Oct 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/mechanism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>slowstart</title>
+      <link>https://sidmulajkar.com/tags/slowstart/</link>
+      <pubDate>Sat, 02 Oct 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/slowstart/</guid>
       <description></description>
     </item>
     

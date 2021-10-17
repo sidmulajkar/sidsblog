@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="color-scheme" content="light dark">
+
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120510472-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-120510472-2');
+</script>
+ 
+    
+    
+      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline' https://www.google-analytics.com cse.google.com https://www.google.com https://pagead2.googlesyndication.com https://adservice.google.com https://www.googletagservices.com disqus.com disquscdn.com *.disqus.com *.disquscdn.com; prefetch-src 'self';">
+    
+
+    <meta name="author" content="Hi, I&#39;m Siddhant Mulajkar!">
+    <meta name="description" content="This tutorial will clear all your doubts regarding the TCP Slow Start and is it really a problem">
+    <meta name="keywords" content="blog,developer,personal,hacker,javascript blogs,react blogs,development blogs">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="What is TCP Slow Start?"/>
+<meta name="twitter:description" content="This tutorial will clear all your doubts regarding the TCP Slow Start and is it really a problem"/>
+
+    <meta property="og:title" content="What is TCP Slow Start?" />
+<meta property="og:description" content="This tutorial will clear all your doubts regarding the TCP Slow Start and is it really a problem" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://sidmulajkar.com/posts/tcp-slow-start/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-10-02T17:26:04&#43;05:30" />
+<meta property="article:modified_time" content="2021-10-02T17:26:04&#43;05:30" />
+
+
+
+    <title>
+  What is TCP Slow Start? · &gt; sidmulajkar
+</title>
+
+    
+      <link rel="canonical" href="https://sidmulajkar.com/posts/tcp-slow-start/">
+    
+
+    
+    
+    <link rel="preload" href="https://sidmulajkar.com/fonts/forkawesome-webfont.woff2?v=1.1.7" as="font" type="font/woff2" integrity="sha256-hEIt6X6xzye8ubyk8/uxjz68cRZHsJxoKS9fQ8idUGQ=" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="https://sidmulajkar.com/css/coder.min.e2f6fb90ffc180bc98097d000f17e666c4c51278c72176942dd42fbb6cccdde1.css" integrity="sha256-4vb7kP/BgLyYCX0ADxfmZsTFEnjHIXaULdQvu2zM3eE=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="https://sidmulajkar.com/css/coder-dark.min.5d4a66b4da5625f547ad4a63f2dfc99ccd3f4f093e2adf653609d4d6a020c21f.css" integrity="sha256-XUpmtNpWJfVHrUpj8t/JnM0/Twk&#43;Kt9lNgnU1qAgwh8=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://sidmulajkar.com/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://sidmulajkar.com/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="https://sidmulajkar.com/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://sidmulajkar.com/images/apple-touch-icon.png">
+
+    
+
+    <meta name="generator" content="Hugo 0.82.0" />
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-auto"
+        onload=""
+  >
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+        <section class="container">
+          <a class="navigation-title" href="https://sidmulajkar.com/">
+            &gt; sidmulajkar
+            <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/sidmulajkar.com\/"
+        },
+        "articleSection" : "posts",
+        "name" : "What is TCP Slow Start?",
+        "headline" : "What is TCP Slow Start?",
+        "description" : "This tutorial will clear all your doubts regarding the TCP Slow Start and is it really a problem",
+        "inLanguage" : "en-US",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2021",
+        "datePublished": "2021-10-02 17:26:04 \u002b0530 IST",
+        "dateModified" : "2021-10-02 17:26:04 \u002b0530 IST",
+        "url" : "https:\/\/sidmulajkar.com\/posts\/tcp-slow-start\/",
+        "wordCount" : "689",
+        "keywords" : [ "tcp","slowstart","congestion-control","mechanism","sidsblog","Blog" ]
+    }
+</script>
+          </a>
+          
+            <input type="checkbox" id="menu-toggle" />
+            <label class="menu-button float-right" for="menu-toggle">
+              <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+            </label>
+            <ul class="navigation-list">
+              
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/about/">About</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/posts/">Blogs</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/projects/">Projects</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/course/">Course</a>
+                  </li>
+                
+              
+              
+            </ul>
+          
+        </section>
+</nav>
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://sidmulajkar.com/posts/tcp-slow-start/">
+              What is TCP Slow Start?
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2021-10-02T17:26:04&#43;05:30'>
+                October 2, 2021
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              4-minute read
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="https://sidmulajkar.com/categories/tcp/">tcp</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/slowstart/">slowstart</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/congestion-control/">congestion-control</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/mechanism/">mechanism</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/sidsblog/">sidsblog</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <a href="https://sidmulajkar.com/tags/tcp/">tcp</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/slowstart/">slowstart</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/congestion-control/">congestion-control</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/mechanism/">mechanism</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/sidsblog/">sidsblog</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <p><strong>Does it affect Web Application Performance?</strong></p>
+<p>Yes, it&rsquo;s a feature, not an issue but can be a problem sometimes while analyzing and designing the app.</p>
+<p><img src="https://sidmulajkar.com/images/tcpslowstart/tcp1.png" alt="TCP Slow Start"></p>
+<hr>
+<p>TCP slow start is a congestion-avoidance algorithm that balances the speed of a network connection.</p>
+<p>A slow start gradually increases the amount of data transmitted until it finds the network’s maximum carrying capacity.</p>
+<p>One of the most common ways to optimize the speed of a connection (i.e. increase the amount of bandwidth).</p>
+<p>However, any link can become overloaded if a device tries to send out too much data. Oversaturating a link is known as congestion, and it can result in slow communications.</p>
+<p><img src="https://sidmulajkar.com/images/tcpslowstart/tcp2.png" alt="TCP Slow Start"></p>
+<hr>
+<h3 id="how-tcp-slow-start-works">
+  How TCP slow start works
+  <a class="heading-link" href="#how-tcp-slow-start-works">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>TCP slow start is one of the first steps in the congestion control process. It balances the amount of data a sender can transmit (known as the congestion window) with the amount of data the receiver can accept (known as the receiver window). The lower of the two values becomes the maximum amount of data that the sender is allowed to transmit before receiving an acknowledgment from the receiver.</p>
+<p>Step-by-step, here’s how slow start works:</p>
+<ul>
+<li>
+<p>A sender attempts to communicate to a receiver. The sender’s initial packet contains a small congestion window, which is determined based on the sender’s maximum window.</p>
+</li>
+<li>
+<p>The receiver acknowledges the packet and responds with its own window size. If the receiver fails to respond, the sender knows not to continue sending data.</p>
+</li>
+<li>
+<p>After receiving the acknowledgement, the sender increases the next packet’s window size. The window size gradually increases until the receiver can no longer acknowledge each packet, or until either the sender or the receiver’s window limit is reached.</p>
+</li>
+</ul>
+<p>Once a limit has been determined, slow start’s job is done. Other congestion control algorithms take over to maintain the speed of the connection.</p>
+<hr>
+<p><strong>Example:</strong></p>
+<p>CDN providers often adjust their slow start window to maximize performance.</p>
+<p>The initial congestion window parameter (initcwnd) can have notable impact on the speed of network.</p>
+<p>When the receiver has sent fewer ack&rsquo;s to the sender, more data can be transmitted faster.</p>
+<p>Most large CDN providers default to an initcwnd of 10, meaning the CDN will transmit 10 packets before requesting an acknowledgment.</p>
+<p>Tuning initcwnd for optimum performance can have a significant improvement in TCP performance.</p>
+<p><a href="https://www.cdnplanet.com/blog/initcwnd-settings-major-cdn-providers/">https://www.cdnplanet.com/blog/initcwnd-settings-major-cdn-providers/</a></p>
+<hr>
+<h3 id="benefits-of-tcp-slow-start">
+  Benefits of TCP slow start:
+  <a class="heading-link" href="#benefits-of-tcp-slow-start">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ol>
+<li>
+<p>Users experience uninterrupted connections</p>
+</li>
+<li>
+<p>Users also experience faster downloads</p>
+</li>
+<li>
+<p>Enterprises see less network congestion since slow start regulates bandwidth and prevents the sender from having to continuously retransmit data.</p>
+</li>
+</ol>
+<p>It is never the ideal condition that the transmission is seamless after the initial slow start, as there might be some errors introduced.</p>
+<p>This unfavorable condition certainly depends heavily on a different system and network settings.</p>
+<p>However, it is sufficient to indicate that there are insufficiencies in  the existing Slow-Start process.</p>
+<blockquote>
+<p>With this understanding of the whole concept, it&rsquo;s like giving a cold start to your car before actually using it.</p>
+</blockquote>
+<p>That&rsquo;s why many of them have specially advised or recommended to warm up the TCP server with the proxies connected with the upstream server sending in some garbage requests.</p>
+<p>So, whenever the new request comes in, we have the beautiful TCP connections running.</p>
+<p>The TCP Handshake itself takes some time, which is reduced using TCP Fast Open(TFO).</p>
+<p>So opening &amp; closing connections is also tedious as a Backend Engineer, not when using a browser.</p>
+<p><img src="https://sidmulajkar.com/images/tcpslowstart/tcpfastopen.jpg" alt="TCP Fast Open"></p>
+<hr>
+<p>That&rsquo;s why eager loading is always preferred over lazy loading the TCP Connections.</p>
+<blockquote>
+<p>This can be very evidently found in Serverless computing that has been provided by Cloud Services like AWS, Azure, GCP.</p>
+</blockquote>
+<p>We can&rsquo;t do much about the TCP Slow Start, as we need it so that we don&rsquo;t flood the network with the requests.</p>
+<p>Without the congestion control algorithms, the internet will just be down as we might lose the packets, retransmission, performance issues, etc.</p>
+<p>Read a paper, regarding the same, named as</p>
+<p>Problems and Solutions for the TCP Slow start process. By University of Toronto</p>
+<p><a href="https://tinyurl.com/2h7hssbf">https://tinyurl.com/2h7hssbf</a></p>
+<p>Another Article:</p>
+<p>Building Blocks of TCP <a href="https://hpbn.co/building-blocks-of-tcp/">https://tinyurl.com/2h7hssbf</a></p>
+<hr>
+<h3 id="conclusion">
+  Conclusion
+  <a class="heading-link" href="#conclusion">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>So next time while designing the app and using a networking protocol like TCP, do analyze the whole process and then develop the thing.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>Copyright ©2021 | All rights reserved</p>
+      
+      
+      
+      
+    </section>
+  </footer>
+
+
+    </main>
+
+    
+      
+        
+        <script src="https://sidmulajkar.com/js/dark-mode.min.aee9c8a464eb7b3534c7110f7c5e169e7039e2fd92710e0626d451d6725af137.js" integrity="sha256-runIpGTrezU0xxEPfF4WnnA54v2ScQ4GJtRR1nJa8Tc="></script>
+      
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>
