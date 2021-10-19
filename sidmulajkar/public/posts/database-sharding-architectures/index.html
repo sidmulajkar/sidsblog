@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="color-scheme" content="light dark">
+
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120510472-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-120510472-2');
+</script>
+ 
+    
+    
+      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline' https://www.google-analytics.com cse.google.com https://www.google.com https://pagead2.googlesyndication.com https://adservice.google.com https://www.googletagservices.com disqus.com disquscdn.com *.disqus.com *.disquscdn.com; prefetch-src 'self';">
+    
+
+    <meta name="author" content="Hi, I&#39;m Siddhant Mulajkar!">
+    <meta name="description" content="This tutorial will clear all your doubts regarding the Database Sharding Architectures and how to implement them.">
+    <meta name="keywords" content="blog,developer,personal,hacker,javascript blogs,react blogs,development blogs">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Database Sharding Architectures"/>
+<meta name="twitter:description" content="This tutorial will clear all your doubts regarding the Database Sharding Architectures and how to implement them."/>
+
+    <meta property="og:title" content="Database Sharding Architectures" />
+<meta property="og:description" content="This tutorial will clear all your doubts regarding the Database Sharding Architectures and how to implement them." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://sidmulajkar.com/posts/database-sharding-architectures/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-10-17T17:26:04+05:30" />
+<meta property="article:modified_time" content="2021-10-17T17:26:04+05:30" />
+
+
+
+    <title>
+  Database Sharding Architectures · &gt; sidmulajkar
+</title>
+
+    
+      <link rel="canonical" href="https://sidmulajkar.com/posts/database-sharding-architectures/">
+    
+
+    
+    
+    <link rel="preload" href="https://sidmulajkar.com/fonts/forkawesome-webfont.woff2?v=1.1.7" as="font" type="font/woff2" integrity="sha256-hEIt6X6xzye8ubyk8/uxjz68cRZHsJxoKS9fQ8idUGQ=" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="https://sidmulajkar.com/css/coder.min.24a09f76f51018352bc5ee1b99abd3e58a3f339bf62fe9ed22badd4af74691f8.css" integrity="sha256-JKCfdvUQGDUrxe4bmavT5Yo/M5v2L&#43;ntIrrdSvdGkfg=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="https://sidmulajkar.com/css/coder-dark.min.5d4a66b4da5625f547ad4a63f2dfc99ccd3f4f093e2adf653609d4d6a020c21f.css" integrity="sha256-XUpmtNpWJfVHrUpj8t/JnM0/Twk&#43;Kt9lNgnU1qAgwh8=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://sidmulajkar.com/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://sidmulajkar.com/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="https://sidmulajkar.com/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://sidmulajkar.com/images/apple-touch-icon.png">
+
+    
+
+    <meta name="generator" content="Hugo 0.88.1" />
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-auto"
+        onload=""
+  >
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+        <section class="container">
+          <a class="navigation-title" href="https://sidmulajkar.com/">
+            &gt; sidmulajkar
+            <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/sidmulajkar.com\/"
+        },
+        "articleSection" : "posts",
+        "name" : "Database Sharding Architectures",
+        "headline" : "Database Sharding Architectures",
+        "description" : "This tutorial will clear all your doubts regarding the Database Sharding Architectures and how to implement them.",
+        "inLanguage" : "en-US",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2021",
+        "datePublished": "2021-10-17 17:26:04 \u002b0530 IST",
+        "dateModified" : "2021-10-17 17:26:04 \u002b0530 IST",
+        "url" : "https:\/\/sidmulajkar.com\/posts\/database-sharding-architectures\/",
+        "wordCount" : "1074",
+        "keywords" : [ "sql","database","sharding","advantages","disadvantages","sharding-architectures","sidsblog","Blog" ]
+    }
+</script>
+          </a>
+          
+            <input type="checkbox" id="menu-toggle" />
+            <label class="menu-button float-right" for="menu-toggle">
+              <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+            </label>
+            <ul class="navigation-list">
+              
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/about/">About</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/posts/">Blogs</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/projects/">Projects</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/course/">Course</a>
+                  </li>
+                
+              
+              
+            </ul>
+          
+        </section>
+</nav>
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://sidmulajkar.com/posts/database-sharding-architectures/">
+              Database Sharding Architectures
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2021-10-17T17:26:04&#43;05:30'>
+                October 17, 2021
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              6-minute read
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="https://sidmulajkar.com/categories/sql/">sql</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/database/">database</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/sharding/">sharding</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/benefits-of-sharding/">benefits-of-sharding</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/architecures/">architecures</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/sidsblog/">sidsblog</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <a href="https://sidmulajkar.com/tags/sql/">sql</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/database/">database</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/sharding/">sharding</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/advantages/">advantages</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/disadvantages/">disadvantages</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/sharding-architectures/">sharding-architectures</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/sidsblog/">sidsblog</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <h3 id="once-youve-decided-to-shard-your-database-the-next-thing-you-need-to-figure-out-is-how-youll-go-about-doing-so">
+  Once you’ve decided to shard your database, the next thing you need to figure out is how you’ll go about doing so.
+  <a class="heading-link" href="#once-youve-decided-to-shard-your-database-the-next-thing-you-need-to-figure-out-is-how-youll-go-about-doing-so">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Your application suddenly becomes popular. Traffic and data are starting to grow, and your database gets more overloaded every day.</p>
+<p>People on the internet tell you to scale your database by sharding, but you don’t know what it means.</p>
+<p><img src="https://sidmulajkar.com/images/shardingarch/shard1.png" alt="Database Sharding1"></p>
+<hr>
+<p>If you haven&rsquo;t read the last blog post and want to know more about Database Sharding check the previous blog &gt; <a href="https://sidmulajkar.com/posts/what-is-database-sharding/">What is Database Sharding</a></p>
+<h3 id="driving-principles">
+  Driving Principles:
+  <a class="heading-link" href="#driving-principles">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>To compare the pros and cons of each sharding strategy, We will use the following principles.</p>
+<ul>
+<li>
+<p>How the data is read</p>
+</li>
+<li>
+<p>How the data is distributed</p>
+</li>
+<li>
+<p>Re-distributing data</p>
+</li>
+</ul>
+<ol>
+<li>
+<p><strong>How the data is read</strong> — Databases are used to store and retrieve data. If we don’t need to read data at all, we can simply write it to /dev/null. If we only need to batch process the data once in a while, we can append to a single file and periodically scan through them. Data retrieval requirements (or lack thereof) heavily influence the sharding strategy.</p>
+</li>
+<li>
+<p><strong>How the data is distributed</strong> — Once you have a cluster of machines acting together, it is important to ensure that data and work is evenly distributed. Uneven load causes storage and performance hotspots. Some databases redistribute data dynamically, while others expect clients to evenly distribute and access data.</p>
+</li>
+<li>
+<p>Once sharding is employed, <strong>redistributing data</strong> is an important problem. Once your database is sharded, it is likely that the data is growing rapidly. Adding an additional node becomes a regular routine. It may require changes in configuration and moving large amounts of data between nodes. It adds both performance and operational burden.</p>
+</li>
+</ol>
+<h3 id="common-definitions">
+  Common Definitions:
+  <a class="heading-link" href="#common-definitions">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Many databases have their terminologies.</p>
+<p>Shard or Partition Key is a portion of the primary key that determines how data should be distributed. A partition key allows you to retrieve and modify data efficiently by routing operations to the correct database.</p>
+<p>Shard or Partition Key is a portion of the primary key that determines how data should be distributed.</p>
+<p>A partition key allows you to retrieve and modify data efficiently by routing operations to the correct database.</p>
+<hr>
+<p>Once you’ve decided to shard your database, the next thing you need to figure out is how you’ll go about doing so.</p>
+<p>When running queries or distributing incoming data to sharded tables or databases, it must go to the correct shard.</p>
+<h3 id="1-key-based-sharding">
+  1. Key Based Sharding:
+  <a class="heading-link" href="#1-key-based-sharding">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>It is also known as hash-based sharding, involves using a value taken from newly written data — such as a customer’s ID number, a client appl’s IP address, a ZIP code, etc. — and plugging it into a hash function to determine which shard the data should go to.</p>
+<p><img src="https://sidmulajkar.com/images/shardingarch/shardkey.png" alt="Key Based Sharding"></p>
+<p>While key-based sharding is a fairly common sharding architecture, it can make things tricky when trying to dynamically add or remove additional servers to a database.</p>
+<p>As you add servers, each one will need a corresponding hash value, and many of your existing entries, if not all of them, will need to be remapped to their new, correct hash value and then migrated to the appropriate server.</p>
+<p>As you begin rebalancing the data, neither the new nor the old hashing functions will be valid.</p>
+<p>Consequently, your server won’t be able to write any new data during the migration and your application could be subject to downtime.</p>
+<p>The main appeal of this strategy is that it can be used to evenly distribute data to prevent hotspots. Also, because it distributes data algorithmically, there’s no need to maintain a map of where all the data is located.</p>
+<hr>
+<h3 id="2-rangedynamic-based-sharding">
+  2. Range/Dynamic Based Sharding:
+  <a class="heading-link" href="#2-rangedynamic-based-sharding">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>This sharding involves sharding data based on the ranges of a given value. To illustrate, let’s say you have a database that stores information about all the products within a retailer’s catalog. You could create a few different shards.</p>
+<p><img src="https://sidmulajkar.com/images/shardingarch/rangebased.png" alt="Range Based Sharding"></p>
+<p>The main benefit of range-based sharding is that it’s relatively simple to implement.</p>
+<p>Every shard holds a different set of data but they all have an identical schema as one another, as well as the original database.</p>
+<p>The application code just reads which range the data falls into and writes it to the corresponding shard.</p>
+<p>On the other hand, range-based sharding doesn’t protect data from being unevenly distributed, leading to the aforementioned database hotspots.</p>
+<hr>
+<h3 id="3-directory-based-sharding">
+  3. Directory-Based Sharding:
+  <a class="heading-link" href="#3-directory-based-sharding">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>To implement this sharding, one must create and maintain a lookup table that uses a shard key to keep track of which shard holds which data. In a jiffy, a lookup table is a table that holds a static set of information about where specific data is found.</p>
+<p><img src="https://sidmulajkar.com/images/shardingarch/dirbased.png" alt="Directory Based Sharding"></p>
+<p>The main appeal of directory-based sharding is its flexibility.
+Range-based sharding architectures limit you to specifying ranges of values, while key-based ones limit you to using a fixed hash function which, as mentioned previously, can be exceedingly difficult to change later.</p>
+<p>Directory-based sharding, on the other hand, allows you to use whatever system or algorithm you want to assign data entries to shards, and it’s relatively easy to dynamically add shards using this approach.</p>
+<hr>
+<h3 id="entity-relationship-based-sharding">
+  Entity-/Relationship-Based Sharding
+  <a class="heading-link" href="#entity-relationship-based-sharding">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Entity-based sharding keeps related data together on a single physical shard. In a relational database (such as PostgreSQL, MySQL, or SQL Server), related data is often spread across several different tables.</p>
+<p>For instance, consider the case of a shopping database with Users and Payment Methods. Each user has a set of payment methods that is tied tightly with that user. As such, keeping related data together on the same shard can reduce the need for broadcast operations, increasing performance.</p>
+<h3 id="geography-based-sharding">
+  Geography-Based Sharding
+  <a class="heading-link" href="#geography-based-sharding">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Geography-based sharding, or geosharding, also keeps related data together on a single shard, but in this case, the data is related by geography. This is essentially ranged sharding where the shard key contains geographic information and the shards themselves are geo-located.</p>
+<p>For example, consider a dataset where each record contains a “country” field. In this case, we can both increase overall performance and decrease system latency by creating a shard for each country or region, and storing the appropriate data on that shard. This is a simple example, and there are many other ways to allocate your geoshards which are beyond the scope of this article.</p>
+<hr>
+<h3 id="conclusion">
+  Conclusion:
+  <a class="heading-link" href="#conclusion">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Sharding is a great solution for applications with large data requirements and high-volume read/writes workloads, but it does come with additional complexity.</p>
+<p>Consider whether the benefits outweigh the costs or there is a simpler solution even before you begin implementing.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>Copyright ©2021 | All rights reserved</p>
+      
+      
+      
+      
+    </section>
+  </footer>
+
+
+    </main>
+
+    
+      
+        
+        <script src="https://sidmulajkar.com/js/dark-mode.min.aee9c8a464eb7b3534c7110f7c5e169e7039e2fd92710e0626d451d6725af137.js" integrity="sha256-runIpGTrezU0xxEPfF4WnnA54v2ScQ4GJtRR1nJa8Tc="></script>
+      
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

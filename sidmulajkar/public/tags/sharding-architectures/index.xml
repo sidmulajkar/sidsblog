@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sharding-architectures on &gt; sidmulajkar</title>
+    <link>https://sidmulajkar.com/tags/sharding-architectures/</link>
+    <description>Recent content in sharding-architectures on &gt; sidmulajkar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 17 Oct 2021 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/tags/sharding-architectures/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Database Sharding Architectures</title>
+      <link>https://sidmulajkar.com/posts/database-sharding-architectures/</link>
+      <pubDate>Sun, 17 Oct 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/posts/database-sharding-architectures/</guid>
+      <description>Once you’ve decided to shard your database, the next thing you need to figure out is how you’ll go about doing so.    Your application suddenly becomes popular. Traffic and data are starting to grow, and your database gets more overloaded every day.
+People on the internet tell you to scale your database by sharding, but you don’t know what it means.
+ If you haven&amp;rsquo;t read the last blog post and want to know more about Database Sharding check the previous blog &amp;gt; What is Database Sharding</description>
+    </item>
+    
+  </channel>
+</rss>
