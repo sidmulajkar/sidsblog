@@ -8,12 +8,22 @@
     <language>en</language>
     <lastBuildDate>Sun, 17 Oct 2021 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title></title>
+      <link>https://sidmulajkar.com/services/</link>
+      <pubDate>Wed, 20 Oct 2021 19:09:26 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/services/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Database Sharding Architectures</title>
       <link>https://sidmulajkar.com/posts/database-sharding-architectures/</link>
       <pubDate>Sun, 17 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/database-sharding-architectures/</guid>
-      <description>Once you’ve decided to shard your database, the next thing you need to figure out is how you’ll go about doing so.    Your application suddenly becomes popular. Traffic and data are starting to grow, and your database gets more overloaded every day. People on the internet tell you to scale your database by sharding, but you don’t know what it means.</description>
+      <description>Once you’ve decided to shard your database, the next thing you need to figure out is how you’ll go about doing so. Your application suddenly becomes popular. Traffic and data are starting to grow, and your database gets more overloaded every day.
+People on the internet tell you to scale your database by sharding, but you don’t know what it means. If you haven&amp;rsquo;t read the last blog post and want to know more about Database Sharding check the previous blog &amp;gt; What is Database Sharding</description>
     </item>
     
     <item>
@@ -22,7 +32,7 @@
       <pubDate>Thu, 14 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/what-is-database-sharding/</guid>
-      <description>Sharding is a method for distributing a single dataset across multiple databases, which can then be stored on multiple machines. This allows for larger datasets to be split in smaller chunks and stored in multiple data nodes, increasing the capacity. Sharding is a form of scaling known as horizontal scaling or scale-out, as additional nodes are brought on to share the load. Horizontal scaling allows for near-limitless scalability to handle big data and intense workloads.</description>
+      <description>Sharding is a method for distributing a single dataset across multiple databases, which can then be stored on multiple machines. This allows for larger datasets to be split in smaller chunks and stored in multiple data nodes, increasing the total storage capacity of the system.</description>
     </item>
     
     <item>
@@ -31,8 +41,7 @@
       <pubDate>Wed, 06 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/tcp-and-udp/</guid>
-      <description>TCP and UDP    A simple open-ended question that can test your whole sort of knowledge.
- What will be addressed in this post?    - The problem with packets (IP) - TCP pros and cons - TCP communication sample code - UDP pros and cons - UDP communication sample code - Some questions based on them  To start, I was asked a question in an interview,</description>
+      <description>TCP and UDP    A simple open-ended question that can test your whole sort of knowledge. What will be addressed in this post?    - The problem with packets (IP) - TCP pros and cons - TCP communication sample code - UDP pros and cons - UDP communication sample code - Some questions based on them  To start, I was asked a question in an interview,</description>
     </item>
     
     <item>
@@ -51,10 +60,7 @@
       
       <guid>https://sidmulajkar.com/posts/tcp-slow-start/</guid>
       <description>Does it affect Web Application Performance?
-Yes, it&amp;rsquo;s a feature, not an issue but can be a problem sometimes while analyzing and designing the app.
- TCP slow start is a congestion-avoidance algorithm that balances the speed of a network connection.
-A slow start gradually increases the amount of data transmitted until it finds the network’s maximum carrying capacity.
-One of the most common ways to optimize the speed of a connection</description>
+Yes, it&amp;rsquo;s a feature, not an issue but can be a problem sometimes while analyzing and designing the app. TCP slow start is a congestion-avoidance algorithm that balances the speed of a network connection. A slow start gradually increases the amount of data transmitted until it finds the network’s maximum carrying capacity. One of the most common ways to optimize the speed of a connection (i.</description>
     </item>
     
     <item>
@@ -63,8 +69,7 @@ One of the most common ways to optimize the speed of a connection</description>
       <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/linux-subsytem-in-windows-wsl2/</guid>
-      <description>So, Ready to transform your Windows Environment in to your Linux Beast!!
- Before prcoeeding with the tutorial check if you have the proper version of Windows 10 installed using the winver command in Windows Start options or using the &amp;ldquo;Run&amp;rdquo; command to use the WSL-2.    If you don&amp;rsquo;t have the similar version then try the updating the windows to work ahead.    1. Once you have the windows proper version then again open the windows start menu and then type &amp;ldquo;Turn on or off Windows Features&amp;rdquo; to open the dialog box as shown below.</description>
+      <description>So, Ready to transform your Windows Environment in to your Linux Beast!! Before prcoeeding with the tutorial check if you have the proper version of Windows 10 installed using the winver command in Windows Start options or using the &amp;ldquo;Run&amp;rdquo; command to use the WSL-2.    If you don&amp;rsquo;t have the similar version then try the updating the windows to work ahead.    1. Once you have the windows proper version then again open the windows start menu and then type &amp;ldquo;Turn on or off Windows Features&amp;rdquo; to open the dialog box as shown below.</description>
     </item>
     
     <item>
@@ -73,9 +78,8 @@ One of the most common ways to optimize the speed of a connection</description>
       <pubDate>Sun, 05 Sep 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/flutter-installation-in-linux/</guid>
-      <description>On Linux, you have two ways you can install Flutter.    Install Flutter using snapd    open your terminal and use this command to install flutter
-sudo snap install flutter --classic after installing the flutter for the first time type flutter in the terminal as it will install all its dependencies and files
-flutter wait for it to install and then move forward to the pre-requisite section.</description>
+      <description>On Linux, you have two ways you can install Flutter. Install Flutter using snapd open your terminal and use this command to install flutter
+sudo snap install flutter --classic after installing the flutter for the first time type flutter in the terminal as it will install all its dependencies and files flutter wait for it to install and then move forward to the pre-requisite section.</description>
     </item>
     
     <item>
@@ -85,7 +89,7 @@ flutter wait for it to install and then move forward to the pre-requisite sectio
       
       <guid>https://sidmulajkar.com/posts/setting-up-pihole-as-a-recursive-dns-server/</guid>
       <description>Got an old Raspberry Pi lying around? Hate seeing ads while browsing the web? Pi-hole is an open-source software project that blocks ads for all devices on your home network by routing all advertising servers into nowhere. What’s best is it takes just a few minutes to set up.
-What is a Pi-hole?    Network-wide ad blocking via your own Linux hardware. The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.</description>
+What is a Pi-hole? Network-wide ad blocking via your own Linux hardware. The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.</description>
     </item>
     
     <item>
@@ -114,7 +118,7 @@ A Machine Learning Project based on the deep learning model that helps in predic
       <pubDate>Thu, 25 Mar 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/about/</guid>
-      <description>A software developer/entrepreneur who is passionately curious about technology and shares his valuable insights with the community through his blogs.s</description>
+      <description>A software developer/entrepreneur who is passionately curious about technology and shares his valuable insights with the community through his blogs.</description>
     </item>
     
     <item>
@@ -123,9 +127,8 @@ A Machine Learning Project based on the deep learning model that helps in predic
       <pubDate>Thu, 25 Feb 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/best-hosting-provider-2021/</guid>
-      <description>At first glance, A2 Hosting might seem like nothing more than another hosting platform that sings high praises then falls flat on the delivery. The features almost seem too good to be true.
-Everyone claims to be faster than the competitors, but twenty times so? Can A2 Hosting live up to its promises? Let’s take a look.
-Speed Tests Don’t Lie  When this company says it’s 20x faster than its competitors, it’s not just exaggerating to make an eye-catching headline.</description>
+      <description>At first glance, A2 Hosting might seem like nothing more than another hosting platform that sings high praises then falls flat on the delivery. The features almost seem too good to be true. Everyone claims to be faster than the competitors, but twenty times so? Can A2 Hosting live up to its promises? Let’s take a look. Speed Tests Don’t Lie
+When this company says it’s 20x faster than its competitors, it’s not just exaggerating to make an eye-catching headline.</description>
     </item>
     
   </channel>

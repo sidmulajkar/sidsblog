@@ -123,9 +123,9 @@ url = "https://twitter.com/sidmulajkar"
 
 [[params.social]]
 name = "Categories"
-icon = "fa fa-history"
+icon = "fa fa-youtube-play"
 weight = 5
-url = "https://sidmulajkar.com/categories/"
+url = "https://www.youtube.com/channel/UCxTfTsXXenAJFTFI4UFoypg/"
 
 
 
@@ -148,8 +148,13 @@ weight = 3
 url = "projects/"
 
 [[languages.en.menu.main]]
-name = "Course"
+name = "Services"
 weight = 4
+url = "services/"
+
+[[languages.en.menu.main]]
+name = "Course"
+weight = 5
 url = "course/"
 
 
