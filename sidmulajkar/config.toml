@@ -123,9 +123,9 @@ url = "https://twitter.com/sidmulajkar"
 
 [[params.social]]
 name = "Categories"
-icon = "fa fa-youtube-play"
+icon = "fa fa-cube"
 weight = 5
-url = "https://www.youtube.com/channel/UCxTfTsXXenAJFTFI4UFoypg/"
+url = "https://sidmulajkar.com/services/"
 
 
 
