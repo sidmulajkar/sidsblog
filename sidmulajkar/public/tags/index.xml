@@ -6,22 +6,67 @@
     <description>Recent content in Tags on &gt; sidmulajkar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 17 Oct 2021 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Oct 2021 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>advantages</title>
-      <link>https://sidmulajkar.com/tags/advantages/</link>
-      <pubDate>Sun, 17 Oct 2021 17:26:04 +0530</pubDate>
+      <title>bplus-trees</title>
+      <link>https://sidmulajkar.com/tags/bplus-trees/</link>
+      <pubDate>Mon, 25 Oct 2021 17:26:04 +0530</pubDate>
       
-      <guid>https://sidmulajkar.com/tags/advantages/</guid>
+      <guid>https://sidmulajkar.com/tags/bplus-trees/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>btrees</title>
+      <link>https://sidmulajkar.com/tags/btrees/</link>
+      <pubDate>Mon, 25 Oct 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/btrees/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data-structure</title>
+      <link>https://sidmulajkar.com/tags/data-structure/</link>
+      <pubDate>Mon, 25 Oct 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/data-structure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>database</title>
       <link>https://sidmulajkar.com/tags/database/</link>
-      <pubDate>Sun, 17 Oct 2021 17:26:04 +0530</pubDate>
+      <pubDate>Mon, 25 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/tags/database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sidsblog</title>
+      <link>https://sidmulajkar.com/tags/sidsblog/</link>
+      <pubDate>Mon, 25 Oct 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/sidsblog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>trees</title>
+      <link>https://sidmulajkar.com/tags/trees/</link>
+      <pubDate>Mon, 25 Oct 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/trees/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>advantages</title>
+      <link>https://sidmulajkar.com/tags/advantages/</link>
+      <pubDate>Sun, 17 Oct 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/advantages/</guid>
       <description></description>
     </item>
     
@@ -49,15 +94,6 @@
       <pubDate>Sun, 17 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/tags/sharding-architectures/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>sidsblog</title>
-      <link>https://sidmulajkar.com/tags/sidsblog/</link>
-      <pubDate>Sun, 17 Oct 2021 17:26:04 +0530</pubDate>
-      
-      <guid>https://sidmulajkar.com/tags/sidsblog/</guid>
       <description></description>
     </item>
     

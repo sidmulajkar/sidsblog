@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bplus-trees on &gt; sidmulajkar</title>
+    <link>https://sidmulajkar.com/categories/bplus-trees/</link>
+    <description>Recent content in bplus-trees on &gt; sidmulajkar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 25 Oct 2021 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/categories/bplus-trees/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>B/B&#43; Trees How they are helpful in Database?</title>
+      <link>https://sidmulajkar.com/posts/b-bplus-trees/</link>
+      <pubDate>Mon, 25 Oct 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/posts/b-bplus-trees/</guid>
+      <description>What are those? Ever used those while searching through the dataset.
+How they are useful in databases?
+ To understand stuff more clearly let&amp;rsquo;s take a scenario:
+Like you have a table, a huge table(millions of rows to go through), and you want to search to a particular numbered row by some id mentioned &amp;ldquo;100035&amp;rdquo; and not only pulling a row but getting most out of the pulled row.
+For the longest time, what we do is search the table one by one sequentially (page by page).</description>
+    </item>
+    
+  </channel>
+</rss>

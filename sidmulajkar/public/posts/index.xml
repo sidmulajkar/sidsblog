@@ -6,14 +6,27 @@
     <description>Recent content in Posts on &gt; sidmulajkar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 17 Oct 2021 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Oct 2021 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>B/B&#43; Trees How they are helpful in Database?</title>
+      <link>https://sidmulajkar.com/posts/b-bplus-trees/</link>
+      <pubDate>Mon, 25 Oct 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/posts/b-bplus-trees/</guid>
+      <description>What are those? Ever used those while searching through the dataset.
+How they are useful in databases?
+ To understand stuff more clearly let&amp;rsquo;s take a scenario:
+Like you have a table, a huge table(millions of rows to go through), and you want to search to a particular numbered row by some id mentioned &amp;ldquo;100035&amp;rdquo; and not only pulling a row but getting most out of the pulled row.
+For the longest time, what we do is search the table one by one sequentially (page by page).</description>
+    </item>
+    
     <item>
       <title>Database Sharding Architectures</title>
       <link>https://sidmulajkar.com/posts/database-sharding-architectures/</link>
       <pubDate>Sun, 17 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/database-sharding-architectures/</guid>
-      <description>Once you’ve decided to shard your database, the next thing you need to figure out is how you’ll go about doing so.    Your application suddenly becomes popular. Traffic and data are starting to grow, and your database gets more overloaded every day.
+      <description>Once you’ve decided to shard your database, the next thing you need to figure out is how you’ll go about doing so.Your application suddenly becomes popular. Traffic and data are starting to grow, and your database gets more overloaded every day.
 People on the internet tell you to scale your database by sharding, but you don’t know what it means.
  If you haven&amp;rsquo;t read the last blog post and want to know more about Database Sharding check the previous blog &amp;gt; What is Database Sharding</description>
     </item>
@@ -24,7 +37,7 @@ People on the internet tell you to scale your database by sharding, but you don�
       <pubDate>Thu, 14 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/what-is-database-sharding/</guid>
-      <description>Database Sharding    How often do you shard your database?
+      <description>Database ShardingHow often do you shard your database?
 Do you prematurely shard?
 Do you actually need that for your database?🤔
   Your application is growing. It has more active users, more features, and generates more data every day.
@@ -39,8 +52,8 @@ Q) What is Database Sharding?</description>
       <pubDate>Wed, 06 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/tcp-and-udp/</guid>
-      <description>TCP and UDP    A simple open-ended question that can test your whole sort of knowledge.
- What will be addressed in this post?    - The problem with packets (IP) - TCP pros and cons - TCP communication sample code - UDP pros and cons - UDP communication sample code - Some questions based on them  To start, I was asked a question in an interview,</description>
+      <description>TCP and UDPA simple open-ended question that can test your whole sort of knowledge.
+ What will be addressed in this post?- The problem with packets (IP) - TCP pros and cons - TCP communication sample code - UDP pros and cons - UDP communication sample code - Some questions based on them  To start, I was asked a question in an interview,</description>
     </item>
     
     <item>
@@ -63,7 +76,7 @@ One of the most common ways to optimize the speed of a connection (i.</descripti
       
       <guid>https://sidmulajkar.com/posts/linux-subsytem-in-windows-wsl2/</guid>
       <description>So, Ready to transform your Windows Environment in to your Linux Beast!!
- Before prcoeeding with the tutorial check if you have the proper version of Windows 10 installed using the winver command in Windows Start options or using the &amp;ldquo;Run&amp;rdquo; command to use the WSL-2.    If you don&amp;rsquo;t have the similar version then try the updating the windows to work ahead.    1. Once you have the windows proper version then again open the windows start menu and then type &amp;ldquo;Turn on or off Windows Features&amp;rdquo; to open the dialog box as shown below.</description>
+ Before prcoeeding with the tutorial check if you have the proper version of Windows 10 installed using the winver command in Windows Start options or using the &amp;ldquo;Run&amp;rdquo; command to use the WSL-2.If you don&amp;rsquo;t have the similar version then try the updating the windows to work ahead.1. Once you have the windows proper version then again open the windows start menu and then type &amp;ldquo;Turn on or off Windows Features&amp;rdquo; to open the dialog box as shown below.</description>
     </item>
     
     <item>
@@ -72,7 +85,7 @@ One of the most common ways to optimize the speed of a connection (i.</descripti
       <pubDate>Sun, 05 Sep 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/flutter-installation-in-linux/</guid>
-      <description>On Linux, you have two ways you can install Flutter.    Install Flutter using snapd    open your terminal and use this command to install flutter
+      <description>On Linux, you have two ways you can install Flutter.Install Flutter using snapdopen your terminal and use this command to install flutter
 sudo snap install flutter --classic after installing the flutter for the first time type flutter in the terminal as it will install all its dependencies and files
 flutter wait for it to install and then move forward to the pre-requisite section.</description>
     </item>
@@ -84,7 +97,7 @@ flutter wait for it to install and then move forward to the pre-requisite sectio
       
       <guid>https://sidmulajkar.com/posts/setting-up-pihole-as-a-recursive-dns-server/</guid>
       <description>Got an old Raspberry Pi lying around? Hate seeing ads while browsing the web? Pi-hole is an open-source software project that blocks ads for all devices on your home network by routing all advertising servers into nowhere. What’s best is it takes just a few minutes to set up.
-What is a Pi-hole?    Network-wide ad blocking via your own Linux hardware. The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.</description>
+What is a Pi-hole?Network-wide ad blocking via your own Linux hardware. The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.</description>
     </item>
     
     <item>
