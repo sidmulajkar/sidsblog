@@ -6,20 +6,11 @@
     <description>Recent content in Categories on &gt; sidmulajkar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 25 Oct 2021 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>bplus-trees</title>
-      <link>https://sidmulajkar.com/categories/bplus-trees/</link>
-      <pubDate>Mon, 25 Oct 2021 17:26:04 +0530</pubDate>
-      
-      <guid>https://sidmulajkar.com/categories/bplus-trees/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Tue, 16 Nov 2021 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>btrees</title>
       <link>https://sidmulajkar.com/categories/btrees/</link>
-      <pubDate>Mon, 25 Oct 2021 17:26:04 +0530</pubDate>
+      <pubDate>Tue, 16 Nov 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/categories/btrees/</guid>
       <description></description>
@@ -28,7 +19,7 @@
     <item>
       <title>data-structure</title>
       <link>https://sidmulajkar.com/categories/data-structure/</link>
-      <pubDate>Mon, 25 Oct 2021 17:26:04 +0530</pubDate>
+      <pubDate>Tue, 16 Nov 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/categories/data-structure/</guid>
       <description></description>
@@ -37,18 +28,36 @@
     <item>
       <title>database</title>
       <link>https://sidmulajkar.com/categories/database/</link>
-      <pubDate>Mon, 25 Oct 2021 17:26:04 +0530</pubDate>
+      <pubDate>Tue, 16 Nov 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/categories/database/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>index</title>
+      <link>https://sidmulajkar.com/categories/index/</link>
+      <pubDate>Tue, 16 Nov 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/index/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>sidsblog</title>
       <link>https://sidmulajkar.com/categories/sidsblog/</link>
-      <pubDate>Mon, 25 Oct 2021 17:26:04 +0530</pubDate>
+      <pubDate>Tue, 16 Nov 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/categories/sidsblog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bplus-trees</title>
+      <link>https://sidmulajkar.com/categories/bplus-trees/</link>
+      <pubDate>Mon, 25 Oct 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/bplus-trees/</guid>
       <description></description>
     </item>
     

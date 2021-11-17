@@ -6,7 +6,16 @@
     <description>A software developer/entrepreneur who is passionately curious about technology and shares his valuable insights with the community through his blogs.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 25 Oct 2021 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Nov 2021 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When Indexes are not Useable sometimes!</title>
+      <link>https://sidmulajkar.com/posts/when-indexes-are-not-useable/</link>
+      <pubDate>Tue, 16 Nov 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/posts/when-indexes-are-not-useable/</guid>
+      <description>What do I even mean by useless indexes? Indexes that once helped performance now **just bloat your database** and cause extra work for inserts, updates, and deletes. Indexing is a way to optimize the performance of a database by minimizing the number of disk accesses required when a query is processed.</description>
+    </item>
+    
     <item>
       <title>B/B&#43; Trees How they are helpful in Database?</title>
       <link>https://sidmulajkar.com/posts/b-bplus-trees/</link>

@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="color-scheme" content="light dark">
+
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120510472-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-120510472-2');
+</script>
+ 
+    
+    
+      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline' https://www.google-analytics.com cse.google.com https://www.google.com https://pagead2.googlesyndication.com https://adservice.google.com https://www.googletagservices.com disqus.com disquscdn.com *.disqus.com *.disquscdn.com; prefetch-src 'self';">
+    
+
+    <meta name="author" content="Hi, I&#39;m Siddhant Mulajkar!">
+    <meta name="description" content="This tutorial will help you understand when indexes are useful or not accordingly.">
+    <meta name="keywords" content="blog,developer,personal,hacker,javascript blogs,react blogs,development blogs">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="When Indexes are not Useable sometimes!"/>
+<meta name="twitter:description" content="This tutorial will help you understand when indexes are useful or not accordingly."/>
+
+    <meta property="og:title" content="When Indexes are not Useable sometimes!" />
+<meta property="og:description" content="This tutorial will help you understand when indexes are useful or not accordingly." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://sidmulajkar.com/posts/when-indexes-are-not-useable/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-11-16T17:26:04+05:30" />
+<meta property="article:modified_time" content="2021-11-16T17:26:04+05:30" />
+
+
+
+    <title>
+  When Indexes are not Useable sometimes! · &gt; sidmulajkar
+</title>
+
+    
+      <link rel="canonical" href="https://sidmulajkar.com/posts/when-indexes-are-not-useable/">
+    
+
+    
+    
+    <link rel="preload" href="https://sidmulajkar.com/fonts/forkawesome-webfont.woff2?v=1.1.7" as="font" type="font/woff2" integrity="sha256-hEIt6X6xzye8ubyk8/uxjz68cRZHsJxoKS9fQ8idUGQ=" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="https://sidmulajkar.com/css/coder.min.e2f6fb90ffc180bc98097d000f17e666c4c51278c72176942dd42fbb6cccdde1.css" integrity="sha256-4vb7kP/BgLyYCX0ADxfmZsTFEnjHIXaULdQvu2zM3eE=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="https://sidmulajkar.com/css/coder-dark.min.5d4a66b4da5625f547ad4a63f2dfc99ccd3f4f093e2adf653609d4d6a020c21f.css" integrity="sha256-XUpmtNpWJfVHrUpj8t/JnM0/Twk&#43;Kt9lNgnU1qAgwh8=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://sidmulajkar.com/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://sidmulajkar.com/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="https://sidmulajkar.com/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://sidmulajkar.com/images/apple-touch-icon.png">
+
+    
+
+    <meta name="generator" content="Hugo 0.84.4" />
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-auto"
+        onload=""
+  >
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+        <section class="container">
+          <a class="navigation-title" href="https://sidmulajkar.com/">
+            &gt; sidmulajkar
+            <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/sidmulajkar.com\/"
+        },
+        "articleSection" : "posts",
+        "name" : "When Indexes are not Useable sometimes!",
+        "headline" : "When Indexes are not Useable sometimes!",
+        "description" : "This tutorial will help you understand when indexes are useful or not accordingly.",
+        "inLanguage" : "en-US",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2021",
+        "datePublished": "2021-11-16 17:26:04 \u002b0530 IST",
+        "dateModified" : "2021-11-16 17:26:04 \u002b0530 IST",
+        "url" : "https:\/\/sidmulajkar.com\/posts\/when-indexes-are-not-useable\/",
+        "wordCount" : "1202",
+        "keywords" : [ "btrees","indexing","indexing-types","data-structure","database","sidsblog","Blog" ]
+    }
+</script>
+          </a>
+          
+            <input type="checkbox" id="menu-toggle" />
+            <label class="menu-button float-right" for="menu-toggle">
+              <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+            </label>
+            <ul class="navigation-list">
+              
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/about/">About</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/posts/">Blogs</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/projects/">Projects</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/services/">Services</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/course/">Course</a>
+                  </li>
+                
+              
+              
+            </ul>
+          
+        </section>
+</nav>
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://sidmulajkar.com/posts/when-indexes-are-not-useable/">
+              When Indexes are not Useable sometimes!
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2021-11-16T17:26:04&#43;05:30'>
+                November 16, 2021
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              6-minute read
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="https://sidmulajkar.com/categories/btrees/">btrees</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/index/">index</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/data-structure/">data-structure</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/database/">database</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/sidsblog/">sidsblog</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <a href="https://sidmulajkar.com/tags/btrees/">btrees</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/indexing/">indexing</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/indexing-types/">indexing-types</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/data-structure/">data-structure</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/database/">database</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/sidsblog/">sidsblog</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <p><strong>What do I even mean by useless indexes?</strong></p>
+<hr>
+<p>To improve the application and the database, indexes need to change over time.</p>
+<p>As the structure of the database change, the structure of the tables change, data in the tables change, the application changes, also the queries against the data change.</p>
+<p>Indexes that once helped performance now <strong>just bloat your database</strong> and cause extra work for inserts, updates, and deletes.</p>
+<p>wait&hellip;</p>
+<p>Before getting to the conclusion</p>
+<hr>
+<p><strong>What is Indexing?</strong> firstly&hellip;</p>
+<p>It is a way to optimize the performance of a database by minimizing the number of disk accesses required when a query is processed.</p>
+<p>It is a data structure technique that is used to quickly locate and access the data in a database.</p>
+<p><img src="https://sidmulajkar.com/images/indexingusefulornot/index.png" alt="Indexing"></p>
+<hr>
+<p><strong>Types of Indexing:</strong></p>
+<p>Indexing in Database is defined based on its indexing attributes. Two main types of indexing methods are:</p>
+<p><img src="https://sidmulajkar.com/images/indexingusefulornot/indextypes.png" alt="Indexing Types"></p>
+<ul>
+<li>Primary Indexing</li>
+<li>Secondary Indexing</li>
+</ul>
+<p><strong>Primary Index:</strong></p>
+<p>Primary Index is an ordered file which is fixed length size with two fields. The first field is the same a primary key and second, filed is pointed to that specific data block. In the primary Index, there is always one to one relationship between the entries in the index table.</p>
+<p>The primary Indexing in DBMS is also further divided into two types.</p>
+<pre><code>-   Dense Index
+-   Sparse Index
+</code></pre>
+<p><strong>Dense Index:</strong></p>
+<p>In a dense index, a record is created for every search key valued in the database. This helps you to search faster but needs more space to store index records. In this Indexing, method records contain search key value and points to the real record on the disk.</p>
+<p><img src="https://sidmulajkar.com/images/indexingusefulornot/denseindex.png" alt="Dense Index"></p>
+<p><strong>Sparse Index:</strong></p>
+<p>It is an index record that appears for only some of the values in the file. Sparse Index helps you to resolve the issues of dense Indexing in DBMS. In this method of indexing technique, a range of index columns stores the same data block address, and when data needs to be retrieved, the block address will be fetched.</p>
+<p>However, sparse Index stores index records for only some search-key values. It needs less space, less maintenance overhead for insertion, and deletions but It is slower compared to the dense Index for locating records.</p>
+<p>Below is an database index Example of Sparse Index</p>
+<p><img src="https://sidmulajkar.com/images/indexingusefulornot/sparse.png" alt="Sparse Index"></p>
+<p><strong>Secondary Index</strong></p>
+<p>The secondary Index in DBMS can be generated by a field which has a unique value for each record, and it should be a candidate key. It is also known as a non-clustering index.
+This two-level database indexing technique is used to reduce the mapping size of the first level. For the first level, a large range of numbers is selected because of this; the mapping size always remains small.</p>
+<p>Example of secondary Indexing
+Let’s understand secondary indexing with a database index example:</p>
+<p>In a bank account database, data is stored sequentially by acc_no; you may want to find all accounts in of a specific branch of ABC bank.</p>
+<p>Here, you can have a secondary index in DBMS for every search-key. Index record is a record point to a bucket that contains pointers to all the records with their specific search-key value.</p>
+<p><img src="https://sidmulajkar.com/images/indexingusefulornot/secondary.png" alt="Secondary Index"></p>
+<p>More In-Depth Details: <a href="https://prepinsta.com/dbms/indexing-and-its-types">https://prepinsta.com/dbms/indexing-and-its-types</a></p>
+<hr>
+<p>There are two types of database indexing architecture:</p>
+<ol>
+<li>Clustered</li>
+<li>Non-clustered</li>
+</ol>
+<p>Both clustered and non-clustered indexes are stored and searched as B-trees, a data structure similar to a binary tree.</p>
+<p>More Details on that: <a href="https://www.guru99.com/clustered-vs-non-clustered-index.html">https://www.guru99.com/clustered-vs-non-clustered-index.html</a></p>
+<p>If you haven&rsquo;t read more on B-Trees <a href="https://sidmulajkar.com/posts/b-bplus-trees/">https://sidmulajkar.com/posts/b-bplus-trees/</a></p>
+<hr>
+<p><strong>Power of Indexing:</strong></p>
+<p>Indexing plays a crucial role especially in applications such as eCommerce websites. Imagine that you are looking to buy a new bag on an eCommerce website.</p>
+<p>You type in the search query and you expect to see a range of options that you’d like to choose from.</p>
+<p>However, due to the absence of indexing you are stuck looking at a blank screen for the next 15 mins waiting for the relevant data to load, or even worse, you get everything ranging from garments to electronics as an answer to your result.</p>
+<p>Given the number of alternative eCommerce websites on the internet, I highly doubt that you’d be willing to patiently wait around instead of simply logging onto a faster one.</p>
+<hr>
+<p>When indexes need change, it requires doing a test on</p>
+<p>How removing an index will affect the overall performance?</p>
+<p>We have two options – either we can disable or drop the index.</p>
+<p>Which is better?</p>
+<p>But&hellip;</p>
+<hr>
+<p><strong>When to use Indexes:</strong></p>
+<p>Indexes are meant to speed up the performance of a database, so use indexing whenever it significantly improves the performance of your database.</p>
+<p>As your database becomes larger and larger, the more likely you are to see benefits from indexing.</p>
+<p><strong>When not to use Indexes:</strong></p>
+<ul>
+<li>
+<p>Indexes should not be used on small tables.</p>
+</li>
+<li>
+<p>Indexes should not be used on columns that return a high percentage of data rows when used as a filter condition in a query&rsquo;s WHERE clause.</p>
+</li>
+<li>
+<p>Tables that have frequent, large batch update jobs run can be indexed. However, the batch job&rsquo;s performance is slowed considerably by the index. The conflict can be corrected by dropping the index before the batch job, and then re-creating the index after the job has been completed.</p>
+</li>
+<li>
+<p>Indexes should not be used on columns that contain a high number of NULL values.</p>
+</li>
+<li>
+<p>Columns that are frequently manipulated should not be indexed. Maintenance on the index can become excessive.</p>
+</li>
+</ul>
+<hr>
+<p>For the longest time, what we do is search the table one by one sequentially (page by page).</p>
+<p>It&rsquo;s basically like a full table scan and if the key is also unique you have to scan the whole table anyway, which is very slow.</p>
+<p><strong>How to make it faster?</strong> How do we make searching one million stuff faster?</p>
+<p>Well,</p>
+<ul>
+<li>
+<p>Split the table in like n numbers and parallelly process the database in a distributed manner. (Complicated but one way of doing it)</p>
+</li>
+<li>
+<p>Partition the database based on chunk key sizes.</p>
+</li>
+<li>
+<p>Indexing</p>
+</li>
+</ul>
+<hr>
+<p><strong>How removing an index will affect the overall performance?</strong></p>
+<p>We have two options – either we can <strong>disable or drop the index.</strong></p>
+<p>Which is better?</p>
+<hr>
+<p><strong>Disabling an Index:</strong></p>
+<p>What happens when you do this?</p>
+<p>The metadata about the <strong>index is retained</strong>, as are the usage statistics. The index is not usable by the query optimizer, however.</p>
+<p>If you have an index hint in a query specifying the index, the query will fail. Also, foreign key constraints are disabled.</p>
+<p>I want it back!</p>
+<p>How to <strong>re-enable a disabled index</strong></p>
+<p>If you want to re-enable the index, you need to rebuild it – there is no INDEX…ENABLE command.</p>
+<hr>
+<p><strong>Dropping an Index:</strong></p>
+<p>To drop a clustered or non-clustered index, issue a DROP INDEX command.</p>
+<p>Once an index has been dropped, it can’t be rebuilt – it must be created again.</p>
+<p>Disabling Non-clustered Indexes</p>
+<p>vs.</p>
+<p>Disabling Clustered Indexes</p>
+<p>Disabling a Non-clustered index will deallocate the index pages – the space is freed in the database.</p>
+<p>Disabling a Clustered index has additional effects. The data in the table still exists but will be inaccessible for anything other than a drop or rebuild operation.</p>
+<hr>
+<p><strong>How do I know if I&rsquo;m using an Index:</strong></p>
+<p>Just add &ldquo;explain&rdquo; at the beginning of the query.</p>
+<hr>
+<p>Have you faced any issues with the indexes while using the database?</p>
+<p>or</p>
+<p>It has been an advantage to the database and still using it?</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>Copyright ©2021 | All rights reserved</p>
+      
+      
+      
+      
+    </section>
+  </footer>
+
+
+    </main>
+
+    
+      
+        
+        <script src="https://sidmulajkar.com/js/dark-mode.min.aee9c8a464eb7b3534c7110f7c5e169e7039e2fd92710e0626d451d6725af137.js" integrity="sha256-runIpGTrezU0xxEPfF4WnnA54v2ScQ4GJtRR1nJa8Tc="></script>
+      
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>
