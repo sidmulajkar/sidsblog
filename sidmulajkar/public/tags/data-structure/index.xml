@@ -6,7 +6,21 @@
     <description>Recent content in data-structure on &gt; sidmulajkar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 16 Nov 2021 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/tags/data-structure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Nov 2021 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/tags/data-structure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Message Queues! What are those and when to use them? </title>
+      <link>https://sidmulajkar.com/posts/message-queues/</link>
+      <pubDate>Fri, 26 Nov 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/posts/message-queues/</guid>
+      <description>Message queues &amp;hellip;📨 📨
+What are those and when to use them?
+The role of message queuing in a micro-service architecture.
+When is the right time to use a message queue and why is a database rarely the best tool for a queue-based problem?
+A blog on backend engineering&amp;hellip;
+ Imagine that you have a web application for customers to upload a text document, which then converts it into a PDF, and then emails it back to the customer.</description>
+    </item>
+    
     <item>
       <title>When Indexes are not Useable sometimes!</title>
       <link>https://sidmulajkar.com/posts/when-indexes-are-not-useable/</link>

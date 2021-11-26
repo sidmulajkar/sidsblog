@@ -3,27 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://sidmulajkar.com/</loc>
-    <lastmod>2021-11-16T17:26:04+05:30</lastmod>
+    <lastmod>2021-11-26T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/</loc>
+    <lastmod>2021-11-26T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/data-structure/</loc>
+    <lastmod>2021-11-26T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/data-structure/</loc>
+    <lastmod>2021-11-26T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/database/</loc>
+    <lastmod>2021-11-26T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/database/</loc>
+    <lastmod>2021-11-26T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/posts/message-queues/</loc>
+    <lastmod>2021-11-26T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/posts/</loc>
+    <lastmod>2021-11-26T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/queue/</loc>
+    <lastmod>2021-11-26T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/queue/</loc>
+    <lastmod>2021-11-26T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/sidsblog/</loc>
+    <lastmod>2021-11-26T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/sidsblog/</loc>
+    <lastmod>2021-11-26T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/</loc>
+    <lastmod>2021-11-26T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/tags/btrees/</loc>
     <lastmod>2021-11-16T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/btrees/</loc>
-    <lastmod>2021-11-16T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/categories/</loc>
-    <lastmod>2021-11-16T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/tags/data-structure/</loc>
-    <lastmod>2021-11-16T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/categories/data-structure/</loc>
-    <lastmod>2021-11-16T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/tags/database/</loc>
-    <lastmod>2021-11-16T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/categories/database/</loc>
     <lastmod>2021-11-16T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/index/</loc>
@@ -33,18 +54,6 @@
     <lastmod>2021-11-16T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/tags/indexing-types/</loc>
-    <lastmod>2021-11-16T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/posts/</loc>
-    <lastmod>2021-11-16T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/tags/sidsblog/</loc>
-    <lastmod>2021-11-16T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/categories/sidsblog/</loc>
-    <lastmod>2021-11-16T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/tags/</loc>
     <lastmod>2021-11-16T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/posts/when-indexes-are-not-useable/</loc>
