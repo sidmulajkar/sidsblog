@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="color-scheme" content="light dark">
+
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120510472-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-120510472-2');
+</script>
+ 
+    
+    
+      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline' https://www.google-analytics.com cse.google.com https://www.google.com https://pagead2.googlesyndication.com https://adservice.google.com https://www.googletagservices.com disqus.com disquscdn.com *.disqus.com *.disquscdn.com; prefetch-src 'self';">
+    
+
+    <meta name="author" content="Hi, I&#39;m Siddhant Mulajkar!">
+    <meta name="description" content="This tutorial will help you understand what factors to consider before the selecting the database.">
+    <meta name="keywords" content="blog,developer,personal,hacker,javascript blogs,react blogs,development blogs">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Databases! How do we know it&#39;s the right one? "/>
+<meta name="twitter:description" content="This tutorial will help you understand what factors to consider before the selecting the database."/>
+
+    <meta property="og:title" content="Databases! How do we know it&#39;s the right one? " />
+<meta property="og:description" content="This tutorial will help you understand what factors to consider before the selecting the database." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://sidmulajkar.com/posts/databases-how-do-we-know-its-the-right-one/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-12-23T17:26:04+05:30" />
+<meta property="article:modified_time" content="2021-12-23T17:26:04+05:30" />
+
+
+
+    <title>
+  Databases! How do we know it&#39;s the right one?  · &gt; sidmulajkar
+</title>
+
+    
+      <link rel="canonical" href="https://sidmulajkar.com/posts/databases-how-do-we-know-its-the-right-one/">
+    
+
+    
+    
+    <link rel="preload" href="https://sidmulajkar.com/fonts/forkawesome-webfont.woff2?v=1.1.7" as="font" type="font/woff2" integrity="sha256-hEIt6X6xzye8ubyk8/uxjz68cRZHsJxoKS9fQ8idUGQ=" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="https://sidmulajkar.com/css/coder.min.e2f6fb90ffc180bc98097d000f17e666c4c51278c72176942dd42fbb6cccdde1.css" integrity="sha256-4vb7kP/BgLyYCX0ADxfmZsTFEnjHIXaULdQvu2zM3eE=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="https://sidmulajkar.com/css/coder-dark.min.5d4a66b4da5625f547ad4a63f2dfc99ccd3f4f093e2adf653609d4d6a020c21f.css" integrity="sha256-XUpmtNpWJfVHrUpj8t/JnM0/Twk&#43;Kt9lNgnU1qAgwh8=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://sidmulajkar.com/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://sidmulajkar.com/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="https://sidmulajkar.com/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://sidmulajkar.com/images/apple-touch-icon.png">
+
+    
+
+    <meta name="generator" content="Hugo 0.84.4" />
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-auto"
+        onload=""
+  >
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+        <section class="container">
+          <a class="navigation-title" href="https://sidmulajkar.com/">
+            &gt; sidmulajkar
+            <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/sidmulajkar.com\/"
+        },
+        "articleSection" : "posts",
+        "name" : "Databases! How do we know it\u0027s the right one? ",
+        "headline" : "Databases! How do we know it\u0027s the right one? ",
+        "description" : "This tutorial will help you understand what factors to consider before the selecting the database.",
+        "inLanguage" : "en-US",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2021",
+        "datePublished": "2021-12-23 17:26:04 \u002b0530 IST",
+        "dateModified" : "2021-12-23 17:26:04 \u002b0530 IST",
+        "url" : "https:\/\/sidmulajkar.com\/posts\/databases-how-do-we-know-its-the-right-one\/",
+        "wordCount" : "1441",
+        "keywords" : [ "factors","vertical scaling","horizontal scaling","data-structure","database","sidsblog","Blog" ]
+    }
+</script>
+          </a>
+          
+            <input type="checkbox" id="menu-toggle" />
+            <label class="menu-button float-right" for="menu-toggle">
+              <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+            </label>
+            <ul class="navigation-list">
+              
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/about/">About</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/posts/">Blogs</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/projects/">Projects</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/services/">Services</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/course/">Course</a>
+                  </li>
+                
+              
+              
+            </ul>
+          
+        </section>
+</nav>
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://sidmulajkar.com/posts/databases-how-do-we-know-its-the-right-one/">
+              Databases! How do we know it&#39;s the right one? 
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2021-12-23T17:26:04&#43;05:30'>
+                December 23, 2021
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              7-minute read
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="https://sidmulajkar.com/categories/factors/">factors</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/vertical-scaling/">vertical scaling</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/horizontal-scaling/">horizontal scaling</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/data-structure/">data-structure</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/database/">database</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/sidsblog/">sidsblog</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <a href="https://sidmulajkar.com/tags/factors/">factors</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/vertical-scaling/">vertical scaling</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/horizontal-scaling/">horizontal scaling</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/data-structure/">data-structure</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/database/">database</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/sidsblog/">sidsblog</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <p>Choosing the Best Database</p>
+<p>Databases! How do you know it’s the right one?</p>
+<p><img src="https://sidmulajkar.com/images/factorsofdatabase/sqlvsnosql.png" alt="What to Select"></p>
+<hr>
+<p>Whether you are an experienced software engineer or a student doing a university project, at some point we will need to choose a DB for our project.</p>
+<p>Choosing the right kind of database always requires some consideration.</p>
+<p>First of all, databases will not impact our functional requirements.</p>
+<p>Whichever database we use can still achieve our functional requirements somehow, but at the cost of huge performance degradation.</p>
+<p>So when we say requirement, we usually mean non-functional requirements</p>
+<hr>
+<p><strong>Factors:</strong></p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">- Structure of the data
+- Query pattern
+- Amount or scale that we need to handle
+</code></pre></div><ul>
+<li>
+<p>How much data do we expect to store when the application is mature?</p>
+</li>
+<li>
+<p>How many users do we expect to handle simultaneously at peak load?</p>
+</li>
+<li>
+<p>What availability, scalability, latency, throughput, and data consistency does our application need?</p>
+</li>
+<li>
+<p>How often will our database schemas change?</p>
+</li>
+<li>
+<p>What is the geographic distribution of our user population?</p>
+</li>
+<li>
+<p>What is the natural “shape” of our data?</p>
+</li>
+<li>
+<p>Does our application need online transaction processing (OLTP), analytic queries (OLAP), or both?</p>
+</li>
+<li>
+<p>What ratio of reads to writes do we expect in production?</p>
+</li>
+<li>
+<p>What are our preferred programming languages?</p>
+</li>
+<li>
+<p>How strict are we with invalid data being sent to our database? (Ideally, we are very strict and do server-side data validation before persisting it to our database)</p>
+</li>
+</ul>
+<p>These are some of the factors we need to consider when selecting which database to use.</p>
+<p>A bonus reason for understanding the different DBs and their properties is that it’s quite a common question in job interviews!</p>
+<hr>
+<p>How to Choose the Right Type of Database?</p>
+<p>Given that there are so many different types of databases, choosing one can be confusing.</p>
+<p>Consider these factors that we should keep in mind when selecting a database management system:</p>
+<ol>
+<li>
+<p><strong>Atomicity</strong></p>
+<p>If atomicity is a top priority for us, then we need to stick to a relational database.</p>
+<p>Atomicity in database management promotes consistency in a database. It rests on the principle of atomic transactions.</p>
+</li>
+<li>
+<p><strong>Vertical or horizontal scaling</strong></p>
+<p>If the data strategy rests on vertical scaling, then a relational database is fine.</p>
+<p>Vertical scaling adds more computing power to a server instead of adding more servers to the system.</p>
+<p>It is preferred when there are a limited number of users and not a lot of querying involved. In that sense, vertical scaling might be suitable for business-facing startups.</p>
+<p>The basic advantages of vertical scaling are speed and simplicity.</p>
+</li>
+</ol>
+<p><strong>Horizontal scaling:</strong></p>
+<p>If we expect higher loads in the scale of users or querying, horizontal scaling is a much cheaper solution.</p>
+<p>NoSQL databases employ horizontal scaling. Instead of adding more compute power to a server, they distribute the load across servers.</p>
+<ol start="3">
+<li>
+<p><strong>Speed</strong></p>
+<p>If speed is more important than ACID compliance, a non-relational database, such as a document database, is a better bet.</p>
+<p>For instance, in the case of real-time data, such as sensor data, some compromise in data integrity can be tolerated in favor of speed.</p>
+<p>In a non-relational database, each record is an independent entity. Thus, it is possible to run multiple queries simultaneously irrespective of the size of the database.</p>
+</li>
+</ol>
+<hr>
+<p><strong>SQL-based vs NoSQL-based</strong></p>
+<p>Before diving into the most popular modern database options in the next post, it&rsquo;s important to understand the difference.</p>
+<p>We will see SQL vs NoSQL specific databases in upcoming posts.
+<a href="https://www.integrate.io/blog/which-database/">https://www.integrate.io/blog/which-database/</a></p>
+<p>When choosing a modern database, one of the biggest decisions is picking a relational (SQL) or non-relational (NoSQL) data structure. While both are viable options, there are key differences between the two that users must keep in mind when making a decision.</p>
+<p>Still, each year, NoSQL-based non-relational database management systems are becoming more popular—particularly because data scientists want to expose their machine learning business analytics tools to more unstructured data. Let&rsquo;s look at how these database styles differ.</p>
+<hr>
+<p><strong>Relational Database Management Systems (SQL-Based)</strong></p>
+<p>Relational database management systems (RDBMSs) use SQL, a database management language that offers a highly organized and structured approach to information management. Similar to the way a phone book has different categories of information (name, number, address, etc.) for each line of data, relational databases apply strict, categorical parameters that allow database users to easily organize, access, and maintain information within those parameters.</p>
+<p>The primary reasons why SQL-based RDBMSs continue to dominate are:</p>
+<p>(1) they are highly stable and reliable.</p>
+<p>(2) they adhere to a standard that integrates seamlessly with popular software stacks like LAMP.</p>
+<hr>
+<p>RDBMS advantages:</p>
+<ul>
+<li>
+<p>ACID compliance: If a database system is &ldquo;ACID compliant,&rdquo; it satisfies a set of priorities that measure the atomicity, consistency, isolation, and durability of database systems. The more ACID-compliant a database is, the more it serves to guarantee the validity of database transactions, reduce anomalies, safeguard data integrity, and create stable database systems. Generally, SQL-based RDBMSs achieve a high level of ACID compliance, but NoSQL databases give up this distinction to gain speed and flexibility when dealing with unstructured data.</p>
+</li>
+<li>
+<p>Ideal for consistent data systems: With a SQL-based RDBMS, our information will remain in the structure you originally create. If we don&rsquo;t need a dynamic information system for massive amounts of data—and we&rsquo;re not dealing with numerous data types — an RDBMS offers great speed and stability.</p>
+</li>
+<li>
+<p>Better support options: Because RDBMS databases have been around for over 40 years, it&rsquo;s easier to get support, add-on products, and integrate data from other systems.</p>
+</li>
+</ul>
+<p>RDBMS disadvantages:</p>
+<ul>
+<li>
+<p>Scalability challenges and difficulties with sharding: RDBMSs have a more difficult time scaling up in response to massive growth compared to NoSQL databases. These databases also present challenges when it comes to sharding. Sharding is the process of dividing a large database into smaller parts for easier management. If we&rsquo;re dealing with a conservative database that we don&rsquo;t expect to change a lot in the years ahead, the sharding and scaling challenges related to RDBMS solutions may never apply to us. On the other hand, if we plan to scale up and grow in the years ahead, a non-relational database system (NoSQL-based) could be a better match for our needs.</p>
+</li>
+<li>
+<p>Less efficient with NoSQL formats: Most RDBMSs are now compatible with NoSQL data formats, but they don&rsquo;t work with them as efficiently as non-relational databases.</p>
+</li>
+</ul>
+<hr>
+<p><strong>Non-Relational Database Systems (NoSQL-based)</strong></p>
+<p>Imagine a task of managing large amounts of unstructured data, such as text from emails and customer surveys, data collected by a network of mobile apps, or random social media information. The information is unorganized. There isn&rsquo;t a clearly-defined schema like you would find in an RDBMS. We can&rsquo;t store such information in an RDBMS. But we can store it with a non-relational (or NoSQL) database system.</p>
+<p>Non-relational databases let us organize information in a looser fashion—kind of like dropping the information in different file folders. This is important for two reasons:</p>
+<p>(1) we can store unstructured information and expose it to powerful business intelligence systems that will analyze it with AI algorithms.</p>
+<p>(2) we can store unstructured data that you plan to structure later.</p>
+<p>Non-relational databases also work with NoSQL formats like JSON, which has become essential for web-based applications that let websites update &ldquo;live&rdquo; without needing to refresh the page.</p>
+<hr>
+<p>Non-relational DBMS advantages:</p>
+<ul>
+<li>
+<p>Excellent for handling &ldquo;big data&rdquo; analytics: The main reason why NoSQL databases are becoming more popular is that they remove the bottleneck of needing to categorize and apply strict structures to massive amounts of information. NoSQL databases like HBase, Cassandra, and CouchDB support the speed and efficiency of server operations while offering the capacity to work with large amounts of data.</p>
+</li>
+<li>
+<p>No limits on types of data you can store: NoSQL databases give you unlimited freedom to store diverse types of data in the same place. This offers the flexibility to add new and different types of data to your database at any time.</p>
+</li>
+<li>
+<p>Easier to scale: NoSQL databases are easier to scale. They&rsquo;re designed to be fragmented across multiple data centers without much difficulty.</p>
+</li>
+<li>
+<p>No data preparation required: When there isn&rsquo;t time to design a complex model, and you need to get a database running fast, non-relational databases save a lot of time.</p>
+</li>
+</ul>
+<p>Non-relational DBMS disadvantages:</p>
+<ul>
+<li>
+<p>More difficult to find support: Because the NoSQL community doesn&rsquo;t have years of history and development behind it, it could be more difficult to find experienced users when you need to troubleshoot.</p>
+</li>
+<li>
+<p>Lack of tools: Since the system is relatively new compared to SQL-based RDBMS solutions, there aren&rsquo;t as many tools to assist with performance testing and analysis.</p>
+</li>
+<li>
+<p>Compatibility and standardization challenges: Newer NoSQL database systems also lack the high degree of compatibility and standardization offered by SQL-based alternatives. We may find that the data in our non-relational database management system doesn&rsquo;t readily integrate with other products and services.</p>
+</li>
+</ul>
+<hr>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>Copyright ©2021 | All rights reserved</p>
+      
+      
+      
+      
+    </section>
+  </footer>
+
+
+    </main>
+
+    
+      
+        
+        <script src="https://sidmulajkar.com/js/dark-mode.min.aee9c8a464eb7b3534c7110f7c5e169e7039e2fd92710e0626d451d6725af137.js" integrity="sha256-runIpGTrezU0xxEPfF4WnnA54v2ScQ4GJtRR1nJa8Tc="></script>
+      
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>
