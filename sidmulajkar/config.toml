@@ -153,7 +153,7 @@ weight = 4
 url = "services/"
 
 [[languages.en.menu.main]]
-name = "Course"
+name = "Mini-Courses"
 weight = 5
 url = "course/"
 

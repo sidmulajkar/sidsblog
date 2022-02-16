@@ -11,9 +11,11 @@ Ever since I saw the computer at my friend's house, computers have been my passi
 
 **Founder** of Tech Sid Solutions, helped new aspiring entrepreneurs make a digital presence marking their first footprint. 
 
-**Consultant** for **Startups**, and have helped to launch new mini-products, **Brand building**, Retention Marketing.
+**Consultant** for **Startups**, and have helped to launch new mini-products, **Brand building**.
 
-**Currently Working on Technologies**: **Devops**, React, SwiftUI, Node, Python, Machine Learning, Flutter(Beginner)
+**Currently Working on Technologies**: **c++**, React, Python, Machine Learning, SwiftUI, Node(Beginner), Flutter(Beginner)
+
+Part-time **"Video Editor"** which makes me happy to find myself as a person.
 
 Highly Interested in **Blockchain Technology** and recently started exploring Ethereum Dapps Development.
 
@@ -24,4 +26,4 @@ There's unequivocally yet more to learn, more problems to solve, and more to bui
 
 Contact me at hi@sidmulajkar.com 
 
-[If interested do check out my Resume by clicking this 👈](https://drive.google.com/file/d/1F6SFkBHRZRvIBwwsmX7Nz5cv84HYiNzp/view?usp=sharing)
+[If interested do check out my Resume by clicking this 👈](https://drive.google.com/file/d/1Av5yOEN-NeSn7wx-nstQcj3olK_EKeDa/view?usp=sharing)

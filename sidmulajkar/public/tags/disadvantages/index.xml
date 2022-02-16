@@ -13,7 +13,7 @@
       <pubDate>Sun, 17 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/database-sharding-architectures/</guid>
-      <description>Once you’ve decided to shard your database, the next thing you need to figure out is how you’ll go about doing so.Your application suddenly becomes popular. Traffic and data are starting to grow, and your database gets more overloaded every day.
+      <description>Once you’ve decided to shard your database, the next thing you need to figure out is how you’ll go about doing so.    Your application suddenly becomes popular. Traffic and data are starting to grow, and your database gets more overloaded every day.
 People on the internet tell you to scale your database by sharding, but you don’t know what it means.
  If you haven&amp;rsquo;t read the last blog post and want to know more about Database Sharding check the previous blog &amp;gt; What is Database Sharding</description>
     </item>
@@ -24,7 +24,7 @@ People on the internet tell you to scale your database by sharding, but you don�
       <pubDate>Thu, 14 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/what-is-database-sharding/</guid>
-      <description>Database ShardingHow often do you shard your database?
+      <description>Database Sharding    How often do you shard your database?
 Do you prematurely shard?
 Do you actually need that for your database?🤔
   Your application is growing. It has more active users, more features, and generates more data every day.
