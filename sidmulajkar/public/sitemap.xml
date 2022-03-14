@@ -3,10 +3,73 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://sidmulajkar.com/</loc>
-    <lastmod>2021-12-23T17:26:04+05:30</lastmod>
+    <lastmod>2022-03-13T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/</loc>
-    <lastmod>2021-12-23T17:26:04+05:30</lastmod>
+    <lastmod>2022-03-13T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/concurrency-control/</loc>
+    <lastmod>2022-03-13T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/concurrency-control/</loc>
+    <lastmod>2022-03-13T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/database/</loc>
+    <lastmod>2022-03-13T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/database/</loc>
+    <lastmod>2022-03-13T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/double-booking-problem/</loc>
+    <lastmod>2022-03-13T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/double-booking-problem/</loc>
+    <lastmod>2022-03-13T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/factors/</loc>
+    <lastmod>2022-03-13T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/factors/</loc>
+    <lastmod>2022-03-13T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/posts/how-to-handle-double-booking-problem-using-db/</loc>
+    <lastmod>2022-03-13T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/lock-mechanism/</loc>
+    <lastmod>2022-03-13T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/lock-mechanism/</loc>
+    <lastmod>2022-03-13T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/optimistic-approach/</loc>
+    <lastmod>2022-03-13T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/optimistic-approach/</loc>
+    <lastmod>2022-03-13T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/pessimistic-approach/</loc>
+    <lastmod>2022-03-13T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/pessimistic-approach/</loc>
+    <lastmod>2022-03-13T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/posts/</loc>
+    <lastmod>2022-03-13T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/sidsblog/</loc>
+    <lastmod>2022-03-13T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/sidsblog/</loc>
+    <lastmod>2022-03-13T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/</loc>
+    <lastmod>2022-03-13T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/time-stamping/</loc>
+    <lastmod>2022-03-13T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/time-stamping/</loc>
+    <lastmod>2022-03-13T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/tags/data-structure/</loc>
     <lastmod>2021-12-23T17:26:04+05:30</lastmod>
@@ -14,37 +77,13 @@
     <loc>https://sidmulajkar.com/categories/data-structure/</loc>
     <lastmod>2021-12-23T17:26:04+05:30</lastmod>
   </url><url>
-    <loc>https://sidmulajkar.com/tags/database/</loc>
-    <lastmod>2021-12-23T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/categories/database/</loc>
-    <lastmod>2021-12-23T17:26:04+05:30</lastmod>
-  </url><url>
     <loc>https://sidmulajkar.com/posts/databases-how-do-we-know-its-the-right-one/</loc>
-    <lastmod>2021-12-23T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/tags/factors/</loc>
-    <lastmod>2021-12-23T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/categories/factors/</loc>
     <lastmod>2021-12-23T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/tags/horizontal-scaling/</loc>
     <lastmod>2021-12-23T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/horizontal-scaling/</loc>
-    <lastmod>2021-12-23T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/posts/</loc>
-    <lastmod>2021-12-23T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/tags/sidsblog/</loc>
-    <lastmod>2021-12-23T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/categories/sidsblog/</loc>
-    <lastmod>2021-12-23T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/tags/</loc>
     <lastmod>2021-12-23T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/tags/vertical-scaling/</loc>

@@ -6,7 +6,88 @@
     <description>Recent content in Categories on &gt; sidmulajkar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Dec 2021 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Mar 2022 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>concurrency control</title>
+      <link>https://sidmulajkar.com/categories/concurrency-control/</link>
+      <pubDate>Sun, 13 Mar 2022 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/concurrency-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>database</title>
+      <link>https://sidmulajkar.com/categories/database/</link>
+      <pubDate>Sun, 13 Mar 2022 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>double-booking problem</title>
+      <link>https://sidmulajkar.com/categories/double-booking-problem/</link>
+      <pubDate>Sun, 13 Mar 2022 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/double-booking-problem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>factors</title>
+      <link>https://sidmulajkar.com/categories/factors/</link>
+      <pubDate>Sun, 13 Mar 2022 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/factors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lock mechanism</title>
+      <link>https://sidmulajkar.com/categories/lock-mechanism/</link>
+      <pubDate>Sun, 13 Mar 2022 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/lock-mechanism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>optimistic approach</title>
+      <link>https://sidmulajkar.com/categories/optimistic-approach/</link>
+      <pubDate>Sun, 13 Mar 2022 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/optimistic-approach/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pessimistic approach</title>
+      <link>https://sidmulajkar.com/categories/pessimistic-approach/</link>
+      <pubDate>Sun, 13 Mar 2022 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/pessimistic-approach/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sidsblog</title>
+      <link>https://sidmulajkar.com/categories/sidsblog/</link>
+      <pubDate>Sun, 13 Mar 2022 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/sidsblog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>time stamping</title>
+      <link>https://sidmulajkar.com/categories/time-stamping/</link>
+      <pubDate>Sun, 13 Mar 2022 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/time-stamping/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>data-structure</title>
       <link>https://sidmulajkar.com/categories/data-structure/</link>
@@ -17,38 +98,11 @@
     </item>
     
     <item>
-      <title>database</title>
-      <link>https://sidmulajkar.com/categories/database/</link>
-      <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
-      
-      <guid>https://sidmulajkar.com/categories/database/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>factors</title>
-      <link>https://sidmulajkar.com/categories/factors/</link>
-      <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
-      
-      <guid>https://sidmulajkar.com/categories/factors/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>horizontal scaling</title>
       <link>https://sidmulajkar.com/categories/horizontal-scaling/</link>
       <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/categories/horizontal-scaling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>sidsblog</title>
-      <link>https://sidmulajkar.com/categories/sidsblog/</link>
-      <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
-      
-      <guid>https://sidmulajkar.com/categories/sidsblog/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="color-scheme" content="light dark">
+
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120510472-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-120510472-2');
+</script>
+ 
+    
+    
+      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline' https://www.google-analytics.com cse.google.com https://www.google.com https://pagead2.googlesyndication.com https://adservice.google.com https://www.googletagservices.com disqus.com disquscdn.com *.disqus.com *.disquscdn.com; prefetch-src 'self';">
+    
+
+    <meta name="author" content="Hi, I&#39;m Siddhant Mulajkar!">
+    <meta name="description" content="In this blog, I just want to purely talk from the perspective of handling a situation like this, just considering the database itself.">
+    <meta name="keywords" content="blog,developer,personal,hacker,javascript blogs,react blogs,development blogs">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="How to Handle the Double booking problem in an app or website just using the database? "/>
+<meta name="twitter:description" content="In this blog, I just want to purely talk from the perspective of handling a situation like this, just considering the database itself."/>
+
+    <meta property="og:title" content="How to Handle the Double booking problem in an app or website just using the database? " />
+<meta property="og:description" content="In this blog, I just want to purely talk from the perspective of handling a situation like this, just considering the database itself." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://sidmulajkar.com/posts/how-to-handle-double-booking-problem-using-db/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-03-13T17:26:04+05:30" />
+<meta property="article:modified_time" content="2022-03-13T17:26:04+05:30" />
+
+
+
+    <title>
+  How to Handle the Double booking problem in an app or website just using the database?  · &gt; sidmulajkar
+</title>
+
+    
+      <link rel="canonical" href="https://sidmulajkar.com/posts/how-to-handle-double-booking-problem-using-db/">
+    
+
+    
+    
+    <link rel="preload" href="https://sidmulajkar.com/fonts/forkawesome-webfont.woff2?v=1.1.7" as="font" type="font/woff2" integrity="sha256-hEIt6X6xzye8ubyk8/uxjz68cRZHsJxoKS9fQ8idUGQ=" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="https://sidmulajkar.com/css/coder.min.24a09f76f51018352bc5ee1b99abd3e58a3f339bf62fe9ed22badd4af74691f8.css" integrity="sha256-JKCfdvUQGDUrxe4bmavT5Yo/M5v2L&#43;ntIrrdSvdGkfg=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="https://sidmulajkar.com/css/coder-dark.min.5d4a66b4da5625f547ad4a63f2dfc99ccd3f4f093e2adf653609d4d6a020c21f.css" integrity="sha256-XUpmtNpWJfVHrUpj8t/JnM0/Twk&#43;Kt9lNgnU1qAgwh8=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://sidmulajkar.com/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://sidmulajkar.com/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="https://sidmulajkar.com/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://sidmulajkar.com/images/apple-touch-icon.png">
+
+    
+
+    <meta name="generator" content="Hugo 0.89.4" />
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-auto"
+        onload=""
+  >
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+        <section class="container">
+          <a class="navigation-title" href="https://sidmulajkar.com/">
+            &gt; sidmulajkar
+            <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/sidmulajkar.com\/"
+        },
+        "articleSection" : "posts",
+        "name" : "How to Handle the Double booking problem in an app or website just using the database? ",
+        "headline" : "How to Handle the Double booking problem in an app or website just using the database? ",
+        "description" : "In this blog, I just want to purely talk from the perspective of handling a situation like this, just considering the database itself.",
+        "inLanguage" : "en-US",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2022",
+        "datePublished": "2022-03-13 17:26:04 \u002b0530 IST",
+        "dateModified" : "2022-03-13 17:26:04 \u002b0530 IST",
+        "url" : "https:\/\/sidmulajkar.com\/posts\/how-to-handle-double-booking-problem-using-db\/",
+        "wordCount" : "1312",
+        "keywords" : [ "factors","double-booking problem","concurrency control","lock mechanism","time stamping","pessimistic approach","optimistic approach","database","sidsblog","Blog" ]
+    }
+</script>
+          </a>
+          
+            <input type="checkbox" id="menu-toggle" />
+            <label class="menu-button float-right" for="menu-toggle">
+              <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+            </label>
+            <ul class="navigation-list">
+              
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/about/">About</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/posts/">Blogs</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/projects/">Projects</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/services/">Services</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/course/">Mini-Courses</a>
+                  </li>
+                
+              
+              
+            </ul>
+          
+        </section>
+</nav>
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://sidmulajkar.com/posts/how-to-handle-double-booking-problem-using-db/">
+              How to Handle the Double booking problem in an app or website just using the database? 
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2022-03-13T17:26:04&#43;05:30'>
+                March 13, 2022
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              7-minute read
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="https://sidmulajkar.com/categories/factors/">factors</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/double-booking-problem/">double-booking problem</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/concurrency-control/">concurrency control</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/lock-mechanism/">lock mechanism</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/time-stamping/">time stamping</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/pessimistic-approach/">pessimistic approach</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/optimistic-approach/">optimistic approach</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/database/">database</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/sidsblog/">sidsblog</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <a href="https://sidmulajkar.com/tags/factors/">factors</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/double-booking-problem/">double-booking problem</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/concurrency-control/">concurrency control</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/lock-mechanism/">lock mechanism</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/time-stamping/">time stamping</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/pessimistic-approach/">pessimistic approach</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/optimistic-approach/">optimistic approach</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/database/">database</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/sidsblog/">sidsblog</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <p>How to Handle the Double booking problem in an app or website just using the database?</p>
+<p><strong>Well the Answer is :</strong></p>
+<p>It totally depends, on what use, we are using the concurrency model for using the specific database to avoid this problem.</p>
+<hr>
+<h4 id="firstly-what-the-heck-is-double-booking-problem">
+  Firstly, what the heck is double booking problem?
+  <a class="heading-link" href="#firstly-what-the-heck-is-double-booking-problem">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h4>
+<p>An online movie ticket booking system provides its customers with the ability to book movie tickets online. BookMyShow as an example allows the customers to browse movies currently being running in a city and to book seats, anywhere anytime for a show. <strong>What if two or more people book the ticket for a specific seat of the specific movie for the same movie theatre.</strong></p>
+<p>or</p>
+<p>Simply a train booking system/app which allows travelers to book tickets of the trains anywhere anytime for travel. What if &hellip;</p>
+<p><strong>Two passengers are allotted the same berth of the same train</strong> for the same travel date.</p>
+<p><img src="https://sidmulajkar.com/images/doublebookingdb/doublebook1.png" alt="Double Booking"></p>
+<hr>
+<p><strong>Now how do we handle this situation as a database/backend engineer?</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go">I am not talking about designing a similar system like this.
+</code></pre></div><p>In this blog, I want to purely talk from the perspective of handling a situation like this, <strong>just considering the database itself.</strong></p>
+<hr>
+<p>Before getting into the details of the problem we need to first understand the concepts of</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">- Concurrency Control
+- Lock Mechanisms &amp;
+- Time Stamping
+</code></pre></div><h3 id="concurrency-control">
+  <strong>Concurrency Control</strong>
+  <a class="heading-link" href="#concurrency-control">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>It is a procedure in DBMS which helps us for the management of two simultaneous processes to execute without conflicts between each other, these conflicts occur in multi-user systems.</p>
+<p>Concurrency can simply be said to be executing multiple transactions at a time. It is required to increase time efficiency. If many transactions try to access the same data, then inconsistency arises. Concurrency control is required to maintain consistent data.</p>
+<p><strong>The simultaneous execution of transactions over shared databases can create several data integrity and consistency problems.</strong></p>
+<p>These protocols are categorized as:</p>
+<ul>
+<li>Lock Based Concurrency Control Protocol</li>
+<li>Time Stamp Concurrency Control Protocol</li>
+<li>Validation Based Concurrency Control Protocol</li>
+</ul>
+<h3 id="locking">
+  <strong>Locking</strong>
+  <a class="heading-link" href="#locking">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Lock guarantees exclusive use of data items to a current transaction. It first accesses the data items by acquiring a lock, after completion of the transaction it releases the lock.</p>
+<p>Types of Locks</p>
+<p>The types of locks are as follows −</p>
+<ul>
+<li>Shared Lock [Transaction can read only the data item values]</li>
+<li>Exclusive Lock [Used for both read and write data item values]</li>
+</ul>
+<h3 id="time-stamping">
+  <strong>Time Stamping</strong>
+  <a class="heading-link" href="#time-stamping">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>The timestamp is a unique identifier created by DBMS that indicates the relative starting time of a transaction. Whatever transaction we are doing is stored from starting time of the transaction and denotes a specific time.</p>
+<p>This can be generated using a system clock or logical counter. This can be started whenever a transaction is started. Here, the logical counter is incremented after a new timestamp has been assigned.</p>
+<hr>
+<h3 id="for-simpler-understanding">
+  For simpler understanding,
+  <a class="heading-link" href="#for-simpler-understanding">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>There are two approaches to this situation for maintaining the concurrency</p>
+<ol>
+<li>
+<p>Pessimistic Concurrency Control -</p>
+<p>Let’s say it’s cloudy outside and might probably rain, so I decided to take the umbrella with me today whether it rains or not.</p>
+</li>
+<li>
+<p>Optimistic Concurrency Control -</p>
+<p>Let’s say it’s cloudy outside and might probably rain, but I decide to not take the umbrella with me, and let’s see when it rains at that moment.</p>
+<p>(referenced from hussain nasser {Backend Engineering with HN})</p>
+</li>
+</ol>
+<h4 id="lets-say-in">
+  Lets say in
+  <a class="heading-link" href="#lets-say-in">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h4>
+<ol>
+<li>
+<p>Pessimistic Concurrency Control -</p>
+<p>Users want to write the data at the same time then it will access the write permission to the single user based on some queue preference and create an <strong>exclusive lock</strong> for it to avoid the other users to access and update the data {based on the values changed}.</p>
+<p><strong>This can create congestions for the operations required to be executed by the DB and making wait other transactions is similar to making people wait which would not create the best user experience for the users</strong>, but the exclusive lock will make sure that the data present in the database, when read by other users, will be up to date.</p>
+<p>The locks are generally present for some milliseconds if the transaction is successful, or some minutes if no transaction is done, essential kept active for some period of time for specific user. If transaction is successful, it won’t make other transactions wait for access, but for more real-time user experience it is not that good compared to the optimistic one but <strong>more reliable for sure.</strong></p>
+</li>
+<li>
+<p>Optimistic Concurrency Control -</p>
+<p>It is based on the assumption that conflict is rare and it is more efficient to allow transactions to proceed without imposing delays to ensure serializability.</p>
+<p>The users want to write the data at the same time then they will be given the access permission to write (for multiple users) based on some access preference and update the data {on the value changed based on transactions}.</p>
+<p><strong>If both the users update the data at the same time then it will be just garbage data which will be of no use, as this type of concurrency control is not having any concepts of locks in it.</strong></p>
+</li>
+</ol>
+<hr>
+<p>But here the main implementation is done using the concept called <strong>time to check to time to use (using the timestamp and validation based control protocols):</strong></p>
+<hr>
+<p>Let’s explain this in more detail here, <strong>if the users are granted to read the data at the same time then before transacting or updating the data from users we need to check for update, if it is updated then we need to abort the transaction or simply update the current change and show not available.</strong></p>
+<hr>
+<h3 id="problems-with-the-pessimistic-approach">
+  Problems with the Pessimistic Approach:
+  <a class="heading-link" href="#problems-with-the-pessimistic-approach">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Double booking at the same time can create some race conditions for this situation so we can probably use 2-phase locking or strict 2-phase, 3 phase-locking mechanisms to ensure that the consistency is maintained. (pessimistic approach)</p>
+<p>but locking is expensive to keep the table in the memory while updating the table using the lock.</p>
+<p><strong>Multiple locks can be used like row level, table level, etc and most databases don’t allow row-level locking because if one transaction updates the whole rows, and other thousands of columns in the table then keeping them in memory is not efficient and cost-effective.</strong></p>
+<p>Link to read more on Locks: <a href="https://www.javatpoint.com/dbms-lock-based-protocol">https://www.javatpoint.com/dbms-lock-based-protocol</a></p>
+<p><a href="https://www.tutorialspoint.com/distributed_dbms/distributed_dbms_commit_protocols.htm">https://www.tutorialspoint.com/distributed_dbms/distributed_dbms_commit_protocols.htm</a></p>
+<hr>
+<h3 id="problems-with-the-optimistic-approach">
+  Problems with the Optimistic Approach:
+  <a class="heading-link" href="#problems-with-the-optimistic-approach">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>The problems which arises while using concurrency are as follows −</p>
+<ul>
+<li>
+<p><strong>Updates will be lost</strong> − One transaction does some change and another transaction deletes that change. One transaction nullifies the updates of another transaction.</p>
+<p><img src="https://sidmulajkar.com/images/doublebookingdb/updatelost.png" alt="Update Lost"></p>
+<p>Two transactions T1 and T2 read, modify, write to the same data item in an interleaved fashion for which an incorrect value is stored in x. T2 reads the value of X before T1 changes, hence the updated value resulting from T1 is lost or the final value of x is 15, which is incorrect.</p>
+</li>
+<li>
+<p><strong>Uncommitted Dependency or dirty read problem</strong> − As the variable has updated in one transaction, at the same time another transaction has started and deleted the value of the variable there, the variable is not getting updated or committed that has been done on the first transaction this gives us false values or the previous values of the variables, this is a major problem.</p>
+<p><img src="https://sidmulajkar.com/images/doublebookingdb/dirtyread.png" alt="Dirty Read"></p>
+<p>T2 reads the updated value of X made by T1, but T1 fails and rolls back. So, T2 reads an incorrect value of X.</p>
+</li>
+<li>
+<p><strong>Inconsistent retrievals</strong>− One transaction is updating multiple different variables, another transaction is in the process to update those variables, and the problem that occurs is the inconsistency of the same variable in different instances.</p>
+<p><img src="https://sidmulajkar.com/images/doublebookingdb/incosistentretrival.png" alt="Inconstient Retrievals"> <br>
+T1 consists of two parts – subtract 5 from X and add 5 to Y.
+In T2, the value of X is updated but the value of Y is not updated. The sum variable stores an incorrect value.</p>
+<p>Ref Link:  <a href="https://www.tutorialspoint.com/explain-the-main-problems-in-concurrency-control-dbms">https://www.tutorialspoint.com/explain-the-main-problems-in-concurrency-control-dbms</a></p>
+</li>
+</ul>
+<hr>
+<p><strong>Well the Answer is :</strong></p>
+<p>It totally depends, on what use, we are using the concurrency model for using the specific database to avoid this problem.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>Copyright ©2021 | All rights reserved</p>
+      
+      
+      
+      
+    </section>
+  </footer>
+
+
+    </main>
+
+    
+      
+        
+        <script src="https://sidmulajkar.com/js/dark-mode.min.aee9c8a464eb7b3534c7110f7c5e169e7039e2fd92710e0626d451d6725af137.js" integrity="sha256-runIpGTrezU0xxEPfF4WnnA54v2ScQ4GJtRR1nJa8Tc="></script>
+      
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

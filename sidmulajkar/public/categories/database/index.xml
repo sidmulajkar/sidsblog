@@ -6,7 +6,19 @@
     <description>Recent content in database on &gt; sidmulajkar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Dec 2021 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/categories/database/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Mar 2022 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/categories/database/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Handle the Double booking problem in an app or website just using the database? </title>
+      <link>https://sidmulajkar.com/posts/how-to-handle-double-booking-problem-using-db/</link>
+      <pubDate>Sun, 13 Mar 2022 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/posts/how-to-handle-double-booking-problem-using-db/</guid>
+      <description>How to Handle the Double booking problem in an app or website just using the database?
+Well the Answer is :
+It totally depends, on what use, we are using the concurrency model for using the specific database to avoid this problem.
+ Firstly, what the heck is double booking problem?    An online movie ticket booking system provides its customers with the ability to book movie tickets online.</description>
+    </item>
+    
     <item>
       <title>Databases! How do we know it&#39;s the right one? </title>
       <link>https://sidmulajkar.com/posts/databases-how-do-we-know-its-the-right-one/</link>
