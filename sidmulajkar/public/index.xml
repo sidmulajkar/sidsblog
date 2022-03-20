@@ -6,18 +6,18 @@
     <description>Recent content on &gt; sidmulajkar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 13 Mar 2022 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Mar 2022 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>How to Handle the Double booking problem in an app or website just using the database? </title>
       <link>https://sidmulajkar.com/posts/how-to-handle-double-booking-problem-using-db/</link>
-      <pubDate>Sun, 13 Mar 2022 17:26:04 +0530</pubDate>
+      <pubDate>Sat, 19 Mar 2022 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/how-to-handle-double-booking-problem-using-db/</guid>
       <description>It totally depends, on what use, we are using the concurrency model for using the specific database to avoid this problem.</description>
     </item>
-    
+
     <item>
-      <item>
       <title>Databases! How do we know it&#39;s the right one? </title>
       <link>https://sidmulajkar.com/posts/databases-how-do-we-know-its-the-right-one/</link>
       <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
@@ -170,7 +170,8 @@ What is a Pi-hole?    Network-wide ad blocking via your own Linux hardware. The 
       <pubDate>Thu, 25 Feb 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/best-hosting-provider-2021/</guid>
-      <description>At first glance, A2 Hosting might seem like nothing more than another hosting platform that sings high praises then falls flat on the delivery. The features almost seem too good to be true. Everyone claims to be faster than the competitors, but twenty times so? Can A2 Hosting live up to its promises? Let’s take a look. Speed Tests Don’t Lie.. When this company says it’s 20x faster than its competitors, it’s not just exaggerating to make an eye-catching headline.</description>
+      <description>At first glance, A2 Hosting might seem like nothing more than another hosting platform that sings high praises then falls flat on the delivery. The features almost seem too good to be true. Everyone claims to be faster than the competitors, but twenty times so? Can A2 Hosting live up to its promises? Let’s take a look.
+Speed Tests Don’t Lie.. When this company says it’s 20x faster than its competitors, it’s not just exaggerating to make an eye-catching headline.</description>
     </item>
     
   </channel>

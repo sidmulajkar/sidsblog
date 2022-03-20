@@ -17,11 +17,11 @@ What are those? Ever used those while searching through the dataset.
 
 To understand stuff more clearly let's take a scenario:
 
-Like you have a table, a huge table(millions of rows to go through), and you want to search to a particular numbered row by some id mentioned "100035" and not only pulling a row but getting most out of the pulled row.
+Like we have a table, a huge table(millions of rows to go through), and we want to search to a particular numbered row by some id mentioned "100035" and not only pulling a row but getting most out of the pulled row.
 
 For the longest time, what we do is search the table one by one sequentially (page by page).
 
-It's basically like a full table scan and if the key is also unique you have to scan the whole table anyway, which is very slow.
+It's basically like a full table scan and if the key is also **not unique** we have to scan the whole table anyway, **which is very slow.**
 
 How to **make it faster**? How do we make searching one million stuff faster?
 
@@ -33,11 +33,15 @@ Well,
 
 - Indexing
 
---------------------------------------------------------------------------
+---
 
-We always reduced the search space. That's it!
+**We always reduced the search space. That's it!**
 
-So how do we use these trees and are they really useful? 
+So how do we use these trees and are they really useful? Best video to understand the concept by Abdul Bari
+
+[![B Trees](/images/btrees/btree3.jpeg)](https://www.youtube.com/watch?v=aZjYr87r1b8 "B Trees")
+
+---
 
 Before going in-depth let's understand what **B Tree** is.
 
@@ -100,7 +104,10 @@ A B+ tree is an advanced form of a self-balancing tree in which all the values a
 
 ![B+ Tree Sample](/images/btrees/bplus.png)
 
-A B+ tree is an extension of a B tree which makes the search, insert and delete operations more efficient. We know that B trees allow both the data pointers and the key values in internal nodes as well as leaf nodes, this certainly becomes a drawback for B trees as the ability to insert the nodes at a particular level is decreased thus increase the node levels in it, which is certainly of no good. B+ trees reduce this drawback by simply **storing the data pointers at the leaf node level** and only storing the key values in the internal nodes. It should also be noted that the nodes at the leaf level are linked with each other, hence making the traversal of the data pointers easy and more efficient.
+A B+ tree is an extension of a B tree which makes the search, insert and delete operations more efficient. We know that B trees allow both the data pointers and the key values in internal nodes as well as leaf nodes, this certainly becomes a drawback for B trees as the ability to insert the nodes at a particular level is decreased thus increase the node levels in it, which is certainly of no good. 
+
+
+B+ trees reduce this drawback by simply **storing the data pointers at the leaf node level** and only storing the key values in the internal nodes. It should also be noted that the nodes at the leaf level are linked with each other, hence making the traversal of the data pointers easy and more efficient.
 
 B+ trees come in handy when we want to store a **large amount of data** in the main memory. Since we know that the size of the main memory is not that large, so make use of the B+ trees, whose internal nodes that store the key(to access the records) are stored in the main memory whereas, the leaf nodes that contain the data pointers are actually stored in the secondary memory
 
@@ -128,15 +135,13 @@ https://www.cs.usfca.edu/~galles/visualization/BPlusTree.html
 
 **Yeah, these are the concepts of B and B+ Trees.**
 
---------------------------------------------------------------------------
+---
 
-Almost, B trees are never used in the databases these days except some like MongoDB, 
-
-but have some value due to the simplicity and definitely have additional cost compared to the B+ tree.
+Almost, B trees are rarely used in the databases these days except some like MongoDB, **but have some value due to the simplicity and definitely have additional cost compared to the B+ tree.**
 
 
 **We can use the B tree only when we want to search 1 value at a time and not multiples.**
 
 But it's always **hard to fit** a B tree in memory fully compared to the B+ tree.
 
---------------------------------------------------------------------------
+---

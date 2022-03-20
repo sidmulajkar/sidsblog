@@ -34,10 +34,9 @@
     <meta property="og:title" content="B/B&#43; Trees How they are helpful in Database?" />
 <meta property="og:description" content="This tutorial will clear all your doubts regarding the B/B&#43; Trees and do you actually need it" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://sidmulajkar.com/posts/b-bplus-trees/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://sidmulajkar.com/posts/b-bplus-trees/" />
 <meta property="article:published_time" content="2021-10-25T17:26:04+05:30" />
 <meta property="article:modified_time" content="2021-10-25T17:26:04+05:30" />
-
 
 
     <title>
@@ -80,7 +79,7 @@
 
     
 
-    <meta name="generator" content="Hugo 0.89.4" />
+    <meta name="generator" content="Hugo 0.80.0" />
   </head>
 
   
@@ -125,7 +124,7 @@
         "datePublished": "2021-10-25 17:26:04 \u002b0530 IST",
         "dateModified" : "2021-10-25 17:26:04 \u002b0530 IST",
         "url" : "https:\/\/sidmulajkar.com\/posts\/b-bplus-trees\/",
-        "wordCount" : "888",
+        "wordCount" : "898",
         "keywords" : [ "btrees","bplus-trees","trees","data-structure","database","sidsblog","Blog" ]
     }
 </script>
@@ -228,9 +227,9 @@
 <p><strong>How they are useful in databases?</strong></p>
 <hr>
 <p>To understand stuff more clearly let&rsquo;s take a scenario:</p>
-<p>Like you have a table, a huge table(millions of rows to go through), and you want to search to a particular numbered row by some id mentioned &ldquo;100035&rdquo; and not only pulling a row but getting most out of the pulled row.</p>
+<p>Like we have a table, a huge table(millions of rows to go through), and we want to search to a particular numbered row by some id mentioned &ldquo;100035&rdquo; and not only pulling a row but getting most out of the pulled row.</p>
 <p>For the longest time, what we do is search the table one by one sequentially (page by page).</p>
-<p>It&rsquo;s basically like a full table scan and if the key is also unique you have to scan the whole table anyway, which is very slow.</p>
+<p>It&rsquo;s basically like a full table scan and if the key is also <strong>not unique</strong> we have to scan the whole table anyway, <strong>which is very slow.</strong></p>
 <p>How to <strong>make it faster</strong>? How do we make searching one million stuff faster?</p>
 <p>Well,</p>
 <ul>
@@ -245,8 +244,10 @@
 </li>
 </ul>
 <hr>
-<p>We always reduced the search space. That&rsquo;s it!</p>
-<p>So how do we use these trees and are they really useful?</p>
+<p><strong>We always reduced the search space. That&rsquo;s it!</strong></p>
+<p>So how do we use these trees and are they really useful? Best video to understand the concept by Abdul Bari</p>
+<p><a href="https://www.youtube.com/watch?v=aZjYr87r1b8" title="B Trees"><img src="https://sidmulajkar.com/images/btrees/btree3.jpeg" alt="B Trees"></a></p>
+<hr>
 <p>Before going in-depth let&rsquo;s understand what <strong>B Tree</strong> is.</p>
 <p><img src="https://sidmulajkar.com/images/btrees/btree.jpeg" alt="B Tree"></p>
 <p>B-tree is a special type of self-balancing search tree in which each node can contain more than one key and can have more than two children. It is a generalized form of the binary search tree.</p>
@@ -291,7 +292,8 @@
 <p><strong>B+ Tree:</strong></p>
 <p>A B+ tree is an advanced form of a self-balancing tree in which all the values are present at the leaf level.</p>
 <p><img src="https://sidmulajkar.com/images/btrees/bplus.png" alt="B+ Tree Sample"></p>
-<p>A B+ tree is an extension of a B tree which makes the search, insert and delete operations more efficient. We know that B trees allow both the data pointers and the key values in internal nodes as well as leaf nodes, this certainly becomes a drawback for B trees as the ability to insert the nodes at a particular level is decreased thus increase the node levels in it, which is certainly of no good. B+ trees reduce this drawback by simply <strong>storing the data pointers at the leaf node level</strong> and only storing the key values in the internal nodes. It should also be noted that the nodes at the leaf level are linked with each other, hence making the traversal of the data pointers easy and more efficient.</p>
+<p>A B+ tree is an extension of a B tree which makes the search, insert and delete operations more efficient. We know that B trees allow both the data pointers and the key values in internal nodes as well as leaf nodes, this certainly becomes a drawback for B trees as the ability to insert the nodes at a particular level is decreased thus increase the node levels in it, which is certainly of no good.</p>
+<p>B+ trees reduce this drawback by simply <strong>storing the data pointers at the leaf node level</strong> and only storing the key values in the internal nodes. It should also be noted that the nodes at the leaf level are linked with each other, hence making the traversal of the data pointers easy and more efficient.</p>
 <p>B+ trees come in handy when we want to store a <strong>large amount of data</strong> in the main memory. Since we know that the size of the main memory is not that large, so make use of the B+ trees, whose internal nodes that store the key(to access the records) are stored in the main memory whereas, the leaf nodes that contain the data pointers are actually stored in the secondary memory</p>
 <hr>
 <p>Best site to create and learn B Trees visually with animations.</p>
@@ -315,8 +317,7 @@
 </ul>
 <p><strong>Yeah, these are the concepts of B and B+ Trees.</strong></p>
 <hr>
-<p>Almost, B trees are never used in the databases these days except some like MongoDB,</p>
-<p>but have some value due to the simplicity and definitely have additional cost compared to the B+ tree.</p>
+<p>Almost, B trees are rarely used in the databases these days except some like MongoDB, <strong>but have some value due to the simplicity and definitely have additional cost compared to the B+ tree.</strong></p>
 <p><strong>We can use the B tree only when we want to search 1 value at a time and not multiples.</strong></p>
 <p>But it&rsquo;s always <strong>hard to fit</strong> a B tree in memory fully compared to the B+ tree.</p>
 <hr>

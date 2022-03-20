@@ -2,7 +2,7 @@
 title: "How to Handle the Double booking problem in an app or website just using the database? "
 categories: [factors, double-booking problem, concurrency control, lock mechanism, time stamping, pessimistic approach, optimistic approach, database, sidsblog]
 tags: [factors, double-booking problem, concurrency control, lock mechanism, time stamping, pessimistic approach, optimistic approach, database, sidsblog]
-date: 2022-03-13T17:26:04+05:30
+date: 2022-03-19T17:26:04+05:30
 description: "In this blog, I just want to purely talk from the perspective of handling a situation like this, just considering the database itself."
 author: Siddhant Mulajkar
 draft: false
@@ -42,6 +42,22 @@ In this blog, I want to purely talk from the perspective of handling a situation
 
 ---
 
+### For simpler understanding,
+
+There are two approaches to this situation for maintaining the concurrency
+
+1. **Pessimistic Concurrency Control -**
+    
+    Let’s say it’s cloudy outside and might probably rain, so I decided to take the umbrella with me today whether it rains or not.
+    
+2. **Optimistic Concurrency Control -**
+    
+    Let’s say it’s cloudy outside and might probably rain, but I decide to not take the umbrella with me, and let’s see when it rains at that moment.
+    
+    (referenced from hussain nasser {Backend Engineering with HN})    
+
+---
+
 Before getting into the details of the problem we need to first understand the concepts of 
 
 ```
@@ -50,7 +66,7 @@ Before getting into the details of the problem we need to first understand the c
 - Time Stamping
 ```
 
-### **Concurrency Control**
+1. ### **Concurrency Control**
 
 It is a procedure in DBMS which helps us for the management of two simultaneous processes to execute without conflicts between each other, these conflicts occur in multi-user systems.
 
@@ -64,38 +80,22 @@ These protocols are categorized as:
 - Time Stamp Concurrency Control Protocol
 - Validation Based Concurrency Control Protocol
 
-### **Locking**
+2. ### **Locking**
 
 Lock guarantees exclusive use of data items to a current transaction. It first accesses the data items by acquiring a lock, after completion of the transaction it releases the lock.
 
-Types of Locks
+The types of locks are −
 
-The types of locks are as follows −
+- **Shared Lock** [Transaction can read only the data item values]
+- **Exclusive Lock** [Used for both read and write data item values]
 
-- Shared Lock [Transaction can read only the data item values]
-- Exclusive Lock [Used for both read and write data item values]
-
-### **Time Stamping**
+3. ### **Time Stamping**
 
 The timestamp is a unique identifier created by DBMS that indicates the relative starting time of a transaction. Whatever transaction we are doing is stored from starting time of the transaction and denotes a specific time.
 
 This can be generated using a system clock or logical counter. This can be started whenever a transaction is started. Here, the logical counter is incremented after a new timestamp has been assigned.
 
 ---
-
-### For simpler understanding,
-
-There are two approaches to this situation for maintaining the concurrency
-
-1. Pessimistic Concurrency Control -
-    
-    Let’s say it’s cloudy outside and might probably rain, so I decided to take the umbrella with me today whether it rains or not.
-    
-2. Optimistic Concurrency Control -
-    
-    Let’s say it’s cloudy outside and might probably rain, but I decide to not take the umbrella with me, and let’s see when it rains at that moment.
-    
-    (referenced from hussain nasser {Backend Engineering with HN})    
 
 #### Lets say in
 

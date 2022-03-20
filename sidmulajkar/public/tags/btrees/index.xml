@@ -29,7 +29,7 @@ wait&amp;hellip;</description>
       <description>What are those? Ever used those while searching through the dataset.
 How they are useful in databases?
  To understand stuff more clearly let&amp;rsquo;s take a scenario:
-Like you have a table, a huge table(millions of rows to go through), and you want to search to a particular numbered row by some id mentioned &amp;ldquo;100035&amp;rdquo; and not only pulling a row but getting most out of the pulled row.
+Like we have a table, a huge table(millions of rows to go through), and we want to search to a particular numbered row by some id mentioned &amp;ldquo;100035&amp;rdquo; and not only pulling a row but getting most out of the pulled row.
 For the longest time, what we do is search the table one by one sequentially (page by page).</description>
     </item>
     
