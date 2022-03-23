@@ -1,7 +1,7 @@
 ---
 title: "How to Handle the Double booking problem in an app or website just using the database? "
-categories: [factors, double-booking problem, concurrency control, lock mechanism, time stamping, pessimistic approach, optimistic approach, database, sidsblog]
-tags: [factors, double-booking problem, concurrency control, lock mechanism, time stamping, pessimistic approach, optimistic approach, database, sidsblog]
+categories: [factors, double-booking problem, concurrency control, lock mechanism, time stamping, pessimistic approach, optimistic approach, database, kubernetes, microservices, sidsblog]
+tags: [factors, double-booking problem, concurrency control, lock mechanism, time stamping, pessimistic approach, optimistic approach, database, kubernetes, microservices, sidsblog]
 date: 2022-03-19T17:26:04+05:30
 description: "In this blog, I just want to purely talk from the perspective of handling a situation like this, just considering the database itself."
 author: Siddhant Mulajkar
@@ -170,3 +170,55 @@ The problems which arises while using concurrency are as follows −
 **Well the Answer is :**
 
 It totally depends, on what use, we are using the concurrency model for using the specific database to avoid this problem.
+
+2PC, 3PC, MVCC, SAGA are some of the patterns through which we control concurrency but, 
+
+**ACID is mostly depended on the Isolation of the Transactions.**
+
+As we know that, in order to maintain consistency in a database, it follows **ACID properties**. Among these four properties (Atomicity, Consistency, Isolation, and Durability) **Isolation determines how transaction integrity is visible to other users and systems.**
+
+It means that a transaction should take place in a system in such a way that it is the only transaction that is accessing the resources in a database system. 
+Isolation levels define the degree to which a transaction must be isolated from the data modifications made by any other transaction in the database system. A transaction isolation level is defined by the following phenomena – 
+
+ 
+
+1. **Dirty Read** – A Dirty read is a situation when a transaction reads data that has not yet been committed. For example, Let’s say transaction 1 updates a row and leaves it uncommitted, meanwhile, Transaction 2 reads the updated row. If transaction 1 rolls back the change, transaction 2 will have read data that is considered never to have existed.
+
+2. **Non Repeatable read** – Non Repeatable read occurs when a transaction reads the same row twice and gets a different value each time. For example, suppose transaction T1 reads data. Due to concurrency, another transaction T2 updates the same data and commit, Now if transaction T1 rereads the same data, it will retrieve a different value.
+
+3. **Phantom Read** – Phantom Read occurs when two same queries are executed, but the rows retrieved by the two, are different. For example, suppose transaction T1 retrieves a set of rows that satisfy some search criteria. Now, Transaction T2 generates some new rows that match the search criteria for transaction T1. If transaction T1 re-executes the statement that reads the rows, it gets a different set of rows this time.
+
+Based on these phenomena, The SQL standard defines four isolation levels : 
+
+ 
+
+1. **Read Uncommitted** – Read Uncommitted is the lowest isolation level. In this level, one transaction may read not yet committed changes made by other transactions, thereby allowing dirty reads. At this level, transactions are not isolated from each other.
+
+2. **Read Committed** – This isolation level guarantees that any data read is committed at the moment it is read. Thus it does not allow dirty read. The transaction holds a read or write lock on the current row, and thus prevents other transactions from reading, updating, or deleting it.
+
+3. **Repeatable Read** – This is the most restrictive isolation level. The transaction holds read locks on all rows it references and writes locks on referenced rows for update and delete actions. Since other transactions cannot read, update or delete these rows, consequently it avoids non-repeatable read.
+
+4. **Serializable** – This is the highest isolation level. A serializable execution is guaranteed to be serializable. Serializable execution is defined to be an execution of operations in which concurrently executing transactions appears to be serially executing.
+
+
+![Transaction Isolation](/images/doublebookingdb/transactnLevel.png)
+
+---
+
+Another great blog on **Distributed transaction patterns for microservices compared** by **Bilgin Ibryam(Red-Hat-PM)** 
+
+https://developers.redhat.com/articles/2021/09/21/distributed-transaction-patterns-microservices-compared
+
+---
+
+Here's a Video on Concurrency Control in Postgress:
+
+[![Postgress Conference](/images/doublebookingdb/postgresscon.jpeg)](https://www.youtube.com/watch?v=ZxhBkBNxvR0 "Postgress Conference")
+
+---
+
+A Commercial SQL DB which is designed for scale https://www.cockroachlabs.com/
+
+![Cockroach DB](/images/doublebookingdb/cockroachdb.jpeg)
+
+---

@@ -23,7 +23,7 @@ A blog on backend engineering...
 --------------------------------------------------------------------------
 
 
-Imagine that you have a web application for customers to upload a text document, which then converts it into a PDF, and then emails it back to the customer. 
+Imagine that we have a web application for customers to upload a text document, which then converts it into a PDF, and then emails it back to the customer. 
 
 This site receives a lot of PDF creation requests every second and every request takes a second to process. 
 
@@ -43,9 +43,9 @@ USER SCENARIO
 
 --------------------------------------------------------------------------
 
-Using a message queue is **highly recommended when you need to process a high-volume of asynchronous messages.**
+Using a message queue is **highly recommended when we need to process a high-volume of asynchronous messages.**
 
-A message queue is perfect to use when you want a high performance, highly concurrent and scalable system that can process thousands of messages per second concurrently across many servers/processes.
+A message queue is perfect to use when we want a high performance, highly concurrent and scalable system that can process thousands of messages per second concurrently across many servers/processes.
 
 --------------------------------------------------------------------------
 
@@ -62,17 +62,17 @@ Asynchronous processing allows a task to call a service, and move on to the next
 
 Message queue use cases:
 
-Now you might think, “where on earth would a message queue fit in my architecture”? 
+Now we might think, “where on earth would a message queue fit in my architecture”? 
 
 The simple and quick answer is when:
 
-- you have “timeout errors” due to too many requests at the same time.
+- we have “timeout errors” due to too many requests at the same time.
 
-- you need a decoupled way to communicate between or within your application.
+- we need a decoupled way to communicate between or within your application.
 
-- you are polling a data store too often and you want this data store to be available to answer qualified queries instead
+- we are polling a data store too often and we want this data store to be available to answer qualified queries instead
 
-- you need to scale up and down during peak hours
+- we need to scale up and down during peak hours
 
 --------------------------------------------------------------------------
 

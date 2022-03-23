@@ -124,8 +124,8 @@
         "datePublished": "2022-03-19 17:26:04 \u002b0530 IST",
         "dateModified" : "2022-03-19 17:26:04 \u002b0530 IST",
         "url" : "https:\/\/sidmulajkar.com\/posts\/how-to-handle-double-booking-problem-using-db\/",
-        "wordCount" : "1307",
-        "keywords" : [ "factors","double-booking problem","concurrency control","lock mechanism","time stamping","pessimistic approach","optimistic approach","database","sidsblog","Blog" ]
+        "wordCount" : "1835",
+        "keywords" : [ "factors","double-booking problem","concurrency control","lock mechanism","time stamping","pessimistic approach","optimistic approach","database","kubernetes","microservices","sidsblog","Blog" ]
     }
 </script>
           </a>
@@ -186,7 +186,7 @@
             </span>
             <span class="reading-time">
               <i class="fa fa-clock-o" aria-hidden="true"></i>
-              7-minute read
+              9-minute read
             </span>
           </div>
           
@@ -208,6 +208,10 @@
       <span class="separator">•</span>
     <a href="https://sidmulajkar.com/categories/database/">database</a>
       <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/kubernetes/">kubernetes</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/microservices/">microservices</a>
+      <span class="separator">•</span>
     <a href="https://sidmulajkar.com/categories/sidsblog/">sidsblog</a></div>
 
           <div class="tags">
@@ -227,6 +231,10 @@
     <a href="https://sidmulajkar.com/tags/optimistic-approach/">optimistic approach</a>
       <span class="separator">•</span>
     <a href="https://sidmulajkar.com/tags/database/">database</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/kubernetes/">kubernetes</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/microservices/">microservices</a>
       <span class="separator">•</span>
     <a href="https://sidmulajkar.com/tags/sidsblog/">sidsblog</a></div>
 
@@ -392,6 +400,48 @@ In T2, the value of X is updated but the value of Y is not updated. The sum vari
 <hr>
 <p><strong>Well the Answer is :</strong></p>
 <p>It totally depends, on what use, we are using the concurrency model for using the specific database to avoid this problem.</p>
+<p>2PC, 3PC, MVCC, SAGA are some of the patterns through which we control concurrency but,</p>
+<p><strong>ACID is mostly depended on the Isolation of the Transactions.</strong></p>
+<p>As we know that, in order to maintain consistency in a database, it follows <strong>ACID properties</strong>. Among these four properties (Atomicity, Consistency, Isolation, and Durability) <strong>Isolation determines how transaction integrity is visible to other users and systems.</strong></p>
+<p>It means that a transaction should take place in a system in such a way that it is the only transaction that is accessing the resources in a database system.
+Isolation levels define the degree to which a transaction must be isolated from the data modifications made by any other transaction in the database system. A transaction isolation level is defined by the following phenomena –</p>
+<ol>
+<li>
+<p><strong>Dirty Read</strong> – A Dirty read is a situation when a transaction reads data that has not yet been committed. For example, Let’s say transaction 1 updates a row and leaves it uncommitted, meanwhile, Transaction 2 reads the updated row. If transaction 1 rolls back the change, transaction 2 will have read data that is considered never to have existed.</p>
+</li>
+<li>
+<p><strong>Non Repeatable read</strong> – Non Repeatable read occurs when a transaction reads the same row twice and gets a different value each time. For example, suppose transaction T1 reads data. Due to concurrency, another transaction T2 updates the same data and commit, Now if transaction T1 rereads the same data, it will retrieve a different value.</p>
+</li>
+<li>
+<p><strong>Phantom Read</strong> – Phantom Read occurs when two same queries are executed, but the rows retrieved by the two, are different. For example, suppose transaction T1 retrieves a set of rows that satisfy some search criteria. Now, Transaction T2 generates some new rows that match the search criteria for transaction T1. If transaction T1 re-executes the statement that reads the rows, it gets a different set of rows this time.</p>
+</li>
+</ol>
+<p>Based on these phenomena, The SQL standard defines four isolation levels :</p>
+<ol>
+<li>
+<p><strong>Read Uncommitted</strong> – Read Uncommitted is the lowest isolation level. In this level, one transaction may read not yet committed changes made by other transactions, thereby allowing dirty reads. At this level, transactions are not isolated from each other.</p>
+</li>
+<li>
+<p><strong>Read Committed</strong> – This isolation level guarantees that any data read is committed at the moment it is read. Thus it does not allow dirty read. The transaction holds a read or write lock on the current row, and thus prevents other transactions from reading, updating, or deleting it.</p>
+</li>
+<li>
+<p><strong>Repeatable Read</strong> – This is the most restrictive isolation level. The transaction holds read locks on all rows it references and writes locks on referenced rows for update and delete actions. Since other transactions cannot read, update or delete these rows, consequently it avoids non-repeatable read.</p>
+</li>
+<li>
+<p><strong>Serializable</strong> – This is the highest isolation level. A serializable execution is guaranteed to be serializable. Serializable execution is defined to be an execution of operations in which concurrently executing transactions appears to be serially executing.</p>
+</li>
+</ol>
+<p><img src="https://sidmulajkar.com/images/doublebookingdb/transactnLevel.png" alt="Transaction Isolation"></p>
+<hr>
+<p>Another great blog on <strong>Distributed transaction patterns for microservices compared</strong> by <strong>Bilgin Ibryam(Red-Hat-PM)</strong></p>
+<p><a href="https://developers.redhat.com/articles/2021/09/21/distributed-transaction-patterns-microservices-compared">https://developers.redhat.com/articles/2021/09/21/distributed-transaction-patterns-microservices-compared</a></p>
+<hr>
+<p>Here&rsquo;s a Video on Concurrency Control in Postgress:</p>
+<p><a href="https://www.youtube.com/watch?v=ZxhBkBNxvR0" title="Postgress Conference"><img src="https://sidmulajkar.com/images/doublebookingdb/postgresscon.jpeg" alt="Postgress Conference"></a></p>
+<hr>
+<p>A Commercial SQL DB which is designed for scale <a href="https://www.cockroachlabs.com/">https://www.cockroachlabs.com/</a></p>
+<p><img src="https://sidmulajkar.com/images/doublebookingdb/cockroachdb.jpeg" alt="Cockroach DB"></p>
+<hr>
 
       </div>
 
