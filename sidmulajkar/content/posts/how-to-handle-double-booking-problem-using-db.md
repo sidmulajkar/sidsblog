@@ -217,14 +217,13 @@ Here's a Video on Concurrency Control in Postgress:
 
 ---
 
-Learned about a "Commercial SQL DB" which is designed for scale https://www.cockroachlabs.com/
+Learned about a "Commercial SQL DB" which is designed for scale:
+https://www.cockroachlabs.com/
 
-FAQ Link: https://www.cockroachlabs.com/docs/stable/frequently-asked-questions.html
+**FAQ-Link:** 
+
+https://www.cockroachlabs.com/docs/stable/frequently-asked-questions.html
 
 ![Cockroach DB](/images/doublebookingdb/cockroachdb.jpeg)
 
 ---
-
-For more such content follow me at: 
-
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/sidmulajkar) | [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sidmulajkar) | [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/in/siddhant-mulajkar)
