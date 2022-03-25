@@ -12,20 +12,21 @@ draft: false
 
 ![Pihole](/images/pihole-rdns/logo.png)
 
-### What is a Pi-hole?
+##### What is a Pi-hole?
 
 Network-wide ad blocking via your own Linux hardware. The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.
 
-##### What is a recursive DNS server?
+**What is a recursive DNS server?**
 
 The first distinction we have to be aware of is whether a DNS server is authoritative or not. If I'm the authoritative server for, e.g., pi-hole.net, then I know which IP is the correct answer for a query. Recursive name servers, in contrast, resolve any query they receive by consulting the servers authoritative for this query by traversing the domain. Example: We want to resolve pi-hole.net. On behalf of the client, the recursive DNS server will traverse the path of the domain across the Internet to deliver the answer to the question.
 
-##### Web Interface
+**Web Interface**
 
 ![Pihole-web](/images/pihole-rdns/dashboard.png)
 
 
-# Pi-hole as All-Around DNS Solution
+##### Pi-hole as All-Around DNS Solution
+
 **The problem: Whom can you trust?**
 Pi-hole includes a caching and forwarding DNS server, now known as FTLDNS. After applying the blocking lists, it forwards requests made by the clients to configured upstream DNS server(s). However, as has been mentioned by several users in the past, this leads to some privacy concerns as it ultimately raises the question: Whom can you trust? Recently, more and more small (and not so small) DNS upstream providers have appeared on the market, advertising free and private DNS service, but how can you know that they keep their promises? Right, you can't.
 
@@ -34,7 +35,7 @@ Furthermore, from the point of an attacker, the DNS servers of larger providers 
 When you operate your own (tiny) recursive DNS server, then the likeliness of getting affected by such an attack is greatly reduced.
 
 
-### Setting up Pi-hole as a recursive DNS server solution
+##### Setting up Pi-hole as a recursive DNS server solution
 
 We will use unbound, a secure open-source recursive DNS server primarily developed by NLnet Labs, VeriSign Inc., Nominet, and Kirei. The first thing you need to do is to install the recursive DNS resolver:
 
@@ -123,7 +124,8 @@ Finally, configure Pi-hole to use your recursive DNS server by specifying **127.
 sudo service unbound restart
 ```
 
--------------------------------------------------------------------------------
-**And that’s it! New unblocked DNS requests will be made directly to the authoritative servers instead of routing through a third party dns services like Quad9 or Google, etc.**
--------------------------------------------------------------------------------
+---
 
+**And that’s it! New unblocked DNS requests will be made directly to the authoritative servers instead of routing through a third party dns services like Quad9 or Google, etc.**
+
+---

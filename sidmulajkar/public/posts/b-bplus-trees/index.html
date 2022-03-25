@@ -124,7 +124,7 @@
         "datePublished": "2021-10-25 17:26:04 \u002b0530 IST",
         "dateModified" : "2021-10-25 17:26:04 \u002b0530 IST",
         "url" : "https:\/\/sidmulajkar.com\/posts\/b-bplus-trees\/",
-        "wordCount" : "898",
+        "wordCount" : "1296",
         "keywords" : [ "btrees","bplus-trees","trees","data-structure","database","sidsblog","Blog" ]
     }
 </script>
@@ -186,7 +186,7 @@
             </span>
             <span class="reading-time">
               <i class="fa fa-clock-o" aria-hidden="true"></i>
-              5-minute read
+              7-minute read
             </span>
           </div>
           
@@ -321,6 +321,64 @@
 <p><strong>We can use the B tree only when we want to search 1 value at a time and not multiples.</strong></p>
 <p>But it&rsquo;s always <strong>hard to fit</strong> a B tree in memory fully compared to the B+ tree.</p>
 <hr>
+<p><strong>The following are the differences between the B tree and B+ tree:</strong></p>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>B Tree</th>
+<th>B+ Tree</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>In the B tree, all the keys and records are stored in both internal as well as leaf nodes.</td>
+<td>In the B+ tree, keys are the indexes stored in the internal nodes and records are stored in the leaf nodes.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>In B tree, keys cannot be repeatedly stored, which means that there is no duplication of keys or records.</td>
+<td>In the B+ tree, there can be redundancy in the occurrence of the keys. In this case, the records are stored in the leaf nodes, whereas the keys are stored in the internal nodes, so redundant keys can be present in the internal nodes.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>In the Btree, leaf nodes are not linked to each other.</td>
+<td>In B+ tree, the leaf nodes are linked to each other to provide the sequential access.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>In Btree, searching is not very efficient because the records are either stored in leaf or internal nodes.</td>
+<td>In B+ tree, searching is very efficient or quicker because all the records are stored in the leaf nodes.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Deletion of internal nodes is very slow and a time-consuming process as we need to consider the child of the deleted key also.</td>
+<td>Deletion in B+ tree is very fast because all the records are stored in the leaf nodes so we do not have to consider the child of the node.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>In Btree, sequential access is not possible.</td>
+<td>In the B+ tree, all the leaf nodes are connected to each other through a pointer, so sequential access is possible.</td>
+</tr>
+<tr>
+<td>7</td>
+<td>In Btree, the more number of splitting operations are performed due to which height increases compared to width.</td>
+<td>B+ tree has more width as compared to height.</td>
+</tr>
+<tr>
+<td>8</td>
+<td>In Btree, each node has atleast two branches and each node contains some records, so we do not need to traverse till the leaf nodes to get the data.</td>
+<td>In B+ tree, internal nodes contain only pointers and leaf nodes contain records. All the leaf nodes are at the same level, so we need to traverse till the leaf nodes to get the data.</td>
+</tr>
+<tr>
+<td>9</td>
+<td>The root node contains atleast 2 to m children where m is the order of the tree.</td>
+<td>The root node contains atleast 2 to m children where m is the order of the tree.</td>
+</tr>
+</tbody>
+</table>
+<hr>
 
       </div>
 
@@ -344,7 +402,7 @@
   <footer class="footer">
     <section class="container">
       
-        <p>Copyright ©2021 | All rights reserved</p>
+        <p>Copyright ©2022 | All rights reserved</p>
       
       
       

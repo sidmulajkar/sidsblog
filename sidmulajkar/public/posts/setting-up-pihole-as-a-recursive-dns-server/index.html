@@ -231,43 +231,33 @@
         
         <p><strong>Got an old Raspberry Pi lying around? Hate seeing ads while browsing the web? Pi-hole is an open-source software project that blocks ads for all devices on your home network by routing all advertising servers into nowhere. What’s best is it takes just a few minutes to set up.</strong></p>
 <p><img src="https://sidmulajkar.com/images/pihole-rdns/logo.png" alt="Pihole"></p>
-<h3 id="what-is-a-pi-hole">
+<h5 id="what-is-a-pi-hole">
   What is a Pi-hole?
   <a class="heading-link" href="#what-is-a-pi-hole">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
+</h5>
 <p>Network-wide ad blocking via your own Linux hardware. The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.</p>
-<h5 id="what-is-a-recursive-dns-server">
-  What is a recursive DNS server?
-  <a class="heading-link" href="#what-is-a-recursive-dns-server">
-    <i class="fa fa-link" aria-hidden="true"></i>
-  </a>
-</h5>
+<p><strong>What is a recursive DNS server?</strong></p>
 <p>The first distinction we have to be aware of is whether a DNS server is authoritative or not. If I&rsquo;m the authoritative server for, e.g., pi-hole.net, then I know which IP is the correct answer for a query. Recursive name servers, in contrast, resolve any query they receive by consulting the servers authoritative for this query by traversing the domain. Example: We want to resolve pi-hole.net. On behalf of the client, the recursive DNS server will traverse the path of the domain across the Internet to deliver the answer to the question.</p>
-<h5 id="web-interface">
-  Web Interface
-  <a class="heading-link" href="#web-interface">
-    <i class="fa fa-link" aria-hidden="true"></i>
-  </a>
-</h5>
+<p><strong>Web Interface</strong></p>
 <p><img src="https://sidmulajkar.com/images/pihole-rdns/dashboard.png" alt="Pihole-web"></p>
-<h1 id="pi-hole-as-all-around-dns-solution">
+<h5 id="pi-hole-as-all-around-dns-solution">
   Pi-hole as All-Around DNS Solution
   <a class="heading-link" href="#pi-hole-as-all-around-dns-solution">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h1>
+</h5>
 <p><strong>The problem: Whom can you trust?</strong>
 Pi-hole includes a caching and forwarding DNS server, now known as FTLDNS. After applying the blocking lists, it forwards requests made by the clients to configured upstream DNS server(s). However, as has been mentioned by several users in the past, this leads to some privacy concerns as it ultimately raises the question: Whom can you trust? Recently, more and more small (and not so small) DNS upstream providers have appeared on the market, advertising free and private DNS service, but how can you know that they keep their promises? Right, you can&rsquo;t.</p>
 <p>Furthermore, from the point of an attacker, the DNS servers of larger providers are very worthwhile targets, as they only need to poison one DNS server, but millions of users might be affected. Instead of your bank&rsquo;s actual IP address, you could be sent to a phishing site hosted on some island. This scenario has already happened and it isn&rsquo;t unlikely to happen again&hellip;</p>
 <p>When you operate your own (tiny) recursive DNS server, then the likeliness of getting affected by such an attack is greatly reduced.</p>
-<h3 id="setting-up-pi-hole-as-a-recursive-dns-server-solution">
+<h5 id="setting-up-pi-hole-as-a-recursive-dns-server-solution">
   Setting up Pi-hole as a recursive DNS server solution
   <a class="heading-link" href="#setting-up-pi-hole-as-a-recursive-dns-server-solution">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
+</h5>
 <p>We will use unbound, a secure open-source recursive DNS server primarily developed by NLnet Labs, VeriSign Inc., Nominet, and Kirei. The first thing you need to do is to install the recursive DNS resolver:</p>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo apt install unbound
 </code></pre></div><p><strong>Configure unbound</strong></p>
@@ -344,12 +334,8 @@ Pi-hole includes a caching and forwarding DNS server, now known as FTLDNS. After
 <p><strong>Lastly, restart unbound:</strong></p>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo service unbound restart
 </code></pre></div><hr>
-<h2 id="and-thats-it-new-unblocked-dns-requests-will-be-made-directly-to-the-authoritative-servers-instead-of-routing-through-a-third-party-dns-services-like-quad9-or-google-etc">
-  <strong>And that’s it! New unblocked DNS requests will be made directly to the authoritative servers instead of routing through a third party dns services like Quad9 or Google, etc.</strong>
-  <a class="heading-link" href="#and-thats-it-new-unblocked-dns-requests-will-be-made-directly-to-the-authoritative-servers-instead-of-routing-through-a-third-party-dns-services-like-quad9-or-google-etc">
-    <i class="fa fa-link" aria-hidden="true"></i>
-  </a>
-</h2>
+<p><strong>And that’s it! New unblocked DNS requests will be made directly to the authoritative servers instead of routing through a third party dns services like Quad9 or Google, etc.</strong></p>
+<hr>
 
       </div>
 
@@ -373,7 +359,7 @@ Pi-hole includes a caching and forwarding DNS server, now known as FTLDNS. After
   <footer class="footer">
     <section class="container">
       
-        <p>Copyright ©2021 | All rights reserved</p>
+        <p>Copyright ©2022 | All rights reserved</p>
       
       
       

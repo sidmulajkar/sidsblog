@@ -145,3 +145,19 @@ Almost, B trees are rarely used in the databases these days except some like Mon
 But it's always **hard to fit** a B tree in memory fully compared to the B+ tree.
 
 ---
+
+**The following are the differences between the B tree and B+ tree:**
+
+No. | B Tree | B+ Tree |
+--- | --- |--- |
+1 | In the B tree, all the keys and records are stored in both internal as well as leaf nodes. | In the B+ tree, keys are the indexes stored in the internal nodes and records are stored in the leaf nodes.|
+2 | In B tree, keys cannot be repeatedly stored, which means that there is no duplication of keys or records. | In the B+ tree, there can be redundancy in the occurrence of the keys. In this case, the records are stored in the leaf nodes, whereas the keys are stored in the internal nodes, so redundant keys can be present in the internal nodes. |
+3 | In the Btree, leaf nodes are not linked to each other.| In B+ tree, the leaf nodes are linked to each other to provide the sequential access. |
+4 | In Btree, searching is not very efficient because the records are either stored in leaf or internal nodes. | In B+ tree, searching is very efficient or quicker because all the records are stored in the leaf nodes. |
+5 | Deletion of internal nodes is very slow and a time-consuming process as we need to consider the child of the deleted key also.	| Deletion in B+ tree is very fast because all the records are stored in the leaf nodes so we do not have to consider the child of the node. |
+6 | In Btree, sequential access is not possible. | In the B+ tree, all the leaf nodes are connected to each other through a pointer, so sequential access is possible. |
+7 | In Btree, the more number of splitting operations are performed due to which height increases compared to width. | B+ tree has more width as compared to height. |
+8 | In Btree, each node has atleast two branches and each node contains some records, so we do not need to traverse till the leaf nodes to get the data. | In B+ tree, internal nodes contain only pointers and leaf nodes contain records. All the leaf nodes are at the same level, so we need to traverse till the leaf nodes to get the data. |
+9 | The root node contains atleast 2 to m children where m is the order of the tree. | The root node contains atleast 2 to m children where m is the order of the tree. |
+
+---
