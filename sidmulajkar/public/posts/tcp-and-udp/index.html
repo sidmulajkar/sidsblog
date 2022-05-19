@@ -34,9 +34,10 @@
     <meta property="og:title" content="TCP and UDP - Simple yet Confusing🤔" />
 <meta property="og:description" content="Best tutorial to understand the building blocks TCP &amp; UDP to know which one to use" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://sidmulajkar.com/posts/tcp-and-udp/" />
+<meta property="og:url" content="https://sidmulajkar.com/posts/tcp-and-udp/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-10-06T17:26:04+05:30" />
 <meta property="article:modified_time" content="2021-10-06T17:26:04+05:30" />
+
 
 
     <title>
@@ -79,7 +80,7 @@
 
     
 
-    <meta name="generator" content="Hugo 0.80.0" />
+    <meta name="generator" content="Hugo 0.98.0" />
   </head>
 
   
@@ -241,23 +242,23 @@
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h6>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">- The problem with packets (IP)
-- TCP pros and cons
-- TCP communication sample code
-
-- UDP pros and cons
-- UDP communication sample code
-
-- Some questions based on them
-</code></pre></div><hr>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>- The problem with packets (IP)
+</span></span><span style="display:flex;"><span>- TCP pros and cons
+</span></span><span style="display:flex;"><span>- TCP communication sample code
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>- UDP pros and cons
+</span></span><span style="display:flex;"><span>- UDP communication sample code
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>- Some questions based on them
+</span></span></code></pre></div><hr>
 <p>To start, I was asked a question in an interview,</p>
 <p><strong>What to use UDP or TCP in Building a Backend Application?</strong></p>
 <p>I was like why only these 2 protocols, there are many others, like HTTP, HTTP2, XMPP, GRPC, QUIC</p>
 <p>Why?</p>
 <p>These two are the block fundamentals on which the other protocols work.</p>
 <p>So, once when we understand the TCP and UDP, we can determine which other protocols to use.</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">For eg, UDP over TCP, then QUIC over HTTP
-</code></pre></div><hr>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>For eg, UDP over TCP, then QUIC over HTTP
+</span></span></code></pre></div><hr>
 <p>Highly recommend just know about the OSI Model before getting on to the TCP and UDP.</p>
 <p><strong>OSI is a model that standardized communication in the computer system, its what the internet runs on.</strong></p>
 <p><img src="https://sidmulajkar.com/images/tcpudp/osi.png" alt="OSI Model"></p>
@@ -265,11 +266,11 @@
 <p><strong>The problem with the packets:</strong></p>
 <p>The Internet Protocol (IP) describes how to split messages into multiple IP packets and route packets to their destination by hopping from router to router.</p>
 <p>IP does not handle all the consequences of packets, however. For example:</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">- Packets can arrive out of order
-- Packets can be corrupted
-- Packets can be lost due to problems
-- Similarly, packets might be duplicated
-</code></pre></div><p>Fortunately, there are higher-level protocols in the Internet protocol stack that can deal with these problems.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>- Packets can arrive out of order
+</span></span><span style="display:flex;"><span>- Packets can be corrupted
+</span></span><span style="display:flex;"><span>- Packets can be lost due to problems
+</span></span><span style="display:flex;"><span>- Similarly, packets might be duplicated
+</span></span></code></pre></div><p>Fortunately, there are higher-level protocols in the Internet protocol stack that can deal with these problems.</p>
 <p>Internet applications can choose the data transport protocol that makes the most sense for their application.</p>
 <hr>
 <p>TCP and UDP are the layer 4 protocols, i.e Transport Layer Protocols</p>
@@ -302,13 +303,13 @@
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h3>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">- Acknowledgement
-- Guaranteed Delivery
-- Connection based(can be pro and con as well)
-- Congestion Control
-- Packet ordering and ack 
-- Error Control Mechanism
-</code></pre></div><p>Some follow up questions can be</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>- Acknowledgement
+</span></span><span style="display:flex;"><span>- Guaranteed Delivery
+</span></span><span style="display:flex;"><span>- Connection based(can be pro and con as well)
+</span></span><span style="display:flex;"><span>- Congestion Control
+</span></span><span style="display:flex;"><span>- Packet ordering and ack 
+</span></span><span style="display:flex;"><span>- Error Control Mechanism
+</span></span></code></pre></div><p>Some follow up questions can be</p>
 <ul>
 <li>
 <p>As you mentioned congestion control can you explain more about TCP Slow start. How do you see it?</p>
@@ -327,12 +328,12 @@
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h3>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">- Larger Packets
-- More Bandwidth
-- Slower than UDP
-- Stateful (whole new thing to mention about)
-- Server memory (hogs up server memory)
-</code></pre></div><p>Some follow up questions can be</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>- Larger Packets
+</span></span><span style="display:flex;"><span>- More Bandwidth
+</span></span><span style="display:flex;"><span>- Slower than UDP
+</span></span><span style="display:flex;"><span>- Stateful (whole new thing to mention about)
+</span></span><span style="display:flex;"><span>- Server memory (hogs up server memory)
+</span></span></code></pre></div><p>Some follow up questions can be</p>
 <ul>
 <li>
 <p>Can you explain to me Stateful vs Stateless protocols?</p>
@@ -363,23 +364,23 @@
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h5>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">- No Acknowledgement
-- No Guaranteed Delivery
-- Connectionless
-- No Congestion Control
-- No ordered Packets
-- Security
-</code></pre></div><h5 id="udp-pros">
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>- No Acknowledgement
+</span></span><span style="display:flex;"><span>- No Guaranteed Delivery
+</span></span><span style="display:flex;"><span>- Connectionless
+</span></span><span style="display:flex;"><span>- No Congestion Control
+</span></span><span style="display:flex;"><span>- No ordered Packets
+</span></span><span style="display:flex;"><span>- Security
+</span></span></code></pre></div><h5 id="udp-pros">
   UDP Pros:
   <a class="heading-link" href="#udp-pros">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h5>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">- Smaller Packets
-- Less bandwidth
-- Faster than TCP
-- Stateless
-</code></pre></div><p>Some follow up questions:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>- Smaller Packets
+</span></span><span style="display:flex;"><span>- Less bandwidth
+</span></span><span style="display:flex;"><span>- Faster than TCP
+</span></span><span style="display:flex;"><span>- Stateless
+</span></span></code></pre></div><p>Some follow up questions:</p>
 <ul>
 <li>
 <p>How is UDP used in DDoS attacks?</p>
@@ -394,34 +395,34 @@
 <p>Follow the link</p>
 <p><strong>or</strong></p>
 <p>With this code we will be implementing UDP Simple connection using Nodejs and netcat. Create a file udp.js</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">const dgram = require(&#39;dgram&#39;);
-const socket = dgram.createSocket(&#39;udp4&#39;);
-
-socket.on(&#39;message&#39;, (msg, rinfo) =&gt; {
-  console.log(`server got: ${msg} from ${rinfo.address}:${rinfo.port}`);
-});
-
-socket.bind(8081);
-</code></pre></div><p>Run the code or Start Debugging from your IDE and also open terminal and type in this command, to start the 2 way communication.</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">echo &#34;foo&#34; | nc -w1 -u 127.0.0.1 41234
-</code></pre></div><hr>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>const dgram = require(&#39;dgram&#39;);
+</span></span><span style="display:flex;"><span>const socket = dgram.createSocket(&#39;udp4&#39;);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>socket.on(&#39;message&#39;, (msg, rinfo) =&gt; {
+</span></span><span style="display:flex;"><span>  console.log(`server got: ${msg} from ${rinfo.address}:${rinfo.port}`);
+</span></span><span style="display:flex;"><span>});
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>socket.bind(8081);
+</span></span></code></pre></div><p>Run the code or Start Debugging from your IDE and also open terminal and type in this command, to start the 2 way communication.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>echo &#34;foo&#34; | nc -w1 -u 127.0.0.1 41234
+</span></span></code></pre></div><hr>
 <p><a href="https://www.geeksforgeeks.org/tcp-server-client-implementation-in-c/">TCP  Client-Server Implementation</a></p>
 <p>Follow the link</p>
 <p><strong>or</strong></p>
 <p>With this code we will be implementing TCP Simple connection using Nodejs and Telnet. Create a file tcp.js</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">const net = require(&#34;net&#34;)
-
-const server = net.createServer(socket =&gt; {
-    socket.write(&#34;Hello.&#34;)
-    socket.on(&#34;data&#34;, data =&gt; {
-        console.log(data.toString())
-    })
-})
-
-server.listen(8080)
-</code></pre></div><p>Run the code or Start Debugging from your IDE and also open terminal and type in this command, to start the 2 way communication similar to udp.</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">telnet 127.0.0.1 8080
-</code></pre></div><hr>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>const net = require(&#34;net&#34;)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>const server = net.createServer(socket =&gt; {
+</span></span><span style="display:flex;"><span>    socket.write(&#34;Hello.&#34;)
+</span></span><span style="display:flex;"><span>    socket.on(&#34;data&#34;, data =&gt; {
+</span></span><span style="display:flex;"><span>        console.log(data.toString())
+</span></span><span style="display:flex;"><span>    })
+</span></span><span style="display:flex;"><span>})
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>server.listen(8080)
+</span></span></code></pre></div><p>Run the code or Start Debugging from your IDE and also open terminal and type in this command, to start the 2 way communication similar to udp.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>telnet 127.0.0.1 8080
+</span></span></code></pre></div><hr>
 <p><strong>If you think this is interesting, follow me on <a href="https://twitter.com/sidmulajkar">twitter</a> and <a href="https://www.linkedin.com/in/siddhant-mulajkar/">linkedin</a> for more content like this.</strong></p>
 <hr>
 
@@ -461,7 +462,7 @@ server.listen(8080)
     
       
         
-        <script src="https://sidmulajkar.com/js/dark-mode.min.aee9c8a464eb7b3534c7110f7c5e169e7039e2fd92710e0626d451d6725af137.js" integrity="sha256-runIpGTrezU0xxEPfF4WnnA54v2ScQ4GJtRR1nJa8Tc="></script>
+        <script src="https://sidmulajkar.com/js/dark-mode.min.1d139a81392167c6a37135df59f9fd95747abba988ba33c1a557c573776cb197.js" integrity="sha256-HROagTkhZ8ajcTXfWfn9lXR6u6mIujPBpVfFc3dssZc="></script>
       
     
 

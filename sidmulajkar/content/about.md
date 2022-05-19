@@ -13,7 +13,7 @@ Ever since I saw the computer at my friend's house, computers have been my passi
 
 **Consultant** for **Startups**, and have helped to launch new mini-products, **Brand building**.
 
-**Currently Working on Technologies**: **c++**, React, Python, Machine Learning, SwiftUI, Node(Beginner), Flutter(Beginner)
+**Currently Working on Technologies**: **c++**, Javascript , Python, Machine Learning, SwiftUI, Node(Beginner), Flutter(Beginner)
 
 Part-time **"Video Editor"** which makes me happy to find myself as a person.
 
@@ -26,4 +26,4 @@ There's unequivocally yet more to learn, more problems to solve, and more to bui
 
 Contact me at hi@sidmulajkar.com 
 
-[If interested do check out my Resume by clicking this 👈](https://drive.google.com/file/d/1Av5yOEN-NeSn7wx-nstQcj3olK_EKeDa/view?usp=sharing)
+[If interested do check out my Resume by clicking this 👈](https://drive.google.com/file/d/1owCflPj54V6ZV4cDVwzZqSgGiYxZeR6F/view?usp=sharing)
