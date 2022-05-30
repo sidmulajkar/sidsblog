@@ -13,7 +13,7 @@ Ever since I saw the computer at my friend's house, computers have been my passi
 
 **Consultant** for **Startups**, and have helped to launch new mini-products, **Brand building**.
 
-**Currently Working on Technologies**: **c++**, Javascript , Python, Machine Learning, SwiftUI, Node(Beginner), Flutter(Beginner)
+**Currently Working on**: **c++**, Javascript, **Cyber Security**, Machine Learning, SwiftUI, Node(Beginner), React(Beginner)
 
 Part-time **"Video Editor"** which makes me happy to find myself as a person.
 

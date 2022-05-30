@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="color-scheme" content="light dark">
+
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120510472-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-120510472-2');
+</script>
+ 
+    
+    
+      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline' https://www.google-analytics.com cse.google.com https://www.google.com https://pagead2.googlesyndication.com https://adservice.google.com https://www.googletagservices.com disqus.com disquscdn.com *.disqus.com *.disquscdn.com; prefetch-src 'self';">
+    
+
+    <meta name="author" content="Hi, I&#39;m Siddhant Mulajkar!">
+    <meta name="description" content="In this blog, we will learn how to create a tor based website and do we actually need it.">
+    <meta name="keywords" content="blog,developer,personal,hacker,javascript blogs,react blogs,development blogs">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="How to create a tor based website?"/>
+<meta name="twitter:description" content="In this blog, we will learn how to create a tor based website and do we actually need it."/>
+
+    <meta property="og:title" content="How to create a tor based website?" />
+<meta property="og:description" content="In this blog, we will learn how to create a tor based website and do we actually need it." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://sidmulajkar.com/posts/darkweb-tor-website/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-05-30T17:26:04+05:30" />
+<meta property="article:modified_time" content="2022-05-30T17:26:04+05:30" />
+
+
+
+    <title>
+  How to create a tor based website? · &gt; sidmulajkar
+</title>
+
+    
+      <link rel="canonical" href="https://sidmulajkar.com/posts/darkweb-tor-website/">
+    
+
+    
+    
+    <link rel="preload" href="https://sidmulajkar.com/fonts/forkawesome-webfont.woff2?v=1.1.7" as="font" type="font/woff2" integrity="sha256-hEIt6X6xzye8ubyk8/uxjz68cRZHsJxoKS9fQ8idUGQ=" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="https://sidmulajkar.com/css/coder.min.24a09f76f51018352bc5ee1b99abd3e58a3f339bf62fe9ed22badd4af74691f8.css" integrity="sha256-JKCfdvUQGDUrxe4bmavT5Yo/M5v2L&#43;ntIrrdSvdGkfg=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="https://sidmulajkar.com/css/coder-dark.min.5d4a66b4da5625f547ad4a63f2dfc99ccd3f4f093e2adf653609d4d6a020c21f.css" integrity="sha256-XUpmtNpWJfVHrUpj8t/JnM0/Twk&#43;Kt9lNgnU1qAgwh8=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://sidmulajkar.com/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://sidmulajkar.com/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="https://sidmulajkar.com/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://sidmulajkar.com/images/apple-touch-icon.png">
+
+    
+
+    <meta name="generator" content="Hugo 0.99.1" />
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-auto"
+        onload=""
+  >
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+        <section class="container">
+          <a class="navigation-title" href="https://sidmulajkar.com/">
+            &gt; sidmulajkar
+            <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/sidmulajkar.com\/"
+        },
+        "articleSection" : "posts",
+        "name" : "How to create a tor based website?",
+        "headline" : "How to create a tor based website?",
+        "description" : "In this blog, we will learn how to create a tor based website and do we actually need it.",
+        "inLanguage" : "en-US",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2022",
+        "datePublished": "2022-05-30 17:26:04 \u002b0530 IST",
+        "dateModified" : "2022-05-30 17:26:04 \u002b0530 IST",
+        "url" : "https:\/\/sidmulajkar.com\/posts\/darkweb-tor-website\/",
+        "wordCount" : "852",
+        "keywords" : [ "tor","dark web","tor browser","cloud services","raspberry pi","microservices","onion website","sidsblog","Blog" ]
+    }
+</script>
+          </a>
+          
+            <input type="checkbox" id="menu-toggle" />
+            <label class="menu-button float-right" for="menu-toggle">
+              <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+            </label>
+            <ul class="navigation-list">
+              
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/about/">About</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/posts/">Blogs</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/projects/">Projects</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/services/">Services</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/course/">Mini-Courses</a>
+                  </li>
+                
+              
+              
+            </ul>
+          
+        </section>
+</nav>
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://sidmulajkar.com/posts/darkweb-tor-website/">
+              How to create a tor based website?
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2022-05-30T17:26:04&#43;05:30'>
+                May 30, 2022
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              4-minute read
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="https://sidmulajkar.com/categories/tor/">tor</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/dark-web/">dark web</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/tor-browser/">tor browser</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/cloud-services/">cloud services</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/raspberry-pi/">raspberry pi</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/microservices/">microservices</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/onion-website/">onion website</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/sidsblog/">sidsblog</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <a href="https://sidmulajkar.com/tags/tor/">tor</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/dark-web/">dark web</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/tor-browser/">tor browser</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/cloud-services/">cloud services</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/raspberry-pi/">raspberry pi</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/microservices/">microservices</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/onion-website/">onion website</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/sidsblog/">sidsblog</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <h3 id="what-is-a-tor-website">
+  What is a tor website?
+  <a class="heading-link" href="#what-is-a-tor-website">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>A top-level Internet domain used by anonymous websites on the Dark Web.</p>
+<p>For eg, as we go to any other website such as google.com or youtube.com, DuckDuckGo is an internet search engine such as google that emphasizes protecting searchers&rsquo; privacy,</p>
+<p>can also be accessed using duckduckgo.com or also using the tor address of the website</p>
+<p><a href="https://3g2upl4pq6kufc4m.onion">https://3g2upl4pq6kufc4m.onion</a> (using the tor browser)</p>
+<hr>
+<h3 id="why-do-we-need-even-need-it">
+  Why do we need even need it?
+  <a class="heading-link" href="#why-do-we-need-even-need-it">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>There are two main reasons why people may use the &lsquo;Dark Web&rsquo;:</p>
+<ol>
+<li>
+<p>Anonymisation</p>
+<p>People may have many reasons for protecting their online identity.</p>
+</li>
+<li>
+<p>Accessing &lsquo;Hidden Services&rsquo;</p>
+<p>A Hidden Service (also known as an &lsquo;onion service&rsquo;) is one <strong>where not only the user but also the website itself, have their anonymity protected by Tor</strong>.</p>
+<p><strong>This means that the IP address of the site cannot be identified, meaning that information about its host, location, or content is hidden.</strong> Hidden Services are sometimes called “onion addresses” because the website name often ends .onion.</p>
+</li>
+</ol>
+<p>The people who need the Dark Web so they can keep doing their dangerous – <strong>but not necessarily illegal</strong>– work are:</p>
+<ul>
+<li>Whistleblowers</li>
+<li>Dissidents of oppressive regimes</li>
+<li>Activists</li>
+<li>Journalists who must protect their sources</li>
+<li>Law enforcement</li>
+<li>Intelligence agencies</li>
+</ul>
+<p>As you’d expect, misguided individuals or those with clear criminal intent have found a way to use this level of anonymity to cover up their illicit activities and – up to a point – evade law enforcement.</p>
+<hr>
+<p><strong>Is it legal?</strong></p>
+<p><strong>Using Tor or visiting the Dark Web is not unlawful in itself</strong>. It is of course illegal to carry out illegal acts anonymously.</p>
+<p>Want to learn more about how does the <strong>tor</strong> works?
+<a href="https://cybernews.com/privacy/what-is-tor-and-how-does-it-work/">https://cybernews.com/privacy/what-is-tor-and-how-does-it-work/</a></p>
+<p><img src="https://sidmulajkar.com/images/torwebsiteblogdata/toworking.png" alt="How does tor work"></p>
+<p>Credit: NetworkChuck</p>
+<hr>
+<h3 id="okay-how-to-create-a-tor-based-website">
+  Okay, How to create a tor-based website?
+  <a class="heading-link" href="#okay-how-to-create-a-tor-based-website">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>We can create it using a <strong>Raspberrypi, Virtual Machine, or simply host it on any cloud services such as Google Cloud, AWS, or Azure Webservices</strong>.</p>
+<p>We can also use some other options like <strong>Linode, Relpit(Free Version), or Heroku(Free)</strong>.</p>
+<p>In this blog, we are simply creating this tor website by creating the <strong>Virtual Machine</strong> of the ubuntu server.</p>
+<hr>
+<p><strong>Steps:</strong></p>
+<ol>
+<li>Create a Virtual Machine using any distro you like for the project or if you are using the Linux machine then no need to create the VM.</li>
+</ol>
+<p>(or if you are <strong>having a raspberry pi</strong> just install the raspbian os and follow the other steps as they are similar)</p>
+<p><img src="https://sidmulajkar.com/images/torwebsiteblogdata/ubuntuserver.png" alt="VM using UbuntuServer"></p>
+<ol start="2">
+<li>Simply, login to the VM and update it(might take around 10-15mins on the first boot update and then reboot it for all packages to work properly)</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sudo apt update
+</span></span></code></pre></div><p><img src="https://sidmulajkar.com/images/torwebsiteblogdata/update.png" alt="VM Update"></p>
+<ol start="3">
+<li>Install the tor and the Nginx for the tor website to work using the commands (you can use apache as well if not Nginx, link to that article is mentioned below at the end)</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sudo apt install tor
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sudo apt install nginx
+</span></span></code></pre></div><p><img src="https://sidmulajkar.com/images/torwebsiteblogdata/tor1.png" alt="Tor and Nginx Install"></p>
+<ol start="4">
+<li>So we are going to modify some of the lines of tor configuration to make it work</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sudo nano /etc/tor/torrc
+</span></span></code></pre></div><p>is the file we are modifying, just search for <strong>HiddenServiceDir and HiddenServicePort</strong> as shown in the next image, uncomment them and save them using Ctrl+X, Ctrl+S.</p>
+<p><img src="https://sidmulajkar.com/images/torwebsiteblogdata/torcconfig.png" alt="Tor Config"></p>
+<p><img src="https://sidmulajkar.com/images/torwebsiteblogdata/torrc2.png" alt="Tor Config"></p>
+<p><strong>The HiddenServiceDir</strong> stores the public and the private key and our .onion address is stored</p>
+<p><strong>The HiddenServicePort</strong> exposes the localhost on the port 80 for other people to access it, just as any other website using the HTTP protocol.</p>
+<ol start="5">
+<li>Check whether both the services are running properly and perform a restart operation after the changes made to the tor service.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sudo service stop tor
+</span></span><span style="display:flex;"><span>sudo service start tor
+</span></span><span style="display:flex;"><span>sudo service tor status
+</span></span></code></pre></div><p><img src="https://sidmulajkar.com/images/torwebsiteblogdata/torservice.png" alt="Tor Service Working"></p>
+<p>Similarly check for Nginx,</p>
+<p><img src="https://sidmulajkar.com/images/torwebsiteblogdata/nginx.png" alt="Nginx Service Working"></p>
+<ol start="6">
+<li>Now we can check our <strong>.onion address</strong> using the command</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sudo cat /var/lib/tor/hidden_service/hostname
+</span></span></code></pre></div><p><img src="https://sidmulajkar.com/images/torwebsiteblogdata/toraddress.png" alt="Onion Address"></p>
+<ol start="7">
+<li>Now, we can finally check our website using the address just we got with the help of tor-browser</li>
+</ol>
+<p><img src="https://sidmulajkar.com/images/torwebsiteblogdata/onionwebsite.png" alt="Tor Website"></p>
+<ol start="8">
+<li>Need to modify some more lines of the Nginx to make it safer to access</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sudo nano /etc/nginx/nginx.conf
+</span></span></code></pre></div><p>we need to uncomment highlighted lines and also add one more line.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>port_in_redirect off;
+</span></span></code></pre></div><p><img src="https://sidmulajkar.com/images/torwebsiteblogdata/nginxconf.jpeg" alt="Nginx Config"></p>
+<p>and then restart the Nginx server for one more time</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sudo service nginx restart
+</span></span></code></pre></div><hr>
+<p><strong>Hola!!!</strong> We have our tor website up and running and we can modify it to our heart&rsquo;s content and make it up and live to the world.</p>
+<p><strong>We can simply access this website using the tor address without the need to dynamically set the IP to the domain name service or without extra hassle until the VM, raspberry pi, or Cloud Instance is running. It can be accessed fron the local network or either from the outside network as well.</strong></p>
+<hr>
+<p>We can change the details or redesign the website by modifying/adding more pages in the directory</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>/var/www/html 
+</span></span></code></pre></div><p><img src="https://sidmulajkar.com/images/torwebsiteblogdata/websiteredesign.png" alt="Nginx Config"></p>
+<hr>
+<p>Link to the Apache Blog if you want to use Apache instead of Nginx:</p>
+<p><a href="https://medium.com/axon-technologies/hosting-anonymous-website-on-tor-network-3a82394d7a01">https://medium.com/axon-technologies/hosting-anonymous-website-on-tor-network-3a82394d7a01</a></p>
+<hr>
+<h3 id="conclusion">
+  Conclusion:
+  <a class="heading-link" href="#conclusion">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Tor offers anonymous browsing capabilities to people across the world. Users located in countries with strict censorship laws can use it to access restricted sites like Facebook, Google, foreign news websites or forums privately.</p>
+<p>To keep it simple, using Tor makes it more difficult (but not impossible) for Internet activity to be traced back to the user.</p>
+<p>Despite these noble goals Tor also has a dark side. Obviously, the convenient (and relative) anonymity attract people with some less honorable intentions.</p>
+<hr>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>Copyright ©2022 | All rights reserved</p>
+      
+      
+      
+      
+    </section>
+  </footer>
+
+
+    </main>
+
+    
+      
+        
+        <script src="https://sidmulajkar.com/js/dark-mode.min.1d139a81392167c6a37135df59f9fd95747abba988ba33c1a557c573776cb197.js" integrity="sha256-HROagTkhZ8ajcTXfWfn9lXR6u6mIujPBpVfFc3dssZc="></script>
+      
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

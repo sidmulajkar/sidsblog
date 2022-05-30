@@ -3,10 +3,67 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://sidmulajkar.com/</loc>
-    <lastmod>2022-03-19T17:26:04+05:30</lastmod>
+    <lastmod>2022-05-30T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/</loc>
-    <lastmod>2022-03-19T17:26:04+05:30</lastmod>
+    <lastmod>2022-05-30T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/cloud-services/</loc>
+    <lastmod>2022-05-30T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/cloud-services/</loc>
+    <lastmod>2022-05-30T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/dark-web/</loc>
+    <lastmod>2022-05-30T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/dark-web/</loc>
+    <lastmod>2022-05-30T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/posts/darkweb-tor-website/</loc>
+    <lastmod>2022-05-30T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/microservices/</loc>
+    <lastmod>2022-05-30T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/microservices/</loc>
+    <lastmod>2022-05-30T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/onion-website/</loc>
+    <lastmod>2022-05-30T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/onion-website/</loc>
+    <lastmod>2022-05-30T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/posts/</loc>
+    <lastmod>2022-05-30T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/raspberry-pi/</loc>
+    <lastmod>2022-05-30T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/raspberry-pi/</loc>
+    <lastmod>2022-05-30T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/sidsblog/</loc>
+    <lastmod>2022-05-30T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/sidsblog/</loc>
+    <lastmod>2022-05-30T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/</loc>
+    <lastmod>2022-05-30T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/tor/</loc>
+    <lastmod>2022-05-30T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/tor/</loc>
+    <lastmod>2022-05-30T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/tor-browser/</loc>
+    <lastmod>2022-05-30T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/tor-browser/</loc>
+    <lastmod>2022-05-30T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/tags/concurrency-control/</loc>
     <lastmod>2022-03-19T17:26:04+05:30</lastmod>
@@ -47,12 +104,6 @@
     <loc>https://sidmulajkar.com/categories/lock-mechanism/</loc>
     <lastmod>2022-03-19T17:26:04+05:30</lastmod>
   </url><url>
-    <loc>https://sidmulajkar.com/tags/microservices/</loc>
-    <lastmod>2022-03-19T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/categories/microservices/</loc>
-    <lastmod>2022-03-19T17:26:04+05:30</lastmod>
-  </url><url>
     <loc>https://sidmulajkar.com/tags/optimistic-approach/</loc>
     <lastmod>2022-03-19T17:26:04+05:30</lastmod>
   </url><url>
@@ -63,18 +114,6 @@
     <lastmod>2022-03-19T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/pessimistic-approach/</loc>
-    <lastmod>2022-03-19T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/posts/</loc>
-    <lastmod>2022-03-19T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/tags/sidsblog/</loc>
-    <lastmod>2022-03-19T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/categories/sidsblog/</loc>
-    <lastmod>2022-03-19T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/tags/</loc>
     <lastmod>2022-03-19T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/tags/time-stamping/</loc>

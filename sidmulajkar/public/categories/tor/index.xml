@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tor on &gt; sidmulajkar</title>
+    <link>https://sidmulajkar.com/categories/tor/</link>
+    <description>Recent content in tor on &gt; sidmulajkar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 30 May 2022 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/categories/tor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to create a tor based website?</title>
+      <link>https://sidmulajkar.com/posts/darkweb-tor-website/</link>
+      <pubDate>Mon, 30 May 2022 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/posts/darkweb-tor-website/</guid>
+      <description>What is a tor website?    A top-level Internet domain used by anonymous websites on the Dark Web.
+For eg, as we go to any other website such as google.com or youtube.com, DuckDuckGo is an internet search engine such as google that emphasizes protecting searchers&amp;rsquo; privacy,
+can also be accessed using duckduckgo.com or also using the tor address of the website
+https://3g2upl4pq6kufc4m.onion (using the tor browser)
+ Why do we need even need it?</description>
+    </item>
+    
+  </channel>
+</rss>
