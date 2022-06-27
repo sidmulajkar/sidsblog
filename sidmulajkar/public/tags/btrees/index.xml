@@ -14,10 +14,11 @@
       
       <guid>https://sidmulajkar.com/posts/when-indexes-are-not-useable/</guid>
       <description>What do I even mean by useless indexes?
- To improve the application and the database, indexes need to change over time.
+To improve the application and the database, indexes need to change over time.
 As the structure of the database change, the structure of the tables change, data in the tables change, the application changes, also the queries against the data change.
 Indexes that once helped performance now just bloat your database and cause extra work for inserts, updates, and deletes.
-wait&amp;hellip;</description>
+wait&amp;hellip;
+Before getting to the conclusion</description>
     </item>
     
     <item>
@@ -28,7 +29,7 @@ wait&amp;hellip;</description>
       <guid>https://sidmulajkar.com/posts/b-bplus-trees/</guid>
       <description>What are those? Ever used those while searching through the dataset.
 How they are useful in databases?
- To understand stuff more clearly let&amp;rsquo;s take a scenario:
+To understand stuff more clearly let&amp;rsquo;s take a scenario:
 Like we have a table, a huge table(millions of rows to go through), and we want to search to a particular numbered row by some id mentioned &amp;ldquo;100035&amp;rdquo; and not only pulling a row but getting most out of the pulled row.
 For the longest time, what we do is search the table one by one sequentially (page by page).</description>
     </item>

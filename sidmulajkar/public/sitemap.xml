@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://sidmulajkar.com/privacyguide/</loc>
+    <lastmod>2022-06-19T19:09:26+05:30</lastmod>
+  </url><url>
     <loc>https://sidmulajkar.com/</loc>
     <lastmod>2022-05-30T17:26:04+05:30</lastmod>
   </url><url>
@@ -260,9 +263,6 @@
     <loc>https://sidmulajkar.com/categories/udp/</loc>
     <lastmod>2021-10-06T17:26:04+05:30</lastmod>
   </url><url>
-    <loc>https://sidmulajkar.com/course/</loc>
-    <lastmod>2021-10-02T19:09:26+05:30</lastmod>
-  </url><url>
     <loc>https://sidmulajkar.com/tags/congestion-control/</loc>
     <lastmod>2021-10-02T17:26:04+05:30</lastmod>
   </url><url>
@@ -484,5 +484,9 @@
   </url><url>
     <loc>https://sidmulajkar.com/categories/web-hosting-service/</loc>
     <lastmod>2021-02-25T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/privacyguides/privacy101/</loc>
+  </url><url>
+    <loc>https://sidmulajkar.com/privacyguides/</loc>
   </url>
 </urlset>

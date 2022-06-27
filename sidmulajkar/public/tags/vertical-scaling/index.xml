@@ -15,7 +15,7 @@
       <guid>https://sidmulajkar.com/posts/databases-how-do-we-know-its-the-right-one/</guid>
       <description>Choosing the Best Database
 Databases! How do you know it’s the right one?
- Whether you are an experienced software engineer or a student doing a university project, at some point we will need to choose a DB for our project.
+Whether you are an experienced software engineer or a student doing a university project, at some point we will need to choose a DB for our project.
 Choosing the right kind of database always requires some consideration.
 First of all, databases will not impact our functional requirements.
 Whichever database we use can still achieve our functional requirements somehow, but at the cost of huge performance degradation.</description>

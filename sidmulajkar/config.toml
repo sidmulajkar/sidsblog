@@ -8,12 +8,6 @@ pygmentsStyle = "b2"
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 enableEmoji = true
-# Enable Disqus comments
-#disqusShortname = "sidmulajkar"
-#show_comments = true
-# Google Analytics 4
-#googleAnalyticsID = "G-PMN60C25CN"
-#googleAnalytics = "UA-120510472-2"
 enableRobotsTXT = true
 canonifyURLs = true
 
@@ -25,7 +19,7 @@ keywords = "blog,developer,personal,hacker,javascript blogs,react blogs,developm
 info = "A software developer/entrepreneur who is passionately curious. "
 avatarURL = "images/sid.jpg"
 #gravatar = "john.doe@example.com"
-footerContent = "Copyright ©2022 | All rights reserved"
+footerContent = "Copyright ©2022 | All rights reserved | Strict no tracking"
 dateFormat = "January 2, 2006"
 hideFooter = false
 hideCredits = true
@@ -55,10 +49,6 @@ customSCSS = []
 customJS = []
 
 
-# If you want to use Google Tag Manager(https://analytics.google.com/) for analytics, add this section
-#[params.googleTagManager]
-#id = "G-PMN60C25CN"
-
 
 # If you want to implement a Content-Security-Policy, add this section
 [params.csp]
@@ -75,17 +65,8 @@ stylesrc = [
   "https://cdn.jsdelivr.net/"
 ]
 scriptsrc = ["'self'",
-    "'unsafe-inline'",
-    "https://www.google-analytics.com",
-    "cse.google.com",
-    "https://www.google.com",
-    "https://pagead2.googlesyndication.com",
-    "https://adservice.google.com",
-    "https://www.googletagservices.com",
-    "disqus.com",
-    "disquscdn.com",
-    "*.disqus.com",
-    "*.disquscdn.com"]
+    "'unsafe-inline'"
+    ]
 
 prefetchsrc = ["'self'"]
 connectsrc = ["'self'", "https://www.google-analytics.com"]
@@ -123,9 +104,9 @@ url = "https://twitter.com/sidmulajkar"
 
 [[params.social]]
 name = "Categories"
-icon = "fa fa-cube"
+icon = "fa fa-bug"
 weight = 5
-url = "https://sidmulajkar.com/services/"
+url = "https://sidmulajkar.com/privacyguide/"
 
 
 
@@ -153,10 +134,9 @@ weight = 4
 url = "services/"
 
 [[languages.en.menu.main]]
-name = "Mini-Courses"
+name = "Privacy 101"
 weight = 5
-url = "course/"
-
+url = "privacyguide/"
 
 
 [server]

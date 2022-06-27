@@ -16,7 +16,7 @@
       <description>How to Handle the Double booking problem in an app or website just using the database?
 Well the Answer is :
 It totally depends, on what use, we are using the concurrency model for using the specific database to avoid this problem.
- Firstly, what the heck is double booking problem?    An online movie ticket booking system provides its customers with the ability to book movie tickets online.</description>
+Firstly, what the heck is double booking problem? An online movie ticket booking system provides its customers with the ability to book movie tickets online. BookMyShow as an example allows the customers to browse movies currently being running in a city and to book seats, anywhere anytime for a show.</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@ It totally depends, on what use, we are using the concurrency model for using th
       <guid>https://sidmulajkar.com/posts/databases-how-do-we-know-its-the-right-one/</guid>
       <description>Choosing the Best Database
 Databases! How do you know it’s the right one?
- Whether you are an experienced software engineer or a student doing a university project, at some point we will need to choose a DB for our project.
+Whether you are an experienced software engineer or a student doing a university project, at some point we will need to choose a DB for our project.
 Choosing the right kind of database always requires some consideration.
 First of all, databases will not impact our functional requirements.
 Whichever database we use can still achieve our functional requirements somehow, but at the cost of huge performance degradation.</description>

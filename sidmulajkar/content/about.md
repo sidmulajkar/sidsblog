@@ -11,9 +11,9 @@ Ever since I saw the computer at my friend's house, computers have been my passi
 
 **Founder** of Tech Sid Solutions, helped new aspiring entrepreneurs make a digital presence marking their first footprint. 
 
-**Consultant** for **Startups**, and have helped to launch new mini-products, **Brand building**.
+**Freelance Security Consultant** for a **Startup**, and have helped launch new mini-products.
 
-**Currently Working on**: **c++**, Javascript, **Cyber Security**, Machine Learning, SwiftUI, Node(Beginner), React(Beginner)
+**Currently Working on**: **c++**, Javascript, **Cyber Security Research & Privacy Guides**, Machine Learning, SwiftUI, Node(Beginner), React(Beginner)
 
 Part-time **"Video Editor"** which makes me happy to find myself as a person.
 
