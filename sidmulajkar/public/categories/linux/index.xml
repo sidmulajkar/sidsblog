@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on &gt; sidmulajkar</title>
+    <link>https://sidmulajkar.com/categories/linux/</link>
+    <description>Recent content in linux on &gt; sidmulajkar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 16 Oct 2022 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Harden Linux(Debian Server) for security and privacy </title>
+      <link>https://sidmulajkar.com/posts/how-harden-linux-server/</link>
+      <pubDate>Sun, 16 Oct 2022 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/posts/how-harden-linux-server/</guid>
+      <description>Requirements Computer, virtual private server (VPS) or dedicated server running Debian based server instance. Linux or macOS computer for following the steps and hardening the server Guide Step 1. Create the SSH key pair for login (On Computer) Using a root login password to login is good but not great from the security stand.
+When asked for file in which to save key, enter serverlog.
+When asked for passphrase, use output from openssl rand -base64 24 (and store passphrase in password manager).</description>
+    </item>
+    
+  </channel>
+</rss>
