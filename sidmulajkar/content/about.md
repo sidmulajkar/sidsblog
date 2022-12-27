@@ -5,19 +5,24 @@ description: "I have no special talents. I am only passionately curious. A softw
 draft: false
 ---
 
-"I have no **special talents**. I am only **passionately curious**."
+I am a **CS engineer** passionate about building systems that **respects privacy and security at forefront**.
 
-Completed my bachelor's degree in Computer Engineering, learning new things, and started my career **freelancing** to starting a **startup**, all with pretty much the same fascination that drove me as a kid.
+Started my career **freelancing** to starting a **startup**, all with pretty much the same fascination that drove me as a kid. Throughout my career, I have worked across a **variety of domains** and have built **platforms,mini-services**.
 
 **Founder** of Tech Sid Solutions, helped new aspiring entrepreneurs make a digital presence marking their first footprint. 
 
-**Freelance Security Consultant** for a **Startup**, and have helped launch new mini-products.
+On the side, I am
+
+- **Freelance Security Consultant** for a **Startup**, and have helped launch new mini-products.
+
+- Part-time **"Video Editor"** which makes me happy to find myself as a person.
+
+----
 
 **Currently Working on**: **c++**, Javascript, **Cyber Security Research & Privacy Guides**, Machine Learning, SwiftUI, Node(Beginner), React(Beginner)
 
 **Security Tools**: BurpSuite, Metasploit, Wireshark, OWASP-ZAP(Beginner)
 
-Part-time **"Video Editor"** which makes me happy to find myself as a person.
 
 There's unequivocally yet more to learn, more problems to solve, and more to build. And for this, I'm very obliged.
 
@@ -26,4 +31,4 @@ There's unequivocally yet more to learn, more problems to solve, and more to bui
 
 Contact me at hi@sidmulajkar.com 
 
-[If interested do check out my Resume by clicking this 👈](https://drive.google.com/file/d/1QJB5awV2p_j59Vt6YSsGnwqS5GI3NUdx/view?usp=sharing)
+[If interested do check out my Resume by clicking this 👈](https://drive.google.com/file/d/1wKjuJvRKI5KIiFmExFJ_FTo5Qt_W7mXl/view?usp=sharing)

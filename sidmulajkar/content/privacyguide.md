@@ -28,4 +28,4 @@ https://thereader.mitpress.mit.edu/a-history-of-the-data-tracked-user/
 ---
 
 
-**More Content Coming Soon!!**
+**More Content Coming Soon!! Working on the upcoming series of blogs and podcasts...**
