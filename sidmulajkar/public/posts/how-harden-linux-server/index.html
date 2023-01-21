@@ -9,14 +9,7 @@
 
 
     
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120510472-2"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
 
-    gtag('config', 'UA-120510472-2');
-</script>
  
     
     
@@ -34,7 +27,7 @@
     <meta property="og:title" content="How to Harden Linux(Debian Server) for security and privacy " />
 <meta property="og:description" content="This tutorial will help you understand how to harden the linux server." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://sidmulajkar.com/posts/how-harden-linux-server/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://sidmulajkar.com/posts/how-harden-linux-server/" />
 <meta property="article:published_time" content="2022-10-16T17:26:04+05:30" />
 <meta property="article:modified_time" content="2022-10-16T17:26:04+05:30" />
 
@@ -79,7 +72,7 @@
 
     
 
-    <meta name="generator" content="Hugo 0.108.0">
+    <meta name="generator" content="Hugo 0.80.0" />
   </head>
 
   
@@ -155,6 +148,10 @@
                 
                   <li class="navigation-item">
                     <a class="navigation-link" href="https://sidmulajkar.com/privacyguide/">Privacy 101</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/references/">References</a>
                   </li>
                 
               
@@ -249,58 +246,59 @@
 <p>When asked for file in which to save key, enter <strong>serverlog</strong>.</p>
 <p>When asked for passphrase, use output from <strong>openssl rand -base64 24</strong> (and store passphrase in password manager).</p>
 <p>Use <strong>serverlog.pub</strong> public key when setting up server.</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>ubuntu@userver:~$ cd ~/.ssh
-</span></span><span style="display:flex;"><span>ubuntu@userver:~/.ssh$ ls
-</span></span><span style="display:flex;"><span>authorized_keys
-</span></span><span style="display:flex;"><span>ubuntu@userver:~/.ssh$ ssh-keygen -t rsa -C &#34;serverlogin&#34;
-</span></span><span style="display:flex;"><span>Generating public/private rsa key pair.
-</span></span><span style="display:flex;"><span>Enter file in which to save the key (/home/ubuntu/.ssh/id_rsa): serverlogin
-</span></span><span style="display:flex;"><span>Enter passphrase (empty for no passphrase): 
-</span></span><span style="display:flex;"><span>Enter same passphrase again: 
-</span></span><span style="display:flex;"><span>Your identification has been saved in serverlogin
-</span></span><span style="display:flex;"><span>Your public key has been saved in serverlogin.pub
-</span></span><span style="display:flex;"><span>The key fingerprint is:
-</span></span><span style="display:flex;"><span>SHA256:HT7IJjqOzX4u+bGX/TOfZuOwujuEv/dSqP56d7vGTS0 serverlogin
-</span></span><span style="display:flex;"><span>The key&#39;s randomart image is:
-</span></span><span style="display:flex;"><span>+---[RSA 3072]----+
-</span></span><span style="display:flex;"><span>|                 |
-</span></span><span style="display:flex;"><span>|                 |
-</span></span><span style="display:flex;"><span>|          .      |
-</span></span><span style="display:flex;"><span>|       . + .     |
-</span></span><span style="display:flex;"><span>|      . S.+  .  .|
-</span></span><span style="display:flex;"><span>|     . o. ... E o|
-</span></span><span style="display:flex;"><span>|    o..  = ....o.|
-</span></span><span style="display:flex;"><span>|   =o..oo = *o=+o|
-</span></span><span style="display:flex;"><span>|  ..==+. .B%+@*=o|
-</span></span><span style="display:flex;"><span>+----[SHA256]-----+
-</span></span><span style="display:flex;"><span>ubuntu@userver:~/.ssh$ ls
-</span></span><span style="display:flex;"><span>authorized_keys  serverlogin  serverlogin.pub
-</span></span><span style="display:flex;"><span>ubuntu@userver:~/.ssh$
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>ubuntu@userver:~/.ssh$
-</span></span><span style="display:flex;"><span>ubuntu@userver:~/.ssh$ cat serverlogin.pub
-</span></span><span style="display:flex;"><span>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCfKyJnbvFXsZo2wBwIcOCyfzDPBxpzfV/r26jFZa7MLkdoXGpACUSL+wn0FFTBxE8XsduofHoDT5hsv1xIZjtrTbM0ZwCJVE8lxN8hkhiSOywEypTEUdFxafhQjD9BZSAwMCSp09t6iE7+dgB8P+InuNYstJLF/jTba9nD8U4QX3q9wZuMInB3+dMdP0Wf+3kc9cJxF/zsNxaiBUOABi4PGZg/w7ea5lxavtsWd0I59BtO2oq7XPVQBhzAz6FpSFf1UaZhFWYeE2r0FOU3hZUxHFrV8cv237Qnrs5cDYYaQsDfY9vY6C27nBVAo1GKK4jD65SDgGLET4gGUh5a2JO3Ya4XrdP/j4dDwWsyplz80Jsc9rm0bfaiaaqbkf/rWZ6a3moDW5SaP0pvVvxcF5ZRuRTQUj7q5/jwhm4h5/D9gaTtk7hJGfjWSTeNDvq6dG9JvA8er8DFuXm/nziGVaN9t/8mMbrxei37LZ+QDvkHzQVKemmeYE/6PwvSzKy4JGs= serverlogin
-</span></span><span style="display:flex;"><span>ubuntu@userver:~/.ssh$
-</span></span></code></pre></div><p>Paste the cat command output in the ssh key section</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCfKyJnbvFXsZo2wBwIcOCyfzDPBxpzfV/r26jFZa7MLkdoXGpACUSL+wn0FFTBxE8XsduofHoDT5hsv1xIZjtrTbM0ZwCJVE8lxN8hkhiSOywEypTEUdFxafhQjD9BZSAwMCSp09t6iE7+dgB8P+InuNYstJLF/jTba9nD8U4QX3q9wZuMInB3+dMdP0Wf+3kc9cJxF/zsNxaiBUOABi4PGZg/w7ea5lxavtsWd0I59BtO2oq7XPVQBhzAz6FpSFf1UaZhFWYeE2r0FOU3hZUxHFrV8cv237Qnrs5cDYYaQsDfY9vY6C27nBVAo1GKK4jD65SDgGLET4gGUh5a2JO3Ya4XrdP/j4dDwWsyplz80Jsc9rm0bfaiaaqbkf/rWZ6a3moDW5SaP0pvVvxcF5ZRuRTQUj7q5/jwhm4h5/D9gaTtk7hJGfjWSTeNDvq6dG9JvA8er8DFuXm/nziGVaN9t/8mMbrxei37LZ+QDvkHzQVKemmeYE/6PwvSzKy4JGs= serverlogin
-</span></span></code></pre></div><h3 id="step-2-log-in-to-the-server-as-root">
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">ubuntu@userver:~$ cd ~/.ssh
+ubuntu@userver:~/.ssh$ ls
+authorized_keys
+ubuntu@userver:~/.ssh$ ssh-keygen -t rsa -C &#34;serverlogin&#34;
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/ubuntu/.ssh/id_rsa): serverlogin
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in serverlogin
+Your public key has been saved in serverlogin.pub
+The key fingerprint is:
+SHA256:HT7IJjqOzX4u+bGX/TOfZuOwujuEv/dSqP56d7vGTS0 serverlogin
+The key&#39;s randomart image is:
++---[RSA 3072]----+
+|                 |
+|                 |
+|          .      |
+|       . + .     |
+|      . S.+  .  .|
+|     . o. ... E o|
+|    o..  = ....o.|
+|   =o..oo = *o=+o|
+|  ..==+. .B%+@*=o|
++----[SHA256]-----+
+ubuntu@userver:~/.ssh$ ls
+authorized_keys  serverlogin  serverlogin.pub
+ubuntu@userver:~/.ssh$
+
+
+ubuntu@userver:~/.ssh$
+ubuntu@userver:~/.ssh$ cat serverlogin.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCfKyJnbvFXsZo2wBwIcOCyfzDPBxpzfV/r26jFZa7MLkdoXGpACUSL+wn0FFTBxE8XsduofHoDT5hsv1xIZjtrTbM0ZwCJVE8lxN8hkhiSOywEypTEUdFxafhQjD9BZSAwMCSp09t6iE7+dgB8P+InuNYstJLF/jTba9nD8U4QX3q9wZuMInB3+dMdP0Wf+3kc9cJxF/zsNxaiBUOABi4PGZg/w7ea5lxavtsWd0I59BtO2oq7XPVQBhzAz6FpSFf1UaZhFWYeE2r0FOU3hZUxHFrV8cv237Qnrs5cDYYaQsDfY9vY6C27nBVAo1GKK4jD65SDgGLET4gGUh5a2JO3Ya4XrdP/j4dDwWsyplz80Jsc9rm0bfaiaaqbkf/rWZ6a3moDW5SaP0pvVvxcF5ZRuRTQUj7q5/jwhm4h5/D9gaTtk7hJGfjWSTeNDvq6dG9JvA8er8DFuXm/nziGVaN9t/8mMbrxei37LZ+QDvkHzQVKemmeYE/6PwvSzKy4JGs= serverlogin
+ubuntu@userver:~/.ssh$
+
+</code></pre></div><p>Paste the cat command output in the ssh key section</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCfKyJnbvFXsZo2wBwIcOCyfzDPBxpzfV/r26jFZa7MLkdoXGpACUSL+wn0FFTBxE8XsduofHoDT5hsv1xIZjtrTbM0ZwCJVE8lxN8hkhiSOywEypTEUdFxafhQjD9BZSAwMCSp09t6iE7+dgB8P+InuNYstJLF/jTba9nD8U4QX3q9wZuMInB3+dMdP0Wf+3kc9cJxF/zsNxaiBUOABi4PGZg/w7ea5lxavtsWd0I59BtO2oq7XPVQBhzAz6FpSFf1UaZhFWYeE2r0FOU3hZUxHFrV8cv237Qnrs5cDYYaQsDfY9vY6C27nBVAo1GKK4jD65SDgGLET4gGUh5a2JO3Ya4XrdP/j4dDwWsyplz80Jsc9rm0bfaiaaqbkf/rWZ6a3moDW5SaP0pvVvxcF5ZRuRTQUj7q5/jwhm4h5/D9gaTtk7hJGfjWSTeNDvq6dG9JvA8er8DFuXm/nziGVaN9t/8mMbrxei37LZ+QDvkHzQVKemmeYE/6PwvSzKy4JGs= serverlogin
+</code></pre></div><h3 id="step-2-log-in-to-the-server-as-root">
   Step 2: log in to the server as root
   <a class="heading-link" href="#step-2-log-in-to-the-server-as-root">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h3>
 <p>Caution: when asked for passphrase, enter passphrase used while creating the ssh key</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>ssh -i ~/.ssh/server root@123.567.344.115
-</span></span></code></pre></div><p>save the fingerprint of the server for further use by typing <strong>yes</strong>, and change the <strong>ip address</strong> according to the server address</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">ssh -i ~/.ssh/server root@123.567.344.115
+</code></pre></div><p>save the fingerprint of the server for further use by typing <strong>yes</strong>, and change the <strong>ip address</strong> according to the server address</p>
 <h3 id="if-you-wanted-to-use-this-for-internal-server-rather-than-hosting-a-server-outside-then-we-can-simply-send-the-copy-of-the-ssh-from-the-local-machine-to-sever">
   If you wanted to use this for internal server rather than hosting a server outside then we can simply send the copy of the ssh from the local machine to sever.
   <a class="heading-link" href="#if-you-wanted-to-use-this-for-internal-server-rather-than-hosting-a-server-outside-then-we-can-simply-send-the-copy-of-the-ssh-from-the-local-machine-to-sever">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>ssh-copy-id -i /home/sid/.ssh/rasp.pub user@123.567.344.115
-</span></span></code></pre></div><p>change the user to user created or using the server in the above command.</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">ssh-copy-id -i /home/sid/.ssh/rasp.pub user@123.567.344.115
+</code></pre></div><p>change the user to user created or using the server in the above command.</p>
 <p>Next sub-step is important for hardening the server, either hosted internally or outside</p>
 <h5 id="change-the-sshd-file-configuration-to-restrict-the-password-login-to-the-server-and-also-to-restrict-the-empty-password-attempts">
   Change the sshd file configuration to restrict the password login to the server and also to restrict the empty password attempts
@@ -308,22 +306,22 @@
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h5>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sudo nano /etc/ssh/sshd_config
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># To disable tunneled clear text passwords, change to no here!
-</span></span><span style="display:flex;"><span>PasswordAuthentication no
-</span></span><span style="display:flex;"><span>PermitEmptyPasswords no
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>UsePAM no
-</span></span></code></pre></div><p>we can also accept the traffic from the specific <strong>ip&rsquo;s</strong> using the <strong>ListenAddress</strong> section.</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo nano /etc/ssh/sshd_config
+</code></pre></div><div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"># To disable tunneled clear text passwords, change to no here!
+PasswordAuthentication no
+PermitEmptyPasswords no
+</code></pre></div><div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">UsePAM no
+</code></pre></div><p>we can also accept the traffic from the specific <strong>ip&rsquo;s</strong> using the <strong>ListenAddress</strong> section.</p>
 <h3 id="step-3-disable-root-bash-history-optional">
   Step 3: disable root Bash history (Optional)
   <a class="heading-link" href="#step-3-disable-root-bash-history-optional">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>echo &#34;HISTFILESIZE=0&#34; &gt;&gt; ~/.bashrc
-</span></span><span style="display:flex;"><span>history -c; history -w
-</span></span><span style="display:flex;"><span>source ~/.bashrc
-</span></span></code></pre></div><p>disabling the bash history to not have the previous command in the memory once the session is closed</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">echo &#34;HISTFILESIZE=0&#34; &gt;&gt; ~/.bashrc
+history -c; history -w
+source ~/.bashrc
+</code></pre></div><p>disabling the bash history to not have the previous command in the memory once the session is closed</p>
 <h3 id="step-4-set-root-password">
   Step 4: set root password
   <a class="heading-link" href="#step-4-set-root-password">
@@ -331,14 +329,14 @@
   </a>
 </h3>
 <p>When asked for password, use output from <strong>openssl rand -base64 24</strong>(and store password in password manager).</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>ubuntu@userver:~/.ssh$ openssl rand -base64 24
-</span></span><span style="display:flex;"><span>WmwBSIQD7fZDNcm5be2RQ3lJLb8eYFcr
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>root@userver:/home/ubuntu# passwd
-</span></span><span style="display:flex;"><span>New password: 
-</span></span><span style="display:flex;"><span>Retype new password: 
-</span></span><span style="display:flex;"><span>passwd: password updated successfully
-</span></span><span style="display:flex;"><span>root@userver:/home/ubuntu#
-</span></span></code></pre></div><h3 id="step-5-create-server-admin-user">
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">ubuntu@userver:~/.ssh$ openssl rand -base64 24
+WmwBSIQD7fZDNcm5be2RQ3lJLb8eYFcr
+</code></pre></div><div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">root@userver:/home/ubuntu# passwd
+New password: 
+Retype new password: 
+passwd: password updated successfully
+root@userver:/home/ubuntu#
+</code></pre></div><h3 id="step-5-create-server-admin-user">
   Step 5: create server-admin user
   <a class="heading-link" href="#step-5-create-server-admin-user">
     <i class="fa fa-link" aria-hidden="true"></i>
@@ -346,42 +344,42 @@
 </h3>
 <p>When asked for password, use output from <strong>openssl rand -base64 24</strong> (and store password in password manager).</p>
 <p>All other fields are optional, press enter to skip them and then press Y.</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>root@userver:/home/ubuntu# adduser saurabh
-</span></span><span style="display:flex;"><span>Adding user `saurabh&#39; ...
-</span></span><span style="display:flex;"><span>Adding new group `saurabh&#39; (1001) ...
-</span></span><span style="display:flex;"><span>Adding new user `saurabh&#39; (1001) with group `saurabh&#39; ...
-</span></span><span style="display:flex;"><span>Creating home directory `/home/saurabh&#39; ...
-</span></span><span style="display:flex;"><span>Copying files from `/etc/skel&#39; ...
-</span></span><span style="display:flex;"><span>New password: 
-</span></span><span style="display:flex;"><span>Retype new password: 
-</span></span><span style="display:flex;"><span>passwd: password updated successfully
-</span></span><span style="display:flex;"><span>Changing the user information for saurabh
-</span></span><span style="display:flex;"><span>Enter the new value, or press ENTER for the default
-</span></span><span style="display:flex;"><span>	Full Name []: 
-</span></span><span style="display:flex;"><span>	Room Number []: 
-</span></span><span style="display:flex;"><span>	Work Phone []: 
-</span></span><span style="display:flex;"><span>	Home Phone []: 
-</span></span><span style="display:flex;"><span>	Other []: 
-</span></span><span style="display:flex;"><span>Is the information correct? [Y/n] Y
-</span></span><span style="display:flex;"><span>root@userver:/home/ubuntu#
-</span></span></code></pre></div><h3 id="step-6-copy-root-authorized_keys-file-to-server-admin-home-directory">
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">root@userver:/home/ubuntu# adduser saurabh
+Adding user `saurabh&#39; ...
+Adding new group `saurabh&#39; (1001) ...
+Adding new user `saurabh&#39; (1001) with group `saurabh&#39; ...
+Creating home directory `/home/saurabh&#39; ...
+Copying files from `/etc/skel&#39; ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for saurabh
+Enter the new value, or press ENTER for the default
+	Full Name []: 
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] Y
+root@userver:/home/ubuntu#
+</code></pre></div><h3 id="step-6-copy-root-authorized_keys-file-to-server-admin-home-directory">
   Step 6: copy root [authorized_keys] file to server-admin home directory
   <a class="heading-link" href="#step-6-copy-root-authorized_keys-file-to-server-admin-home-directory">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>root@userver:/home/ubuntu# mkdir /home/saurabh/.ssh
-</span></span><span style="display:flex;"><span>root@userver:/home/ubuntu# cp /root/.ssh/authorized_keys /home/saurabh/.ssh/authorized_keys
-</span></span><span style="display:flex;"><span>root@userver:/home/ubuntu# chown -R saurabh:saurabh /home/saurabh/.ssh
-</span></span><span style="display:flex;"><span>root@userver:/home/ubuntu#
-</span></span></code></pre></div><h3 id="step-7-log-out">
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">root@userver:/home/ubuntu# mkdir /home/saurabh/.ssh
+root@userver:/home/ubuntu# cp /root/.ssh/authorized_keys /home/saurabh/.ssh/authorized_keys
+root@userver:/home/ubuntu# chown -R saurabh:saurabh /home/saurabh/.ssh
+root@userver:/home/ubuntu#
+</code></pre></div><h3 id="step-7-log-out">
   Step 7: log out
   <a class="heading-link" href="#step-7-log-out">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>exit
-</span></span></code></pre></div><h3 id="step-8-log-in-as-server-admin">
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">exit
+</code></pre></div><h3 id="step-8-log-in-as-server-admin">
   Step 8: log in as server-admin
   <a class="heading-link" href="#step-8-log-in-as-server-admin">
     <i class="fa fa-link" aria-hidden="true"></i>
@@ -389,50 +387,50 @@
 </h3>
 <p>Replace <strong>123.567.344.115</strong> with IP of server.</p>
 <p>Heads-up: when asked for passphrase, enter passphrase from step 1</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>ssh -i ~/.ssh/server saurabh@123.567.344.115
-</span></span></code></pre></div><h3 id="step-9-disable-server-admin-bash-history">
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">ssh -i ~/.ssh/server saurabh@123.567.344.115
+</code></pre></div><h3 id="step-9-disable-server-admin-bash-history">
   Step 9: disable server-admin Bash history
   <a class="heading-link" href="#step-9-disable-server-admin-bash-history">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sed -i -E &#39;s/^HISTSIZE=/#HISTSIZE=/&#39; ~/.bashrc
-</span></span><span style="display:flex;"><span>sed -i -E &#39;s/^HISTFILESIZE=/#HISTFILESIZE=/&#39; ~/.bashrc
-</span></span><span style="display:flex;"><span>echo &#34;HISTFILESIZE=0&#34; &gt;&gt; ~/.bashrc
-</span></span><span style="display:flex;"><span>history -c; history -w
-</span></span><span style="display:flex;"><span>source ~/.bashrc
-</span></span></code></pre></div><h3 id="step-10-switch-to-root">
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sed -i -E &#39;s/^HISTSIZE=/#HISTSIZE=/&#39; ~/.bashrc
+sed -i -E &#39;s/^HISTFILESIZE=/#HISTFILESIZE=/&#39; ~/.bashrc
+echo &#34;HISTFILESIZE=0&#34; &gt;&gt; ~/.bashrc
+history -c; history -w
+source ~/.bashrc
+</code></pre></div><h3 id="step-10-switch-to-root">
   Step 10: switch to root
   <a class="heading-link" href="#step-10-switch-to-root">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h3>
 <p>When asked, enter root password.</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>su -
-</span></span></code></pre></div><h3 id="step-11-disable-root-login-and-password-authentication">
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">su -
+</code></pre></div><h3 id="step-11-disable-root-login-and-password-authentication">
   Step 11: disable root login and password authentication
   <a class="heading-link" href="#step-11-disable-root-login-and-password-authentication">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sed -i -E &#39;s/^(#)?PermitRootLogin (prohibit-password|yes)/PermitRootLogin no/&#39; /etc/ssh/sshd_config
-</span></span><span style="display:flex;"><span>sed -i -E &#39;s/^(#)?PasswordAuthentication yes/PasswordAuthentication no/&#39; /etc/ssh/sshd_config
-</span></span><span style="display:flex;"><span>systemctl restart ssh
-</span></span></code></pre></div><h3 id="step-12-configure-sysctl-if-network-is-ipv4-only-optional-step">
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sed -i -E &#39;s/^(#)?PermitRootLogin (prohibit-password|yes)/PermitRootLogin no/&#39; /etc/ssh/sshd_config
+sed -i -E &#39;s/^(#)?PasswordAuthentication yes/PasswordAuthentication no/&#39; /etc/ssh/sshd_config
+systemctl restart ssh
+</code></pre></div><h3 id="step-12-configure-sysctl-if-network-is-ipv4-only-optional-step">
   Step 12: configure sysctl (if network is IPv4-only) [optional step]
   <a class="heading-link" href="#step-12-configure-sysctl-if-network-is-ipv4-only-optional-step">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h3>
 <p><strong>Only</strong> run the following if network is <strong>IPv4</strong>-only.</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>cp /etc/sysctl.conf /etc/sysctl.conf.backup
-</span></span><span style="display:flex;"><span>cat &lt;&lt; &#34;EOF&#34; &gt;&gt; /etc/sysctl.conf
-</span></span><span style="display:flex;"><span>net.ipv6.conf.all.disable_ipv6 = 1
-</span></span><span style="display:flex;"><span>net.ipv6.conf.default.disable_ipv6 = 1
-</span></span><span style="display:flex;"><span>net.ipv6.conf.lo.disable_ipv6 = 1
-</span></span><span style="display:flex;"><span>EOF
-</span></span><span style="display:flex;"><span>sysctl -p
-</span></span></code></pre></div><h3 id="step-13-enable-nftables-and-configure-firewall-rules">
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">cp /etc/sysctl.conf /etc/sysctl.conf.backup
+cat &lt;&lt; &#34;EOF&#34; &gt;&gt; /etc/sysctl.conf
+net.ipv6.conf.all.disable_ipv6 = 1
+net.ipv6.conf.default.disable_ipv6 = 1
+net.ipv6.conf.lo.disable_ipv6 = 1
+EOF
+sysctl -p
+</code></pre></div><h3 id="step-13-enable-nftables-and-configure-firewall-rules">
   Step 13: enable nftables and configure firewall rules
   <a class="heading-link" href="#step-13-enable-nftables-and-configure-firewall-rules">
     <i class="fa fa-link" aria-hidden="true"></i>
@@ -444,69 +442,69 @@
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h4>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell-session" data-lang="shell-session"><span style="display:flex;"><span>$ apt update
-</span></span><span style="display:flex;"><span><span style="color:#f00">
-</span></span></span><span style="display:flex;"><span><span style="color:#f00"></span>$ apt install -y nftables
-</span></span></code></pre></div><h4 id="enable-nftables">
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">$ apt update
+
+$ apt install -y nftables
+</code></pre></div><h4 id="enable-nftables">
   Enable nftables
   <a class="heading-link" href="#enable-nftables">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h4>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>systemctl enable nftables
-</span></span><span style="display:flex;"><span>systemctl start nftables
-</span></span></code></pre></div><h4 id="configure-firewall-rules">
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">systemctl enable nftables
+systemctl start nftables
+</code></pre></div><h4 id="configure-firewall-rules">
   Configure firewall rules
   <a class="heading-link" href="#configure-firewall-rules">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h4>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>nft flush ruleset
-</span></span><span style="display:flex;"><span>nft add table ip firewall
-</span></span><span style="display:flex;"><span>nft add chain ip firewall input { type filter hook input priority 0 \; policy drop \; }
-</span></span><span style="display:flex;"><span>nft add rule ip firewall input iif lo accept
-</span></span><span style="display:flex;"><span>nft add rule ip firewall input iif != lo ip daddr 127.0.0.0/8 drop
-</span></span><span style="display:flex;"><span>nft add rule ip firewall input tcp dport ssh accept
-</span></span><span style="display:flex;"><span>nft add rule ip firewall input ct state established,related accept
-</span></span><span style="display:flex;"><span>nft add chain ip firewall forward { type filter hook forward priority 0 \; policy drop \; }
-</span></span><span style="display:flex;"><span>nft add chain ip firewall output { type filter hook output priority 0 \; policy drop \; }
-</span></span><span style="display:flex;"><span>nft add rule ip firewall output oif lo accept
-</span></span><span style="display:flex;"><span>nft add rule ip firewall output tcp dport { http, https } accept
-</span></span><span style="display:flex;"><span>nft add rule ip firewall output udp dport { domain, ntp } accept
-</span></span><span style="display:flex;"><span>nft add rule ip firewall output ct state established,related accept
-</span></span></code></pre></div><h4 id="if-network-is-ipv4-only-run">
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">nft flush ruleset
+nft add table ip firewall
+nft add chain ip firewall input { type filter hook input priority 0 \; policy drop \; }
+nft add rule ip firewall input iif lo accept
+nft add rule ip firewall input iif != lo ip daddr 127.0.0.0/8 drop
+nft add rule ip firewall input tcp dport ssh accept
+nft add rule ip firewall input ct state established,related accept
+nft add chain ip firewall forward { type filter hook forward priority 0 \; policy drop \; }
+nft add chain ip firewall output { type filter hook output priority 0 \; policy drop \; }
+nft add rule ip firewall output oif lo accept
+nft add rule ip firewall output tcp dport { http, https } accept
+nft add rule ip firewall output udp dport { domain, ntp } accept
+nft add rule ip firewall output ct state established,related accept
+</code></pre></div><h4 id="if-network-is-ipv4-only-run">
   If network is IPv4-only, run:
   <a class="heading-link" href="#if-network-is-ipv4-only-run">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h4>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>nft add table ip6 firewall
-</span></span><span style="display:flex;"><span>nft add chain ip6 firewall input { type filter hook input priority 0 \; policy drop \; }
-</span></span><span style="display:flex;"><span>nft add chain ip6 firewall forward { type filter hook forward priority 0 \; policy drop \; }
-</span></span><span style="display:flex;"><span>nft add chain ip6 firewall output { type filter hook output priority 0 \; policy drop \; }
-</span></span></code></pre></div><h4 id="if-network-is-dual-stack-ipv4--ipv6-run">
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">nft add table ip6 firewall
+nft add chain ip6 firewall input { type filter hook input priority 0 \; policy drop \; }
+nft add chain ip6 firewall forward { type filter hook forward priority 0 \; policy drop \; }
+nft add chain ip6 firewall output { type filter hook output priority 0 \; policy drop \; }
+</code></pre></div><h4 id="if-network-is-dual-stack-ipv4--ipv6-run">
   If network is dual stack (IPv4 + IPv6) run:
   <a class="heading-link" href="#if-network-is-dual-stack-ipv4--ipv6-run">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h4>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>nft add table ip6 firewall
-</span></span><span style="display:flex;"><span>nft add chain ip6 firewall input { type filter hook input priority 0\; policy drop\; }
-</span></span><span style="display:flex;"><span>nft add rule ip6 firewall input iif lo accept
-</span></span><span style="display:flex;"><span>nft add rule ip6 firewall input iif != lo ip6 daddr ::1 drop
-</span></span><span style="display:flex;"><span>nft add rule ip6 firewall input meta l4proto ipv6-icmp icmpv6 type { destination-unreachable, packet-too-big, time-exceeded, parameter-problem } accept
-</span></span><span style="display:flex;"><span>nft add rule ip6 firewall input meta l4proto ipv6-icmp icmpv6 type { nd-router-advert, nd-neighbor-solicit, nd-neighbor-advert, nd-redirect } ip6 hoplimit 255 accept
-</span></span><span style="display:flex;"><span>nft add rule ip6 firewall input tcp dport ssh accept
-</span></span><span style="display:flex;"><span>nft add rule ip6 firewall input ct state established,related accept
-</span></span><span style="display:flex;"><span>nft add chain ip6 firewall forward { type filter hook forward priority 0\; policy drop\; }
-</span></span><span style="display:flex;"><span>nft add chain ip6 firewall output { type filter hook output priority 0\; policy drop\; }
-</span></span><span style="display:flex;"><span>nft add rule ip6 firewall output oif lo accept
-</span></span><span style="display:flex;"><span>nft add rule ip6 firewall output meta l4proto ipv6-icmp icmpv6 type { destination-unreachable, packet-too-big, time-exceeded, parameter-problem } accept
-</span></span><span style="display:flex;"><span>nft add rule ip6 firewall output meta l4proto ipv6-icmp icmpv6 type { nd-router-advert, nd-neighbor-solicit, nd-neighbor-advert } ip6 hoplimit 255 accept
-</span></span><span style="display:flex;"><span>nft add rule ip6 firewall output tcp dport { http, https } accept
-</span></span><span style="display:flex;"><span>nft add rule ip6 firewall output udp dport { domain, ntp } accept
-</span></span><span style="display:flex;"><span>nft add rule ip6 firewall output ct state related,established accept
-</span></span></code></pre></div><h3 id="step-14-log-out-and-log-in-to-confirm-firewall-is-not-blocking-ssh">
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">nft add table ip6 firewall
+nft add chain ip6 firewall input { type filter hook input priority 0\; policy drop\; }
+nft add rule ip6 firewall input iif lo accept
+nft add rule ip6 firewall input iif != lo ip6 daddr ::1 drop
+nft add rule ip6 firewall input meta l4proto ipv6-icmp icmpv6 type { destination-unreachable, packet-too-big, time-exceeded, parameter-problem } accept
+nft add rule ip6 firewall input meta l4proto ipv6-icmp icmpv6 type { nd-router-advert, nd-neighbor-solicit, nd-neighbor-advert, nd-redirect } ip6 hoplimit 255 accept
+nft add rule ip6 firewall input tcp dport ssh accept
+nft add rule ip6 firewall input ct state established,related accept
+nft add chain ip6 firewall forward { type filter hook forward priority 0\; policy drop\; }
+nft add chain ip6 firewall output { type filter hook output priority 0\; policy drop\; }
+nft add rule ip6 firewall output oif lo accept
+nft add rule ip6 firewall output meta l4proto ipv6-icmp icmpv6 type { destination-unreachable, packet-too-big, time-exceeded, parameter-problem } accept
+nft add rule ip6 firewall output meta l4proto ipv6-icmp icmpv6 type { nd-router-advert, nd-neighbor-solicit, nd-neighbor-advert } ip6 hoplimit 255 accept
+nft add rule ip6 firewall output tcp dport { http, https } accept
+nft add rule ip6 firewall output udp dport { domain, ntp } accept
+nft add rule ip6 firewall output ct state related,established accept
+</code></pre></div><h3 id="step-14-log-out-and-log-in-to-confirm-firewall-is-not-blocking-ssh">
   Step 14: log out and log in to confirm firewall is not blocking SSH
   <a class="heading-link" href="#step-14-log-out-and-log-in-to-confirm-firewall-is-not-blocking-ssh">
     <i class="fa fa-link" aria-hidden="true"></i>
@@ -518,129 +516,129 @@
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h4>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell-session" data-lang="shell-session"><span style="display:flex;"><span>$ <span style="color:#fff;font-weight:bold">exit</span>
-</span></span><span style="display:flex;"><span><span style="color:#f00">
-</span></span></span><span style="display:flex;"><span><span style="color:#f00"></span>$ <span style="color:#fff;font-weight:bold">exit</span>
-</span></span></code></pre></div><h4 id="log-in">
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">$ exit
+
+$ exit
+</code></pre></div><h4 id="log-in">
   Log in
   <a class="heading-link" href="#log-in">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h4>
 <p>Caution: when asked for passphrase, enter passphrase used while creating the ssh key from <strong>step 1</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>ssh -i ~/.ssh/server saurabh@123.567.344.115
-</span></span></code></pre></div><h4 id="switch-to-root">
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">ssh -i ~/.ssh/server saurabh@123.567.344.115
+</code></pre></div><h4 id="switch-to-root">
   Switch to root
   <a class="heading-link" href="#switch-to-root">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h4>
 <p>When asked, enter root password.</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>su -
-</span></span></code></pre></div><h3 id="step-15-make-firewall-rules-persistent">
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">su -
+</code></pre></div><h3 id="step-15-make-firewall-rules-persistent">
   Step 15: make firewall rules persistent
   <a class="heading-link" href="#step-15-make-firewall-rules-persistent">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>cat &lt;&lt; &#34;EOF&#34; &gt; /etc/nftables.conf
-</span></span><span style="display:flex;"><span>#!/usr/sbin/nft -f
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>flush ruleset
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>EOF
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>nft list ruleset &gt;&gt; /etc/nftables.conf
-</span></span></code></pre></div><h3 id="step-16-update-apt-index-and-upgrade-packages">
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">cat &lt;&lt; &#34;EOF&#34; &gt; /etc/nftables.conf
+#!/usr/sbin/nft -f
+
+flush ruleset
+
+EOF
+</code></pre></div><div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">nft list ruleset &gt;&gt; /etc/nftables.conf
+</code></pre></div><h3 id="step-16-update-apt-index-and-upgrade-packages">
   Step 16: update APT index and upgrade packages
   <a class="heading-link" href="#step-16-update-apt-index-and-upgrade-packages">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell-session" data-lang="shell-session"><span style="display:flex;"><span>$ apt update
-</span></span><span style="display:flex;"><span><span style="color:#f00">
-</span></span></span><span style="display:flex;"><span><span style="color:#f00"></span>$ apt upgrade -y
-</span></span></code></pre></div><h3 id="step-17-set-timezone-the-following-is-for-kolkatta-time">
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">$ apt update
+
+$ apt upgrade -y
+</code></pre></div><h3 id="step-17-set-timezone-the-following-is-for-kolkatta-time">
   Step 17: set timezone (the following is for Kolkatta time)
   <a class="heading-link" href="#step-17-set-timezone-the-following-is-for-kolkatta-time">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h3>
 <p>See <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">https://en.wikipedia.org/wiki/List_of_tz_database_time_zones</a></p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>timedatectl set-timezone Asia/Kolkata
-</span></span></code></pre></div><h3 id="step-15-log-out-and-log-in-to-system-admin-to-auto-update-the-security-packages">
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">timedatectl set-timezone Asia/Kolkata
+</code></pre></div><h3 id="step-15-log-out-and-log-in-to-system-admin-to-auto-update-the-security-packages">
   Step 15: log out and log in to system-admin to auto-update the security packages
   <a class="heading-link" href="#step-15-log-out-and-log-in-to-system-admin-to-auto-update-the-security-packages">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sudo apt install unattended-upgrades
-</span></span><span style="display:flex;"><span>sudo apt install update-notifier-common
-</span></span></code></pre></div><p>Set your automatic upgrade preferences in the</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>/etc/apt/apt.conf.d/50unattended-upgrades
-</span></span></code></pre></div><p>file. These are the settings I use.</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#007f7f">//Unattended-Upgrade::InstallOnShutdown &#34;false&#34;; 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>
-</span></span><span style="display:flex;"><span><span style="color:#007f7f">// Send email to this address for problems or packages upgrades // If empty or unset then no email is sent, make sure that you 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">// have a working mail setup on your system. A package that provides 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">// &#39;mailx&#39; must be installed. E.g. &#34;user@example.com&#34; Unattended-Upgrade::Mail &#34;you@example.com&#34;; 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>
-</span></span><span style="display:flex;"><span><span style="color:#007f7f">// Set this value to one of: 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">// &#34;always&#34;, &#34;only-on-error&#34; or &#34;on-change&#34; 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">// If this is not set, then any legacy MailOnlyOnError (boolean) value 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">// is used to chose between &#34;only-on-error&#34; and &#34;on-change&#34; Unattended-Upgrade::MailReport &#34;only-on-error&#34;; 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>
-</span></span><span style="display:flex;"><span><span style="color:#007f7f">// Remove unused automatically installed kernel-related packages 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">// (kernel images, kernel headers and kernel version locked tools). Unattended-Upgrade::Remove-Unused-Kernel-Packages &#34;true&#34;; 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>
-</span></span><span style="display:flex;"><span><span style="color:#007f7f">// Do automatic removal of newly unused dependencies after the upgrade Unattended-Upgrade::Remove-New-Unused-Dependencies &#34;true&#34;; 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>
-</span></span><span style="display:flex;"><span><span style="color:#007f7f">// Do automatic removal of unused packages after the upgrade 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">// (equivalent to apt-get autoremove) 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>Unattended-Upgrade::Remove-Unused-Dependencies <span style="color:#0ff;font-weight:bold">&#34;true&#34;</span>; 
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#007f7f">// Automatically reboot *WITHOUT CONFIRMATION* if 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">// the file /var/run/reboot-required is found after the upgrade 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>Unattended-Upgrade::Automatic-Reboot <span style="color:#0ff;font-weight:bold">&#34;true&#34;</span>; 
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#007f7f">// Automatically reboot even if there are users currently logged in 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">// when Unattended-Upgrade::Automatic-Reboot is set to true 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">//Unattended-Upgrade::Automatic-Reboot-WithUsers &#34;true&#34;; 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>
-</span></span><span style="display:flex;"><span><span style="color:#007f7f">// If automatic reboot is enabled and needed, reboot at the specific 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">// time instead of immediately 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">// Default: &#34;now&#34; 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>Unattended-Upgrade::Automatic-Reboot-Time <span style="color:#0ff;font-weight:bold">&#34;03:00&#34;</span>; 
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#007f7f">// Use apt bandwidth limit feature, this example limits the download 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">// speed to 70kb/sec 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">//Acquire::http::Dl-Limit &#34;70&#34;; 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>
-</span></span><span style="display:flex;"><span><span style="color:#007f7f">// Enable logging to syslog. Default is False 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">// Unattended-Upgrade::SyslogEnable &#34;false&#34;; 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>
-</span></span><span style="display:flex;"><span><span style="color:#007f7f">// Specify syslog facility. Default is daemon 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">// Unattended-Upgrade::SyslogFacility &#34;daemon&#34;; 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>
-</span></span><span style="display:flex;"><span><span style="color:#007f7f">// Download and install upgrades only on AC power 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">// (i.e. skip or gracefully stop updates on battery) 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">// Unattended-Upgrade::OnlyOnACPower &#34;true&#34;; 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>
-</span></span><span style="display:flex;"><span><span style="color:#007f7f">// Download and install upgrades only on non-metered connection 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">// (i.e. skip or gracefully stop updates on a metered connection) 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">// Unattended-Upgrade::Skip-Updates-On-Metered-Connections &#34;true&#34;; 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>
-</span></span><span style="display:flex;"><span><span style="color:#007f7f">// Verbose logging 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">// Unattended-Upgrade::Verbose &#34;false&#34;; 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>
-</span></span><span style="display:flex;"><span><span style="color:#007f7f">// Print debugging information both in unattended-upgrades and 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">// in unattended-upgrade-shutdown 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">// Unattended-Upgrade::Debug &#34;false&#34;; 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>
-</span></span><span style="display:flex;"><span><span style="color:#007f7f">// Allow package downgrade if Pin-Priority exceeds 1000 
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">// Unattended-Upgrade::Allow-downgrade &#34;false&#34;;
-</span></span></span></code></pre></div><p>In order to enable automatic upgrades, execute the following command where the <strong>-plow</strong> flag mean priority low.</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>dpkg-reconfigure -plow unattended-upgrades
-</span></span></code></pre></div><p>In the resulting screen with a pink background, you will be asked “Automatically download and install stable updates?”</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo apt install unattended-upgrades
+sudo apt install update-notifier-common
+</code></pre></div><p>Set your automatic upgrade preferences in the</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">/etc/apt/apt.conf.d/50unattended-upgrades
+</code></pre></div><p>file. These are the settings I use.</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#007f7f">//Unattended-Upgrade::InstallOnShutdown &#34;false&#34;; 
+</span><span style="color:#007f7f"></span>
+<span style="color:#007f7f">// Send email to this address for problems or packages upgrades // If empty or unset then no email is sent, make sure that you 
+</span><span style="color:#007f7f">// have a working mail setup on your system. A package that provides 
+</span><span style="color:#007f7f">// &#39;mailx&#39; must be installed. E.g. &#34;user@example.com&#34; Unattended-Upgrade::Mail &#34;you@example.com&#34;; 
+</span><span style="color:#007f7f"></span>
+<span style="color:#007f7f">// Set this value to one of: 
+</span><span style="color:#007f7f">// &#34;always&#34;, &#34;only-on-error&#34; or &#34;on-change&#34; 
+</span><span style="color:#007f7f">// If this is not set, then any legacy MailOnlyOnError (boolean) value 
+</span><span style="color:#007f7f">// is used to chose between &#34;only-on-error&#34; and &#34;on-change&#34; Unattended-Upgrade::MailReport &#34;only-on-error&#34;; 
+</span><span style="color:#007f7f"></span>
+<span style="color:#007f7f">// Remove unused automatically installed kernel-related packages 
+</span><span style="color:#007f7f">// (kernel images, kernel headers and kernel version locked tools). Unattended-Upgrade::Remove-Unused-Kernel-Packages &#34;true&#34;; 
+</span><span style="color:#007f7f"></span>
+<span style="color:#007f7f">// Do automatic removal of newly unused dependencies after the upgrade Unattended-Upgrade::Remove-New-Unused-Dependencies &#34;true&#34;; 
+</span><span style="color:#007f7f"></span>
+<span style="color:#007f7f">// Do automatic removal of unused packages after the upgrade 
+</span><span style="color:#007f7f">// (equivalent to apt-get autoremove) 
+</span><span style="color:#007f7f"></span>Unattended-Upgrade::Remove-Unused-Dependencies <span style="color:#0ff;font-weight:bold">&#34;true&#34;</span>; 
+
+<span style="color:#007f7f">// Automatically reboot *WITHOUT CONFIRMATION* if 
+</span><span style="color:#007f7f">// the file /var/run/reboot-required is found after the upgrade 
+</span><span style="color:#007f7f"></span>Unattended-Upgrade::Automatic-Reboot <span style="color:#0ff;font-weight:bold">&#34;true&#34;</span>; 
+
+<span style="color:#007f7f">// Automatically reboot even if there are users currently logged in 
+</span><span style="color:#007f7f">// when Unattended-Upgrade::Automatic-Reboot is set to true 
+</span><span style="color:#007f7f">//Unattended-Upgrade::Automatic-Reboot-WithUsers &#34;true&#34;; 
+</span><span style="color:#007f7f"></span>
+<span style="color:#007f7f">// If automatic reboot is enabled and needed, reboot at the specific 
+</span><span style="color:#007f7f">// time instead of immediately 
+</span><span style="color:#007f7f">// Default: &#34;now&#34; 
+</span><span style="color:#007f7f"></span>Unattended-Upgrade::Automatic-Reboot-Time <span style="color:#0ff;font-weight:bold">&#34;03:00&#34;</span>; 
+
+<span style="color:#007f7f">// Use apt bandwidth limit feature, this example limits the download 
+</span><span style="color:#007f7f">// speed to 70kb/sec 
+</span><span style="color:#007f7f">//Acquire::http::Dl-Limit &#34;70&#34;; 
+</span><span style="color:#007f7f"></span>
+<span style="color:#007f7f">// Enable logging to syslog. Default is False 
+</span><span style="color:#007f7f">// Unattended-Upgrade::SyslogEnable &#34;false&#34;; 
+</span><span style="color:#007f7f"></span>
+<span style="color:#007f7f">// Specify syslog facility. Default is daemon 
+</span><span style="color:#007f7f">// Unattended-Upgrade::SyslogFacility &#34;daemon&#34;; 
+</span><span style="color:#007f7f"></span>
+<span style="color:#007f7f">// Download and install upgrades only on AC power 
+</span><span style="color:#007f7f">// (i.e. skip or gracefully stop updates on battery) 
+</span><span style="color:#007f7f">// Unattended-Upgrade::OnlyOnACPower &#34;true&#34;; 
+</span><span style="color:#007f7f"></span>
+<span style="color:#007f7f">// Download and install upgrades only on non-metered connection 
+</span><span style="color:#007f7f">// (i.e. skip or gracefully stop updates on a metered connection) 
+</span><span style="color:#007f7f">// Unattended-Upgrade::Skip-Updates-On-Metered-Connections &#34;true&#34;; 
+</span><span style="color:#007f7f"></span>
+<span style="color:#007f7f">// Verbose logging 
+</span><span style="color:#007f7f">// Unattended-Upgrade::Verbose &#34;false&#34;; 
+</span><span style="color:#007f7f"></span>
+<span style="color:#007f7f">// Print debugging information both in unattended-upgrades and 
+</span><span style="color:#007f7f">// in unattended-upgrade-shutdown 
+</span><span style="color:#007f7f">// Unattended-Upgrade::Debug &#34;false&#34;; 
+</span><span style="color:#007f7f"></span>
+<span style="color:#007f7f">// Allow package downgrade if Pin-Priority exceeds 1000 
+</span><span style="color:#007f7f">// Unattended-Upgrade::Allow-downgrade &#34;false&#34;;
+</span></code></pre></div><p>In order to enable automatic upgrades, execute the following command where the <strong>-plow</strong> flag mean priority low.</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">dpkg-reconfigure -plow unattended-upgrades
+</code></pre></div><p>In the resulting screen with a pink background, you will be asked “Automatically download and install stable updates?”</p>
 <p>Select the <strong>Yes</strong> option to continue.</p>
 <h3 id="test-it-out-with-a-dry-run">
   Test it Out with a Dry Run
@@ -649,88 +647,88 @@
   </a>
 </h3>
 <p>You can optionally do a dry run to see what will happen during an unattended upgrade with the following command.</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>unattended-upgrades --dry-run --debug
-</span></span></code></pre></div><h3 id="look-at-the-daily-timer">
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">unattended-upgrades --dry-run --debug
+</code></pre></div><h3 id="look-at-the-daily-timer">
   Look at the Daily Timer
   <a class="heading-link" href="#look-at-the-daily-timer">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h3>
 <p>If you look at the <strong>/lib/systemd/system/apt-daily.timer</strong> file, you will see the interval that the <strong>apt update</strong> command is executed. In this case it is twice a day with a random delay after 6 AM and 6 PM.</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>[Unit]
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>Description=Daily apt download activities
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>[Timer]
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>OnCalendar=*-*-* 6,18:00
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>RandomizedDelaySec=12h
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>Persistent=true
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>[Install]
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>WantedBy=timers.target
-</span></span></code></pre></div><p>The corresponding service file at <strong>/lib/systemd/system/apt-daily.service</strong> contains the actual command (<strong>ExecStart</strong>) that will be executed based on that timer interval.</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>[Unit]
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>Description=Daily apt download activities
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>Documentation=man:apt(8)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>ConditionACPower=true
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>After=network.target network-online.target systemd-networkd.service NetworkManager.service connman.service
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>[Service]
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>Type=oneshot
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>ExecStartPre=-/usr/lib/apt/apt-helper wait-online
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>ExecStart=/usr/lib/apt/apt.systemd.daily update
-</span></span></code></pre></div><p>Timer and service files also exist for the <strong>apt upgrade</strong> command too. The timer file is at <strong>/lib/systemd/system/apt-daily-upgrade.timer</strong> .</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>[Unit]
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>Description=Daily apt upgrade and clean activities
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>After=apt-daily.timer
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>[Timer]
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>OnCalendar=*-*-* 6:00
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>RandomizedDelaySec=60m
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>Persistent=true
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>[Install]
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>WantedBy=timers.target
-</span></span></code></pre></div><p>The service file is at <strong>/lib/systemd/system/apt-daily-upgrade.service</strong>.</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>[Unit]
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>Description=Daily apt upgrade and clean activities
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>Documentation=man:apt(8)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>ConditionACPower=true
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>After=apt-daily.service network.target network-online.target systemd-networkd.service NetworkManager.service connman.service
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>[Service]
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>Type=oneshot
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>ExecStartPre=-/usr/lib/apt/apt-helper wait-online
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>ExecStart=/usr/lib/apt/apt.systemd.daily install
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>KillMode=process
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>TimeoutStopSec=900
-</span></span></code></pre></div>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">[Unit]
+
+Description=Daily apt download activities
+
+[Timer]
+
+OnCalendar=*-*-* 6,18:00
+
+RandomizedDelaySec=12h
+
+Persistent=true
+
+[Install]
+
+WantedBy=timers.target
+</code></pre></div><p>The corresponding service file at <strong>/lib/systemd/system/apt-daily.service</strong> contains the actual command (<strong>ExecStart</strong>) that will be executed based on that timer interval.</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">[Unit]
+
+Description=Daily apt download activities
+
+Documentation=man:apt(8)
+
+ConditionACPower=true
+
+After=network.target network-online.target systemd-networkd.service NetworkManager.service connman.service
+
+[Service]
+
+Type=oneshot
+
+ExecStartPre=-/usr/lib/apt/apt-helper wait-online
+
+ExecStart=/usr/lib/apt/apt.systemd.daily update
+</code></pre></div><p>Timer and service files also exist for the <strong>apt upgrade</strong> command too. The timer file is at <strong>/lib/systemd/system/apt-daily-upgrade.timer</strong> .</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">[Unit]
+
+Description=Daily apt upgrade and clean activities
+
+After=apt-daily.timer
+
+[Timer]
+
+OnCalendar=*-*-* 6:00
+
+RandomizedDelaySec=60m
+
+Persistent=true
+
+[Install]
+
+WantedBy=timers.target
+</code></pre></div><p>The service file is at <strong>/lib/systemd/system/apt-daily-upgrade.service</strong>.</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">[Unit]
+
+Description=Daily apt upgrade and clean activities
+
+Documentation=man:apt(8)
+
+ConditionACPower=true
+
+After=apt-daily.service network.target network-online.target systemd-networkd.service NetworkManager.service connman.service
+
+[Service]
+
+Type=oneshot
+
+ExecStartPre=-/usr/lib/apt/apt-helper wait-online
+
+ExecStart=/usr/lib/apt/apt.systemd.daily install
+
+KillMode=process
+
+TimeoutStopSec=900
+</code></pre></div>
       </div>
 
 
@@ -753,7 +751,7 @@
   <footer class="footer">
     <section class="container">
       
-        <p>Copyright ©2022 | All rights reserved</p>
+        <p>Copyright ©2023 | All rights reserved</p>
       
       
       
@@ -767,7 +765,7 @@
     
       
         
-        <script src="https://sidmulajkar.com/js/dark-mode.min.c2d8a1f8f2660e4a46d776277c72695a1e0ca65939d79f754441d47551604af5.js" integrity="sha256-wtih&#43;PJmDkpG13YnfHJpWh4Mplk51591REHUdVFgSvU="></script>
+        <script src="https://sidmulajkar.com/js/dark-mode.min.aee9c8a464eb7b3534c7110f7c5e169e7039e2fd92710e0626d451d6725af137.js" integrity="sha256-runIpGTrezU0xxEPfF4WnnA54v2ScQ4GJtRR1nJa8Tc="></script>
       
     
 

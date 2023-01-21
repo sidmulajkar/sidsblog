@@ -4,28 +4,41 @@ date: 2022-06-19T19:09:26+05:30
 draft: false
 ---
 
-
-`A series of podcasts and blogs to restore your data privacy and learn more about how the data can be tracked less, one step towards improving the privacy.`
-
+# {Security ≠ Privacy}.
 
 ---
 
+### "I don't have anything to hide..."
 
+`It is` **axiomatic** `in the world of privacy that privacy matters to people,` **but why it matter's is more complicated.** `People often argue about why privacy is important to individuals, but there is no “one-size-fits-all” answer.`
+
+
+---
 
 #### Beginner's Guide to Digital Privacy
 
 {{< audio src="/audio/privacyguideseriesS01.mp3" class="privacyguides" >}}
 
+---
 
-[![NAMASTE JAVASCRIPT](/images/privacyguides/startingsession01/mitreport.png)](https://thereader.mitpress.mit.edu/a-history-of-the-data-tracked-user/ "MIT REPORT")
+`A series of podcasts and blogs to restore your data privacy and learn more about how the data can be tracked less, one step towards improving the privacy.`
+
+---
+
+
+[![Privacy MIT Report](/images/privacyguides/startingsession01/mitreport.png)](https://thereader.mitpress.mit.edu/a-history-of-the-data-tracked-user/ "MIT REPORT")
 
 
 
-https://thereader.mitpress.mit.edu/a-history-of-the-data-tracked-user/
+Link: https://thereader.mitpress.mit.edu/a-history-of-the-data-tracked-user/
 
 
 
 ---
 
+### Check out the [References](https://sidmulajkar.com/references) section for more insights about privacy.
 
-**More Content Coming Soon!! Working on the upcoming series of blogs and podcasts...**
+---
+
+
+**More Content Coming Soon!!**

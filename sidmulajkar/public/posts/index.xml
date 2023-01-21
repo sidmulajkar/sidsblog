@@ -13,9 +13,8 @@
       <pubDate>Sun, 16 Oct 2022 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/how-harden-linux-server/</guid>
-      <description>Requirements Computer, virtual private server (VPS) or dedicated server running Debian based server instance. Linux or macOS computer for following the steps and hardening the server Guide Step 1. Create the SSH key pair for login (On Computer) Using a root login password to login is good but not great from the security stand.
-When asked for file in which to save key, enter serverlog.
-When asked for passphrase, use output from openssl rand -base64 24 (and store passphrase in password manager).</description>
+      <description>Requirements     Computer, virtual private server (VPS) or dedicated server running Debian based server instance. Linux or macOS computer for following the steps and hardening the server  Guide    Step 1. Create the SSH key pair for login (On Computer)    Using a root login password to login is good but not great from the security stand.
+When asked for file in which to save key, enter serverlog.</description>
     </item>
     
     <item>
@@ -24,11 +23,11 @@ When asked for passphrase, use output from openssl rand -base64 24 (and store pa
       <pubDate>Mon, 30 May 2022 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/darkweb-tor-website/</guid>
-      <description>What is a tor website? A top-level Internet domain used by anonymous websites on the Dark Web.
-For eg, as we go to any other website such as google.com or youtube.com, DuckDuckGo is an internet search engine such as google that emphasizes protecting searchers&amp;rsquo; privacy,
+      <description>What is a tor website?    A top-level Internet domain used by anonymous websites on the Dark Web.
+For eg, as we go to any other website such as google.com or youtube.com, DuckDuckGo is an internet search engine such as google that emphasizes protecting searchers&#39; privacy,
 can also be accessed using duckduckgo.com or also using the tor address of the website
 https://3g2upl4pq6kufc4m.onion (using the tor browser)
-Why do we need even need it?</description>
+ Why do we need even need it?</description>
     </item>
     
     <item>
@@ -40,7 +39,7 @@ Why do we need even need it?</description>
       <description>How to Handle the Double booking problem in an app or website just using the database?
 Well the Answer is :
 It totally depends, on what use, we are using the concurrency model for using the specific database to avoid this problem.
-Firstly, what the heck is double booking problem? An online movie ticket booking system provides its customers with the ability to book movie tickets online. BookMyShow as an example allows the customers to browse movies currently being running in a city and to book seats, anywhere anytime for a show.</description>
+ Firstly, what the heck is double booking problem?    An online movie ticket booking system provides its customers with the ability to book movie tickets online.</description>
     </item>
     
     <item>
@@ -51,7 +50,7 @@ Firstly, what the heck is double booking problem? An online movie ticket booking
       <guid>https://sidmulajkar.com/posts/databases-how-do-we-know-its-the-right-one/</guid>
       <description>Choosing the Best Database
 Databases! How do you know it’s the right one?
-Whether you are an experienced software engineer or a student doing a university project, at some point we will need to choose a DB for our project.
+ Whether you are an experienced software engineer or a student doing a university project, at some point we will need to choose a DB for our project.
 Choosing the right kind of database always requires some consideration.
 First of all, databases will not impact our functional requirements.
 Whichever database we use can still achieve our functional requirements somehow, but at the cost of huge performance degradation.</description>
@@ -68,7 +67,7 @@ What are those and when to use them?
 The role of message queuing in a micro-service architecture.
 When is the right time to use a message queue and why is a database rarely the best tool for a queue-based problem?
 A blog on backend engineering&amp;hellip;
-Imagine that we have a web application for customers to upload a text document, which then converts it into a PDF, and then emails it back to the customer.</description>
+ Imagine that we have a web application for customers to upload a text document, which then converts it into a PDF, and then emails it back to the customer.</description>
     </item>
     
     <item>
@@ -78,11 +77,10 @@ Imagine that we have a web application for customers to upload a text document, 
       
       <guid>https://sidmulajkar.com/posts/when-indexes-are-not-useable/</guid>
       <description>What do I even mean by useless indexes?
-To improve the application and the database, indexes need to change over time.
+ To improve the application and the database, indexes need to change over time.
 As the structure of the database change, the structure of the tables change, data in the tables change, the application changes, also the queries against the data change.
 Indexes that once helped performance now just bloat your database and cause extra work for inserts, updates, and deletes.
-wait&amp;hellip;
-Before getting to the conclusion</description>
+wait&amp;hellip;</description>
     </item>
     
     <item>
@@ -93,7 +91,7 @@ Before getting to the conclusion</description>
       <guid>https://sidmulajkar.com/posts/b-bplus-trees/</guid>
       <description>What are those? Ever used those while searching through the dataset.
 How they are useful in databases?
-To understand stuff more clearly let&amp;rsquo;s take a scenario:
+ To understand stuff more clearly let&amp;rsquo;s take a scenario:
 Like we have a table, a huge table(millions of rows to go through), and we want to search to a particular numbered row by some id mentioned &amp;ldquo;100035&amp;rdquo; and not only pulling a row but getting most out of the pulled row.
 For the longest time, what we do is search the table one by one sequentially (page by page).</description>
     </item>
@@ -104,9 +102,9 @@ For the longest time, what we do is search the table one by one sequentially (pa
       <pubDate>Sun, 17 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/database-sharding-architectures/</guid>
-      <description>Once you’ve decided to shard your database, the next thing you need to figure out is how you’ll go about doing so. Your application suddenly becomes popular. Traffic and data are starting to grow, and your database gets more overloaded every day.
+      <description>Once you’ve decided to shard your database, the next thing you need to figure out is how you’ll go about doing so.    Your application suddenly becomes popular. Traffic and data are starting to grow, and your database gets more overloaded every day.
 People on the internet tell you to scale your database by sharding, but you don’t know what it means.
-If you haven&amp;rsquo;t read the last blog post and want to know more about Database Sharding check the previous blog &amp;gt; What is Database Sharding</description>
+ If you haven&amp;rsquo;t read the last blog post and want to know more about Database Sharding check the previous blog &amp;gt; What is Database Sharding</description>
     </item>
     
     <item>
@@ -115,13 +113,13 @@ If you haven&amp;rsquo;t read the last blog post and want to know more about Dat
       <pubDate>Thu, 14 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/what-is-database-sharding/</guid>
-      <description>Database Sharding How often do you shard your database?
+      <description>Database Sharding    How often do you shard your database?
 Do you prematurely shard?
 Do you actually need that for your database?🤔
-Your application is growing. It has more active users, more features, and generates more data every day.
+  Your application is growing. It has more active users, more features, and generates more data every day.
 Your database is now becoming a bottleneck for the rest of your application. Database sharding could be the solution to your problems.
 But Wait&amp;hellip;
-Q) What is Database Sharding? Sharding is a method for distributing a single dataset across multiple databases, which can then be stored on multiple machines.</description>
+Q) What is Database Sharding?</description>
     </item>
     
     <item>
@@ -130,9 +128,8 @@ Q) What is Database Sharding? Sharding is a method for distributing a single dat
       <pubDate>Wed, 06 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/tcp-and-udp/</guid>
-      <description>TCP and UDP A simple open-ended question that can test your whole sort of knowledge.
-What will be addressed in this post? - The problem with packets (IP) - TCP pros and cons - TCP communication sample code - UDP pros and cons - UDP communication sample code - Some questions based on them To start, I was asked a question in an interview,
-What to use UDP or TCP in Building a Backend Application?</description>
+      <description>TCP and UDP    A simple open-ended question that can test your whole sort of knowledge.
+ What will be addressed in this post?    - The problem with packets (IP) - TCP pros and cons - TCP communication sample code - UDP pros and cons - UDP communication sample code - Some questions based on them  To start, I was asked a question in an interview,</description>
     </item>
     
     <item>
@@ -143,7 +140,7 @@ What to use UDP or TCP in Building a Backend Application?</description>
       <guid>https://sidmulajkar.com/posts/tcp-slow-start/</guid>
       <description>Does it affect Web Application Performance?
 Yes, it&amp;rsquo;s a feature, not an issue but can be a problem sometimes while analyzing and designing the app.
-TCP slow start is a congestion-avoidance algorithm that balances the speed of a network connection.
+ TCP slow start is a congestion-avoidance algorithm that balances the speed of a network connection.
 A slow start gradually increases the amount of data transmitted until it finds the network’s maximum carrying capacity.
 One of the most common ways to optimize the speed of a connection (i.</description>
     </item>
@@ -155,7 +152,7 @@ One of the most common ways to optimize the speed of a connection (i.</descripti
       
       <guid>https://sidmulajkar.com/posts/linux-subsytem-in-windows-wsl2/</guid>
       <description>So, Ready to transform your Windows Environment in to your Linux Beast!!
-Before prcoeeding with the tutorial check if you have the proper version of Windows 10 installed using the winver command in Windows Start options or using the &amp;ldquo;Run&amp;rdquo; command to use the WSL-2. If you don&amp;rsquo;t have the similar version then try the updating the windows to work ahead. 1. Once you have the windows proper version then again open the windows start menu and then type &amp;ldquo;Turn on or off Windows Features&amp;rdquo; to open the dialog box as shown below.</description>
+ Before prcoeeding with the tutorial check if you have the proper version of Windows 10 installed using the winver command in Windows Start options or using the &amp;ldquo;Run&amp;rdquo; command to use the WSL-2.    If you don&amp;rsquo;t have the similar version then try the updating the windows to work ahead.    1. Once you have the windows proper version then again open the windows start menu and then type &amp;ldquo;Turn on or off Windows Features&amp;rdquo; to open the dialog box as shown below.</description>
     </item>
     
     <item>
@@ -164,10 +161,9 @@ Before prcoeeding with the tutorial check if you have the proper version of Wind
       <pubDate>Sun, 05 Sep 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/flutter-installation-in-linux/</guid>
-      <description>On Linux, you have two ways you can install Flutter. Install Flutter using snapd open your terminal and use this command to install flutter
+      <description>On Linux, you have two ways you can install Flutter.    Install Flutter using snapd    open your terminal and use this command to install flutter
 sudo snap install flutter --classic after installing the flutter for the first time type flutter in the terminal as it will install all its dependencies and files
-flutter wait for it to install and then move forward to the pre-requisite section.
-OR Install FLutter Manually If you don’t have a snapd, or can’t use it, you can install Flutter using the following steps.</description>
+flutter wait for it to install and then move forward to the pre-requisite section.</description>
     </item>
     
     <item>
@@ -177,7 +173,7 @@ OR Install FLutter Manually If you don’t have a snapd, or can’t use it, you 
       
       <guid>https://sidmulajkar.com/posts/setting-up-pihole-as-a-recursive-dns-server/</guid>
       <description>Got an old Raspberry Pi lying around? Hate seeing ads while browsing the web? Pi-hole is an open-source software project that blocks ads for all devices on your home network by routing all advertising servers into nowhere. What’s best is it takes just a few minutes to set up.
-What is a Pi-hole? Network-wide ad blocking via your own Linux hardware. The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.</description>
+What is a Pi-hole?    Network-wide ad blocking via your own Linux hardware. The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.</description>
     </item>
     
     <item>

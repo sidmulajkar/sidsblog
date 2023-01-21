@@ -1,518 +1,866 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://sidmulajkar.com/references/</loc>
+    <lastmod>2023-01-19T19:09:26+05:30</lastmod>
+  </url>
+  
   <url>
     <loc>https://sidmulajkar.com/</loc>
     <lastmod>2022-10-16T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/</loc>
     <lastmod>2022-10-16T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/hardening/</loc>
     <lastmod>2022-10-16T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/hardening/</loc>
     <lastmod>2022-10-16T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/posts/how-harden-linux-server/</loc>
     <lastmod>2022-10-16T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/linux/</loc>
     <lastmod>2022-10-16T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/linux/</loc>
     <lastmod>2022-10-16T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/linuxserver/</loc>
     <lastmod>2022-10-16T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/linuxserver/</loc>
     <lastmod>2022-10-16T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/posts/</loc>
     <lastmod>2022-10-16T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/privacy/</loc>
     <lastmod>2022-10-16T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/privacy/</loc>
     <lastmod>2022-10-16T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/security/</loc>
     <lastmod>2022-10-16T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/security/</loc>
     <lastmod>2022-10-16T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/sidsblog/</loc>
     <lastmod>2022-10-16T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/sidsblog/</loc>
     <lastmod>2022-10-16T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/</loc>
     <lastmod>2022-10-16T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/privacyguide/</loc>
     <lastmod>2022-06-19T19:09:26+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/cloud-services/</loc>
     <lastmod>2022-05-30T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/cloud-services/</loc>
     <lastmod>2022-05-30T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/dark-web/</loc>
     <lastmod>2022-05-30T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/dark-web/</loc>
     <lastmod>2022-05-30T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/posts/darkweb-tor-website/</loc>
     <lastmod>2022-05-30T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/microservices/</loc>
     <lastmod>2022-05-30T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/microservices/</loc>
     <lastmod>2022-05-30T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/onion-website/</loc>
     <lastmod>2022-05-30T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/onion-website/</loc>
     <lastmod>2022-05-30T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/raspberry-pi/</loc>
     <lastmod>2022-05-30T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/raspberry-pi/</loc>
     <lastmod>2022-05-30T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/tor/</loc>
     <lastmod>2022-05-30T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/tor/</loc>
     <lastmod>2022-05-30T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/tor-browser/</loc>
     <lastmod>2022-05-30T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/tor-browser/</loc>
     <lastmod>2022-05-30T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/concurrency-control/</loc>
     <lastmod>2022-03-19T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/concurrency-control/</loc>
     <lastmod>2022-03-19T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/database/</loc>
     <lastmod>2022-03-19T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/database/</loc>
     <lastmod>2022-03-19T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/double-booking-problem/</loc>
     <lastmod>2022-03-19T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/double-booking-problem/</loc>
     <lastmod>2022-03-19T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/factors/</loc>
     <lastmod>2022-03-19T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/factors/</loc>
     <lastmod>2022-03-19T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/posts/how-to-handle-double-booking-problem-using-db/</loc>
     <lastmod>2022-03-19T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/kubernetes/</loc>
     <lastmod>2022-03-19T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/kubernetes/</loc>
     <lastmod>2022-03-19T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/lock-mechanism/</loc>
     <lastmod>2022-03-19T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/lock-mechanism/</loc>
     <lastmod>2022-03-19T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/optimistic-approach/</loc>
     <lastmod>2022-03-19T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/optimistic-approach/</loc>
     <lastmod>2022-03-19T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/pessimistic-approach/</loc>
     <lastmod>2022-03-19T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/pessimistic-approach/</loc>
     <lastmod>2022-03-19T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/time-stamping/</loc>
     <lastmod>2022-03-19T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/time-stamping/</loc>
     <lastmod>2022-03-19T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/data-structure/</loc>
     <lastmod>2021-12-23T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/data-structure/</loc>
     <lastmod>2021-12-23T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/posts/databases-how-do-we-know-its-the-right-one/</loc>
     <lastmod>2021-12-23T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/horizontal-scaling/</loc>
     <lastmod>2021-12-23T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/horizontal-scaling/</loc>
     <lastmod>2021-12-23T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/vertical-scaling/</loc>
     <lastmod>2021-12-23T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/vertical-scaling/</loc>
     <lastmod>2021-12-23T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/posts/message-queues/</loc>
     <lastmod>2021-11-26T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/queue/</loc>
     <lastmod>2021-11-26T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/queue/</loc>
     <lastmod>2021-11-26T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/btrees/</loc>
     <lastmod>2021-11-16T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/btrees/</loc>
     <lastmod>2021-11-16T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/index/</loc>
     <lastmod>2021-11-16T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/indexing/</loc>
     <lastmod>2021-11-16T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/indexing-types/</loc>
     <lastmod>2021-11-16T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/posts/when-indexes-are-not-useable/</loc>
     <lastmod>2021-11-16T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/posts/b-bplus-trees/</loc>
     <lastmod>2021-10-25T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/bplus-trees/</loc>
     <lastmod>2021-10-25T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/bplus-trees/</loc>
     <lastmod>2021-10-25T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/trees/</loc>
     <lastmod>2021-10-25T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/trees/</loc>
     <lastmod>2021-10-25T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/services/</loc>
     <lastmod>2021-10-20T19:09:26+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/advantages/</loc>
     <lastmod>2021-10-17T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/architecures/</loc>
     <lastmod>2021-10-17T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/benefits-of-sharding/</loc>
     <lastmod>2021-10-17T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/posts/database-sharding-architectures/</loc>
     <lastmod>2021-10-17T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/disadvantages/</loc>
     <lastmod>2021-10-17T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/sharding/</loc>
     <lastmod>2021-10-17T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/sharding/</loc>
     <lastmod>2021-10-17T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/sharding-architectures/</loc>
     <lastmod>2021-10-17T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/sql/</loc>
     <lastmod>2021-10-17T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/sql/</loc>
     <lastmod>2021-10-17T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/posts/what-is-database-sharding/</loc>
     <lastmod>2021-10-14T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/backend/</loc>
     <lastmod>2021-10-06T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/backend/</loc>
     <lastmod>2021-10-06T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/developement/</loc>
     <lastmod>2021-10-06T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/developement/</loc>
     <lastmod>2021-10-06T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/networking/</loc>
     <lastmod>2021-10-06T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/networking/</loc>
     <lastmod>2021-10-06T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/protocols/</loc>
     <lastmod>2021-10-06T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/protocols/</loc>
     <lastmod>2021-10-06T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/tcp/</loc>
     <lastmod>2021-10-06T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/tcp/</loc>
     <lastmod>2021-10-06T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/posts/tcp-and-udp/</loc>
     <lastmod>2021-10-06T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/udp/</loc>
     <lastmod>2021-10-06T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/udp/</loc>
     <lastmod>2021-10-06T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/congestion-control/</loc>
     <lastmod>2021-10-02T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/congestion-control/</loc>
     <lastmod>2021-10-02T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/mechanism/</loc>
     <lastmod>2021-10-02T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/mechanism/</loc>
     <lastmod>2021-10-02T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/slowstart/</loc>
     <lastmod>2021-10-02T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/slowstart/</loc>
     <lastmod>2021-10-02T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/posts/tcp-slow-start/</loc>
     <lastmod>2021-10-02T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/posts/linux-subsytem-in-windows-wsl2/</loc>
     <lastmod>2021-09-23T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/installation/</loc>
     <lastmod>2021-09-23T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/installing-wsl2-for-ubuntu-using-linux-subsytem/</loc>
     <lastmod>2021-09-23T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/linuxsubsystem/</loc>
     <lastmod>2021-09-23T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/linuxsubsystem/</loc>
     <lastmod>2021-09-23T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/tags/ubuntu/</loc>
-    <lastmod>2021-09-23T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/ubuntu/</loc>
     <lastmod>2021-09-23T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
+    <loc>https://sidmulajkar.com/tags/ubuntu/</loc>
+    <lastmod>2021-09-23T17:26:04+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/windows10/</loc>
     <lastmod>2021-09-23T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/windows10/</loc>
     <lastmod>2021-09-23T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/wsl/</loc>
     <lastmod>2021-09-23T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/wsl/</loc>
     <lastmod>2021-09-23T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/android-studio/</loc>
     <lastmod>2021-09-05T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/debian/</loc>
     <lastmod>2021-09-05T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/flutter/</loc>
     <lastmod>2021-09-05T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/flutter-installation/</loc>
     <lastmod>2021-09-05T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/flutter-installation/</loc>
     <lastmod>2021-09-05T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/flutter-installation-in-ubuntu/</loc>
     <lastmod>2021-09-05T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/posts/flutter-installation-in-linux/</loc>
     <lastmod>2021-09-05T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/dns/</loc>
     <lastmod>2021-03-30T16:04:37+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/dns/</loc>
     <lastmod>2021-03-30T16:04:37+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/pihole/</loc>
     <lastmod>2021-03-30T16:04:37+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/pihole/</loc>
     <lastmod>2021-03-30T16:04:37+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/pihole-recursive-dns/</loc>
     <lastmod>2021-03-30T16:04:37+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/pihole-recursive-dns/</loc>
     <lastmod>2021-03-30T16:04:37+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/raspberry-pi-pihole/</loc>
     <lastmod>2021-03-30T16:04:37+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/raspberry-pi-pihole/</loc>
     <lastmod>2021-03-30T16:04:37+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/raspberrypi/</loc>
     <lastmod>2021-03-30T16:04:37+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/raspberrypi/</loc>
     <lastmod>2021-03-30T16:04:37+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/setting-pihole-as-recursive-dns/</loc>
     <lastmod>2021-03-30T16:04:37+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/posts/setting-up-pihole-as-a-recursive-dns-server/</loc>
     <lastmod>2021-03-30T16:04:37+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/setting-up-pihole-as-recursive-dns/</loc>
     <lastmod>2021-03-30T16:04:37+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/setting-up-pihole-as-recursive-dns-using-raspberrypi/</loc>
     <lastmod>2021-03-30T16:04:37+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/sidblogs/</loc>
     <lastmod>2021-03-30T16:04:37+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/sidblogs/</loc>
     <lastmod>2021-03-30T16:04:37+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/best-javascript-resources/</loc>
     <lastmod>2021-03-27T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/best-javascript-resources/</loc>
     <lastmod>2021-03-27T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/best-resources-for-javascript/</loc>
     <lastmod>2021-03-27T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/best-resources-to-learn-javascript-in-2021/</loc>
     <lastmod>2021-03-27T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/development/</loc>
     <lastmod>2021-03-27T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/development/</loc>
     <lastmod>2021-03-27T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/javascript/</loc>
     <lastmod>2021-03-27T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/javascript/</loc>
     <lastmod>2021-03-27T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/javascript-interview-questions/</loc>
     <lastmod>2021-03-27T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/javascript-tutorial/</loc>
     <lastmod>2021-03-27T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/javascript-tutorial/</loc>
     <lastmod>2021-03-27T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/learn-javascript/</loc>
     <lastmod>2021-03-27T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/learn-javascript/</loc>
     <lastmod>2021-03-27T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/spidermonkey/</loc>
     <lastmod>2021-03-27T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/posts/best-javascript-resources/</loc>
     <lastmod>2021-03-27T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/what-is-javascript/</loc>
     <lastmod>2021-03-27T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/projects/</loc>
     <lastmod>2021-03-25T19:09:26+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/about/</loc>
     <lastmod>2021-03-25T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/a2hosting/</loc>
     <lastmod>2021-02-25T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/a2hosting/</loc>
     <lastmod>2021-02-25T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/best-hosting-provider-2021/</loc>
     <lastmod>2021-02-25T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/best-hosting-provider-2021/</loc>
     <lastmod>2021-02-25T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/best-hosting-service-provider/</loc>
     <lastmod>2021-02-25T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/posts/best-hosting-provider-2021/</loc>
     <lastmod>2021-02-25T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/best-web-host/</loc>
     <lastmod>2021-02-25T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/best-web-host/</loc>
     <lastmod>2021-02-25T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/best-web-hosting-2021/</loc>
     <lastmod>2021-02-25T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/best-wordpress-hostings/</loc>
     <lastmod>2021-02-25T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/best-wordpress-hostings/</loc>
     <lastmod>2021-02-25T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/fastest-web-hosting/</loc>
     <lastmod>2021-02-25T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/tags/web-hosting-service/</loc>
     <lastmod>2021-02-25T17:26:04+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sidmulajkar.com/categories/web-hosting-service/</loc>
     <lastmod>2021-02-25T17:26:04+05:30</lastmod>
   </url>
+
+  
 </urlset>

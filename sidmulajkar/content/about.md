@@ -5,11 +5,11 @@ description: "I have no special talents. I am only passionately curious. A softw
 draft: false
 ---
 
-I am a **CS engineer** passionate about building systems that **respects privacy and security at forefront**.
+I am a **CS engineer** passionate about building systems that **respects privacy and security at the forefront**.
 
 Started my career **freelancing** to starting a **startup**, all with pretty much the same fascination that drove me as a kid. Throughout my career, I have worked across a **variety of domains** and have built **platforms,mini-services**.
 
-**Founder** of Tech Sid Solutions, helped new aspiring entrepreneurs make a digital presence marking their first footprint. 
+**Founder** of Tech Sid Solutions, helped new aspiring entrepreneurs make a digital presence marking their first footprint.
 
 On the side, I am
 

@@ -19,7 +19,7 @@ keywords = "blog,developer,personal,hacker,javascript blogs,react blogs,developm
 info = "A Engineer/Educator who is passionately curious about technology. "
 avatarURL = "images/sid.jpg"
 #gravatar = "john.doe@example.com"
-footerContent = "Copyright ©2022 | All rights reserved"
+footerContent = "Copyright ©2023 | All rights reserved"
 dateFormat = "January 2, 2006"
 hideFooter = false
 hideCredits = true
@@ -69,7 +69,7 @@ scriptsrc = ["'self'",
     ]
 
 prefetchsrc = ["'self'"]
-connectsrc = ["'self'", "https://www.google-analytics.com"]
+# connectsrc = ["'self'", "https://www.google-analytics.com"]
 
 [taxonomies]
 category = "categories"
@@ -106,7 +106,7 @@ url = "https://twitter.com/sidmulajkar"
 name = "Categories"
 icon = "fa fa-bug"
 weight = 5
-url = "https://sidmulajkar.com/privacyguide/"
+url = "https://sidmulajkar.com/references/"
 
 
 
@@ -138,6 +138,10 @@ name = "Privacy 101"
 weight = 5
 url = "privacyguide/"
 
+[[languages.en.menu.main]]
+name = "References"
+weight = 6
+url = "references/"
 
 [server]
 

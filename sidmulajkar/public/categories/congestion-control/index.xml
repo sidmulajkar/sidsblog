@@ -15,7 +15,7 @@
       <guid>https://sidmulajkar.com/posts/tcp-slow-start/</guid>
       <description>Does it affect Web Application Performance?
 Yes, it&amp;rsquo;s a feature, not an issue but can be a problem sometimes while analyzing and designing the app.
-TCP slow start is a congestion-avoidance algorithm that balances the speed of a network connection.
+ TCP slow start is a congestion-avoidance algorithm that balances the speed of a network connection.
 A slow start gradually increases the amount of data transmitted until it finds the network’s maximum carrying capacity.
 One of the most common ways to optimize the speed of a connection (i.</description>
     </item>
