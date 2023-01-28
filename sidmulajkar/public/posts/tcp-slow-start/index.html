@@ -27,9 +27,10 @@
     <meta property="og:title" content="What is TCP Slow Start?" />
 <meta property="og:description" content="This tutorial will clear all your doubts regarding the TCP Slow Start and is it really a problem" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://sidmulajkar.com/posts/tcp-slow-start/" />
+<meta property="og:url" content="https://sidmulajkar.com/posts/tcp-slow-start/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-10-02T17:26:04+05:30" />
 <meta property="article:modified_time" content="2021-10-02T17:26:04+05:30" />
+
 
 
     <title>
@@ -72,14 +73,14 @@
 
     
 
-    <meta name="generator" content="Hugo 0.80.0" />
+    <meta name="generator" content="Hugo 0.102.3" />
   </head>
 
   
   
     
   
-  <body class="colorscheme-auto"
+  <body class="colorscheme-dark"
         onload=""
   >
     
@@ -114,10 +115,10 @@
         "accountablePerson" : "",
         "copyrightHolder" : "",
         "copyrightYear" : "2021",
-        "datePublished": "2021-10-02 17:26:04 \u002b0530 IST",
-        "dateModified" : "2021-10-02 17:26:04 \u002b0530 IST",
+        "datePublished": "2021-10-02 17:26:04 \u002b0530 \u002b0530",
+        "dateModified" : "2021-10-02 17:26:04 \u002b0530 \u002b0530",
         "url" : "https:\/\/sidmulajkar.com\/posts\/tcp-slow-start\/",
-        "wordCount" : "689",
+        "wordCount" : "692",
         "keywords" : [ "tcp","slowstart","congestion-control","mechanism","sidsblog","Blog" ]
     }
 </script>
@@ -216,11 +217,16 @@
 
       <div>
         
-        <p><strong>Does it affect Web Application Performance?</strong></p>
+        <h3 id="does-it-affect-web-application-performance">
+  Does it affect Web Application Performance?
+  <a class="heading-link" href="#does-it-affect-web-application-performance">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
 <p>Yes, it&rsquo;s a feature, not an issue but can be a problem sometimes while analyzing and designing the app.</p>
 <p><img src="https://sidmulajkar.com/images/tcpslowstart/tcp1.png" alt="TCP Slow Start"></p>
 <hr>
-<p>TCP slow start is a congestion-avoidance algorithm that balances the speed of a network connection.</p>
+<p><strong>TCP slow start is a congestion-avoidance algorithm that balances the speed of a network connection.</strong></p>
 <p>A slow start gradually increases the amount of data transmitted until it finds the network’s maximum carrying capacity.</p>
 <p>One of the most common ways to optimize the speed of a connection (i.e. increase the amount of bandwidth).</p>
 <p>However, any link can become overloaded if a device tries to send out too much data. Oversaturating a link is known as congestion, and it can result in slow communications.</p>
@@ -272,28 +278,32 @@
 <p>Enterprises see less network congestion since slow start regulates bandwidth and prevents the sender from having to continuously retransmit data.</p>
 </li>
 </ol>
+<p>&ndash;</p>
 <p>It is never the ideal condition that the transmission is seamless after the initial slow start, as there might be some errors introduced.</p>
 <p>This unfavorable condition certainly depends heavily on a different system and network settings.</p>
 <p>However, it is sufficient to indicate that there are insufficiencies in  the existing Slow-Start process.</p>
-<blockquote>
-<p>With this understanding of the whole concept, it&rsquo;s like giving a cold start to your car before actually using it.</p>
-</blockquote>
+<p><em><strong>With this understanding of the whole concept, it&rsquo;s like giving a cold start to your car before actually using it.</strong></em></p>
 <p>That&rsquo;s why many of them have specially advised or recommended to warm up the TCP server with the proxies connected with the upstream server sending in some garbage requests.</p>
+<p>&ndash;</p>
 <p>So, whenever the new request comes in, we have the beautiful TCP connections running.</p>
 <p>The TCP Handshake itself takes some time, which is reduced using TCP Fast Open(TFO).</p>
 <p>So opening &amp; closing connections is also tedious as a Backend Engineer, not when using a browser.</p>
 <p><img src="https://sidmulajkar.com/images/tcpslowstart/tcpfastopen.jpg" alt="TCP Fast Open"></p>
 <hr>
-<p>That&rsquo;s why eager loading is always preferred over lazy loading the TCP Connections.</p>
-<blockquote>
-<p>This can be very evidently found in Serverless computing that has been provided by Cloud Services like AWS, Azure, GCP.</p>
-</blockquote>
+<h3 id="thats-why-eager-loading-is-always-preferred-over-lazy-loading-the-tcp-connections">
+  That&rsquo;s why eager loading is always preferred over lazy loading the TCP Connections.
+  <a class="heading-link" href="#thats-why-eager-loading-is-always-preferred-over-lazy-loading-the-tcp-connections">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p><em><strong>This can be very evidently found in Serverless computing that has been provided by Cloud Services like AWS, Azure, GCP.</strong></em></p>
 <p>We can&rsquo;t do much about the TCP Slow Start, as we need it so that we don&rsquo;t flood the network with the requests.</p>
 <p>Without the congestion control algorithms, the internet will just be down as we might lose the packets, retransmission, performance issues, etc.</p>
+<p>&ndash;</p>
 <p>Read a paper, regarding the same, named as</p>
-<p>Problems and Solutions for the TCP Slow start process. By University of Toronto</p>
+<p><strong>Problems and Solutions for the TCP Slow start process. By University of Toronto</strong></p>
 <p><a href="https://tinyurl.com/2h7hssbf">https://tinyurl.com/2h7hssbf</a></p>
-<p>Another Article:</p>
+<p><strong>Another Article:</strong></p>
 <p>Building Blocks of TCP <a href="https://hpbn.co/building-blocks-of-tcp/">https://tinyurl.com/2h7hssbf</a></p>
 <hr>
 <h3 id="conclusion">
@@ -326,8 +336,13 @@
   <footer class="footer">
     <section class="container">
       
-        <p>Copyright ©2023 | All rights reserved</p>
       
+        ©
+        
+          2021 -
+        
+        2023
+          | All rights reserved 
       
       
       
@@ -340,7 +355,7 @@
     
       
         
-        <script src="https://sidmulajkar.com/js/dark-mode.min.aee9c8a464eb7b3534c7110f7c5e169e7039e2fd92710e0626d451d6725af137.js" integrity="sha256-runIpGTrezU0xxEPfF4WnnA54v2ScQ4GJtRR1nJa8Tc="></script>
+        <script src="https://sidmulajkar.com/js/dark-mode.min.c2d8a1f8f2660e4a46d776277c72695a1e0ca65939d79f754441d47551604af5.js" integrity="sha256-wtih&#43;PJmDkpG13YnfHJpWh4Mplk51591REHUdVFgSvU="></script>
       
     
 

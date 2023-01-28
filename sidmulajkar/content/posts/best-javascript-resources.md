@@ -19,7 +19,8 @@ According to RedMonk programming language rankings and GitHut.info, JavaScript i
 Learning **JavaScript, on the other hand, can be a tricky proposition. New libraries, features, API’s or Style Guide, pop up almost every day**. The **speed of iteration** is beyond imagination, and that is why reading leading JavaScript blogs are the best resources to approach and to keep up with new changes provided by the community.
 
 
--------------------------------------------------------------------------------
+---
+
 **Javascript Interview Questions also revolve around these topics**
 
 **If you are new to JavaScript then the topics that are important to learn are**:
@@ -46,7 +47,7 @@ Learning **JavaScript, on the other hand, can be a tricky proposition. New libra
     - JavaScriptCore by Apple
     - Chakra for Internet Explorer by Microsoft
 ```
--------------------------------------------------------------------------------
+---
 
 
 ### Best JavaScript Blogs to Improve Coding Skills
@@ -93,16 +94,17 @@ If you are looking for a [Superhero.js](http://superherojs.com) to fetch you the
 
 **(If you’re dead-ass serious about this then unquestionably watch this series)**
 
-[![NAMASTE JAVASCRIPT](/images/postimgs/namaste_javascript.png)](https://www.youtube.com/watch?v=pN6jk0uUrD8 "NAMASTE JAVASCRIPT")
+[![NAMASTE JAVASCRIPT](/images/postimgs/namaste_javascript.png)](https://cf.piped.video/watch?v=pN6jk0uUrD8 "NAMASTE JAVASCRIPT")
 
 
--------------------------------------------------------------------------------
-```
-Conclusion
-```
+--
+
+
+### Conclusion
+
 
 Here are the top best JavaScript blogs to improve your coding skills. The blogs and mix of other content types will help you to keep up with new changes in JavaScript field and improve yourself accordingly.
 
 Also, don’t forget to leave a mail on how the JavaScript post page can be improved and want more **in-depth content** then also drop us a mail regarding this. We are listening!
 
--------------------------------------------------------------------------------
+---

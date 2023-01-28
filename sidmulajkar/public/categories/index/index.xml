@@ -13,8 +13,7 @@
       <pubDate>Tue, 16 Nov 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/when-indexes-are-not-useable/</guid>
-      <description>What do I even mean by useless indexes?
- To improve the application and the database, indexes need to change over time.
+      <description>What do I even mean by useless indexes? To improve the application and the database, indexes need to change over time.
 As the structure of the database change, the structure of the tables change, data in the tables change, the application changes, also the queries against the data change.
 Indexes that once helped performance now just bloat your database and cause extra work for inserts, updates, and deletes.
 wait&amp;hellip;</description>

@@ -12,13 +12,13 @@ draft: false
 ### TCP and UDP
 
 
-A simple open-ended question that can test your whole sort of knowledge.
+A simple open-ended question that can test whole schemas of knowledge.
 
--------------------------------------------------------------------------------
+---
 
-###### What will be addressed in this post?
+##### What will be addressed in this post?
 
-```
+
 - The problem with packets (IP)
 - TCP pros and cons
 - TCP communication sample code
@@ -27,26 +27,28 @@ A simple open-ended question that can test your whole sort of knowledge.
 - UDP communication sample code
 
 - Some questions based on them
-```
 
--------------------------------------------------------------------------------
+
+---
 
 To start, I was asked a question in an interview, 
 
 **What to use UDP or TCP in Building a Backend Application?**
 
-I was like why only these 2 protocols, there are many others, like HTTP, HTTP2, XMPP, GRPC, QUIC
+I was like why only these 2 protocols, there are many others, ***like HTTP, HTTP2, XMPP, GRPC, QUIC***
 
-Why?
+### Why?
 
-These two are the block fundamentals on which the other protocols work.
+--
+
+##### These two are the block fundamentals on which the other protocols work.
 
 So, once when we understand the TCP and UDP, we can determine which other protocols to use.
 ```
 For eg, UDP over TCP, then QUIC over HTTP
 ```
 
--------------------------------------------------------------------------------
+---
 
 Highly recommend just know about the OSI Model before getting on to the TCP and UDP.
 
@@ -54,7 +56,7 @@ Highly recommend just know about the OSI Model before getting on to the TCP and 
 
 ![OSI Model](/images/tcpudp/osi.png)
 
--------------------------------------------------------------------------------
+---
 
 **The problem with the packets:**
 
@@ -74,9 +76,9 @@ Fortunately, there are higher-level protocols in the Internet protocol stack tha
 
 Internet applications can choose the data transport protocol that makes the most sense for their application.
 
--------------------------------------------------------------------------------
+---
 
-TCP and UDP are the layer 4 protocols, i.e Transport Layer Protocols
+##### TCP and UDP are the layer 4 protocols, i.e Transport Layer Protocols
 
 The transport layer is the fourth layer in the open system interconnection (OSI) model and is responsible for end-to-end communication over a network.
 
@@ -86,7 +88,7 @@ It provides logical communication between application processes running on diffe
 
 This layer is also responsible for the management of error correction, providing quality and reliability to the user.
 
--------------------------------------------------------------------------------
+---
 
 ### Transmission Control Protocol (TCP)
 
@@ -96,7 +98,9 @@ TCP includes mechanisms to solve many of the problems that arise from packet-bas
 
 Since TCP is the protocol used most commonly on top of IP, the Internet protocol stack is sometimes referred to as TCP/IP.
 
-Packet Format 
+--
+
+**Packet Format**
 
 When sending packets using TCP/IP, the data portion of each IP packet is formatted as a TCP segment.
 
@@ -107,13 +111,13 @@ When two computers want to send data to each other over TCP, they first need to 
 
 ![TCP](/images/tcpudp/3wayhanshake.png)
 
--------------------------------------------------------------------------------
+---
 
-TCP/IP Model vs OSI Model
+### TCP/IP Model vs OSI Model
 
 ![TCP vs OSI](/images/tcpudp/tcpvsosi.jpg)
 
--------------------------------------------------------------------------------
+---
 
 ### TCP Pros:
 
@@ -128,14 +132,14 @@ TCP/IP Model vs OSI Model
 
 Some follow up questions can be
 
-- As you mentioned congestion control can you explain more about TCP Slow start. How do you see it?
+- As you mentioned congestion control can you explain more about [TCP Slow start]({{< relref "/posts/tcp-slow-start.md">}}). How do you see it?
 
 - What is Tunneling? Can you explain in detail?
 
 - Have you heard about SCTP Protocol. What is it?
 
 
--------------------------------------------------------------------------------
+---
 
 ### TCP Cons:
 
@@ -157,7 +161,7 @@ Some follow up questions can be
 
 
 
--------------------------------------------------------------------------------
+---
 
 ### User Datagram Protocol (UDP)
 
@@ -165,6 +169,7 @@ The UDP is a lightweight data transport protocol that works on top of IP.
 
 UDP is simple but fast, at least in comparison to other protocols that work over IP. 
 
+--
 
 **What Kind Of Services Rely On UDP?**
 
@@ -174,7 +179,7 @@ It's often used for time-sensitive applications (such as real-time video streami
 UDP provides a mechanism to detect corrupt data in packets, but it does not attempt to solve other problems that arise with packets, such as lost or out-of-order packets. That's why UDP is sometimes known as the Unreliable Data Protocol.
 
 
--------------------------------------------------------------------------------
+---
 
 ##### UDP Cons:
 
@@ -203,9 +208,9 @@ Some follow up questions:
 - What is RPC? Can you explain it in a bit more detail?
 https://bit.ly/3Azn0ez
 
--------------------------------------------------------------------------------
+---
 
-[UDP Client-Server Implementation](https://www.geeksforgeeks.org/udp-server-client-implementation-c/)
+[A Simple UDP Client-Server Implementation](https://www.geeksforgeeks.org/udp-server-client-implementation-c/)
 
 Follow the link
 
@@ -229,7 +234,7 @@ Run the code or Start Debugging from your IDE and also open terminal and type in
 ```
 echo "foo" | nc -w1 -u 127.0.0.1 41234
 ```
--------------------------------------------------------------------------------
+---
 
 [TCP  Client-Server Implementation](https://www.geeksforgeeks.org/tcp-server-client-implementation-in-c/)
 
@@ -258,8 +263,8 @@ Run the code or Start Debugging from your IDE and also open terminal and type in
 telnet 127.0.0.1 8080
 ```
 
--------------------------------------------------------------------------------
+---
 
 **If you think this is interesting, follow me on [twitter](https://twitter.com/sidmulajkar) and [linkedin](https://www.linkedin.com/in/siddhant-mulajkar/) for more content like this.**
 
--------------------------------------------------------------------------------
+---

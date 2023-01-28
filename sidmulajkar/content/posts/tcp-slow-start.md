@@ -8,15 +8,15 @@ author: Siddhant Mulajkar
 draft: false
 ---
 
-**Does it affect Web Application Performance?**
+### Does it affect Web Application Performance?
 
 Yes, it's a feature, not an issue but can be a problem sometimes while analyzing and designing the app.
 
 ![TCP Slow Start](/images/tcpslowstart/tcp1.png)
 
--------------------------------------------------------------------------------
+---
 
-TCP slow start is a congestion-avoidance algorithm that balances the speed of a network connection. 
+**TCP slow start is a congestion-avoidance algorithm that balances the speed of a network connection.**
 
 A slow start gradually increases the amount of data transmitted until it finds the network’s maximum carrying capacity.
 
@@ -26,7 +26,7 @@ However, any link can become overloaded if a device tries to send out too much d
 
 ![TCP Slow Start](/images/tcpslowstart/tcp2.png)
 
--------------------------------------------------------------------------------
+---
 
 
 ### How TCP slow start works
@@ -44,7 +44,7 @@ Step-by-step, here’s how slow start works:
 
 Once a limit has been determined, slow start’s job is done. Other congestion control algorithms take over to maintain the speed of the connection.
 
--------------------------------------------------------------------------------
+---
 
 
 **Example:**
@@ -63,7 +63,7 @@ Tuning initcwnd for optimum performance can have a significant improvement in TC
 
 [https://www.cdnplanet.com/blog/initcwnd-settings-major-cdn-providers/](https://www.cdnplanet.com/blog/initcwnd-settings-major-cdn-providers/)
 
--------------------------------------------------------------------------------
+---
 
 ### Benefits of TCP slow start:
 
@@ -73,6 +73,7 @@ Tuning initcwnd for optimum performance can have a significant improvement in TC
 
 3. Enterprises see less network congestion since slow start regulates bandwidth and prevents the sender from having to continuously retransmit data.
 
+--
 
 It is never the ideal condition that the transmission is seamless after the initial slow start, as there might be some errors introduced.
 
@@ -82,11 +83,12 @@ This unfavorable condition certainly depends heavily on a different system and n
 However, it is sufficient to indicate that there are insufficiencies in  the existing Slow-Start process. 
 
 
-> With this understanding of the whole concept, it's like giving a cold start to your car before actually using it.
+***With this understanding of the whole concept, it's like giving a cold start to your car before actually using it.***
 
 
 That's why many of them have specially advised or recommended to warm up the TCP server with the proxies connected with the upstream server sending in some garbage requests.
 
+--
 
 So, whenever the new request comes in, we have the beautiful TCP connections running.
 
@@ -96,30 +98,31 @@ So opening & closing connections is also tedious as a Backend Engineer, not when
 
 ![TCP Fast Open](/images/tcpslowstart/tcpfastopen.jpg)
 
--------------------------------------------------------------------------------
+---
 
-That's why eager loading is always preferred over lazy loading the TCP Connections.
+### That's why eager loading is always preferred over lazy loading the TCP Connections.
 
 
-> This can be very evidently found in Serverless computing that has been provided by Cloud Services like AWS, Azure, GCP.
+***This can be very evidently found in Serverless computing that has been provided by Cloud Services like AWS, Azure, GCP.***
 
 
 We can't do much about the TCP Slow Start, as we need it so that we don't flood the network with the requests. 
 
 Without the congestion control algorithms, the internet will just be down as we might lose the packets, retransmission, performance issues, etc.
 
+--
 
 Read a paper, regarding the same, named as 
 
-Problems and Solutions for the TCP Slow start process. By University of Toronto
+**Problems and Solutions for the TCP Slow start process. By University of Toronto**
 
 [https://tinyurl.com/2h7hssbf](https://tinyurl.com/2h7hssbf)
 
-Another Article:
+**Another Article:**
 
 Building Blocks of TCP [https://tinyurl.com/2h7hssbf](https://hpbn.co/building-blocks-of-tcp/)
 
--------------------------------------------------------------------------------
+---
 
 ### Conclusion
 

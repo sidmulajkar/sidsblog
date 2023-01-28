@@ -16,9 +16,9 @@ People on the internet tell you to scale your database by sharding, but you don�
 
 ![Database Sharding1](/images/shardingarch/shard1.png)
 
--------------------------------------------------------------------------------
+---
 
-If you haven't read the last blog post and want to know more about Database Sharding check the previous blog > [What is Database Sharding](https://sidmulajkar.com/posts/what-is-database-sharding/)
+If you haven't read the last blog post and want to know more about Database Sharding check the previous blog > [What is Database Sharding]({{< relref "posts/what-is-database-sharding.md" >}})
 
 ### Driving Principles:
 
@@ -48,11 +48,13 @@ Shard or Partition Key is a portion of the primary key that determines how data 
 
 A partition key allows you to retrieve and modify data efficiently by routing operations to the correct database.
 
--------------------------------------------------------------------------------
+---
 
-Once you’ve decided to shard your database, the next thing you need to figure out is how you’ll go about doing so. 
+***Once you’ve decided to shard your database, the next thing you need to figure out is how you’ll go about doing so.***
 
 When running queries or distributing incoming data to sharded tables or databases, it must go to the correct shard.
+
+--
 
 ### 1. Key Based Sharding: 
 
@@ -74,7 +76,7 @@ Consequently, your server won’t be able to write any new data during the migra
 
 The main appeal of this strategy is that it can be used to evenly distribute data to prevent hotspots. Also, because it distributes data algorithmically, there’s no need to maintain a map of where all the data is located.
 
--------------------------------------------------------------------------------
+---
 
 ### 2. Range/Dynamic Based Sharding:
 
@@ -90,7 +92,7 @@ The application code just reads which range the data falls into and writes it to
 
 On the other hand, range-based sharding doesn’t protect data from being unevenly distributed, leading to the aforementioned database hotspots.
 
--------------------------------------------------------------------------------
+---
 
 ### 3. Directory-Based Sharding:
 
@@ -105,7 +107,9 @@ Range-based sharding architectures limit you to specifying ranges of values, whi
 
 Directory-based sharding, on the other hand, allows you to use whatever system or algorithm you want to assign data entries to shards, and it’s relatively easy to dynamically add shards using this approach.
 
--------------------------------------------------------------------------------
+---
+
+### Other Sharding Architecture's
 
 ### Entity-/Relationship-Based Sharding
 
@@ -120,10 +124,14 @@ Geography-based sharding, or geosharding, also keeps related data together on a 
 
 For example, consider a dataset where each record contains a “country” field. In this case, we can both increase overall performance and decrease system latency by creating a shard for each country or region, and storing the appropriate data on that shard. This is a simple example, and there are many other ways to allocate your geoshards which are beyond the scope of this article.
 
--------------------------------------------------------------------------------
+---
 
 ### Conclusion:
 
-Sharding is a great solution for applications with large data requirements and high-volume read/writes workloads, but it does come with additional complexity. 
+***Sharding is a great solution for applications with large data requirements and high-volume read/writes workloads, but it does come with additional complexity.*** 
 
-Consider whether the benefits outweigh the costs or there is a simpler solution even before you begin implementing.
+***Consider whether the benefits outweigh the costs or there is a simpler solution even before you begin implementing.***
+
+--
+
+If you haven't read the last blog post and want to know more about Database Sharding check the previous blog > [What is Database Sharding]({{< relref "posts/what-is-database-sharding.md" >}})

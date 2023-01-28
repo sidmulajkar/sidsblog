@@ -27,9 +27,10 @@
     <meta property="og:title" content="How to Handle the Double booking problem in an app or website just using the database? " />
 <meta property="og:description" content="In this blog, I just want to purely talk from the perspective of handling a situation like this, just considering the database itself." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://sidmulajkar.com/posts/how-to-handle-double-booking-problem-using-db/" />
+<meta property="og:url" content="https://sidmulajkar.com/posts/how-to-handle-double-booking-problem-using-db/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-03-19T17:26:04+05:30" />
 <meta property="article:modified_time" content="2022-03-19T17:26:04+05:30" />
+
 
 
     <title>
@@ -72,14 +73,14 @@
 
     
 
-    <meta name="generator" content="Hugo 0.80.0" />
+    <meta name="generator" content="Hugo 0.102.3" />
   </head>
 
   
   
     
   
-  <body class="colorscheme-auto"
+  <body class="colorscheme-dark"
         onload=""
   >
     
@@ -114,10 +115,10 @@
         "accountablePerson" : "",
         "copyrightHolder" : "",
         "copyrightYear" : "2022",
-        "datePublished": "2022-03-19 17:26:04 \u002b0530 IST",
-        "dateModified" : "2022-03-19 17:26:04 \u002b0530 IST",
+        "datePublished": "2022-03-19 17:26:04 \u002b0530 \u002b0530",
+        "dateModified" : "2022-03-19 17:26:04 \u002b0530 \u002b0530",
         "url" : "https:\/\/sidmulajkar.com\/posts\/how-to-handle-double-booking-problem-using-db\/",
-        "wordCount" : "1839",
+        "wordCount" : "1843",
         "keywords" : [ "factors","double-booking problem","concurrency control","lock mechanism","time stamping","pessimistic approach","optimistic approach","database","kubernetes","microservices","sidsblog","Blog" ]
     }
 </script>
@@ -257,8 +258,8 @@
 <p><img src="https://sidmulajkar.com/images/doublebookingdb/doublebook1.png" alt="Double Booking"></p>
 <hr>
 <p><strong>Now how do we handle this situation as a database/backend engineer?</strong></p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go">I am not talking about designing a similar system like this.
-</code></pre></div><p>In this blog, I want to purely talk from the perspective of handling a situation like this, <strong>just considering the database itself.</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span>I am not talking about designing a similar system like this.
+</span></span></code></pre></div><p>In this blog, I want to <em><strong>purely talk from the perspective of handling a situation like this, just considering the database itself.</strong></em></p>
 <hr>
 <h3 id="for-simpler-understanding">
   For simpler understanding,
@@ -279,11 +280,11 @@
 </li>
 </ol>
 <hr>
-<p>Before getting into the details of the problem we need to first understand the concepts of</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">- Concurrency Control
-- Lock Mechanisms &amp;
-- Time Stamping
-</code></pre></div><ol>
+<p><em><strong>Before getting into the details of the problem we need to first understand the concepts of</strong></em></p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>- Concurrency Control
+</span></span><span style="display:flex;"><span>- Lock Mechanisms &amp;
+</span></span><span style="display:flex;"><span>- Time Stamping
+</span></span></code></pre></div><ol>
 <li>
 <h3 id="concurrency-control">
   <strong>Concurrency Control</strong>
@@ -362,8 +363,10 @@
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h3>
-<p>Double booking at the same time can create some race conditions for this situation so we can probably use 2-phase locking or strict 2-phase, 3 phase-locking mechanisms to ensure that the consistency is maintained. (pessimistic approach)</p>
-<p>but locking is expensive to keep the table in the memory while updating the table using the lock.</p>
+<p>Double booking at the same time can create some race conditions for this situation so we can probably use <em><strong>2-phase locking or strict 2-phase, 3 phase-locking mechanisms to ensure that the consistency is maintained. (pessimistic approach)</strong></em></p>
+<p>&ndash;</p>
+<p><em><strong>but locking is expensive to keep the table in the memory while updating the table using the lock.</strong></em></p>
+<p>&ndash;</p>
 <p><strong>Multiple locks can be used like row level, table level, etc and most databases don’t allow row-level locking because if one transaction updates the whole rows, and other thousands of columns in the table then keeping them in memory is not efficient and cost-effective.</strong></p>
 <p>Link to read more on Locks: <a href="https://www.javatpoint.com/dbms-lock-based-protocol">https://www.javatpoint.com/dbms-lock-based-protocol</a></p>
 <p><a href="https://www.tutorialspoint.com/distributed_dbms/distributed_dbms_commit_protocols.htm">https://www.tutorialspoint.com/distributed_dbms/distributed_dbms_commit_protocols.htm</a></p>
@@ -395,9 +398,15 @@ In T2, the value of X is updated but the value of Y is not updated. The sum vari
 </li>
 </ul>
 <hr>
-<p><strong>Well the Answer is :</strong></p>
-<p>It totally depends, on what use, we are using the concurrency model for using the specific database to avoid this problem.</p>
+<h3 id="well-the-answer-is-">
+  Well the Answer is :
+  <a class="heading-link" href="#well-the-answer-is-">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p><em><strong>It totally depends, on what use, we are using the concurrency model for using the specific database to avoid this problem.</strong></em></p>
 <p>2PC, 3PC, MVCC, SAGA are some of the patterns through which we control concurrency but,</p>
+<p>&ndash;</p>
 <p><strong>ACID is mostly depended on the Isolation of the Transactions.</strong></p>
 <p>As we know that, in order to maintain consistency in a database, it follows <strong>ACID properties</strong>. Among these four properties (Atomicity, Consistency, Isolation, and Durability) <strong>Isolation determines how transaction integrity is visible to other users and systems.</strong></p>
 <p>It means that a transaction should take place in a system in such a way that it is the only transaction that is accessing the resources in a database system.
@@ -413,7 +422,8 @@ Isolation levels define the degree to which a transaction must be isolated from 
 <p><strong>Phantom Read</strong> – Phantom Read occurs when two same queries are executed, but the rows retrieved by the two, are different. For example, suppose transaction T1 retrieves a set of rows that satisfy some search criteria. Now, Transaction T2 generates some new rows that match the search criteria for transaction T1. If transaction T1 re-executes the statement that reads the rows, it gets a different set of rows this time.</p>
 </li>
 </ol>
-<p>Based on these phenomena, The SQL standard defines four isolation levels :</p>
+<p>&ndash;</p>
+<p>Based on these phenomena, The <strong>SQL standard defines</strong> four isolation levels :</p>
 <ol>
 <li>
 <p><strong>Read Uncommitted</strong> – Read Uncommitted is the lowest isolation level. In this level, one transaction may read not yet committed changes made by other transactions, thereby allowing dirty reads. At this level, transactions are not isolated from each other.</p>
@@ -434,9 +444,9 @@ Isolation levels define the degree to which a transaction must be isolated from 
 <p><a href="https://developers.redhat.com/articles/2021/09/21/distributed-transaction-patterns-microservices-compared">https://developers.redhat.com/articles/2021/09/21/distributed-transaction-patterns-microservices-compared</a></p>
 <hr>
 <p>Here&rsquo;s a Video on Concurrency Control in Postgress:</p>
-<p><a href="https://www.youtube.com/watch?v=ZxhBkBNxvR0" title="Postgress Conference"><img src="https://sidmulajkar.com/images/doublebookingdb/postgresscon.jpeg" alt="Postgress Conference"></a></p>
+<p><a href="https://cf.piped.video/watch?v=ZxhBkBNxvR0" title="Postgress Conference"><img src="https://sidmulajkar.com/images/doublebookingdb/postgresscon.jpeg" alt="Postgress Conference"></a></p>
 <hr>
-<p>Learned about a &ldquo;Commercial SQL DB&rdquo; which is designed for scale:
+<p>Learned about a <strong>&ldquo;Commercial SQL DB&rdquo;</strong> which is designed for scale:
 <a href="https://www.cockroachlabs.com/">https://www.cockroachlabs.com/</a></p>
 <p><strong>FAQ-Link:</strong></p>
 <p><a href="https://www.cockroachlabs.com/docs/stable/frequently-asked-questions.html">https://www.cockroachlabs.com/docs/stable/frequently-asked-questions.html</a></p>
@@ -465,8 +475,13 @@ Isolation levels define the degree to which a transaction must be isolated from 
   <footer class="footer">
     <section class="container">
       
-        <p>Copyright ©2023 | All rights reserved</p>
       
+        ©
+        
+          2021 -
+        
+        2023
+          | All rights reserved 
       
       
       
@@ -479,7 +494,7 @@ Isolation levels define the degree to which a transaction must be isolated from 
     
       
         
-        <script src="https://sidmulajkar.com/js/dark-mode.min.aee9c8a464eb7b3534c7110f7c5e169e7039e2fd92710e0626d451d6725af137.js" integrity="sha256-runIpGTrezU0xxEPfF4WnnA54v2ScQ4GJtRR1nJa8Tc="></script>
+        <script src="https://sidmulajkar.com/js/dark-mode.min.c2d8a1f8f2660e4a46d776277c72695a1e0ca65939d79f754441d47551604af5.js" integrity="sha256-wtih&#43;PJmDkpG13YnfHJpWh4Mplk51591REHUdVFgSvU="></script>
       
     
 

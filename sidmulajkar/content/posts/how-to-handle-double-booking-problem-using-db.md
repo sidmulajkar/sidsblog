@@ -38,7 +38,7 @@ Simply a train booking system/app which allows travelers to book tickets of the 
 I am not talking about designing a similar system like this.
 ```
 
-In this blog, I want to purely talk from the perspective of handling a situation like this, **just considering the database itself.**
+In this blog, I want to ***purely talk from the perspective of handling a situation like this, just considering the database itself.***
 
 ---
 
@@ -58,7 +58,7 @@ There are two approaches to this situation for maintaining the concurrency
 
 ---
 
-Before getting into the details of the problem we need to first understand the concepts of 
+***Before getting into the details of the problem we need to first understand the concepts of***
 
 ```
 - Concurrency Control
@@ -128,9 +128,13 @@ Let’s explain this in more detail here, **if the users are granted to read the
 
 ### Problems with the Pessimistic Approach:
 
-Double booking at the same time can create some race conditions for this situation so we can probably use 2-phase locking or strict 2-phase, 3 phase-locking mechanisms to ensure that the consistency is maintained. (pessimistic approach)
+Double booking at the same time can create some race conditions for this situation so we can probably use ***2-phase locking or strict 2-phase, 3 phase-locking mechanisms to ensure that the consistency is maintained. (pessimistic approach)***
 
-but locking is expensive to keep the table in the memory while updating the table using the lock.
+--
+
+***but locking is expensive to keep the table in the memory while updating the table using the lock.***
+
+--
 
 **Multiple locks can be used like row level, table level, etc and most databases don’t allow row-level locking because if one transaction updates the whole rows, and other thousands of columns in the table then keeping them in memory is not efficient and cost-effective.**
 
@@ -167,11 +171,13 @@ The problems which arises while using concurrency are as follows −
 
 ---
 
-**Well the Answer is :**
+### Well the Answer is :
 
-It totally depends, on what use, we are using the concurrency model for using the specific database to avoid this problem.
+***It totally depends, on what use, we are using the concurrency model for using the specific database to avoid this problem.***
 
-2PC, 3PC, MVCC, SAGA are some of the patterns through which we control concurrency but, 
+2PC, 3PC, MVCC, SAGA are some of the patterns through which we control concurrency but,
+
+--
 
 **ACID is mostly depended on the Isolation of the Transactions.**
 
@@ -188,9 +194,9 @@ Isolation levels define the degree to which a transaction must be isolated from 
 
 3. **Phantom Read** – Phantom Read occurs when two same queries are executed, but the rows retrieved by the two, are different. For example, suppose transaction T1 retrieves a set of rows that satisfy some search criteria. Now, Transaction T2 generates some new rows that match the search criteria for transaction T1. If transaction T1 re-executes the statement that reads the rows, it gets a different set of rows this time.
 
-Based on these phenomena, The SQL standard defines four isolation levels : 
+--
 
- 
+Based on these phenomena, The **SQL standard defines** four isolation levels : 
 
 1. **Read Uncommitted** – Read Uncommitted is the lowest isolation level. In this level, one transaction may read not yet committed changes made by other transactions, thereby allowing dirty reads. At this level, transactions are not isolated from each other.
 
@@ -213,11 +219,11 @@ https://developers.redhat.com/articles/2021/09/21/distributed-transaction-patter
 
 Here's a Video on Concurrency Control in Postgress:
 
-[![Postgress Conference](/images/doublebookingdb/postgresscon.jpeg)](https://www.youtube.com/watch?v=ZxhBkBNxvR0 "Postgress Conference")
+[![Postgress Conference](/images/doublebookingdb/postgresscon.jpeg)](https://cf.piped.video/watch?v=ZxhBkBNxvR0 "Postgress Conference")
 
 ---
 
-Learned about a "Commercial SQL DB" which is designed for scale:
+Learned about a **"Commercial SQL DB"** which is designed for scale:
 https://www.cockroachlabs.com/
 
 **FAQ-Link:** 

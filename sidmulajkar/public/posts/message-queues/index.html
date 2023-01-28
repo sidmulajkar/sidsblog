@@ -27,9 +27,10 @@
     <meta property="og:title" content="Message Queues! What are those and when to use them? " />
 <meta property="og:description" content="This tutorial will help you understand the message queues." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://sidmulajkar.com/posts/message-queues/" />
+<meta property="og:url" content="https://sidmulajkar.com/posts/message-queues/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-11-26T17:26:04+05:30" />
 <meta property="article:modified_time" content="2021-11-26T17:26:04+05:30" />
+
 
 
     <title>
@@ -72,14 +73,14 @@
 
     
 
-    <meta name="generator" content="Hugo 0.80.0" />
+    <meta name="generator" content="Hugo 0.102.3" />
   </head>
 
   
   
     
   
-  <body class="colorscheme-auto"
+  <body class="colorscheme-dark"
         onload=""
   >
     
@@ -114,11 +115,11 @@
         "accountablePerson" : "",
         "copyrightHolder" : "",
         "copyrightYear" : "2021",
-        "datePublished": "2021-11-26 17:26:04 \u002b0530 IST",
-        "dateModified" : "2021-11-26 17:26:04 \u002b0530 IST",
+        "datePublished": "2021-11-26 17:26:04 \u002b0530 \u002b0530",
+        "dateModified" : "2021-11-26 17:26:04 \u002b0530 \u002b0530",
         "url" : "https:\/\/sidmulajkar.com\/posts\/message-queues\/",
-        "wordCount" : "667",
-        "keywords" : [ "queue","data-structure","database","sidsblog","Blog" ]
+        "wordCount" : "662",
+        "keywords" : [ "queue","data-structure","database","backend-engineering","sidsblog","Blog" ]
     }
 </script>
           </a>
@@ -195,6 +196,8 @@
       <span class="separator">•</span>
     <a href="https://sidmulajkar.com/categories/database/">database</a>
       <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/backend-engineering/">backend-engineering</a>
+      <span class="separator">•</span>
     <a href="https://sidmulajkar.com/categories/sidsblog/">sidsblog</a></div>
 
           <div class="tags">
@@ -205,6 +208,8 @@
       <span class="separator">•</span>
     <a href="https://sidmulajkar.com/tags/database/">database</a>
       <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/backend-engineering/">backend-engineering</a>
+      <span class="separator">•</span>
     <a href="https://sidmulajkar.com/tags/sidsblog/">sidsblog</a></div>
 
         </div>
@@ -213,16 +218,22 @@
       <div>
         
         <p><strong>Message queues &hellip;📨 📨</strong></p>
-<p><strong>What are those and when to use them?</strong></p>
 <p><strong>The role of message queuing in a micro-service architecture.</strong></p>
-<p>When is the right time to use a message queue and why is a database rarely the best tool for a queue-based problem?</p>
+<p>&ndash;</p>
+<h5 id="when-is-the-right-time-to-use-a-message-queue-and-why-is-a-database-rarely-the-best-tool-for-a-queue-based-problem">
+  <em>When is the right time to use a message queue and why is a database rarely the best tool for a queue-based problem?</em>
+  <a class="heading-link" href="#when-is-the-right-time-to-use-a-message-queue-and-why-is-a-database-rarely-the-best-tool-for-a-queue-based-problem">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h5>
 <p>A blog on backend engineering&hellip;</p>
 <p><img src="https://sidmulajkar.com/images/messagequeue/messagequeue1.png" alt="Message Queues"></p>
 <hr>
 <p>Imagine that we have a web application for customers to upload a text document, which then converts it into a PDF, and then emails it back to the customer.</p>
 <p>This site receives a lot of PDF creation requests every second and every request takes a second to process.</p>
 <p>An orderly, organized queue is needed to be able to handle all requests in a timely manner.</p>
-<p>USER SCENARIO</p>
+<p>&ndash;</p>
+<p><strong>USER SCENARIO</strong></p>
 <ol>
 <li>Customer uploads a text document</li>
 <li>Your application converts the text document into a PDF</li>
@@ -232,7 +243,7 @@
 <hr>
 <p><strong>Message queuing makes it possible for applications to communicate asynchronously, by sending messages to each other via a queue.</strong></p>
 <hr>
-<p>Using a message queue is <strong>highly recommended when we need to process a high-volume of asynchronous messages.</strong></p>
+<p>Using a message queue is <em><strong>highly recommended when we need to process a high-volume of asynchronous messages.</strong></em></p>
 <p>A message queue is perfect to use when we want a high performance, highly concurrent and scalable system that can process thousands of messages per second concurrently across many servers/processes.</p>
 <hr>
 <p>What is <strong>Synchronous vs Asynchronous Communication?</strong></p>
@@ -240,7 +251,13 @@
 <hr>
 <p>A message queue provides temporary storage between the sender and the receiver so that the sender can keep operating without interruption when the destination program is busy or not connected.</p>
 <p>Asynchronous processing allows a task to call a service, and move on to the next task.</p>
-<p>Message queue use cases:</p>
+<p>&ndash;</p>
+<h5 id="message-queue-use-cases">
+  Message queue use cases:
+  <a class="heading-link" href="#message-queue-use-cases">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h5>
 <p>Now we might think, “where on earth would a message queue fit in my architecture”?</p>
 <p>The simple and quick answer is when:</p>
 <ul>
@@ -258,7 +275,12 @@
 </li>
 </ul>
 <hr>
-<p>Message queues can also be used for more advanced scenarios like</p>
+<h5 id="message-queues-can-also-be-used-for-more-advanced-scenarios-like">
+  Message queues can also be used for more advanced scenarios like
+  <a class="heading-link" href="#message-queues-can-also-be-used-for-more-advanced-scenarios-like">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h5>
 <ul>
 <li>Images Scaling</li>
 <li>Sending large/many emails</li>
@@ -269,7 +291,12 @@
 <li>PDF processing</li>
 </ul>
 <hr>
-<p>Main features and benefits of message queuing</p>
+<h5 id="main-features-and-benefits-of-message-queuing">
+  Main features and benefits of message queuing
+  <a class="heading-link" href="#main-features-and-benefits-of-message-queuing">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h5>
 <ul>
 <li>
 <p>There are no direct connections between programs.</p>
@@ -297,23 +324,38 @@
 </li>
 </ul>
 <hr>
-<p>The <strong>role of message queuing in a micro-service architecture:</strong></p>
+<h5 id="the-role-of-message-queuing-in-a-micro-service-architecture">
+  The role of message queuing in a micro-service architecture:
+  <a class="heading-link" href="#the-role-of-message-queuing-in-a-micro-service-architecture">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h5>
 <p>In a microservice architecture, there are different functionalities divided across different services, that offer various functionalities.</p>
 <p>These services are coupled together to form a complete software application.</p>
 <p><img src="https://sidmulajkar.com/images/messagequeue/messagequeue4.png" alt="Micro Service Architecture"></p>
 <p>Typically, in a micro-service architecture, there are cross-dependencies, which entail that no single service can perform its functionalities without getting help from other services.</p>
 <p>This is where the system must have a mechanism in place which allows services to keep in touch with each other without getting blocked by responses.</p>
 <p>Message queuing fulfills this purpose by providing a means for services to push messages to a queue asynchronously and ensure that they get delivered to the correct destination.</p>
-<p>To implement a message queue between services, you need a message broker, think of it as a mailman, who takes mail from a sender and delivers it to the correct destination.</p>
+<p><em><strong>To implement a message queue between services, you need a message broker, think of it as a mailman, who takes mail from a sender and delivers it to the correct destination.</strong></em></p>
 <hr>
-<p>Okay, this seems great, but what if we need the same message to be processed by two or more microservices? Well, there are different types of message queues:</p>
+<h5 id="okay-this-seems-great-but-what-if-we-need-the-same-message-to-be-processed-by-two-or-more-microservices-well-there-are-different-types-of-message-queues">
+  Okay, this seems great, but what if we need the same message to be processed by two or more microservices? Well, there are different types of message queues:
+  <a class="heading-link" href="#okay-this-seems-great-but-what-if-we-need-the-same-message-to-be-processed-by-two-or-more-microservices-well-there-are-different-types-of-message-queues">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h5>
 <p>A message queue can be point-to-point, where there is only one queue and one consumer</p>
 <p><img src="https://sidmulajkar.com/images/messagequeue/messagequeue8.png" alt="Point to Point"></p>
-<p>Alternatively, a message queue can use a Publisher-Subscriber format, where a Publisher (Producer) sends a message to a queue (in this case called a Topic), and all the Subscribers receive a copy of the message that can be retained or not.</p>
+<p>Alternatively, a message queue can use a <strong>Publisher-Subscriber</strong> format, where a Publisher (Producer) sends a message to a queue (in this case called a Topic), and all the Subscribers receive a copy of the message that can be retained or not.</p>
 <p><img src="https://sidmulajkar.com/images/messagequeue/messagequeue7.png" alt="Pub Sub Model"></p>
 <hr>
 <p>The queue can provide protection from service outages and failures.</p>
-<p><strong>Examples of queues: Kafka, Heron, real-time streaming, Amazon SQS, and RabbitMQ.</strong></p>
+<h5 id="examples-of-queues-kafka-heron-real-time-streaming-amazon-sqs-and-rabbitmq">
+  Examples of queues: Kafka, Heron, real-time streaming, Amazon SQS, and RabbitMQ.
+  <a class="heading-link" href="#examples-of-queues-kafka-heron-real-time-streaming-amazon-sqs-and-rabbitmq">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h5>
 
       </div>
 
@@ -337,8 +379,13 @@
   <footer class="footer">
     <section class="container">
       
-        <p>Copyright ©2023 | All rights reserved</p>
       
+        ©
+        
+          2021 -
+        
+        2023
+          | All rights reserved 
       
       
       
@@ -351,7 +398,7 @@
     
       
         
-        <script src="https://sidmulajkar.com/js/dark-mode.min.aee9c8a464eb7b3534c7110f7c5e169e7039e2fd92710e0626d451d6725af137.js" integrity="sha256-runIpGTrezU0xxEPfF4WnnA54v2ScQ4GJtRR1nJa8Tc="></script>
+        <script src="https://sidmulajkar.com/js/dark-mode.min.c2d8a1f8f2660e4a46d776277c72695a1e0ca65939d79f754441d47551604af5.js" integrity="sha256-wtih&#43;PJmDkpG13YnfHJpWh4Mplk51591REHUdVFgSvU="></script>
       
     
 

@@ -6,6 +6,22 @@ draft: false
 
 Below are the lists of some of my favorite resources:
 
+# Documentaries/Talks/Movies
+
+- [Glenn Greenwald’s TED Talk on Privacy](https://www.ted.com/talks/glenn_greenwald_why_privacy_matters). It’s only about 15 mins long and a must-watch.
+
+- [Data Privacy and Consent TED Talk by Fred Cate](https://www.ted.com/talks/fred_cate_privacy_and_consent). Dr. Fred Cate’s talk revolves around the current approach to data privacy. He analyzes the role that consent plays, in data protection and privacy today, grappling with how we manage consent in a world in which data is constantly being inferred about us.
+
+- [The Great Hack](https://www.netflix.com/Title/80117542). Another must-see documentary that explains how Cambridge Analytica used Facebook to seriously influence voters in the 2016 US election, Brexit in the UK, and many other elections around the globe.
+
+- [Snowden](https://libremdb.lunar.icu/title/tt3774114). The illegal surveillance techniques are leaked to the public by one of the agency's contractor, Edward Snowden, in the form of thousands of classified documents distributed to the press.
+
+- [Citizenfour](https://libremdb.iket.me/title/tt4044364). A documentarian and a reporter travel to Hong Kong for the first of many meetings with Edward Snowden.
+
+---
+
+# Articles/Blog/Web Resources
+
 - [The Value of Privacy](https://www.schneier.com/blog/archives/2006/05/the_value_of_pr.html). This is a particular blog entry by Bruce Schneier that is a must-read.
 
 - [Naked Security](https://nakedsecurity.sophos.com/). Run by Sophos, so keep that in mind – but still a great source for security info, written in accessible language.
@@ -13,8 +29,6 @@ Below are the lists of some of my favorite resources:
 - Duck Duck Go’s [Spread Privacy blog](https://spreadprivacy.com/).
 
 - [Privacy Guides](https://www.privacyguides.org/). An amazingly-comprehensive site devoted to the best of the best everyday tools for privacy.
-
-- [Techlore](https://techlore.tech/). Another great site with great training and tutorials. Check their “resources” page, too.
 
 - [The Hitchhiker’s Guide to Online Anonymity](https://anonymousplanet-ng.org/). An incredibly comprehensive guide to understanding how you can be tracked online and in real life, and how to prevent or mitigate it.
 
@@ -24,7 +38,11 @@ Below are the lists of some of my favorite resources:
 
 - [Firewalls Don’t Stop Dragons](https://firewallsdontstopdragons.com/podcast/). Focus on raising the awareness of everyday, non-technical people on the crucially important topics of cybersecurity and privacy. 
 
-- [Naomi Brockwell "NBTV"](https://odysee.com/@NaomiBrockwell:4). NBTV: a privacy, technology, blockchain channel.
+- [Naomi Brockwell "NBTV"](https://do.piped.video/channel/UCSuHzQ3GrHSzoBbwrIq3LLA). NBTV: a privacy, technology, blockchain channel.
+
+- [Mental Outlaw](https://do.piped.video/channel/UC7YOGHUfC1Tb6E4pudI9STA).  This channel is dedicated to helping people become more proficient with linux, scripting, and privacy in general. 
+
+- [Techlore](https://techlore.tech/). Another great site with great training and tutorials. Check their “resources” page, too.
 
 ---
 
@@ -40,14 +58,12 @@ Below are the lists of some of my favorite resources:
 
 ---
 
-# Documentaries/Talks
+##### *check out my mini-knowledge wiki 📖 - [sangraha]({{< relref "content/sangraha.md" >}}) | [read my blogs]({{< relref "/posts" >}})*
 
-- [Glenn Greenwald’s TED Talk on Privacy](https://www.ted.com/talks/glenn_greenwald_why_privacy_matters). It’s only about 15 mins long and a must-watch.
+--
 
-- [Data Privacy and Consent TED Talk by Fred Cate](https://www.ted.com/talks/fred_cate_privacy_and_consent). Dr. Fred Cate’s talk revolves around the current approach to data privacy. He analyzes the role that consent plays, in data protection and privacy today, grappling with how we manage consent in a world in which data is constantly being inferred about us.
+*Questions? Suggestions? Another great resource not listed? [contact](mailto:hi@sidmulajkar.com)*
 
-- [The Great Hack (Netflix)](https://www.netflix.com/Title/80117542). Another must-see documentary that explains how Cambridge Analytica used Facebook to seriously influence voters in the 2016 US election, Brexit in the UK, and many other elections around the globe.
 
-- [ANON (Netflix)](https://www.netflix.com/Title/80195964). As a dystopian sci-fi movie, it’s so-so; but it serves as an insightful criticism of ubiquitous facial recognition systems.
 
 ---

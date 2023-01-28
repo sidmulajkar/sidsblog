@@ -5,6 +5,7 @@ description: "I have no special talents. I am only passionately curious. A softw
 draft: false
 ---
 
+
 I am a **CS engineer** passionate about building systems that **respects privacy and security at the forefront**.
 
 Started my career **freelancing** to starting a **startup**, all with pretty much the same fascination that drove me as a kid. Throughout my career, I have worked across a **variety of domains** and have built **platforms,mini-services**.
@@ -29,6 +30,13 @@ There's unequivocally yet more to learn, more problems to solve, and more to bui
 
 **Contriver** by heart 💚, **developer** by profession. 
 
-Contact me at hi@sidmulajkar.com 
+Contact me at hi@sidmulajkar.com
 
-[If interested do check out my Resume by clicking this 👈](https://drive.google.com/file/d/1wKjuJvRKI5KIiFmExFJ_FTo5Qt_W7mXl/view?usp=sharing)
+--
+##### [If interested do check out my Resume by clicking this 👈](https://drive.google.com/file/d/1wKjuJvRKI5KIiFmExFJ_FTo5Qt_W7mXl/view?usp=sharing)
+
+##### Personal knowledge wiki - [sangraha 🧑🏽‍💻]({{< relref "content/sangraha.md" >}})
+
+##### Privacy Resource Reference - [sadhan 🚀]({{< relref "content/references.md" >}})
+
+---

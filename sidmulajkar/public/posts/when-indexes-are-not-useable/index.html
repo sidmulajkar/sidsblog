@@ -27,9 +27,10 @@
     <meta property="og:title" content="When Indexes are not Useable sometimes!" />
 <meta property="og:description" content="This tutorial will help you understand when indexes are useful or not accordingly." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://sidmulajkar.com/posts/when-indexes-are-not-useable/" />
+<meta property="og:url" content="https://sidmulajkar.com/posts/when-indexes-are-not-useable/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-11-16T17:26:04+05:30" />
 <meta property="article:modified_time" content="2021-11-16T17:26:04+05:30" />
+
 
 
     <title>
@@ -72,14 +73,14 @@
 
     
 
-    <meta name="generator" content="Hugo 0.80.0" />
+    <meta name="generator" content="Hugo 0.102.3" />
   </head>
 
   
   
     
   
-  <body class="colorscheme-auto"
+  <body class="colorscheme-dark"
         onload=""
   >
     
@@ -114,10 +115,10 @@
         "accountablePerson" : "",
         "copyrightHolder" : "",
         "copyrightYear" : "2021",
-        "datePublished": "2021-11-16 17:26:04 \u002b0530 IST",
-        "dateModified" : "2021-11-16 17:26:04 \u002b0530 IST",
+        "datePublished": "2021-11-16 17:26:04 \u002b0530 \u002b0530",
+        "dateModified" : "2021-11-16 17:26:04 \u002b0530 \u002b0530",
         "url" : "https:\/\/sidmulajkar.com\/posts\/when-indexes-are-not-useable\/",
-        "wordCount" : "1202",
+        "wordCount" : "1218",
         "keywords" : [ "btrees","indexing","indexing-types","data-structure","database","sidsblog","Blog" ]
     }
 </script>
@@ -218,15 +219,25 @@
 
       <div>
         
-        <p><strong>What do I even mean by useless indexes?</strong></p>
+        <h3 id="what-do-i-even-mean-by-useless-indexes">
+  What do I even mean by useless indexes?
+  <a class="heading-link" href="#what-do-i-even-mean-by-useless-indexes">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
 <hr>
-<p>To improve the application and the database, indexes need to change over time.</p>
-<p>As the structure of the database change, the structure of the tables change, data in the tables change, the application changes, also the queries against the data change.</p>
+<p>To improve the application and the database, <em>indexes need to change over time.</em></p>
+<p><em><strong>As the structure of the database change, the structure of the tables change, data in the tables change, the application changes, also the queries against the data change.</strong></em></p>
 <p>Indexes that once helped performance now <strong>just bloat your database</strong> and cause extra work for inserts, updates, and deletes.</p>
 <p>wait&hellip;</p>
 <p>Before getting to the conclusion</p>
 <hr>
-<p><strong>What is Indexing?</strong> firstly&hellip;</p>
+<h3 id="what-is-indexing-firstly">
+  What is Indexing? firstly&hellip;
+  <a class="heading-link" href="#what-is-indexing-firstly">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
 <p>It is a way to optimize the performance of a database by minimizing the number of disk accesses required when a query is processed.</p>
 <p>It is a data structure technique that is used to quickly locate and access the data in a database.</p>
 <p><img src="https://sidmulajkar.com/images/indexingusefulornot/index.png" alt="Indexing"></p>
@@ -238,53 +249,89 @@
 <li>Primary Indexing</li>
 <li>Secondary Indexing</li>
 </ul>
-<p><strong>Primary Index:</strong></p>
+<p>&ndash;</p>
+<h5 id="primary-index">
+  Primary Index:
+  <a class="heading-link" href="#primary-index">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h5>
 <p>Primary Index is an ordered file which is fixed length size with two fields. The first field is the same a primary key and second, filed is pointed to that specific data block. In the primary Index, there is always one to one relationship between the entries in the index table.</p>
 <p>The primary Indexing in DBMS is also further divided into two types.</p>
 <pre><code>-   Dense Index
 -   Sparse Index
 </code></pre>
-<p><strong>Dense Index:</strong></p>
-<p>In a dense index, a record is created for every search key valued in the database. This helps you to search faster but needs more space to store index records. In this Indexing, method records contain search key value and points to the real record on the disk.</p>
+<ul>
+<li><strong>Dense Index:</strong> In a dense index, a record is created for every search key valued in the database. This helps you to search faster but needs more space to store index records. In this Indexing, method records contain search key value and points to the real record on the disk.</li>
+</ul>
 <p><img src="https://sidmulajkar.com/images/indexingusefulornot/denseindex.png" alt="Dense Index"></p>
-<p><strong>Sparse Index:</strong></p>
+<ul>
+<li><strong>Sparse Index:</strong></li>
+</ul>
 <p>It is an index record that appears for only some of the values in the file. Sparse Index helps you to resolve the issues of dense Indexing in DBMS. In this method of indexing technique, a range of index columns stores the same data block address, and when data needs to be retrieved, the block address will be fetched.</p>
 <p>However, sparse Index stores index records for only some search-key values. It needs less space, less maintenance overhead for insertion, and deletions but It is slower compared to the dense Index for locating records.</p>
 <p>Below is an database index Example of Sparse Index</p>
 <p><img src="https://sidmulajkar.com/images/indexingusefulornot/sparse.png" alt="Sparse Index"></p>
-<p><strong>Secondary Index</strong></p>
+<p>&ndash;</p>
+<h5 id="secondary-index">
+  Secondary Index
+  <a class="heading-link" href="#secondary-index">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h5>
 <p>The secondary Index in DBMS can be generated by a field which has a unique value for each record, and it should be a candidate key. It is also known as a non-clustering index.
 This two-level database indexing technique is used to reduce the mapping size of the first level. For the first level, a large range of numbers is selected because of this; the mapping size always remains small.</p>
-<p>Example of secondary Indexing
-Let’s understand secondary indexing with a database index example:</p>
+<p>&ndash;</p>
+<p><em><strong>Example of secondary Indexing</strong></em></p>
+<p>Let’s understand secondary indexing with a database index example:</p>
 <p>In a bank account database, data is stored sequentially by acc_no; you may want to find all accounts in of a specific branch of ABC bank.</p>
 <p>Here, you can have a secondary index in DBMS for every search-key. Index record is a record point to a bucket that contains pointers to all the records with their specific search-key value.</p>
 <p><img src="https://sidmulajkar.com/images/indexingusefulornot/secondary.png" alt="Secondary Index"></p>
 <p>More In-Depth Details: <a href="https://prepinsta.com/dbms/indexing-and-its-types">https://prepinsta.com/dbms/indexing-and-its-types</a></p>
 <hr>
-<p>There are two types of database indexing architecture:</p>
+<h3 id="there-are-two-types-of-database-indexing-architecture">
+  There are two types of database indexing architecture:
+  <a class="heading-link" href="#there-are-two-types-of-database-indexing-architecture">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
 <ol>
 <li>Clustered</li>
 <li>Non-clustered</li>
 </ol>
 <p>Both clustered and non-clustered indexes are stored and searched as B-trees, a data structure similar to a binary tree.</p>
 <p>More Details on that: <a href="https://www.guru99.com/clustered-vs-non-clustered-index.html">https://www.guru99.com/clustered-vs-non-clustered-index.html</a></p>
-<p>If you haven&rsquo;t read more on B-Trees <a href="https://sidmulajkar.com/posts/b-bplus-trees/">https://sidmulajkar.com/posts/b-bplus-trees/</a></p>
+<p><em><strong>If you haven&rsquo;t read more on B-Trees <a href="https://sidmulajkar.com/posts/b-bplus-trees/">https://sidmulajkar.com/posts/b-bplus-trees/</a></strong></em></p>
 <hr>
-<p><strong>Power of Indexing:</strong></p>
-<p>Indexing plays a crucial role especially in applications such as eCommerce websites. Imagine that you are looking to buy a new bag on an eCommerce website.</p>
+<h3 id="power-of-indexing">
+  Power of Indexing:
+  <a class="heading-link" href="#power-of-indexing">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p><em><strong>Indexing plays a crucial role especially in applications such as eCommerce websites. Imagine that you are looking to buy a new bag on an eCommerce website.</strong></em></p>
 <p>You type in the search query and you expect to see a range of options that you’d like to choose from.</p>
-<p>However, due to the absence of indexing you are stuck looking at a blank screen for the next 15 mins waiting for the relevant data to load, or even worse, you get everything ranging from garments to electronics as an answer to your result.</p>
-<p>Given the number of alternative eCommerce websites on the internet, I highly doubt that you’d be willing to patiently wait around instead of simply logging onto a faster one.</p>
+<p>However, due to the <em><strong>absence of indexing you are stuck looking at a blank screen for the next 15 mins waiting for the relevant data to load</strong></em>, or even worse, you get everything ranging from garments to electronics as an answer to your result.</p>
+<p><em><strong>Given the number of alternative eCommerce websites on the internet, I highly doubt that you’d be willing to patiently wait around instead of simply logging onto a faster one.</strong></em></p>
 <hr>
-<p>When indexes need change, it requires doing a test on</p>
+<h3 id="when-indexes-need-change-it-requires-doing-a-test-on">
+  When indexes need change, it requires doing a test on
+  <a class="heading-link" href="#when-indexes-need-change-it-requires-doing-a-test-on">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
 <p>How removing an index will affect the overall performance?</p>
 <p>We have two options – either we can disable or drop the index.</p>
 <p>Which is better?</p>
 <p>But&hellip;</p>
 <hr>
-<p><strong>When to use Indexes:</strong></p>
-<p>Indexes are meant to speed up the performance of a database, so use indexing whenever it significantly improves the performance of your database.</p>
+<h3 id="when-to-use-indexes">
+  When to use Indexes:
+  <a class="heading-link" href="#when-to-use-indexes">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p><em><strong>Indexes are meant to speed up the performance of a database, so use indexing whenever it significantly improves the performance of your database.</strong></em></p>
 <p>As your database becomes larger and larger, the more likely you are to see benefits from indexing.</p>
 <p><strong>When not to use Indexes:</strong></p>
 <ul>
@@ -305,7 +352,12 @@ Let’s understand secondary indexing with a database index example:</p>
 </li>
 </ul>
 <hr>
-<p>For the longest time, what we do is search the table one by one sequentially (page by page).</p>
+<h3 id="for-the-longest-time-what-we-do-is-search-the-table-one-by-one-sequentially-page-by-page">
+  For the longest time, what we do is search the table one by one sequentially (page by page).
+  <a class="heading-link" href="#for-the-longest-time-what-we-do-is-search-the-table-one-by-one-sequentially-page-by-page">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
 <p>It&rsquo;s basically like a full table scan and if the key is also unique you have to scan the whole table anyway, which is very slow.</p>
 <p><strong>How to make it faster?</strong> How do we make searching one million stuff faster?</p>
 <p>Well,</p>
@@ -321,7 +373,12 @@ Let’s understand secondary indexing with a database index example:</p>
 </li>
 </ul>
 <hr>
-<p><strong>How removing an index will affect the overall performance?</strong></p>
+<h5 id="how-removing-an-index-will-affect-the-overall-performance">
+  How removing an index will affect the overall performance?
+  <a class="heading-link" href="#how-removing-an-index-will-affect-the-overall-performance">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h5>
 <p>We have two options – either we can <strong>disable or drop the index.</strong></p>
 <p>Which is better?</p>
 <hr>
@@ -332,22 +389,44 @@ Let’s understand secondary indexing with a database index example:</p>
 <p>I want it back!</p>
 <p>How to <strong>re-enable a disabled index</strong></p>
 <p>If you want to re-enable the index, you need to rebuild it – there is no INDEX…ENABLE command.</p>
-<hr>
+<p>&ndash;</p>
 <p><strong>Dropping an Index:</strong></p>
 <p>To drop a clustered or non-clustered index, issue a DROP INDEX command.</p>
-<p>Once an index has been dropped, it can’t be rebuilt – it must be created again.</p>
-<p>Disabling Non-clustered Indexes</p>
+<p><em><strong>Once an index has been dropped, it can’t be rebuilt – it must be created again.</strong></em></p>
+<p>&ndash;</p>
+<p><strong>Disabling Non-clustered Indexes</strong></p>
 <p>vs.</p>
-<p>Disabling Clustered Indexes</p>
+<p><strong>Disabling Clustered Indexes</strong></p>
 <p>Disabling a Non-clustered index will deallocate the index pages – the space is freed in the database.</p>
 <p>Disabling a Clustered index has additional effects. The data in the table still exists but will be inaccessible for anything other than a drop or rebuild operation.</p>
 <hr>
-<p><strong>How do I know if I&rsquo;m using an Index:</strong></p>
+<h3 id="how-do-i-know-if-im-using-an-index">
+  How do I know if I&rsquo;m using an Index:
+  <a class="heading-link" href="#how-do-i-know-if-im-using-an-index">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
 <p>Just add &ldquo;explain&rdquo; at the beginning of the query.</p>
 <hr>
-<p>Have you faced any issues with the indexes while using the database?</p>
+<h5 id="have-you-faced-any-issues-with-the-indexes-while-using-the-database">
+  Have you faced any issues with the indexes while using the database?
+  <a class="heading-link" href="#have-you-faced-any-issues-with-the-indexes-while-using-the-database">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h5>
 <p>or</p>
-<p>It has been an advantage to the database and still using it?</p>
+<h5 id="it-has-been-an-advantage-to-the-database-and-still-using-it">
+  It has been an advantage to the database and still using it?
+  <a class="heading-link" href="#it-has-been-an-advantage-to-the-database-and-still-using-it">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h5>
+<h3 id="let-me-knowmailtohisidmulajkarcom-regarding-this-with-your-experience-using-the-indexs">
+  let me <a href="mailto:hi@sidmulajkar.com">know</a> regarding this with your experience using the indexs
+  <a class="heading-link" href="#let-me-knowmailtohisidmulajkarcom-regarding-this-with-your-experience-using-the-indexs">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
 
       </div>
 
@@ -371,8 +450,13 @@ Let’s understand secondary indexing with a database index example:</p>
   <footer class="footer">
     <section class="container">
       
-        <p>Copyright ©2023 | All rights reserved</p>
       
+        ©
+        
+          2021 -
+        
+        2023
+          | All rights reserved 
       
       
       
@@ -385,7 +469,7 @@ Let’s understand secondary indexing with a database index example:</p>
     
       
         
-        <script src="https://sidmulajkar.com/js/dark-mode.min.aee9c8a464eb7b3534c7110f7c5e169e7039e2fd92710e0626d451d6725af137.js" integrity="sha256-runIpGTrezU0xxEPfF4WnnA54v2ScQ4GJtRR1nJa8Tc="></script>
+        <script src="https://sidmulajkar.com/js/dark-mode.min.c2d8a1f8f2660e4a46d776277c72695a1e0ca65939d79f754441d47551604af5.js" integrity="sha256-wtih&#43;PJmDkpG13YnfHJpWh4Mplk51591REHUdVFgSvU="></script>
       
     
 

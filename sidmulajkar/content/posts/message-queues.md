@@ -1,7 +1,7 @@
 ---
 title: "Message Queues! What are those and when to use them? "
-categories: [queue, data-structure, database, sidsblog]
-tags: [queue, data-structure, database, sidsblog]
+categories: [queue, data-structure, database,backend-engineering, sidsblog]
+tags: [queue, data-structure, database,backend-engineering, sidsblog]
 date: 2021-11-26T17:26:04+05:30
 description: "This tutorial will help you understand the message queues."
 author: Siddhant Mulajkar
@@ -10,11 +10,13 @@ draft: false
 
 **Message queues ...📨 📨**
 
-**What are those and when to use them?**
 
 **The role of message queuing in a micro-service architecture.**
 
-When is the right time to use a message queue and why is a database rarely the best tool for a queue-based problem?
+--
+
+
+##### *When is the right time to use a message queue and why is a database rarely the best tool for a queue-based problem?*
 
 A blog on backend engineering...
 
@@ -30,7 +32,9 @@ This site receives a lot of PDF creation requests every second and every request
 
 An orderly, organized queue is needed to be able to handle all requests in a timely manner.
 
-USER SCENARIO
+--
+
+**USER SCENARIO**
 1. Customer uploads a text document
 2. Your application converts the text document into a PDF
 3. Your application emails the PDF back to the customer
@@ -43,7 +47,7 @@ USER SCENARIO
 
 --------------------------------------------------------------------------
 
-Using a message queue is **highly recommended when we need to process a high-volume of asynchronous messages.**
+Using a message queue is ***highly recommended when we need to process a high-volume of asynchronous messages.***
 
 A message queue is perfect to use when we want a high performance, highly concurrent and scalable system that can process thousands of messages per second concurrently across many servers/processes.
 
@@ -59,8 +63,9 @@ A message queue provides temporary storage between the sender and the receiver s
 
 Asynchronous processing allows a task to call a service, and move on to the next task.
 
+--
 
-Message queue use cases:
+##### Message queue use cases:
 
 Now we might think, “where on earth would a message queue fit in my architecture”? 
 
@@ -76,7 +81,7 @@ The simple and quick answer is when:
 
 --------------------------------------------------------------------------
 
-Message queues can also be used for more advanced scenarios like
+##### Message queues can also be used for more advanced scenarios like
 
 - Images Scaling
 - Sending large/many emails
@@ -88,7 +93,7 @@ Message queues can also be used for more advanced scenarios like
 
 --------------------------------------------------------------------------
 
-Main features and benefits of message queuing
+##### Main features and benefits of message queuing
 
 - There are no direct connections between programs.
 
@@ -109,7 +114,7 @@ Main features and benefits of message queuing
 --------------------------------------------------------------------------
 
 
-The **role of message queuing in a micro-service architecture:**
+##### The role of message queuing in a micro-service architecture:
 
 In a microservice architecture, there are different functionalities divided across different services, that offer various functionalities. 
 
@@ -127,18 +132,18 @@ This is where the system must have a mechanism in place which allows services to
 Message queuing fulfills this purpose by providing a means for services to push messages to a queue asynchronously and ensure that they get delivered to the correct destination.
 
 
-To implement a message queue between services, you need a message broker, think of it as a mailman, who takes mail from a sender and delivers it to the correct destination.
+***To implement a message queue between services, you need a message broker, think of it as a mailman, who takes mail from a sender and delivers it to the correct destination.***
 
 --------------------------------------------------------------------------
 
-Okay, this seems great, but what if we need the same message to be processed by two or more microservices? Well, there are different types of message queues:
+##### Okay, this seems great, but what if we need the same message to be processed by two or more microservices? Well, there are different types of message queues:
 
 A message queue can be point-to-point, where there is only one queue and one consumer
 
 ![Point to Point](/images/messagequeue/messagequeue8.png)
 
 
-Alternatively, a message queue can use a Publisher-Subscriber format, where a Publisher (Producer) sends a message to a queue (in this case called a Topic), and all the Subscribers receive a copy of the message that can be retained or not.
+Alternatively, a message queue can use a **Publisher-Subscriber** format, where a Publisher (Producer) sends a message to a queue (in this case called a Topic), and all the Subscribers receive a copy of the message that can be retained or not.
 
 ![Pub Sub Model](/images/messagequeue/messagequeue7.png)
 
@@ -147,4 +152,4 @@ Alternatively, a message queue can use a Publisher-Subscriber format, where a Pu
 
 The queue can provide protection from service outages and failures.
 
-**Examples of queues: Kafka, Heron, real-time streaming, Amazon SQS, and RabbitMQ.**
+##### Examples of queues: Kafka, Heron, real-time streaming, Amazon SQS, and RabbitMQ.

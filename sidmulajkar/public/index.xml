@@ -50,6 +50,15 @@ hg<?xml version="1.0" encoding="utf-8" standalone="yes"?>
     </item>
 
     <item>
+      <title>my personal knowledge wiki 🐨</title>
+      <link>https://sidmulajkar.com/sangraha/</link>
+      <pubDate>Fri, 25 Mar 2022 19:09:26 +0530</pubDate>
+
+      <guid>https://sidmulajkar.com/sangraha/</guid>
+      <description> my personal little knowledge seedling with quick references to the sites, pdf, videos, blogs and much more</description>
+    </item>
+
+    <item>
       <title>How to Handle the Double booking problem in an app or website just using the database? </title>
       <link>https://sidmulajkar.com/posts/how-to-handle-double-booking-problem-using-db/</link>
       <pubDate>Sat, 19 Mar 2022 17:26:04 +0530</pubDate>

@@ -27,9 +27,10 @@
     <meta property="og:title" content="Databases! How do we know it&#39;s the right one? " />
 <meta property="og:description" content="This tutorial will help you understand what factors to consider before the selecting the database." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://sidmulajkar.com/posts/databases-how-do-we-know-its-the-right-one/" />
+<meta property="og:url" content="https://sidmulajkar.com/posts/databases-how-do-we-know-its-the-right-one/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-12-23T17:26:04+05:30" />
 <meta property="article:modified_time" content="2021-12-23T17:26:04+05:30" />
+
 
 
     <title>
@@ -72,14 +73,14 @@
 
     
 
-    <meta name="generator" content="Hugo 0.80.0" />
+    <meta name="generator" content="Hugo 0.102.3" />
   </head>
 
   
   
     
   
-  <body class="colorscheme-auto"
+  <body class="colorscheme-dark"
         onload=""
   >
     
@@ -114,10 +115,10 @@
         "accountablePerson" : "",
         "copyrightHolder" : "",
         "copyrightYear" : "2021",
-        "datePublished": "2021-12-23 17:26:04 \u002b0530 IST",
-        "dateModified" : "2021-12-23 17:26:04 \u002b0530 IST",
+        "datePublished": "2021-12-23 17:26:04 \u002b0530 \u002b0530",
+        "dateModified" : "2021-12-23 17:26:04 \u002b0530 \u002b0530",
         "url" : "https:\/\/sidmulajkar.com\/posts\/databases-how-do-we-know-its-the-right-one\/",
-        "wordCount" : "1441",
+        "wordCount" : "1440",
         "keywords" : [ "factors","vertical scaling","horizontal scaling","data-structure","database","sidsblog","Blog" ]
     }
 </script>
@@ -220,21 +221,42 @@
 
       <div>
         
-        <p>Choosing the Best Database</p>
-<p>Databases! How do you know it’s the right one?</p>
+        <h3 id="choosing-the-best-database">
+  Choosing the Best Database?
+  <a class="heading-link" href="#choosing-the-best-database">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
 <p><img src="https://sidmulajkar.com/images/factorsofdatabase/sqlvsnosql.png" alt="What to Select"></p>
 <hr>
-<p>Whether you are an experienced software engineer or a student doing a university project, at some point we will need to choose a DB for our project.</p>
-<p>Choosing the right kind of database always requires some consideration.</p>
-<p>First of all, databases will not impact our functional requirements.</p>
-<p>Whichever database we use can still achieve our functional requirements somehow, but at the cost of huge performance degradation.</p>
-<p>So when we say requirement, we usually mean non-functional requirements</p>
+<p><strong>Whether you are an experienced software engineer or a student doing a university project, at some point we will need to choose a DB for our project.</strong></p>
+<p><em><strong>Choosing the right kind of database always requires some consideration.</strong></em></p>
+<p>&ndash;</p>
+<h5 id="first-of-all-databases-will-not-impact-our-functional-requirements">
+  First of all, databases will not impact our functional requirements.
+  <a class="heading-link" href="#first-of-all-databases-will-not-impact-our-functional-requirements">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h5>
+<h5 id="whichever-database-we-use-can-still-achieve-our-functional-requirements-somehow-but-at-the-cost-of-huge-performance-degradation">
+  Whichever database we use can still achieve our functional requirements somehow, but at the cost of huge performance degradation.
+  <a class="heading-link" href="#whichever-database-we-use-can-still-achieve-our-functional-requirements-somehow-but-at-the-cost-of-huge-performance-degradation">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h5>
+<p>So when we say requirement, we usually mean <em><strong>non-functional</strong></em> requirements</p>
 <hr>
-<p><strong>Factors:</strong></p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">- Structure of the data
-- Query pattern
-- Amount or scale that we need to handle
-</code></pre></div><ul>
+<h3 id="factors">
+  Factors:
+  <a class="heading-link" href="#factors">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>- Structure of the data
+</span></span><span style="display:flex;"><span>- Query pattern
+</span></span><span style="display:flex;"><span>- Amount or scale that we need to handle
+</span></span></code></pre></div><p>&ndash;</p>
+<ul>
 <li>
 <p>How much data do we expect to store when the application is mature?</p>
 </li>
@@ -266,11 +288,17 @@
 <p>How strict are we with invalid data being sent to our database? (Ideally, we are very strict and do server-side data validation before persisting it to our database)</p>
 </li>
 </ul>
-<p>These are some of the factors we need to consider when selecting which database to use.</p>
+<p>&ndash;</p>
+<p><em>These are some of the factors we need to consider when selecting which database to use.</em></p>
 <p>A bonus reason for understanding the different DBs and their properties is that it’s quite a common question in job interviews!</p>
 <hr>
-<p>How to Choose the Right Type of Database?</p>
-<p>Given that there are so many different types of databases, choosing one can be confusing.</p>
+<h4 id="how-to-choose-the-right-type-of-database">
+  How to Choose the Right Type of Database?
+  <a class="heading-link" href="#how-to-choose-the-right-type-of-database">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h4>
+<p><em>Given that there are so many different types of databases, choosing one can be confusing.</em></p>
 <p>Consider these factors that we should keep in mind when selecting a database management system:</p>
 <ol>
 <li>
@@ -286,9 +314,11 @@
 <p>The basic advantages of vertical scaling are speed and simplicity.</p>
 </li>
 </ol>
+<p>&ndash;</p>
 <p><strong>Horizontal scaling:</strong></p>
 <p>If we expect higher loads in the scale of users or querying, horizontal scaling is a much cheaper solution.</p>
 <p>NoSQL databases employ horizontal scaling. Instead of adding more compute power to a server, they distribute the load across servers.</p>
+<p>&ndash;</p>
 <ol start="3">
 <li>
 <p><strong>Speed</strong></p>
@@ -298,20 +328,31 @@
 </li>
 </ol>
 <hr>
-<p><strong>SQL-based vs NoSQL-based</strong></p>
+<h3 id="sql-based-vs-nosql-based">
+  SQL-based vs NoSQL-based
+  <a class="heading-link" href="#sql-based-vs-nosql-based">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
 <p>Before diving into the most popular modern database options in the next post, it&rsquo;s important to understand the difference.</p>
-<p>We will see SQL vs NoSQL specific databases in upcoming posts.
-<a href="https://www.integrate.io/blog/which-database/">https://www.integrate.io/blog/which-database/</a></p>
-<p>When choosing a modern database, one of the biggest decisions is picking a relational (SQL) or non-relational (NoSQL) data structure. While both are viable options, there are key differences between the two that users must keep in mind when making a decision.</p>
+<p>We will see SQL vs NoSQL specific databases in upcoming posts.</p>
+<p><em><a href="https://www.integrate.io/blog/which-database/">https://www.integrate.io/blog/which-database/</a></em></p>
+<p><em><strong>When choosing a modern database, one of the biggest decisions is picking a relational (SQL) or non-relational (NoSQL) data structure. While both are viable options, there are key differences between the two that users must keep in mind when making a decision.</strong></em></p>
 <p>Still, each year, NoSQL-based non-relational database management systems are becoming more popular—particularly because data scientists want to expose their machine learning business analytics tools to more unstructured data. Let&rsquo;s look at how these database styles differ.</p>
 <hr>
-<p><strong>Relational Database Management Systems (SQL-Based)</strong></p>
-<p>Relational database management systems (RDBMSs) use SQL, a database management language that offers a highly organized and structured approach to information management. Similar to the way a phone book has different categories of information (name, number, address, etc.) for each line of data, relational databases apply strict, categorical parameters that allow database users to easily organize, access, and maintain information within those parameters.</p>
-<p>The primary reasons why SQL-based RDBMSs continue to dominate are:</p>
+<h3 id="relational-database-management-systems-sql-based">
+  Relational Database Management Systems (SQL-Based)
+  <a class="heading-link" href="#relational-database-management-systems-sql-based">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Relational database management systems (RDBMSs) use SQL, a database management language that offers a highly organized and structured approach to information management.</p>
+<p>Similar to the way a phone book has different categories of information (name, number, address, etc.) for each line of data, relational databases apply strict, categorical parameters that allow database users to easily organize, access, and maintain information within those parameters.</p>
+<p><em><strong>The primary reasons why SQL-based RDBMSs continue to dominate are:</strong></em></p>
 <p>(1) they are highly stable and reliable.</p>
 <p>(2) they adhere to a standard that integrates seamlessly with popular software stacks like LAMP.</p>
 <hr>
-<p>RDBMS advantages:</p>
+<p><em><strong>RDBMS advantages:</strong></em></p>
 <ul>
 <li>
 <p>ACID compliance: If a database system is &ldquo;ACID compliant,&rdquo; it satisfies a set of priorities that measure the atomicity, consistency, isolation, and durability of database systems. The more ACID-compliant a database is, the more it serves to guarantee the validity of database transactions, reduce anomalies, safeguard data integrity, and create stable database systems. Generally, SQL-based RDBMSs achieve a high level of ACID compliance, but NoSQL databases give up this distinction to gain speed and flexibility when dealing with unstructured data.</p>
@@ -323,7 +364,8 @@
 <p>Better support options: Because RDBMS databases have been around for over 40 years, it&rsquo;s easier to get support, add-on products, and integrate data from other systems.</p>
 </li>
 </ul>
-<p>RDBMS disadvantages:</p>
+<p>&ndash;</p>
+<p><em><strong>RDBMS disadvantages:</strong></em></p>
 <ul>
 <li>
 <p>Scalability challenges and difficulties with sharding: RDBMSs have a more difficult time scaling up in response to massive growth compared to NoSQL databases. These databases also present challenges when it comes to sharding. Sharding is the process of dividing a large database into smaller parts for easier management. If we&rsquo;re dealing with a conservative database that we don&rsquo;t expect to change a lot in the years ahead, the sharding and scaling challenges related to RDBMS solutions may never apply to us. On the other hand, if we plan to scale up and grow in the years ahead, a non-relational database system (NoSQL-based) could be a better match for our needs.</p>
@@ -334,13 +376,15 @@
 </ul>
 <hr>
 <p><strong>Non-Relational Database Systems (NoSQL-based)</strong></p>
-<p>Imagine a task of managing large amounts of unstructured data, such as text from emails and customer surveys, data collected by a network of mobile apps, or random social media information. The information is unorganized. There isn&rsquo;t a clearly-defined schema like you would find in an RDBMS. We can&rsquo;t store such information in an RDBMS. But we can store it with a non-relational (or NoSQL) database system.</p>
-<p>Non-relational databases let us organize information in a looser fashion—kind of like dropping the information in different file folders. This is important for two reasons:</p>
+<p><em><strong>Imagine a task of managing large amounts of unstructured data, such as text from emails and customer surveys, data collected by a network of mobile apps, or random social media information. The information is unorganized.</strong></em></p>
+<p><em><strong>There isn&rsquo;t a clearly-defined schema like you would find in an RDBMS. We can&rsquo;t store such information in an RDBMS. But we can store it with a non-relational (or NoSQL) database system.</strong></em></p>
+<p>&ndash;</p>
+<p><strong>Non-relational databases</strong> let us organize information in a looser fashion—kind of like dropping the information in different file folders. This is important for two reasons:</p>
 <p>(1) we can store unstructured information and expose it to powerful business intelligence systems that will analyze it with AI algorithms.</p>
 <p>(2) we can store unstructured data that you plan to structure later.</p>
 <p>Non-relational databases also work with NoSQL formats like JSON, which has become essential for web-based applications that let websites update &ldquo;live&rdquo; without needing to refresh the page.</p>
 <hr>
-<p>Non-relational DBMS advantages:</p>
+<p><em><strong>Non-relational DBMS advantages:</strong></em></p>
 <ul>
 <li>
 <p>Excellent for handling &ldquo;big data&rdquo; analytics: The main reason why NoSQL databases are becoming more popular is that they remove the bottleneck of needing to categorize and apply strict structures to massive amounts of information. NoSQL databases like HBase, Cassandra, and CouchDB support the speed and efficiency of server operations while offering the capacity to work with large amounts of data.</p>
@@ -355,7 +399,8 @@
 <p>No data preparation required: When there isn&rsquo;t time to design a complex model, and you need to get a database running fast, non-relational databases save a lot of time.</p>
 </li>
 </ul>
-<p>Non-relational DBMS disadvantages:</p>
+<p>&ndash;</p>
+<p><em><strong>Non-relational DBMS disadvantages:</strong></em></p>
 <ul>
 <li>
 <p>More difficult to find support: Because the NoSQL community doesn&rsquo;t have years of history and development behind it, it could be more difficult to find experienced users when you need to troubleshoot.</p>
@@ -391,8 +436,13 @@
   <footer class="footer">
     <section class="container">
       
-        <p>Copyright ©2023 | All rights reserved</p>
       
+        ©
+        
+          2021 -
+        
+        2023
+          | All rights reserved 
       
       
       
@@ -405,7 +455,7 @@
     
       
         
-        <script src="https://sidmulajkar.com/js/dark-mode.min.aee9c8a464eb7b3534c7110f7c5e169e7039e2fd92710e0626d451d6725af137.js" integrity="sha256-runIpGTrezU0xxEPfF4WnnA54v2ScQ4GJtRR1nJa8Tc="></script>
+        <script src="https://sidmulajkar.com/js/dark-mode.min.c2d8a1f8f2660e4a46d776277c72695a1e0ca65939d79f754441d47551604af5.js" integrity="sha256-wtih&#43;PJmDkpG13YnfHJpWh4Mplk51591REHUdVFgSvU="></script>
       
     
 

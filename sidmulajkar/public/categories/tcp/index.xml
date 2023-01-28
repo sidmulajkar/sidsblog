@@ -13,8 +13,16 @@
       <pubDate>Wed, 06 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/tcp-and-udp/</guid>
-      <description>TCP and UDP    A simple open-ended question that can test your whole sort of knowledge.
- What will be addressed in this post?    - The problem with packets (IP) - TCP pros and cons - TCP communication sample code - UDP pros and cons - UDP communication sample code - Some questions based on them  To start, I was asked a question in an interview,</description>
+      <description>TCP and UDP A simple open-ended question that can test whole schemas of knowledge.
+What will be addressed in this post? The problem with packets (IP)
+TCP pros and cons
+TCP communication sample code
+UDP pros and cons
+UDP communication sample code
+Some questions based on them
+To start, I was asked a question in an interview,
+What to use UDP or TCP in Building a Backend Application?
+I was like why only these 2 protocols, there are many others, like HTTP, HTTP2, XMPP, GRPC, QUIC</description>
     </item>
     
     <item>
@@ -23,9 +31,8 @@
       <pubDate>Sat, 02 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/tcp-slow-start/</guid>
-      <description>Does it affect Web Application Performance?
-Yes, it&amp;rsquo;s a feature, not an issue but can be a problem sometimes while analyzing and designing the app.
- TCP slow start is a congestion-avoidance algorithm that balances the speed of a network connection.
+      <description>Does it affect Web Application Performance? Yes, it&amp;rsquo;s a feature, not an issue but can be a problem sometimes while analyzing and designing the app.
+TCP slow start is a congestion-avoidance algorithm that balances the speed of a network connection.
 A slow start gradually increases the amount of data transmitted until it finds the network’s maximum carrying capacity.
 One of the most common ways to optimize the speed of a connection (i.</description>
     </item>

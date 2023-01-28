@@ -13,8 +13,9 @@ At first glance, **[A2 Hosting](http://www.a2hosting.com?aid=fceb43ba)** might s
 
 **Everyone claims to be faster than the competitors, but twenty times so? Can A2 Hosting live up to its promises? Let’s take a look.**
 
+--
 
-**Speed Tests Don’t Lie**
+##### Speed Tests Don’t Lie
 
 When this company says it’s **20x faster** than its **competitors**, it’s not just **exaggerating** to make an **eye-catching headline**. A2 Hosting has a **special set of optimizations**, and this clean code makes things quick. There’s no laggy, outdated programming on these servers. Premium plan members are also placed in a less crowded environment, which really helps to facilitate faster speeds.
 
@@ -28,9 +29,9 @@ Still, most or all Linux features are there. A free SSL certificate is included,
 
 We have a blazing fast web hosting solution perfect for you! Whether you have low traffic, a brand new blog, or own a popular business site, A2 Hosting has got you covered! Whether you’ve never run a website before or are a professional developer, rest assured we have a web hosting solution to meet your unique needs!
 
-[![A2 Poster](/images/postimgs/a2hostmain.png)](http://www.a2hosting.com?aid=fceb43ba "A2 Poster")
+[![A2 Poster](/images/postimgs/a2hostref.png)](http://www.a2hosting.com?aid=fceb43ba "A2 Poster")
 
----------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 Experience The A2 Hosting Difference Today! **Up To 20X Faster Servers**
 Our exclusive Turbo Server option offers you the fastest hosting experience!
@@ -48,28 +49,27 @@ Best Software & Development Options
 Learn more about all the compatible software options you’ll have access to at A2 Hosting. There’s a ton to choose between! Once you select your solution, we’ll help you choose one of our high-speed hosting packages to fit your specific needs.
 
 
-
 ![A2 Features](/images/postimgs/features.png)
 
----------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 ### What kind of hosting services does A2 Hosting provide?
 
 
-![A2 Services](/images/postimgs/typesofhosting.png)
+![A2 Services](/images/postimgs/a2services.png)
 
 
----------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 
 ### What impacts and separates A2 from others?
 
 **Their single approach & aim to provide the industry with best web hosting solutions for their clients..**
 
-![A2 Features](/images/postimgs/whatseperateshosta2.png)
+![A2 Uniqueness](/images/postimgs/a2unique.png)
 
 
----------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 **What makes it even more promising and a go-to choice other than features is..... Money Back Guarantee**
 
@@ -86,7 +86,7 @@ We don’t want any customers to leave, but if you do we think you’ll be back.
 
 **[GET STARTED NOW](http://www.a2hosting.com?aid=fceb43ba)**
 
----------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 
 ### 99% Uptime is not meant just as a display term for more feature-rich things as they completely mean by that uptime process..
@@ -97,7 +97,7 @@ We don’t want any customers to leave, but if you do we think you’ll be back.
 
 ![A2 best99](/images/postimgs/bestindustry99up.png)
 
----------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 ### Now what real use-age features make it best while using the service
 
@@ -122,7 +122,9 @@ From Moodle to Omeka, your A2 Hosting account comes loaded with tools to help te
 
 5. **ERP** software is used by businesses to help them manage all of their product plans, development sales, marketing and manufacturing functions in a centralized location. ERPs are perfect for helping you forecast your work load according to your current orders.
 
-#### Conclusion:
+---
+
+### Conclusion:
 But **A2 Hosting** has no **dirt to hide**, and what it claims to offer is honesty. It’s amazing what some simple optimizations can do. When a company takes the time to touch up the code just to squeeze out those extra precious milliseconds, you can rest assured that it cares about its customers.
 
 [A2 Hosting Link if you want to just check out](http://www.a2hosting.com?aid=fceb43ba)
