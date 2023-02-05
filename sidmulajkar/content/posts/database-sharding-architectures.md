@@ -135,3 +135,12 @@ For example, consider a dataset where each record contains a “country” field
 --
 
 If you haven't read the last blog post and want to know more about Database Sharding check the previous blog > [What is Database Sharding]({{< relref "posts/what-is-database-sharding.md" >}})
+
+
+---
+
+### Read More Blogs related to:
+
+***[database]({{< relref "/tags/database/">}}) / [linuxsubsystem(wsl)]({{< relref "/tags/linuxsubsystem/">}}) / [flutter installation]({{< relref "/tags/flutter-installation">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberrypi">}})*** 
+
+--

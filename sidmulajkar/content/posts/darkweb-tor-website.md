@@ -1,7 +1,7 @@
 ---
 title: "How to create a tor based website?"
-categories: [tor, dark web, tor browser, cloud services, raspberry pi, microservices, onion website, sidsblog]
-tags: [tor, dark web, tor browser, cloud services, raspberry pi, microservices, onion website, sidsblog]
+categories: [tor, dark web, tor browser, cloud services, raspberrypi, microservices, onion website, sidsblog]
+tags: [tor, dark web, tor browser, cloud services, raspberrypi, microservices, onion website, sidsblog]
 date: 2022-05-30T17:26:04+05:30
 description: "In this blog, we will learn how to create a tor based website and do we actually need it."
 author: Siddhant Mulajkar
@@ -16,7 +16,7 @@ For eg, as we go to any other website such as google.com or youtube.com, DuckDuc
 
 can also be accessed using duckduckgo.com or also using the tor address of the website
 
-https://3g2upl4pq6kufc4m.onion (using the tor browser)
+***https://3g2upl4pq6kufc4m.onion (using the tor browser)***
 
 ---
 
@@ -205,3 +205,9 @@ To keep it simple, using Tor makes it more difficult (but not impossible) for In
 Despite these noble goals Tor also has a dark side. Obviously, the convenient (and relative) anonymity attract people with some less honorable intentions.
 
 ---
+
+### Read More Blogs related to:
+
+***[database]({{< relref "/tags/database/">}}) / [linuxsubsystem(wsl)]({{< relref "/tags/linuxsubsystem/">}}) / [flutter installation]({{< relref "/tags/flutter-installation">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberrypi">}})*** 
+
+--

@@ -11,6 +11,7 @@ draft: false
 - [./minimalism]()
 - [./privacy]()
 - [./software engineering]()
+- [./cybersecurity]()
 - [./linux]()
 - [./cryptography]()
 - [./software]()
@@ -22,4 +23,4 @@ draft: false
 
 --
 
-##### *Want to contribute [contact me](mailto:hi@sidmulajkar.com)* / *[read my blogs]({{< relref "/posts" >}})* / *[privacy resources]({{< relref "content/references.md" >}})*
+##### *Want to contribute [contact me](mailto:hi@sidmulajkar.com)* / *[read my blogs]({{< relref "/posts" >}})* / *[privacy resources]({{< relref "content/references.md" >}})* / *[support me]({{< relref "/donate">}})*

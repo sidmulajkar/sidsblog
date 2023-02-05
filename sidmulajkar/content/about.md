@@ -37,6 +37,6 @@ Contact me at hi@sidmulajkar.com
 
 ##### Personal knowledge wiki - [sangraha 🧑🏽‍💻]({{< relref "content/sangraha.md" >}})
 
-##### Privacy Resource Reference - [sadhan 🚀]({{< relref "content/references.md" >}})
+##### Privacy Resource Reference - [anukramani 🚀]({{< relref "content/references.md" >}})
 
 ---

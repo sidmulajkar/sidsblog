@@ -1,7 +1,7 @@
 ---
 title: "What is TCP Slow Start?"
-categories: [tcp, slowstart, congestion-control, mechanism, sidsblog]
-tags: [tcp, slowstart, congestion-control, mechanism, sidsblog]
+categories: [tcp, slowstart, networking, congestion-control, mechanism, sidsblog]
+tags: [tcp, slowstart, networking, congestion-control, mechanism, sidsblog]
 date: 2021-10-02T17:26:04+05:30
 description: "This tutorial will clear all your doubts regarding the TCP Slow Start and is it really a problem"
 author: Siddhant Mulajkar
@@ -127,3 +127,11 @@ Building Blocks of TCP [https://tinyurl.com/2h7hssbf](https://hpbn.co/building-b
 ### Conclusion
 
 So next time while designing the app and using a networking protocol like TCP, do analyze the whole process and then develop the thing.
+
+---
+
+### Read More Blogs related to:
+
+***[database]({{< relref "/tags/database/">}}) / [linuxsubsystem(wsl)]({{< relref "/tags/linuxsubsystem/">}}) / [flutter installation]({{< relref "/tags/flutter-installation">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberrypi">}})*** 
+
+--

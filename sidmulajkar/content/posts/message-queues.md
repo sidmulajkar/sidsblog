@@ -22,7 +22,7 @@ A blog on backend engineering...
 
 ![Message Queues](/images/messagequeue/messagequeue1.png)
 
---------------------------------------------------------------------------
+---
 
 
 Imagine that we have a web application for customers to upload a text document, which then converts it into a PDF, and then emails it back to the customer. 
@@ -41,23 +41,23 @@ An orderly, organized queue is needed to be able to handle all requests in a tim
 
 ![Message Queues Scenario](/images/messagequeue/messagequeue2.png)
 
---------------------------------------------------------------------------
+---
 
 **Message queuing makes it possible for applications to communicate asynchronously, by sending messages to each other via a queue.**
 
---------------------------------------------------------------------------
+---
 
 Using a message queue is ***highly recommended when we need to process a high-volume of asynchronous messages.***
 
 A message queue is perfect to use when we want a high performance, highly concurrent and scalable system that can process thousands of messages per second concurrently across many servers/processes.
 
---------------------------------------------------------------------------
+---
 
 What is **Synchronous vs Asynchronous Communication?**
 
 ![Communication](/images/messagequeue/messagequeue3.png)
 
---------------------------------------------------------------------------
+---
 
 A message queue provides temporary storage between the sender and the receiver so that the sender can keep operating without interruption when the destination program is busy or not connected.
 
@@ -79,7 +79,7 @@ The simple and quick answer is when:
 
 - we need to scale up and down during peak hours
 
---------------------------------------------------------------------------
+---
 
 ##### Message queues can also be used for more advanced scenarios like
 
@@ -91,7 +91,7 @@ The simple and quick answer is when:
 - Delivering notifications
 - PDF processing
 
---------------------------------------------------------------------------
+---
 
 ##### Main features and benefits of message queuing
 
@@ -111,7 +111,7 @@ The simple and quick answer is when:
 
 - Recovery support.
 
---------------------------------------------------------------------------
+---
 
 
 ##### The role of message queuing in a micro-service architecture:
@@ -134,7 +134,7 @@ Message queuing fulfills this purpose by providing a means for services to push 
 
 ***To implement a message queue between services, you need a message broker, think of it as a mailman, who takes mail from a sender and delivers it to the correct destination.***
 
---------------------------------------------------------------------------
+---
 
 ##### Okay, this seems great, but what if we need the same message to be processed by two or more microservices? Well, there are different types of message queues:
 
@@ -148,8 +148,16 @@ Alternatively, a message queue can use a **Publisher-Subscriber** format, where 
 ![Pub Sub Model](/images/messagequeue/messagequeue7.png)
 
 
---------------------------------------------------------------------------
+---
 
 The queue can provide protection from service outages and failures.
 
 ##### Examples of queues: Kafka, Heron, real-time streaming, Amazon SQS, and RabbitMQ.
+
+---
+
+### Read More Blogs related to:
+
+***[database]({{< relref "/tags/database/">}}) / [linuxsubsystem(wsl)]({{< relref "/tags/linuxsubsystem/">}}) / [flutter installation]({{< relref "/tags/flutter-installation">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberrypi">}})*** 
+
+--

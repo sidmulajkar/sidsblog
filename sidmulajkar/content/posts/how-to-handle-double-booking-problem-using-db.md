@@ -8,13 +8,11 @@ author: Siddhant Mulajkar
 draft: false
 ---
 
-
-How to Handle the Double booking problem in an app or website just using the database?
-
+--
 
 **Well the Answer is :**
 
-It totally depends, on what use, we are using the concurrency model for using the specific database to avoid this problem.
+It totally depends, on what use, we are using the concurrency model, for using the specific database to avoid this problem.
 
 ---
 
@@ -233,3 +231,9 @@ https://www.cockroachlabs.com/docs/stable/frequently-asked-questions.html
 ![Cockroach DB](/images/doublebookingdb/cockroachdb.jpeg)
 
 ---
+
+### Read More Blogs related to:
+
+***[database]({{< relref "/tags/database/">}}) / [linuxsubsystem(wsl)]({{< relref "/tags/linuxsubsystem/">}}) / [flutter installation]({{< relref "/tags/flutter-installation">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberrypi">}})*** 
+
+--

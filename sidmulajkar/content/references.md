@@ -4,10 +4,10 @@ date: 2023-01-19T19:09:26+05:30
 draft: false
 ---
 
-Below are the lists of some of my favorite resources:
+---
+Below are the lists of some of my favorite referenced ***resources***:
 
-# Documentaries/Talks/Movies
-
+# Documentaries/Talks
 - [Glenn Greenwald’s TED Talk on Privacy](https://www.ted.com/talks/glenn_greenwald_why_privacy_matters). It’s only about 15 mins long and a must-watch.
 
 - [Data Privacy and Consent TED Talk by Fred Cate](https://www.ted.com/talks/fred_cate_privacy_and_consent). Dr. Fred Cate’s talk revolves around the current approach to data privacy. He analyzes the role that consent plays, in data protection and privacy today, grappling with how we manage consent in a world in which data is constantly being inferred about us.
@@ -20,7 +20,7 @@ Below are the lists of some of my favorite resources:
 
 ---
 
-# Articles/Blog/Web Resources
+# Articles/Blog/Web
 
 - [The Value of Privacy](https://www.schneier.com/blog/archives/2006/05/the_value_of_pr.html). This is a particular blog entry by Bruce Schneier that is a must-read.
 
@@ -58,7 +58,7 @@ Below are the lists of some of my favorite resources:
 
 ---
 
-##### *check out my mini-knowledge wiki 📖 - [sangraha]({{< relref "content/sangraha.md" >}}) | [read my blogs]({{< relref "/posts" >}})*
+##### *check out my mini-knowledge wiki 📖 - [sangraha]({{< relref "content/sangraha.md" >}}) | [read my blogs]({{< relref "/posts" >}}) | [support me]({{< relref "/donate">}})*
 
 --
 

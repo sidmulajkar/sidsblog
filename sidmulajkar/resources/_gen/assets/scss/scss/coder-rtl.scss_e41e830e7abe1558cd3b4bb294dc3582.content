@@ -4,7 +4,7 @@ body.rtl {
     direction: ltr; }
   body.rtl blockquote {
     border-left: none;
-    border-right: 2px solid #E0E0E0;
+    border-right: 2px solid #fff;
     padding-left: 0;
     padding-right: 1.6rem; }
   body.rtl table tr td:first-child,

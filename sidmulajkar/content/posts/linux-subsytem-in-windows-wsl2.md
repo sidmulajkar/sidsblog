@@ -13,7 +13,7 @@ draft: false
 ![WSL Arch Image](/images/windowswsl2/wslarch.png)
 
 
--------------------------------------------------------------------------------
+---
 
 
 ###### Before prcoeeding with the tutorial check if you have the proper version of Windows 10 installed using the winver command in Windows Start options or using the "Run" command to use the WSL-2.
@@ -45,12 +45,13 @@ draft: false
 
 Windows Terminal is a modern terminal application for users of command-line tools and shells like Command Prompt, PowerShell, and Windows Subsystem for Linux (WSL). Its main features include multiple tabs, panes, Unicode and UTF-8 character support, a GPU accelerated text rendering engine, and the ability to create your own themes and customize text, colors, backgrounds, and shortcuts.
 
--------------------------------------------------------------------------------
+---
+
 2.1.    Similarly, install the ubuntu image from the Store itself. It is around 500mb might a few minutes to download the system depending upon the internet connectivity.
 
 ![Install Ubuntu Store](/images/windowswsl2/ubuntudownload1.png)
 
--------------------------------------------------------------------------------
+---
 
 2.2.    After downloading it, before running and installing it download a another linux kernel update package given in the link.
 
@@ -58,13 +59,13 @@ https://docs.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-th
 
 ![Install Ubuntu Store](/images/windowswsl2/ifubuntugiveserrordownloadswsl.png)
 
--------------------------------------------------------------------------------
+---
 
 2.3.    After the installation process, open the ubuntu from the windows start menu and let it install.
 
 ![First boot of Ubuntu](/images/windowswsl2/ubuntufirstboot.png)
 
--------------------------------------------------------------------------------
+---
 
 2.4.    Open the windows terminal that you downloaded and type the command
 
@@ -101,7 +102,7 @@ The conversion will never delete the files of the Linux Subsystem if you ever wa
     sudo apt upgrade
 }
 ```
--------------------------------------------------------------------------------
+---
 
 ##### 3.    If you don't want to use the different terminal of windows and ubuntu and want to start the ubuntu when you load the Windows terminal itself then follow along ...
 
@@ -109,7 +110,7 @@ The conversion will never delete the files of the Linux Subsystem if you ever wa
 
 ![Wsl Update](/images/windowswsl2/newterminalsettings.png)
 
--------------------------------------------------------------------------------
+---
 
 3.2.    There are two ways, either select the option from the dropdown menu after "Default profile" name or click the last option in the left sidebar "Open JSON file"
 
@@ -125,7 +126,7 @@ Just change the default guid no with the ubuntu subsystem guid
 
 ![Ubuntu Set to Default](/images/windowswsl2/oncechangewithubuntu1.png)
 
--------------------------------------------------------------------------------
+---
 
 ##### 4.    Set your WSL distribution to start in the home ~ directory when launched
 
@@ -148,7 +149,7 @@ For example, the following setting will launch the "Ubuntu-18.04" distribution i
 
 ![Wsl Home Directory](/images/windowswsl2/wslhomedir1.png)
 
--------------------------------------------------------------------------------
+---
 
 
 ###### 5.   How to open WSL Home Directory in the Windows Explorer for better file management
@@ -169,7 +170,14 @@ explorer.exe .
 https://docs.microsoft.com/en-us/windows/terminal/troubleshooting#:~:text=the%20Actions%20page.-,Set%20your%20WSL%20distribution%20to%20start%20in%20the%20home%20~%20directory,the%20WSL%20home%20path%20instead
 
 
--------------------------------------------------------------------------------
-**And that’s it! WSL-2 with the new Linux Setup is set for better development process using various tools.**
--------------------------------------------------------------------------------
+---
 
+**And that’s it! WSL-2 with the new Linux Setup is set for better development process using various tools.**
+
+---
+
+### Read More Blogs related to:
+
+***[database]({{< relref "/tags/database/">}}) / [linuxsubsystem(wsl)]({{< relref "/tags/linuxsubsystem/">}}) / [flutter installation]({{< relref "/tags/flutter-installation">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberrypi">}})*** 
+
+--

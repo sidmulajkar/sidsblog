@@ -63,7 +63,7 @@ This command sets your PATH variable for the current terminal window only. To pe
 ![Flutter Version](/images/flutterimgs/flutterversionandpath.png)
 
 
--------------------------------------------------------------------------------
+---
 
 
 ### Before starting the development of the first app using flutter download these pre-requisites to ensure the app works smoothly
@@ -105,7 +105,7 @@ Upon successful creation, the AVD should start-up
 ![Android Emulator](/images/flutterimgs/androidemulator2.png)
 
 
--------------------------------------------------------------------------------
+---
 
 
 
@@ -123,7 +123,7 @@ Then set JAVA in path variable using
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 ```
 
--------------------------------------------------------------------------------
+---
 
 (Optional step as you can install your preferred code editor)
 
@@ -140,7 +140,7 @@ Install the extensions :
 3.  Pubsec Assist
 
 
--------------------------------------------------------------------------------
+---
 
 # To start and check with the Basic Hello World Project
 
@@ -174,7 +174,7 @@ flutter run
 ![Flutter App](/images/flutterimgs/androidemulatorapprun.png)
 
 
--------------------------------------------------------------------------------
+---
 
 
 ##### If you still face the issue then use the flutter doctor command to find out what's not installed and needs a look
@@ -183,7 +183,15 @@ flutter run
 flutter doctor
 ```
 
--------------------------------------------------------------------------------
+---
 
 
 ### Hope this tutorial helped you in some way. Thank you for following it.
+
+---
+
+### Read More Blogs related to:
+
+***[database]({{< relref "/tags/database/">}}) / [linuxsubsystem(wsl)]({{< relref "/tags/linuxsubsystem/">}}) / [flutter installation]({{< relref "/tags/flutter-installation">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberrypi">}})*** 
+
+--
