@@ -8,7 +8,7 @@ draft: false
 
 If you __benefit__ from any of these and want to give back, send me your help:
 
-# ![Monero](/images/donate/xmr.png) Monero(XMR) 
+### ![Monero](/images/donate/xmr.png) Monero(XMR) | ([PGP Public key](/gpg/sidmulajkar.asc), [PGP Signature](/gpg/moneroadd.asc))
 
 ![Monero Wallet Address](/images/donate/websitexmr.png)
 
@@ -19,7 +19,7 @@ If you __benefit__ from any of these and want to give back, send me your help:
 
 --
 
-# ![Bitcoin](/images/donate/bit.png) Bitcoin(BTC)
+### ![Bitcoin](/images/donate/bit.png) Bitcoin(BTC) | ([PGP Public key](/gpg/sidmulajkar.asc), [PGP Signature](/gpg/bitcoin.asc))
 
 ![Bitcoin Wallet Address](/images/donate/websitebtc.png)
 
@@ -31,7 +31,7 @@ bc1qhngja5r54e8mrfyj4gudhjel4xyn7z4hmf4wrp
 
 --
 
-__Thanks for your support. 🙌__
+__Thanks for your support. 🙌__ | [How to verify the PGP Key & PGP Signature]({{< relref "/content/how-to-verify-pgp-signature.md">}})
 
 
 ---
