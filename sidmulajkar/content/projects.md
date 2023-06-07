@@ -7,9 +7,9 @@ draft: false
 ---
 #### Github Link: [https://github.com/sidmulajkar](https://github.com/sidmulajkar)
 
-#### Personal knowledge wiki - [sangraha 🧑🏽‍💻]({{< relref "content/sangraha.md" >}})
+#### Privacy Resource Reference - [anukramani 🔐]({{< relref "content/references.md" >}})
 
-#### Privacy Resource Reference - [anukramani 🚀]({{< relref "content/references.md" >}})
+#### Personal knowledge wiki - [sangraha 🧑🏽‍💻]({{< relref "content/sangraha.md" >}})
 
 --
 

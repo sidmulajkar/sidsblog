@@ -39,7 +39,7 @@ Link: https://thereader.mitpress.mit.edu/a-history-of-the-data-tracked-user/
 
 ---
 
-### Check out the [References](https://sidmulajkar.com/references) section for more insights about privacy.
+### Check out the [Privacy resources]({{< relref "content/references.md" >}}) section for more insights about privacy.
 
 ---
 

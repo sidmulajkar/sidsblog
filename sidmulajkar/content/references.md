@@ -14,9 +14,9 @@ Below are the lists of some of my favorite referenced ***resources***:
 
 - [The Great Hack](https://www.netflix.com/Title/80117542). Another must-see documentary that explains how Cambridge Analytica used Facebook to seriously influence voters in the 2016 US election, Brexit in the UK, and many other elections around the globe.
 
-- [Snowden](https://libremdb.lunar.icu/title/tt3774114). The illegal surveillance techniques are leaked to the public by one of the agency's contractor, Edward Snowden, in the form of thousands of classified documents distributed to the press.
+- [Snowden](https://libremdb.pussthecat.org/title/tt3774114). The illegal surveillance techniques are leaked to the public by one of the agency's contractor, Edward Snowden, in the form of thousands of classified documents distributed to the press.
 
-- [Citizenfour](https://libremdb.iket.me/title/tt4044364). A documentarian and a reporter travel to Hong Kong for the first of many meetings with Edward Snowden.
+- [Citizenfour](https://libremdb.pussthecat.org/title/tt4044364). A documentarian and a reporter travel to Hong Kong for the first of many meetings with Edward Snowden.
 
 ---
 
@@ -38,9 +38,12 @@ Below are the lists of some of my favorite referenced ***resources***:
 
 - [Firewalls Don’t Stop Dragons](https://firewallsdontstopdragons.com/podcast/). Focus on raising the awareness of everyday, non-technical people on the crucially important topics of cybersecurity and privacy. 
 
-- [Naomi Brockwell "NBTV"](https://do.piped.video/channel/UCSuHzQ3GrHSzoBbwrIq3LLA). NBTV: a privacy, technology, blockchain channel.
+- [Naomi Brockwell "NBTV"](https://invidious.snopyta.org/channel/UCSuHzQ3GrHSzoBbwrIq3LLA). NBTV: a privacy, technology, blockchain channel.
+    - [Digital Privacy 101 -](https://invidious.snopyta.org/watch?v=V6yu0JNNtRw) Essential Privacy Tools
 
-- [Mental Outlaw](https://do.piped.video/channel/UC7YOGHUfC1Tb6E4pudI9STA).  This channel is dedicated to helping people become more proficient with linux, scripting, and privacy in general. 
+- [Mental Outlaw](https://invidious.snopyta.org/channel/UC7YOGHUfC1Tb6E4pudI9STA).  This channel is dedicated to helping people become more proficient with linux, scripting, and privacy in general.
+
+- [Sun Knudsen](https://invidious.snopyta.org/channel/UCkHN7h7CFeYL6Y1N5JcEZug).  Privacy and security researcher, YouTuber and founder of Superbacked.
 
 - [Techlore](https://techlore.tech/). Another great site with great training and tutorials. Check their “resources” page, too.
 
@@ -56,13 +59,15 @@ Below are the lists of some of my favorite referenced ***resources***:
 
 - [The Code Book](https://www.amazon.com/Code-Book-Science-Secrecy-Cryptography/dp/0385495323) by Simon Singh
 
+-  [This is How They Tell ME The World Ends](https://www.amazon.com/This-They-Tell-World-Ends/dp/1635576059) by Nicole Perlroth
+
 ---
 
 ##### *check out my mini-knowledge wiki 📖 - [sangraha]({{< relref "content/sangraha.md" >}}) | [read my blogs]({{< relref "/posts" >}}) | [support me]({{< relref "/donate">}})*
 
 --
 
-*Questions? Suggestions? Another great resource not listed? [contact](mailto:hi@sidmulajkar.com)*
+*Questions? Suggestions? Another great resource not listed? [contact me ✉️](mailto:hi@sidmulajkar.com)*
 
 
 

@@ -19,6 +19,19 @@ If you __benefit__ from any of these and want to give back, send me your help:
 
 --
 
+### ![Bitcoin Cash](/images/donate/bch.png) Bitcoin Cash(BCH) | ([PGP Public key](/gpg/sidmulajkar.asc), [PGP Signature](/gpg/))
+
+#### You can use UPI to support this as well
+
+![Bitcoin Cash Address](/images/donate/websitebch.png)
+
+***Add***:
+```
+qqslg7n2qrqt42cept0xhszt8wu6v2egasppn3uz9q
+```
+
+--
+
 ### ![Bitcoin](/images/donate/bit.png) Bitcoin(BTC) | ([PGP Public key](/gpg/sidmulajkar.asc), [PGP Signature](/gpg/bitcoin.asc))
 
 ![Bitcoin Wallet Address](/images/donate/websitebtc.png)
