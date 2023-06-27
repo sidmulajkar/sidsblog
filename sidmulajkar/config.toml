@@ -104,7 +104,7 @@ url = "posts/index.xml"
 
 [[params.social]]
 name = "Categories"
-icon = "fa fa-bug"
+icon = "fa fa-paperclip"
 weight = 5
 url = "references/"
 

@@ -5,7 +5,7 @@ draft: false
 ---
 
 ---
-# {Security ≠ Privacy}.
+# {Security ≠ Privacy ≠ Anonymous}.
 
 --
 
@@ -20,9 +20,20 @@ draft: false
 
 #### Beginner's Guide to Digital Privacy
 
-{{< audio src="/audio/privacyguideseriesS01.mp3" class="privacyguides" >}}
+{{< audio src="/audio/introtoprivacy.mp3" class="privacyguides" >}}
 
+Links:
 
+```
+1. arkenfox/user.js (firefox): https://github.com/arkenfox/user.js/
+2. Librewolf Browser: https://librewolf.net/
+3. Whoogle-search: https://github.com/benbusby/whoogle-search
+4. Brave Search: https://search.brave.com/
+5. Quad9 Open Dns Resolver: https://www.quad9.net/
+6. NewPipe(Alternate youtube frontend for android): https://github.com/TeamNewPipe/NewPipe
+```
+
+--
 
 `A series of podcasts and blogs to restore your data privacy and learn more about how the data can be tracked less, one step towards improving the privacy.`
 

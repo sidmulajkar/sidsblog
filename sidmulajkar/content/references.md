@@ -5,7 +5,7 @@ draft: false
 ---
 
 ---
-Below are the lists of some of my favorite referenced ***resources***:
+Below are the lists of some of my favorite digital privacy referenced ***resources***:
 
 # Documentaries/Talks
 - [Glenn Greenwald’s TED Talk on Privacy](https://www.ted.com/talks/glenn_greenwald_why_privacy_matters). It’s only about 15 mins long and a must-watch.
@@ -38,12 +38,12 @@ Below are the lists of some of my favorite referenced ***resources***:
 
 - [Firewalls Don’t Stop Dragons](https://firewallsdontstopdragons.com/podcast/). Focus on raising the awareness of everyday, non-technical people on the crucially important topics of cybersecurity and privacy. 
 
-- [Naomi Brockwell "NBTV"](https://invidious.snopyta.org/channel/UCSuHzQ3GrHSzoBbwrIq3LLA). NBTV: a privacy, technology, blockchain channel.
-    - [Digital Privacy 101 -](https://invidious.snopyta.org/watch?v=V6yu0JNNtRw) Essential Privacy Tools
+- [Naomi Brockwell "NBTV"](https://y.com.sb/channel/UCSuHzQ3GrHSzoBbwrIq3LLA). NBTV: a privacy, technology, blockchain channel.
+    - [Digital Privacy 101 -](https://y.com.sb/watch?v=V6yu0JNNtRw) Essential Privacy Tools
 
-- [Mental Outlaw](https://invidious.snopyta.org/channel/UC7YOGHUfC1Tb6E4pudI9STA).  This channel is dedicated to helping people become more proficient with linux, scripting, and privacy in general.
+- [Mental Outlaw](https://y.com.sb/channel/UC7YOGHUfC1Tb6E4pudI9STA).  This channel is dedicated to helping people become more proficient with linux, scripting, and privacy in general.
 
-- [Sun Knudsen](https://invidious.snopyta.org/channel/UCkHN7h7CFeYL6Y1N5JcEZug).  Privacy and security researcher, YouTuber and founder of Superbacked.
+- [Sun Knudsen](https://y.com.sb/channel/UCkHN7h7CFeYL6Y1N5JcEZug).  Privacy and security researcher, YouTuber and founder of Superbacked.
 
 - [Techlore](https://techlore.tech/). Another great site with great training and tutorials. Check their “resources” page, too.
 
