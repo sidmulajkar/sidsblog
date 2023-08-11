@@ -8,13 +8,13 @@ draft: false
 
 I am a **CS engineer** passionate about building and using systems that **respects privacy and security at the forefront**.
 
-Started my career **freelancing** to starting a **startup**, all with pretty much the same fascination that drove me as a kid. Throughout my career, I have worked across a **variety of domains** and have built **platforms,mini-services**.
+Started my career **freelancing** to starting a **startup**, all with pretty much the same fascination that drove me as a kid. Throughout my career, I have worked **across domains** and have built specific **platforms, and mini-services**.
 
 **Founder** of Tech Sid Solutions, helped new aspiring entrepreneurs make a digital presence marking their first footprint.
 
 On the side, I am
 
-- **Freelance Security Consultant** for a **Startup**, and have helped launch new mini-products.
+- **Freelance Security Consultant** for a **Startup**, and have helped launch mini-services.
 
 - Part-time **"Video Editor"** which makes me happy to find myself as a person.
 
@@ -36,7 +36,7 @@ There's unequivocally yet more to learn, more problems to solve, and more to bui
 Contact me at ✉️ hi@sidmulajkar.com
 
 --
-##### [If interested do check out my Resume by clicking this 👈](/resume/ResumeSEC-SiddhantMulajkar.pdf)
+##### [If interested do check out my Resume by clicking this 👈](/resume/ResumeSEC-Siddhant_Mulajkar.pdf)
 
 ##### Privacy Resource Reference - [anukramani 🔐]({{< relref "content/references.md" >}})
 
