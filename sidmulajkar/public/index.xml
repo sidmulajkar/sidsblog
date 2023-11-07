@@ -6,12 +6,12 @@ hg<?xml version="1.0" encoding="utf-8" standalone="yes"?>
     <description>A software developer/entrepreneur who is passionately curious about technology and shares his valuable insights with the community through his blogs.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 11 Aug 2023 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Oct 2023 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/index.xml" rel="self" type="application/rss+xml" />
 
     <item>
       <title>How to verify PGP Key and PGP Signature</title>
       <link>https://sidmulajkar.com/how-to-verify-pgp-signature/</link>
-      <pubDate>Thu, 02 Feb 2023 19:09:26 +0530</pubDate>
+      <pubDate>Tue, 08 Aug 2023 19:09:26 +0530</pubDate>
 
       <guid>https://sidmulajkar.com/how-to-verify-pgp-signature/</guid>
       <description>How to verify the PGP Key and the PGP Signature, then follow the steps to verify the pgp identity.</description>
