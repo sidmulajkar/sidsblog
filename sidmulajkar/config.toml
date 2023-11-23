@@ -54,10 +54,10 @@ customJS = []
 # If you want to implement a Content-Security-Policy, add this section
 [params.csp]
 childsrc = ["'self'"]
-fontsrc = ["'self'", "'strict-dynamic'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
+fontsrc = ["'self'", "'strict-dynamic'", "'unsafe-inline'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
 formaction = ["'self'"]
 framesrc = ["'self'"]
-imgsrc = ["'self'", "'strict-dynamic'"]
+imgsrc = ["'self'"]
 objectsrc = ["'none'"]
 stylesrc = [
   "'self'",
@@ -68,11 +68,10 @@ stylesrc = [
 ]
 scriptsrc = ["'self'",
     "'unsafe-inline'",
-    "'strict-dynamic'",
     "'https:'"
     ]
 
-prefetchsrc = ["'self'", "'strict-dynamic'", "'https:'"]
+prefetchsrc = ["'self'", "'unsafe-inline'", "'strict-dynamic'"]
 # connectsrc = ["'self'", "https://www.google-analytics.com"]
 
 [taxonomies]
@@ -156,7 +155,7 @@ url = "references/"
   [[server.headers]]
     for = "/**.html"
     [server.headers.values]
-      Content-Security-Policy = "script-src www.sidmulajkar.com sidmulajkar.com"
+      Content-Security-Policy = "script-src sidmulajkar.com www.sidmulajkar.com"
       Referrer-Policy = "strict-origin-when-cross-origin"
       X-Content-Type-Options = "nosniff"
       X-Frame-Options = "DENY"
