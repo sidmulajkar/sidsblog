@@ -20,8 +20,6 @@ draft: false
 
 #### Beginner's Guide to Digital Privacy
 
-{{< audio src="/audio/introtoprivacy.mp3" class="privacyguides" >}}
-
 Links:
 
 ```
@@ -31,11 +29,22 @@ Links:
 4. Brave Search: https://search.brave.com/
 5. Quad9 Open Dns Resolver: https://www.quad9.net/
 6. NewPipe(Alternate youtube frontend for android): https://github.com/TeamNewPipe/NewPipe
+7. Proton Mail: https://proton.me/mail
+8. Skiff(Alternative Mail, Drive and Pages Suite): https://skiff.com/
+9. NextDNS: https://nextdns.io/
+10. Tor Browser: https://www.torproject.org/
+11. I2P Network: https://geti2p.net/en/
 ```
+
+{{< audio src="/audio/introtoprivacy.mp3" class="privacyguides" >}}
 
 --
 
 `A series of podcasts and blogs to restore your data privacy and learn more about how the data can be tracked less, one step towards improving the privacy.`
+
+---
+
+### Check out the [Privacy resources]({{< relref "content/references.md" >}}) section for more insights about privacy.
 
 ---
 
@@ -46,15 +55,9 @@ Links:
 
 Link: https://thereader.mitpress.mit.edu/a-history-of-the-data-tracked-user/
 
-
-
 ---
 
-### Check out the [Privacy resources]({{< relref "content/references.md" >}}) section for more insights about privacy.
-
----
-
-##### *Want to suggest [contact me](mailto:hi@sidmulajkar.com)* /  *[read my blogs]({{< relref "/posts" >}})* / *[knowledge-wiki]({{< relref "/sangraha">}})* / *[support me]({{< relref "/donate">}})*
+##### *Want to suggest [contact me](mailto:hi@sidmulajkar.com)* /  *[read my blogs]({{< relref "/posts" >}})* / *[knowledge-wiki]({{< relref "/sangraha">}})* / *[support me]({{< relref "/support">}})*
 
 --
 

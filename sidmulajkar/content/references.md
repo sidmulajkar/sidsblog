@@ -63,7 +63,7 @@ Below are the lists of some of my favorite digital privacy referenced ***resourc
 
 ---
 
-##### *check out my mini-knowledge wiki 📖 - [sangraha]({{< relref "content/sangraha.md" >}}) | [read my blogs]({{< relref "/posts" >}}) | [support me]({{< relref "/donate">}})*
+##### *check out my mini-knowledge wiki 📖 - [sangraha]({{< relref "content/sangraha.md" >}}) | [read my blogs]({{< relref "/posts" >}}) | [support me]({{< relref "/support">}})*
 
 --
 

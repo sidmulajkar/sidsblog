@@ -23,4 +23,4 @@ draft: false
 
 --
 
-##### *Want to contribute [contact me](mailto:hi@sidmulajkar.com)* / *[read my blogs]({{< relref "/posts" >}})* / *[privacy resources]({{< relref "content/references.md" >}})* / *[support me]({{< relref "/donate">}})*
+##### *Want to contribute [contact me](mailto:hi@sidmulajkar.com)* / *[read my blogs]({{< relref "/posts" >}})* / *[privacy resources]({{< relref "content/references.md" >}})* / *[support me]({{< relref "/support">}})*

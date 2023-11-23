@@ -13,7 +13,7 @@
  
     
     
-      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline'; prefetch-src 'self';">
+      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' 'strict-dynamic' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self' 'strict-dynamic'; object-src 'none'; style-src 'self' 'strict-dynamic' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline' 'strict-dynamic' 'https:'; prefetch-src 'self' 'strict-dynamic' 'https:';">
     
 
     <meta name="author" content="Hi, I&#39;m Siddhant Mulajkar!">
@@ -127,7 +127,7 @@ List the key and verify the fingerprint manually given on the website or the sou
         "datePublished": "2023-02-02 19:09:26 \u002b0530 \u002b0530",
         "dateModified" : "2023-02-02 19:09:26 \u002b0530 \u002b0530",
         "url" : "https:\/\/sidmulajkar.com\/how-to-verify-pgp-signature\/",
-        "wordCount" : "350",
+        "wordCount" : "315",
         "keywords" : [ "Blog" ]
     }
 </script>
@@ -215,6 +215,7 @@ List the key and verify the fingerprint manually given on the website or the sou
 <p>PGP Fingerprint: A74FCBC03330811F76E7A45424B58DCCC204D8AE</p>
 </blockquote>
 <p>&ndash;</p>
+<hr>
 <h3 id="verify-signers-pgp-public-key-using-fingerprint">
   Verify signer’s PGP public key using fingerprint
   <a class="heading-link" href="#verify-signers-pgp-public-key-using-fingerprint">
@@ -245,11 +246,8 @@ List the key and verify the fingerprint manually given on the website or the sou
 </span></span><span style="display:flex;"><span>gpg:          There is no indication that the signature belongs to the owner.
 </span></span><span style="display:flex;"><span>Primary key fingerprint: A74F CBC0 3330 811F 76E7  A454 24B5 8DCC C204 D8AE
 </span></span></code></pre></div><p>Good signature&hellip;👍</p>
-<p>&ndash;</p>
-<p>Also, you can verify the <strong>Bitcoin</strong> and the <strong>Monero</strong> address by opening the file in the new tab respectively, with <em><strong>Ctrl+C</strong></em> &amp; <em><strong>Ctrl+F</strong></em> function</p>
-<p><strong>This Signature file is signed for this website use&hellip;</strong></p>
-<p><img src="https://sidmulajkar.com/images/donate/bitcoinaddref.png" alt="Wallet Address Verification"></p>
-<p>&ndash;</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 <p>Or to <em><strong>convert to original form of the file</strong></em> use the command</p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sid@sid:~$ gpg --output ./Downloads/moneroadd.txt --decrypt ./Downloads/moneroadd.asc
 </span></span><span style="display:flex;"><span>gpg: Signature made Mon 06 Feb 2023 11:42:19 AM EST
@@ -273,6 +271,10 @@ List the key and verify the fingerprint manually given on the website or the sou
       
   <footer class="footer">
     <section class="container">
+
+      
+      <a href="https://sidmulajkar.com/gpg/sidmulajkar.asc" >
+      
       
       
         ©
@@ -280,9 +282,10 @@ List the key and verify the fingerprint manually given on the website or the sou
           2020 -
         
         2023
-          | PGP: A74FCBC03330811F76E7A45424B58DCCC204D8AE 
+          | PGP Key 
       
       
+
       
     </section>
   </footer>

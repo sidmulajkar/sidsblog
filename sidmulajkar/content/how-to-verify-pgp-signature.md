@@ -47,6 +47,8 @@ for example,
 
 --
 
+---
+
 ### Verify signer’s PGP public key using fingerprint
 
 Heads-up: replace hi@sidmulajkar.com with signer’s email and use published fingerprints to verify signer’s cryptographic identity 
@@ -81,7 +83,7 @@ Primary key fingerprint: A74F CBC0 3330 811F 76E7  A454 24B5 8DCC C204 D8AE
 
 Good signature...👍
 
---
+<!-- --
 
 Also, you can verify the __Bitcoin__ and the __Monero__ address by opening the file in the new tab respectively, with ***Ctrl+C*** & ***Ctrl+F*** function
 
@@ -90,6 +92,8 @@ Also, you can verify the __Bitcoin__ and the __Monero__ address by opening the f
 ![Wallet Address Verification](/images/donate/bitcoinaddref.png)
 
 --
+ -->
+
 
 Or to ***convert to original form of the file*** use the command
 

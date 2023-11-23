@@ -1,5 +1,5 @@
 ---
-title: "How to Harden Linux(Debian Server) for security and privacy "
+title: "How to Harden Linux Server"
 categories: [linux, linuxserver, hardening, privacy, security, sidsblog]
 tags: [linux, linuxserver, hardening, privacy, security, sidsblog]
 date: 2022-10-16T17:26:04+05:30

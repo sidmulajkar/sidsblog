@@ -1,12 +1,21 @@
 ---
-title: "Ways to support me"
+title: "Ways to support"
 date: 2023-01-19T19:09:26+05:30
 draft: false
 ---
 
 ---
 
-If you __benefit__ from any of these and want to give back, send me your help:
+If you __benefit__ from any of these and want to give back, **send me your help.** This allows me to spend more time doing what I love and share research and content with all of you here. **Thanks for your Support.**
+
+--
+
+#### [PGP Public Key](/gpg/sidmulajkar.asc) 
+```
+A74FCBC03330811F76E7A45424B58DCCC204D8AE
+```
+--
+
 
 ### ![Monero](/images/donate/xmr.png) Monero(XMR) | ([PGP Public key](/gpg/sidmulajkar.asc), [PGP Signature](/gpg/moneroadd.asc))
 
