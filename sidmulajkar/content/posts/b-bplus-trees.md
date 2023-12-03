@@ -9,13 +9,15 @@ draft: false
 ---
 
 
-##### What are those? Ever used those while searching through the dataset.
+##### What are those? Ever used trees while searching through the dataset.
 
-**How they are useful in databases?**
+**How B trees are useful in databases?**
 
 ---
 
 To understand stuff more clearly let's take a scenario:
+
+--
 
 ***Like we have a table, a huge table(millions of rows to go through), and we want to search to a particular numbered row by some id mentioned "100035" and not only pulling a row but getting most out of the pulled row.***
 
@@ -47,7 +49,7 @@ So how do we use these trees and are they really useful? Best video to understan
 
 ---
 
-### Before going in-depth let's understand what B Tree is.
+#### Before going in-depth let's understand what B Tree is.
 
 B-tree is a special type of self-balancing search tree in which each node can contain more than one key and can have more than two children. It is a generalized form of the binary search tree.
 
@@ -86,7 +88,8 @@ https://www.cs.usfca.edu/~galles/visualization/BTree.html
 ---
 
 
-**B Tree's Application:**
+##### B Tree's Application:
+--
 
 B tree is used to index the data and provides fast access to the actual data stored on the disks since access to the value stored in a large database that is stored on a disk is a very time-consuming process.
 
@@ -104,7 +107,7 @@ That's where **B+ Trees** comes in to picture...
 
 ---
 
-### B+ Tree:
+##### B+ Tree:
 
 ***A B+ tree is an advanced form of a self-balancing tree in which all the values are present at the leaf level.***
 

@@ -1,5 +1,5 @@
 ---
-title: "Top 4 JavaScript Blogs/Resources to Improve Coding Skills"
+title: "Enhance Your Coding Skills with the Best 4 JavaScript Blogs and Resources"
 categories: [javascript, best javascript resources, best resources to learn javascript in 2021, development, sidblogs, javascript tutorial, javascript interview questions, learn javascript]
 tags: [javascript, development, sidblogs, best javascript resources, best resources for javascript, spidermonkey, javascript tutorial, what is javascript, learn javascript]
 date: 2021-03-27T17:26:04+05:30

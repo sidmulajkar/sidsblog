@@ -8,18 +8,19 @@
     <language>en</language>
     <lastBuildDate>Sun, 16 Oct 2022 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/tags/sidsblog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to Harden Linux Server</title>
+      <title>The Definitive Handbook: Essential Strategies for Strengthening Your Linux Server</title>
       <link>https://sidmulajkar.com/posts/how-harden-linux-server/</link>
       <pubDate>Sun, 16 Oct 2022 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/how-harden-linux-server/</guid>
-      <description>Requirements Computer, virtual private server (VPS) or dedicated server running Debian based server instance. Linux or macOS computer for following the steps and hardening the server Guide Step 1. Create the SSH key pair for login (On Computer) Using a root login password to login is good but not great from the security stand.
+      <description>Requirements Computer, virtual private server (VPS) or dedicated server running Debian based server instance. Linux or macOS computer for following the steps and hardening the server Guide &amp;ndash;
+Step 1. Create the SSH key pair for login (On Computer) Using a root login password to login is good but not great from the security stand.
 When asked for file in which to save key, enter serverlog.
 When asked for passphrase, use output from openssl rand -base64 24 (and store passphrase in password manager).</description>
     </item>
     
     <item>
-      <title>How to create a tor based website?</title>
+      <title>Tutorial: How to Create a Tor Dark Web Site Step-by-Step</title>
       <link>https://sidmulajkar.com/posts/darkweb-tor-website/</link>
       <pubDate>Mon, 30 May 2022 17:26:04 +0530</pubDate>
       
@@ -49,14 +50,16 @@ Firstly, what the heck is double booking problem? An online movie ticket booking
       <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/databases-how-do-we-know-its-the-right-one/</guid>
-      <description>Choosing the Best Database? Whether you are an experienced software engineer or a student doing a university project, at some point we will need to choose a DB for our project.
+      <description>Choosing the Best Database? &amp;ndash;
+Whether you are an experienced software engineer or a student doing a university project, at some point we will need to choose a DB for our project.
 Choosing the right kind of database always requires some consideration.
 &amp;ndash;
-First of all, databases will not impact our functional requirements. Whichever database we use can still achieve our functional requirements somehow, but at the cost of huge performance degradation.</description>
+First of all, databases will not impact our functional requirements. &amp;ndash;
+Whichever database we use can still achieve our functional requirements somehow, but at the cost of huge performance degradation.</description>
     </item>
     
     <item>
-      <title>Message Queues! What are those and when to use them? </title>
+      <title>Message Queues and Their Practical Applications</title>
       <link>https://sidmulajkar.com/posts/message-queues/</link>
       <pubDate>Fri, 26 Nov 2021 17:26:04 +0530</pubDate>
       
@@ -69,7 +72,7 @@ Imagine that we have a web application for customers to upload a text document, 
     </item>
     
     <item>
-      <title>When Indexes are not Useable sometimes!</title>
+      <title>Effective Strategies to Optimize Database Performance: Insights into Unusable Indexes</title>
       <link>https://sidmulajkar.com/posts/when-indexes-are-not-useable/</link>
       <pubDate>Tue, 16 Nov 2021 17:26:04 +0530</pubDate>
       
@@ -86,14 +89,14 @@ wait&amp;hellip;</description>
       <pubDate>Mon, 25 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/b-bplus-trees/</guid>
-      <description>What are those? Ever used those while searching through the dataset. How they are useful in databases?
+      <description>What are those? Ever used trees while searching through the dataset. How B trees are useful in databases?
 To understand stuff more clearly let&amp;rsquo;s take a scenario:
-Like we have a table, a huge table(millions of rows to go through), and we want to search to a particular numbered row by some id mentioned &amp;ldquo;100035&amp;rdquo; and not only pulling a row but getting most out of the pulled row.
-&amp;ndash;</description>
+&amp;ndash;
+Like we have a table, a huge table(millions of rows to go through), and we want to search to a particular numbered row by some id mentioned &amp;ldquo;100035&amp;rdquo; and not only pulling a row but getting most out of the pulled row.</description>
     </item>
     
     <item>
-      <title>Database Sharding Architectures</title>
+      <title>Boosting Performance through Effective Database Sharding Architectures for Optimal Optimization</title>
       <link>https://sidmulajkar.com/posts/database-sharding-architectures/</link>
       <pubDate>Sun, 17 Oct 2021 17:26:04 +0530</pubDate>
       
@@ -104,15 +107,17 @@ If you haven&amp;rsquo;t read the last blog post and want to know more about Dat
     </item>
     
     <item>
-      <title>What actually is Database Sharding?</title>
+      <title>Understanding Database Sharding?</title>
       <link>https://sidmulajkar.com/posts/what-is-database-sharding/</link>
       <pubDate>Thu, 14 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/what-is-database-sharding/</guid>
-      <description>How often do you shard your database? Do you prematurely shard? Do you actually need that for your database?🤔 &amp;ndash;
-Your application is growing. It has more active users, more features, and generates more data every day.
+      <description>&amp;ndash;
+How often do you shard your database? Do you prematurely shard? Do you actually need that for your database?🤔 &amp;ndash;
+Analogy: Your application is growing. It has more active users, more features, and generates more data every day.
 Your database is now becoming a bottleneck for the rest of your application. Database sharding could be the solution to your problems.
-But Wait&amp;hellip; Q) What is Database Sharding? Sharding is a method for distributing a single dataset across multiple databases, which can then be stored on multiple machines.</description>
+But Wait&amp;hellip; Q) What is Database Sharding? &amp;ndash;
+&amp;ndash;</description>
     </item>
     
     <item>
@@ -134,7 +139,7 @@ I was like why only these 2 protocols, there are many others, like HTTP, HTTP2, 
     </item>
     
     <item>
-      <title>What is TCP Slow Start?</title>
+      <title>Understanding TCP Slow Start and its Role in Network Performance</title>
       <link>https://sidmulajkar.com/posts/tcp-slow-start/</link>
       <pubDate>Sat, 02 Oct 2021 17:26:04 +0530</pubDate>
       
@@ -146,7 +151,7 @@ One of the most common ways to optimize the speed of a connection (i.</descripti
     </item>
     
     <item>
-      <title>How to install Ubuntu using Linux Subsystem WSL-2 on Windows 10</title>
+      <title>Step-by-Step Guide: Installing Ubuntu with Linux Subsystem WSL-2 on Windows 10 for Hassle-free Setup</title>
       <link>https://sidmulajkar.com/posts/linux-subsytem-in-windows-wsl2/</link>
       <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
       
@@ -164,7 +169,7 @@ Before prcoeeding with the tutorial check if you have the proper version of Wind
       <description>On Linux, you have two ways you can install Flutter. Install Flutter using snapd open your terminal and use this command to install flutter
 sudo snap install flutter --classic after installing the flutter for the first time type flutter in the terminal as it will install all its dependencies and files
 flutter wait for it to install and then move forward to the pre-requisite section.
-OR Install FLutter Manually If you don’t have a snapd, or can’t use it, you can install Flutter using the following steps.</description>
+Or Install FLutter Manually If you don’t have a snapd, or can’t use it, you can install Flutter using the following steps.</description>
     </item>
     
   </channel>

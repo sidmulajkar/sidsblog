@@ -1,5 +1,5 @@
 ---
-title: "Message Queues! What are those and when to use them? "
+title: "Message Queues and Their Practical Applications"
 categories: [queue, data-structure, database,backend-engineering, sidsblog]
 tags: [queue, data-structure, database,backend-engineering, sidsblog]
 date: 2021-11-26T17:26:04+05:30
@@ -45,19 +45,19 @@ An orderly, organized queue is needed to be able to handle all requests in a tim
 
 **Message queuing makes it possible for applications to communicate asynchronously, by sending messages to each other via a queue.**
 
----
+--
 
 Using a message queue is ***highly recommended when we need to process a high-volume of asynchronous messages.***
 
 A message queue is perfect to use when we want a high performance, highly concurrent and scalable system that can process thousands of messages per second concurrently across many servers/processes.
 
----
+--
 
-What is **Synchronous vs Asynchronous Communication?**
+###### What is **Synchronous vs Asynchronous Communication?**
 
 ![Communication](/images/messagequeue/messagequeue3.png)
 
----
+--
 
 A message queue provides temporary storage between the sender and the receiver so that the sender can keep operating without interruption when the destination program is busy or not connected.
 
@@ -134,9 +134,15 @@ Message queuing fulfills this purpose by providing a means for services to push 
 
 ***To implement a message queue between services, you need a message broker, think of it as a mailman, who takes mail from a sender and delivers it to the correct destination.***
 
+
+
 ---
 
-##### Okay, this seems great, but what if we need the same message to be processed by two or more microservices? Well, there are different types of message queues:
+##### Okay, this seems great, but what if we need the same message to be processed by two or more microservices? 
+
+##### Well, there are different types of message queues:
+
+--
 
 A message queue can be point-to-point, where there is only one queue and one consumer
 

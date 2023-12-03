@@ -11,9 +11,9 @@ draft: false
 
 ![Flutter Homepage](/images/flutterimgs/flutterbn.png)
 
-# On Linux, you have two ways you can install Flutter.
+#### On Linux, you have two ways you can install Flutter.
 
-# Install Flutter using snapd
+##### Install Flutter using snapd
 
 open your terminal and use this command to install flutter
 
@@ -30,13 +30,13 @@ flutter
 
 wait for it to install and then move forward to the pre-requisite section.
 
-# OR Install FLutter Manually
+##### Or Install FLutter Manually
 
 If you don’t have a snapd, or can’t use it, you can install Flutter using the following steps.
 
 1.  Download the following installation bundle to get the latest stable release of the Flutter SDK:
 
-[flutter_linux_2.2.3-stable.tar.xz](https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_2.2.3-stable.tar.xz)
+    [flutter_linux_2.2.3-stable.tar.xz](https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_2.2.3-stable.tar.xz)
 
 2.  Extract the file in the desired location, for example:
 
@@ -45,6 +45,8 @@ cd ~/development
 tar xf ~/Downloads/flutter_linux_2.2.3-stable.tar.xz
 ```
 
+--
+
 If you don’t want to install a fixed version of the installation bundle, you can skip steps 1 and 2. Instead, get the source code from the Flutter repo on GitHub with the following command:
 
 ```
@@ -52,13 +54,14 @@ git clone https://github.com/flutter/flutter.git
 ```
 
 3.  Add the flutter tool to your path:
+
 ```
 export PATH="$PATH:`pwd`/flutter/bin"
 ```
 
 This command sets your PATH variable for the current terminal window only. To permanently add Flutter to your path, see Update your path.
 
-### How to check whether the flutter is installed properly or not?
+#### How to check whether the flutter is installed properly or not?
 
 ![Flutter Version](/images/flutterimgs/flutterversionandpath.png)
 
@@ -66,13 +69,15 @@ This command sets your PATH variable for the current terminal window only. To pe
 ---
 
 
-### Before starting the development of the first app using flutter download these pre-requisites to ensure the app works smoothly
+#### Before starting the development of the first app using flutter download these pre-requisites to ensure the app works smoothly
 
 1.  [Android Studio](https://developer.android.com/studio) / Xcode (Macos specific) 
 
 ![Android Homepage](/images/flutterimgs/androidstd.png)
 
 #### On Linux, you have two ways to install Android Studio.
+
+--
 
 Either **download it directly from the site** and install it or, **use the terminal** to install it, just as you installed flutter.
 
@@ -107,9 +112,7 @@ Upon successful creation, the AVD should start-up
 
 ---
 
-
-
-2.  Java JDK
+2.  **Java JDK**
 
 To install use this command
 
@@ -117,7 +120,7 @@ To install use this command
 sudo apt install openjdk-8-jdk
 ```
 
-Then set JAVA in path variable using
+    Then set JAVA in path variable using
 
 ```
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
@@ -142,7 +145,7 @@ Install the extensions :
 
 ---
 
-# To start and check with the Basic Hello World Project
+#### To start and check with the Basic Hello World Project
 
 create a directory to install the flutter app basics using the terminal
 
@@ -186,7 +189,7 @@ flutter doctor
 ---
 
 
-### Hope this tutorial helped you in some way. Thank you for following it.
+#### Hope this tutorial helped you in some way. Thank you for following it.
 
 ---
 

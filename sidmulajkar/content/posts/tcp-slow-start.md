@@ -1,5 +1,5 @@
 ---
-title: "What is TCP Slow Start?"
+title: "Understanding TCP Slow Start and its Role in Network Performance"
 categories: [tcp, slowstart, networking, congestion-control, mechanism, sidsblog]
 tags: [tcp, slowstart, networking, congestion-control, mechanism, sidsblog]
 date: 2021-10-02T17:26:04+05:30

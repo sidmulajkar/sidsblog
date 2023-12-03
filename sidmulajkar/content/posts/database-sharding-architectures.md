@@ -1,5 +1,5 @@
 ---
-title: "Database Sharding Architectures"
+title: "Boosting Performance through Effective Database Sharding Architectures for Optimal Optimization"
 categories: [sql, database, sharding, benefits-of-sharding, architecures, sidsblog]
 tags: [sql, database, sharding, advantages, disadvantages, sharding-architectures, sidsblog]
 date: 2021-10-17T17:26:04+05:30
@@ -36,6 +36,7 @@ To compare the pros and cons of each sharding strategy, We will use the followin
 
 3. Once sharding is employed, **redistributing data** is an important problem. Once your database is sharded, it is likely that the data is growing rapidly. Adding an additional node becomes a regular routine. It may require changes in configuration and moving large amounts of data between nodes. It adds both performance and operational burden.
 
+--
 
 ### Common Definitions:
 
@@ -109,7 +110,7 @@ Directory-based sharding, on the other hand, allows you to use whatever system o
 
 ---
 
-### Other Sharding Architecture's
+#### Other Sharding Architecture's
 
 ### Entity-/Relationship-Based Sharding
 

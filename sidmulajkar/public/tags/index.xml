@@ -422,11 +422,11 @@
     </item>
     
     <item>
-      <title>installation</title>
-      <link>https://sidmulajkar.com/tags/installation/</link>
+      <title>guide</title>
+      <link>https://sidmulajkar.com/tags/guide/</link>
       <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
       
-      <guid>https://sidmulajkar.com/tags/installation/</guid>
+      <guid>https://sidmulajkar.com/tags/guide/</guid>
       <description></description>
     </item>
     
@@ -440,11 +440,11 @@
     </item>
     
     <item>
-      <title>ubuntu</title>
-      <link>https://sidmulajkar.com/tags/ubuntu/</link>
+      <title>ubuntu installation</title>
+      <link>https://sidmulajkar.com/tags/ubuntu-installation/</link>
       <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
       
-      <guid>https://sidmulajkar.com/tags/ubuntu/</guid>
+      <guid>https://sidmulajkar.com/tags/ubuntu-installation/</guid>
       <description></description>
     </item>
     
@@ -463,6 +463,15 @@
       <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/tags/wsl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wsl2</title>
+      <link>https://sidmulajkar.com/tags/wsl2/</link>
+      <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/wsl2/</guid>
       <description></description>
     </item>
     
@@ -499,6 +508,15 @@
       <pubDate>Sun, 05 Sep 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/tags/flutter-installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>https://sidmulajkar.com/tags/ubuntu/</link>
+      <pubDate>Sun, 05 Sep 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/ubuntu/</guid>
       <description></description>
     </item>
     

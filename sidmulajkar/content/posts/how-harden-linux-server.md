@@ -1,9 +1,9 @@
 ---
-title: "How to Harden Linux Server"
+title: "The Definitive Handbook: Essential Strategies for Strengthening Your Linux Server"
 categories: [linux, linuxserver, hardening, privacy, security, sidsblog]
 tags: [linux, linuxserver, hardening, privacy, security, sidsblog]
 date: 2022-10-16T17:26:04+05:30
-description: "This tutorial will help you understand how to harden the linux server."
+description: "This tutorial will help you understand how to harden the linux server for security."
 author: Siddhant Mulajkar
 draft: false
 ---
@@ -17,8 +17,10 @@ draft: false
 
 
 
-### Guide
-### Step 1. Create the SSH key pair for login (On Computer)
+#### Guide
+--
+
+##### Step 1. Create the SSH key pair for login (On Computer)
 
 Using a root login password to login is good but not great from the security stand.
 
@@ -70,7 +72,9 @@ Paste the cat command output in the ssh key section
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCfKyJnbvFXsZo2wBwIcOCyfzDPBxpzfV/r26jFZa7MLkdoXGpACUSL+wn0FFTBxE8XsduofHoDT5hsv1xIZjtrTbM0ZwCJVE8lxN8hkhiSOywEypTEUdFxafhQjD9BZSAwMCSp09t6iE7+dgB8P+InuNYstJLF/jTba9nD8U4QX3q9wZuMInB3+dMdP0Wf+3kc9cJxF/zsNxaiBUOABi4PGZg/w7ea5lxavtsWd0I59BtO2oq7XPVQBhzAz6FpSFf1UaZhFWYeE2r0FOU3hZUxHFrV8cv237Qnrs5cDYYaQsDfY9vY6C27nBVAo1GKK4jD65SDgGLET4gGUh5a2JO3Ya4XrdP/j4dDwWsyplz80Jsc9rm0bfaiaaqbkf/rWZ6a3moDW5SaP0pvVvxcF5ZRuRTQUj7q5/jwhm4h5/D9gaTtk7hJGfjWSTeNDvq6dG9JvA8er8DFuXm/nziGVaN9t/8mMbrxei37LZ+QDvkHzQVKemmeYE/6PwvSzKy4JGs= serverlogin
 ```
 
-### Step 2: log in to the server as root
+--
+
+#### Step 2: log in to the server as root
 
 Caution: when asked for passphrase, enter passphrase used while creating the ssh key
 
@@ -81,7 +85,7 @@ ssh -i ~/.ssh/server root@123.567.344.115
 save the fingerprint of the server for further use by typing **yes**, and change the **ip address** according to the server address
 
 
-###  If you wanted to use this for internal server rather than hosting a server outside then we can simply send the copy of the ssh from the local machine to sever.
+###### If you wanted to use this for internal server rather than hosting a server outside then we can simply send the copy of the ssh from the local machine to server.
 
 ```
 ssh-copy-id -i /home/sid/.ssh/rasp.pub user@123.567.344.115
@@ -92,7 +96,7 @@ change the user to user created or using the server in the above command.
 
 Next sub-step is important for hardening the server, either hosted internally or outside
 
-##### Change the sshd file configuration to restrict the password login to the server and also to restrict the empty password attempts
+###### Change the sshd file configuration to restrict the password login to the server and also to restrict the empty password attempts
 
 ```
 sudo nano /etc/ssh/sshd_config
@@ -110,7 +114,9 @@ UsePAM no
 
 we can also accept the traffic from the specific **ip's** using the **ListenAddress** section.
 
-### Step 3: disable root Bash history (Optional)
+--
+
+#### Step 3: disable root Bash history (Optional)
 
 ```
 echo "HISTFILESIZE=0" >> ~/.bashrc
@@ -120,7 +126,9 @@ source ~/.bashrc
 
 disabling the bash history to not have the previous command in the memory once the session is closed
 
-### Step 4: set root password
+--
+
+#### Step 4: set root password
 
 When asked for password, use output from **openssl rand -base64 24**(and store password in password manager).
 
@@ -137,7 +145,9 @@ passwd: password updated successfully
 root@userver:/home/ubuntu#
 ```
 
-### Step 5: create server-admin user
+--
+
+#### Step 5: create server-admin user
 
 When asked for password, use output from **openssl rand -base64 24** (and store password in password manager).
 
@@ -164,7 +174,9 @@ Is the information correct? [Y/n] Y
 root@userver:/home/ubuntu#
 ```
 
-### Step 6: copy root [authorized_keys] file to server-admin home directory
+--
+
+#### Step 6: copy root [authorized_keys] file to server-admin home directory
 
 ```
 root@userver:/home/ubuntu# mkdir /home/saurabh/.ssh
@@ -173,13 +185,17 @@ root@userver:/home/ubuntu# chown -R saurabh:saurabh /home/saurabh/.ssh
 root@userver:/home/ubuntu#
 ```
 
-### Step 7: log out
+--
+
+#### Step 7: log out
 
 ```
 exit
 ```
 
-### Step 8: log in as server-admin
+--
+
+#### Step 8: log in as server-admin
 
 Replace **123.567.344.115** with IP of server.
 
@@ -189,7 +205,9 @@ Heads-up: when asked for passphrase, enter passphrase from step 1
 ssh -i ~/.ssh/server saurabh@123.567.344.115
 ```
 
-### Step 9: disable server-admin Bash history
+--
+
+#### Step 9: disable server-admin Bash history
 
 ```
 sed -i -E 's/^HISTSIZE=/#HISTSIZE=/' ~/.bashrc
@@ -199,7 +217,9 @@ history -c; history -w
 source ~/.bashrc
 ```
 
-### Step 10: switch to root
+--
+
+#### Step 10: switch to root
 
 When asked, enter root password.
 
@@ -207,7 +227,9 @@ When asked, enter root password.
 su -
 ```
 
-### Step 11: disable root login and password authentication
+--
+
+#### Step 11: disable root login and password authentication
 
 ```
 sed -i -E 's/^(#)?PermitRootLogin (prohibit-password|yes)/PermitRootLogin no/' /etc/ssh/sshd_config
@@ -215,7 +237,9 @@ sed -i -E 's/^(#)?PasswordAuthentication yes/PasswordAuthentication no/' /etc/ss
 systemctl restart ssh
 ```
 
-### Step 12: configure sysctl (if network is IPv4-only) [optional step]
+--
+
+#### Step 12: configure sysctl (if network is IPv4-only) [optional step]
 
 **Only** run the following if network is **IPv4**-only.
 
@@ -229,9 +253,11 @@ EOF
 sysctl -p
 ```
 
-### Step 13: enable nftables and configure firewall rules
+--
 
-#### Update APT index and install nftables
+#### Step 13: enable nftables and configure firewall rules
+
+##### Update APT index and install nftables
 
 ```shell-session
 $ apt update
@@ -239,14 +265,14 @@ $ apt update
 $ apt install -y nftables
 ```
 
-#### Enable nftables
+##### Enable nftables
 
 ```
 systemctl enable nftables
 systemctl start nftables
 ```
 
-#### Configure firewall rules
+##### Configure firewall rules
 
 ```
 nft flush ruleset
@@ -264,6 +290,8 @@ nft add rule ip firewall output udp dport { domain, ntp } accept
 nft add rule ip firewall output ct state established,related accept
 ```
 
+--
+
 #### If network is IPv4-only, run:
 
 ```
@@ -272,6 +300,8 @@ nft add chain ip6 firewall input { type filter hook input priority 0 \; policy d
 nft add chain ip6 firewall forward { type filter hook forward priority 0 \; policy drop \; }
 nft add chain ip6 firewall output { type filter hook output priority 0 \; policy drop \; }
 ```
+
+--
 
 #### If network is dual stack (IPv4 + IPv6) run:
 ```
@@ -293,15 +323,19 @@ nft add rule ip6 firewall output udp dport { domain, ntp } accept
 nft add rule ip6 firewall output ct state related,established accept
 ```
 
-### Step 14: log out and log in to confirm firewall is not blocking SSH
+--
 
-#### Log out
+#### Step 14: log out and log in to confirm firewall is not blocking SSH
+
+##### Log out
 
 ```shell-session
 $ exit
 
 $ exit
 ```
+
+---
 
 #### Log in
 Caution: when asked for passphrase, enter passphrase used while creating the ssh key from **step 1**
@@ -318,7 +352,9 @@ When asked, enter root password.
 su -
 ```
 
-### Step 15: make firewall rules persistent
+---
+
+#### Step 15: make firewall rules persistent
 
 ```
 cat << "EOF" > /etc/nftables.conf
@@ -333,7 +369,9 @@ EOF
 nft list ruleset >> /etc/nftables.conf
 ```
 
-### Step 16: update APT index and upgrade packages
+--
+
+#### Step 16: update APT index and upgrade packages
 
 ```shell-session
 $ apt update
@@ -341,7 +379,9 @@ $ apt update
 $ apt upgrade -y
 ```
 
-### Step 17: set timezone (the following is for Kolkatta time)
+--
+
+#### Step 17: set timezone (the following is for Kolkatta time)
 
 See [https://en.wikipedia.org/wiki/List_of_tz_database_time_zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
 
@@ -349,7 +389,9 @@ See [https://en.wikipedia.org/wiki/List_of_tz_database_time_zones](https://en.wi
 timedatectl set-timezone Asia/Kolkata
 ```
 
-### Step 15: log out and log in to system-admin to auto-update the security packages
+---
+
+#### Step 18: log out and log in to system-admin to auto-update the security packages
 ```
 sudo apt install unattended-upgrades
 sudo apt install update-notifier-common
@@ -436,7 +478,9 @@ In the resulting screen with a pink background, you will be asked “Automatical
 
 Select the **Yes** option to continue.
 
-### Test it Out with a Dry Run
+---
+
+#### Test it Out with a Dry Run
 
 You can optionally do a dry run to see what will happen during an unattended upgrade with the following command.
 
@@ -444,7 +488,9 @@ You can optionally do a dry run to see what will happen during an unattended upg
 unattended-upgrades --dry-run --debug
 ```
 
-### Look at the Daily Timer
+--
+
+#### Look at the Daily Timer
 
 If you look at the **/lib/systemd/system/apt-daily.timer** file, you will see the interval that the **apt update** command is executed. In this case it is twice a day with a random delay after 6 AM and 6 PM.
 

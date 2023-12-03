@@ -9,7 +9,9 @@ draft: false
 ---
 
 
-### Choosing the Best Database?
+#### Choosing the Best Database?
+
+--
 
 ![What to Select](/images/factorsofdatabase/sqlvsnosql.png)
 
@@ -23,6 +25,9 @@ draft: false
 --
 
 ##### First of all, databases will not impact our functional requirements.
+
+--
+
 ##### Whichever database we use can still achieve our functional requirements somehow, but at the cost of huge performance degradation.
 
 So when we say requirement, we usually mean ***non-functional*** requirements
@@ -36,6 +41,7 @@ So when we say requirement, we usually mean ***non-functional*** requirements
 - Query pattern
 - Amount or scale that we need to handle
 ```
+
 --
 
 - How much data do we expect to store when the application is mature?
@@ -164,7 +170,9 @@ Similar to the way a phone book has different categories of information (name, n
 ---
 
 
-**Non-Relational Database Systems (NoSQL-based)**
+### Non-Relational Database Systems (NoSQL-based)
+
+--
 
 ***Imagine a task of managing large amounts of unstructured data, such as text from emails and customer surveys, data collected by a network of mobile apps, or random social media information. The information is unorganized.***
 

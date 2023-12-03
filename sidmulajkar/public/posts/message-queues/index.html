@@ -13,7 +13,7 @@
  
     
     
-      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' 'strict-dynamic' 'unsafe-inline' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self'; object-src 'none'; style-src 'self' 'strict-dynamic' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline' 'https:'; prefetch-src 'self' 'unsafe-inline' 'strict-dynamic';">
+      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' 'strict-dynamic' 'unsafe-inline' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self' 'strict-dynamic'; object-src 'none'; style-src 'self' 'strict-dynamic' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline'; prefetch-src 'self' 'unsafe-inline' 'strict-dynamic';">
     
 
     <meta name="author" content="Hi, I&#39;m Siddhant Mulajkar!">
@@ -21,10 +21,10 @@
     <meta name="keywords" content="blog,developer,personal,hacker,javascript blogs,react blogs,development blogs">
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Message Queues! What are those and when to use them? "/>
+<meta name="twitter:title" content="Message Queues and Their Practical Applications"/>
 <meta name="twitter:description" content="This tutorial will help you understand the message queues."/>
 
-    <meta property="og:title" content="Message Queues! What are those and when to use them? " />
+    <meta property="og:title" content="Message Queues and Their Practical Applications" />
 <meta property="og:description" content="This tutorial will help you understand the message queues." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://sidmulajkar.com/posts/message-queues/" /><meta property="article:section" content="posts" />
@@ -34,7 +34,7 @@
 
 
     <title>
-  Message Queues! What are those and when to use them?  · &gt; sidmulajkar
+  Message Queues and Their Practical Applications · &gt; sidmulajkar
 </title>
 
     
@@ -105,8 +105,8 @@
             "@id": "https:\/\/sidmulajkar.com\/"
         },
         "articleSection" : "posts",
-        "name" : "Message Queues! What are those and when to use them? ",
-        "headline" : "Message Queues! What are those and when to use them? ",
+        "name" : "Message Queues and Their Practical Applications",
+        "headline" : "Message Queues and Their Practical Applications",
         "description" : "This tutorial will help you understand the message queues.",
         "inLanguage" : "en-US",
         "author" : "",
@@ -118,7 +118,7 @@
         "datePublished": "2021-11-26 17:26:04 \u002b0530 \u002b0530",
         "dateModified" : "2021-11-26 17:26:04 \u002b0530 \u002b0530",
         "url" : "https:\/\/sidmulajkar.com\/posts\/message-queues\/",
-        "wordCount" : "678",
+        "wordCount" : "682",
         "keywords" : [ "queue","data-structure","database","backend-engineering","sidsblog","Blog" ]
     }
 </script>
@@ -170,7 +170,7 @@
         <div class="post-title">
           <h1 class="title">
             <a class="title-link" href="https://sidmulajkar.com/posts/message-queues/">
-              Message Queues! What are those and when to use them? 
+              Message Queues and Their Practical Applications
             </a>
           </h1>
         </div>
@@ -242,13 +242,18 @@
 <p><img src="https://sidmulajkar.com/images/messagequeue/messagequeue2.png" alt="Message Queues Scenario"></p>
 <hr>
 <p><strong>Message queuing makes it possible for applications to communicate asynchronously, by sending messages to each other via a queue.</strong></p>
-<hr>
+<p>&ndash;</p>
 <p>Using a message queue is <em><strong>highly recommended when we need to process a high-volume of asynchronous messages.</strong></em></p>
 <p>A message queue is perfect to use when we want a high performance, highly concurrent and scalable system that can process thousands of messages per second concurrently across many servers/processes.</p>
-<hr>
-<p>What is <strong>Synchronous vs Asynchronous Communication?</strong></p>
+<p>&ndash;</p>
+<h6 id="what-is-synchronous-vs-asynchronous-communication">
+  What is <strong>Synchronous vs Asynchronous Communication?</strong>
+  <a class="heading-link" href="#what-is-synchronous-vs-asynchronous-communication">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h6>
 <p><img src="https://sidmulajkar.com/images/messagequeue/messagequeue3.png" alt="Communication"></p>
-<hr>
+<p>&ndash;</p>
 <p>A message queue provides temporary storage between the sender and the receiver so that the sender can keep operating without interruption when the destination program is busy or not connected.</p>
 <p>Asynchronous processing allows a task to call a service, and move on to the next task.</p>
 <p>&ndash;</p>
@@ -338,12 +343,19 @@
 <p>Message queuing fulfills this purpose by providing a means for services to push messages to a queue asynchronously and ensure that they get delivered to the correct destination.</p>
 <p><em><strong>To implement a message queue between services, you need a message broker, think of it as a mailman, who takes mail from a sender and delivers it to the correct destination.</strong></em></p>
 <hr>
-<h5 id="okay-this-seems-great-but-what-if-we-need-the-same-message-to-be-processed-by-two-or-more-microservices-well-there-are-different-types-of-message-queues">
-  Okay, this seems great, but what if we need the same message to be processed by two or more microservices? Well, there are different types of message queues:
-  <a class="heading-link" href="#okay-this-seems-great-but-what-if-we-need-the-same-message-to-be-processed-by-two-or-more-microservices-well-there-are-different-types-of-message-queues">
+<h5 id="okay-this-seems-great-but-what-if-we-need-the-same-message-to-be-processed-by-two-or-more-microservices">
+  Okay, this seems great, but what if we need the same message to be processed by two or more microservices?
+  <a class="heading-link" href="#okay-this-seems-great-but-what-if-we-need-the-same-message-to-be-processed-by-two-or-more-microservices">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h5>
+<h5 id="well-there-are-different-types-of-message-queues">
+  Well, there are different types of message queues:
+  <a class="heading-link" href="#well-there-are-different-types-of-message-queues">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h5>
+<p>&ndash;</p>
 <p>A message queue can be point-to-point, where there is only one queue and one consumer</p>
 <p><img src="https://sidmulajkar.com/images/messagequeue/messagequeue8.png" alt="Point to Point"></p>
 <p>Alternatively, a message queue can use a <strong>Publisher-Subscriber</strong> format, where a Publisher (Producer) sends a message to a queue (in this case called a Topic), and all the Subscribers receive a copy of the message that can be retained or not.</p>

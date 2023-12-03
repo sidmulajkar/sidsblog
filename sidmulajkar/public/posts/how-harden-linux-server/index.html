@@ -13,19 +13,19 @@
  
     
     
-      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' 'strict-dynamic' 'unsafe-inline' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self'; object-src 'none'; style-src 'self' 'strict-dynamic' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline' 'https:'; prefetch-src 'self' 'unsafe-inline' 'strict-dynamic';">
+      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' 'strict-dynamic' 'unsafe-inline' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self' 'strict-dynamic'; object-src 'none'; style-src 'self' 'strict-dynamic' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline'; prefetch-src 'self' 'unsafe-inline' 'strict-dynamic';">
     
 
     <meta name="author" content="Hi, I&#39;m Siddhant Mulajkar!">
-    <meta name="description" content="This tutorial will help you understand how to harden the linux server.">
+    <meta name="description" content="This tutorial will help you understand how to harden the linux server for security.">
     <meta name="keywords" content="blog,developer,personal,hacker,javascript blogs,react blogs,development blogs">
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="How to Harden Linux Server"/>
-<meta name="twitter:description" content="This tutorial will help you understand how to harden the linux server."/>
+<meta name="twitter:title" content="The Definitive Handbook: Essential Strategies for Strengthening Your Linux Server"/>
+<meta name="twitter:description" content="This tutorial will help you understand how to harden the linux server for security."/>
 
-    <meta property="og:title" content="How to Harden Linux Server" />
-<meta property="og:description" content="This tutorial will help you understand how to harden the linux server." />
+    <meta property="og:title" content="The Definitive Handbook: Essential Strategies for Strengthening Your Linux Server" />
+<meta property="og:description" content="This tutorial will help you understand how to harden the linux server for security." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://sidmulajkar.com/posts/how-harden-linux-server/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-10-16T17:26:04+05:30" />
@@ -34,7 +34,7 @@
 
 
     <title>
-  How to Harden Linux Server · &gt; sidmulajkar
+  The Definitive Handbook: Essential Strategies for Strengthening Your Linux Server · &gt; sidmulajkar
 </title>
 
     
@@ -105,9 +105,9 @@
             "@id": "https:\/\/sidmulajkar.com\/"
         },
         "articleSection" : "posts",
-        "name" : "How to Harden Linux Server",
-        "headline" : "How to Harden Linux Server",
-        "description" : "This tutorial will help you understand how to harden the linux server.",
+        "name" : "The Definitive Handbook: Essential Strategies for Strengthening Your Linux Server",
+        "headline" : "The Definitive Handbook: Essential Strategies for Strengthening Your Linux Server",
+        "description" : "This tutorial will help you understand how to harden the linux server for security.",
         "inLanguage" : "en-US",
         "author" : "",
         "creator" : "",
@@ -118,7 +118,7 @@
         "datePublished": "2022-10-16 17:26:04 \u002b0530 \u002b0530",
         "dateModified" : "2022-10-16 17:26:04 \u002b0530 \u002b0530",
         "url" : "https:\/\/sidmulajkar.com\/posts\/how-harden-linux-server\/",
-        "wordCount" : "1887",
+        "wordCount" : "1906",
         "keywords" : [ "linux","linuxserver","hardening","privacy","security","sidsblog","Blog" ]
     }
 </script>
@@ -170,7 +170,7 @@
         <div class="post-title">
           <h1 class="title">
             <a class="title-link" href="https://sidmulajkar.com/posts/how-harden-linux-server/">
-              How to Harden Linux Server
+              The Definitive Handbook: Essential Strategies for Strengthening Your Linux Server
             </a>
           </h1>
         </div>
@@ -231,18 +231,19 @@
 <li>Computer, virtual private server (VPS) or dedicated server running Debian based server instance.</li>
 <li>Linux or macOS computer for following the steps and hardening the server</li>
 </ul>
-<h3 id="guide">
+<h4 id="guide">
   Guide
   <a class="heading-link" href="#guide">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
-<h3 id="step-1-create-the-ssh-key-pair-for-login-on-computer">
+</h4>
+<p>&ndash;</p>
+<h5 id="step-1-create-the-ssh-key-pair-for-login-on-computer">
   Step 1. Create the SSH key pair for login (On Computer)
   <a class="heading-link" href="#step-1-create-the-ssh-key-pair-for-login-on-computer">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
+</h5>
 <p>Using a root login password to login is good but not great from the security stand.</p>
 <p>When asked for file in which to save key, enter <strong>serverlog</strong>.</p>
 <p>When asked for passphrase, use output from <strong>openssl rand -base64 24</strong> (and store passphrase in password manager).</p>
@@ -282,52 +283,55 @@
 </span></span><span style="display:flex;"><span>ubuntu@userver:~/.ssh$
 </span></span></code></pre></div><p>Paste the cat command output in the ssh key section</p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCfKyJnbvFXsZo2wBwIcOCyfzDPBxpzfV/r26jFZa7MLkdoXGpACUSL+wn0FFTBxE8XsduofHoDT5hsv1xIZjtrTbM0ZwCJVE8lxN8hkhiSOywEypTEUdFxafhQjD9BZSAwMCSp09t6iE7+dgB8P+InuNYstJLF/jTba9nD8U4QX3q9wZuMInB3+dMdP0Wf+3kc9cJxF/zsNxaiBUOABi4PGZg/w7ea5lxavtsWd0I59BtO2oq7XPVQBhzAz6FpSFf1UaZhFWYeE2r0FOU3hZUxHFrV8cv237Qnrs5cDYYaQsDfY9vY6C27nBVAo1GKK4jD65SDgGLET4gGUh5a2JO3Ya4XrdP/j4dDwWsyplz80Jsc9rm0bfaiaaqbkf/rWZ6a3moDW5SaP0pvVvxcF5ZRuRTQUj7q5/jwhm4h5/D9gaTtk7hJGfjWSTeNDvq6dG9JvA8er8DFuXm/nziGVaN9t/8mMbrxei37LZ+QDvkHzQVKemmeYE/6PwvSzKy4JGs= serverlogin
-</span></span></code></pre></div><h3 id="step-2-log-in-to-the-server-as-root">
+</span></span></code></pre></div><p>&ndash;</p>
+<h4 id="step-2-log-in-to-the-server-as-root">
   Step 2: log in to the server as root
   <a class="heading-link" href="#step-2-log-in-to-the-server-as-root">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
+</h4>
 <p>Caution: when asked for passphrase, enter passphrase used while creating the ssh key</p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>ssh -i ~/.ssh/server root@123.567.344.115
 </span></span></code></pre></div><p>save the fingerprint of the server for further use by typing <strong>yes</strong>, and change the <strong>ip address</strong> according to the server address</p>
-<h3 id="if-you-wanted-to-use-this-for-internal-server-rather-than-hosting-a-server-outside-then-we-can-simply-send-the-copy-of-the-ssh-from-the-local-machine-to-sever">
-  If you wanted to use this for internal server rather than hosting a server outside then we can simply send the copy of the ssh from the local machine to sever.
-  <a class="heading-link" href="#if-you-wanted-to-use-this-for-internal-server-rather-than-hosting-a-server-outside-then-we-can-simply-send-the-copy-of-the-ssh-from-the-local-machine-to-sever">
+<h6 id="if-you-wanted-to-use-this-for-internal-server-rather-than-hosting-a-server-outside-then-we-can-simply-send-the-copy-of-the-ssh-from-the-local-machine-to-server">
+  If you wanted to use this for internal server rather than hosting a server outside then we can simply send the copy of the ssh from the local machine to server.
+  <a class="heading-link" href="#if-you-wanted-to-use-this-for-internal-server-rather-than-hosting-a-server-outside-then-we-can-simply-send-the-copy-of-the-ssh-from-the-local-machine-to-server">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
+</h6>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>ssh-copy-id -i /home/sid/.ssh/rasp.pub user@123.567.344.115
 </span></span></code></pre></div><p>change the user to user created or using the server in the above command.</p>
 <p>Next sub-step is important for hardening the server, either hosted internally or outside</p>
-<h5 id="change-the-sshd-file-configuration-to-restrict-the-password-login-to-the-server-and-also-to-restrict-the-empty-password-attempts">
+<h6 id="change-the-sshd-file-configuration-to-restrict-the-password-login-to-the-server-and-also-to-restrict-the-empty-password-attempts">
   Change the sshd file configuration to restrict the password login to the server and also to restrict the empty password attempts
   <a class="heading-link" href="#change-the-sshd-file-configuration-to-restrict-the-password-login-to-the-server-and-also-to-restrict-the-empty-password-attempts">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h5>
+</h6>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sudo nano /etc/ssh/sshd_config
 </span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># To disable tunneled clear text passwords, change to no here!
 </span></span><span style="display:flex;"><span>PasswordAuthentication no
 </span></span><span style="display:flex;"><span>PermitEmptyPasswords no
 </span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>UsePAM no
 </span></span></code></pre></div><p>we can also accept the traffic from the specific <strong>ip&rsquo;s</strong> using the <strong>ListenAddress</strong> section.</p>
-<h3 id="step-3-disable-root-bash-history-optional">
+<p>&ndash;</p>
+<h4 id="step-3-disable-root-bash-history-optional">
   Step 3: disable root Bash history (Optional)
   <a class="heading-link" href="#step-3-disable-root-bash-history-optional">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
+</h4>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>echo &#34;HISTFILESIZE=0&#34; &gt;&gt; ~/.bashrc
 </span></span><span style="display:flex;"><span>history -c; history -w
 </span></span><span style="display:flex;"><span>source ~/.bashrc
 </span></span></code></pre></div><p>disabling the bash history to not have the previous command in the memory once the session is closed</p>
-<h3 id="step-4-set-root-password">
+<p>&ndash;</p>
+<h4 id="step-4-set-root-password">
   Step 4: set root password
   <a class="heading-link" href="#step-4-set-root-password">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
+</h4>
 <p>When asked for password, use output from <strong>openssl rand -base64 24</strong>(and store password in password manager).</p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>ubuntu@userver:~/.ssh$ openssl rand -base64 24
 </span></span><span style="display:flex;"><span>WmwBSIQD7fZDNcm5be2RQ3lJLb8eYFcr
@@ -336,12 +340,13 @@
 </span></span><span style="display:flex;"><span>Retype new password: 
 </span></span><span style="display:flex;"><span>passwd: password updated successfully
 </span></span><span style="display:flex;"><span>root@userver:/home/ubuntu#
-</span></span></code></pre></div><h3 id="step-5-create-server-admin-user">
+</span></span></code></pre></div><p>&ndash;</p>
+<h4 id="step-5-create-server-admin-user">
   Step 5: create server-admin user
   <a class="heading-link" href="#step-5-create-server-admin-user">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
+</h4>
 <p>When asked for password, use output from <strong>openssl rand -base64 24</strong> (and store password in password manager).</p>
 <p>All other fields are optional, press enter to skip them and then press Y.</p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>root@userver:/home/ubuntu# adduser saurabh
@@ -362,66 +367,73 @@
 </span></span><span style="display:flex;"><span>	Other []: 
 </span></span><span style="display:flex;"><span>Is the information correct? [Y/n] Y
 </span></span><span style="display:flex;"><span>root@userver:/home/ubuntu#
-</span></span></code></pre></div><h3 id="step-6-copy-root-authorized_keys-file-to-server-admin-home-directory">
+</span></span></code></pre></div><p>&ndash;</p>
+<h4 id="step-6-copy-root-authorized_keys-file-to-server-admin-home-directory">
   Step 6: copy root [authorized_keys] file to server-admin home directory
   <a class="heading-link" href="#step-6-copy-root-authorized_keys-file-to-server-admin-home-directory">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
+</h4>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>root@userver:/home/ubuntu# mkdir /home/saurabh/.ssh
 </span></span><span style="display:flex;"><span>root@userver:/home/ubuntu# cp /root/.ssh/authorized_keys /home/saurabh/.ssh/authorized_keys
 </span></span><span style="display:flex;"><span>root@userver:/home/ubuntu# chown -R saurabh:saurabh /home/saurabh/.ssh
 </span></span><span style="display:flex;"><span>root@userver:/home/ubuntu#
-</span></span></code></pre></div><h3 id="step-7-log-out">
+</span></span></code></pre></div><p>&ndash;</p>
+<h4 id="step-7-log-out">
   Step 7: log out
   <a class="heading-link" href="#step-7-log-out">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
+</h4>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>exit
-</span></span></code></pre></div><h3 id="step-8-log-in-as-server-admin">
+</span></span></code></pre></div><p>&ndash;</p>
+<h4 id="step-8-log-in-as-server-admin">
   Step 8: log in as server-admin
   <a class="heading-link" href="#step-8-log-in-as-server-admin">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
+</h4>
 <p>Replace <strong>123.567.344.115</strong> with IP of server.</p>
 <p>Heads-up: when asked for passphrase, enter passphrase from step 1</p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>ssh -i ~/.ssh/server saurabh@123.567.344.115
-</span></span></code></pre></div><h3 id="step-9-disable-server-admin-bash-history">
+</span></span></code></pre></div><p>&ndash;</p>
+<h4 id="step-9-disable-server-admin-bash-history">
   Step 9: disable server-admin Bash history
   <a class="heading-link" href="#step-9-disable-server-admin-bash-history">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
+</h4>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sed -i -E &#39;s/^HISTSIZE=/#HISTSIZE=/&#39; ~/.bashrc
 </span></span><span style="display:flex;"><span>sed -i -E &#39;s/^HISTFILESIZE=/#HISTFILESIZE=/&#39; ~/.bashrc
 </span></span><span style="display:flex;"><span>echo &#34;HISTFILESIZE=0&#34; &gt;&gt; ~/.bashrc
 </span></span><span style="display:flex;"><span>history -c; history -w
 </span></span><span style="display:flex;"><span>source ~/.bashrc
-</span></span></code></pre></div><h3 id="step-10-switch-to-root">
+</span></span></code></pre></div><p>&ndash;</p>
+<h4 id="step-10-switch-to-root">
   Step 10: switch to root
   <a class="heading-link" href="#step-10-switch-to-root">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
+</h4>
 <p>When asked, enter root password.</p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>su -
-</span></span></code></pre></div><h3 id="step-11-disable-root-login-and-password-authentication">
+</span></span></code></pre></div><p>&ndash;</p>
+<h4 id="step-11-disable-root-login-and-password-authentication">
   Step 11: disable root login and password authentication
   <a class="heading-link" href="#step-11-disable-root-login-and-password-authentication">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
+</h4>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sed -i -E &#39;s/^(#)?PermitRootLogin (prohibit-password|yes)/PermitRootLogin no/&#39; /etc/ssh/sshd_config
 </span></span><span style="display:flex;"><span>sed -i -E &#39;s/^(#)?PasswordAuthentication yes/PasswordAuthentication no/&#39; /etc/ssh/sshd_config
 </span></span><span style="display:flex;"><span>systemctl restart ssh
-</span></span></code></pre></div><h3 id="step-12-configure-sysctl-if-network-is-ipv4-only-optional-step">
+</span></span></code></pre></div><p>&ndash;</p>
+<h4 id="step-12-configure-sysctl-if-network-is-ipv4-only-optional-step">
   Step 12: configure sysctl (if network is IPv4-only) [optional step]
   <a class="heading-link" href="#step-12-configure-sysctl-if-network-is-ipv4-only-optional-step">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
+</h4>
 <p><strong>Only</strong> run the following if network is <strong>IPv4</strong>-only.</p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>cp /etc/sysctl.conf /etc/sysctl.conf.backup
 </span></span><span style="display:flex;"><span>cat &lt;&lt; &#34;EOF&#34; &gt;&gt; /etc/sysctl.conf
@@ -430,35 +442,36 @@
 </span></span><span style="display:flex;"><span>net.ipv6.conf.lo.disable_ipv6 = 1
 </span></span><span style="display:flex;"><span>EOF
 </span></span><span style="display:flex;"><span>sysctl -p
-</span></span></code></pre></div><h3 id="step-13-enable-nftables-and-configure-firewall-rules">
+</span></span></code></pre></div><p>&ndash;</p>
+<h4 id="step-13-enable-nftables-and-configure-firewall-rules">
   Step 13: enable nftables and configure firewall rules
   <a class="heading-link" href="#step-13-enable-nftables-and-configure-firewall-rules">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
-<h4 id="update-apt-index-and-install-nftables">
+</h4>
+<h5 id="update-apt-index-and-install-nftables">
   Update APT index and install nftables
   <a class="heading-link" href="#update-apt-index-and-install-nftables">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h4>
+</h5>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell-session" data-lang="shell-session"><span style="display:flex;"><span>$ apt update
 </span></span><span style="display:flex;"><span><span style="color:#f00">
 </span></span></span><span style="display:flex;"><span><span style="color:#f00"></span>$ apt install -y nftables
-</span></span></code></pre></div><h4 id="enable-nftables">
+</span></span></code></pre></div><h5 id="enable-nftables">
   Enable nftables
   <a class="heading-link" href="#enable-nftables">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h4>
+</h5>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>systemctl enable nftables
 </span></span><span style="display:flex;"><span>systemctl start nftables
-</span></span></code></pre></div><h4 id="configure-firewall-rules">
+</span></span></code></pre></div><h5 id="configure-firewall-rules">
   Configure firewall rules
   <a class="heading-link" href="#configure-firewall-rules">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h4>
+</h5>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>nft flush ruleset
 </span></span><span style="display:flex;"><span>nft add table ip firewall
 </span></span><span style="display:flex;"><span>nft add chain ip firewall input { type filter hook input priority 0 \; policy drop \; }
@@ -472,7 +485,8 @@
 </span></span><span style="display:flex;"><span>nft add rule ip firewall output tcp dport { http, https } accept
 </span></span><span style="display:flex;"><span>nft add rule ip firewall output udp dport { domain, ntp } accept
 </span></span><span style="display:flex;"><span>nft add rule ip firewall output ct state established,related accept
-</span></span></code></pre></div><h4 id="if-network-is-ipv4-only-run">
+</span></span></code></pre></div><p>&ndash;</p>
+<h4 id="if-network-is-ipv4-only-run">
   If network is IPv4-only, run:
   <a class="heading-link" href="#if-network-is-ipv4-only-run">
     <i class="fa fa-link" aria-hidden="true"></i>
@@ -482,7 +496,8 @@
 </span></span><span style="display:flex;"><span>nft add chain ip6 firewall input { type filter hook input priority 0 \; policy drop \; }
 </span></span><span style="display:flex;"><span>nft add chain ip6 firewall forward { type filter hook forward priority 0 \; policy drop \; }
 </span></span><span style="display:flex;"><span>nft add chain ip6 firewall output { type filter hook output priority 0 \; policy drop \; }
-</span></span></code></pre></div><h4 id="if-network-is-dual-stack-ipv4--ipv6-run">
+</span></span></code></pre></div><p>&ndash;</p>
+<h4 id="if-network-is-dual-stack-ipv4--ipv6-run">
   If network is dual stack (IPv4 + IPv6) run:
   <a class="heading-link" href="#if-network-is-dual-stack-ipv4--ipv6-run">
     <i class="fa fa-link" aria-hidden="true"></i>
@@ -504,22 +519,24 @@
 </span></span><span style="display:flex;"><span>nft add rule ip6 firewall output tcp dport { http, https } accept
 </span></span><span style="display:flex;"><span>nft add rule ip6 firewall output udp dport { domain, ntp } accept
 </span></span><span style="display:flex;"><span>nft add rule ip6 firewall output ct state related,established accept
-</span></span></code></pre></div><h3 id="step-14-log-out-and-log-in-to-confirm-firewall-is-not-blocking-ssh">
+</span></span></code></pre></div><p>&ndash;</p>
+<h4 id="step-14-log-out-and-log-in-to-confirm-firewall-is-not-blocking-ssh">
   Step 14: log out and log in to confirm firewall is not blocking SSH
   <a class="heading-link" href="#step-14-log-out-and-log-in-to-confirm-firewall-is-not-blocking-ssh">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
-<h4 id="log-out">
+</h4>
+<h5 id="log-out">
   Log out
   <a class="heading-link" href="#log-out">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h4>
+</h5>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell-session" data-lang="shell-session"><span style="display:flex;"><span>$ <span style="color:#fff;font-weight:bold">exit</span>
 </span></span><span style="display:flex;"><span><span style="color:#f00">
 </span></span></span><span style="display:flex;"><span><span style="color:#f00"></span>$ <span style="color:#fff;font-weight:bold">exit</span>
-</span></span></code></pre></div><h4 id="log-in">
+</span></span></code></pre></div><hr>
+<h4 id="log-in">
   Log in
   <a class="heading-link" href="#log-in">
     <i class="fa fa-link" aria-hidden="true"></i>
@@ -535,12 +552,13 @@
 </h4>
 <p>When asked, enter root password.</p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>su -
-</span></span></code></pre></div><h3 id="step-15-make-firewall-rules-persistent">
+</span></span></code></pre></div><hr>
+<h4 id="step-15-make-firewall-rules-persistent">
   Step 15: make firewall rules persistent
   <a class="heading-link" href="#step-15-make-firewall-rules-persistent">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
+</h4>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>cat &lt;&lt; &#34;EOF&#34; &gt; /etc/nftables.conf
 </span></span><span style="display:flex;"><span>#!/usr/sbin/nft -f
 </span></span><span style="display:flex;"><span>
@@ -548,29 +566,32 @@
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>EOF
 </span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>nft list ruleset &gt;&gt; /etc/nftables.conf
-</span></span></code></pre></div><h3 id="step-16-update-apt-index-and-upgrade-packages">
+</span></span></code></pre></div><p>&ndash;</p>
+<h4 id="step-16-update-apt-index-and-upgrade-packages">
   Step 16: update APT index and upgrade packages
   <a class="heading-link" href="#step-16-update-apt-index-and-upgrade-packages">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
+</h4>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell-session" data-lang="shell-session"><span style="display:flex;"><span>$ apt update
 </span></span><span style="display:flex;"><span><span style="color:#f00">
 </span></span></span><span style="display:flex;"><span><span style="color:#f00"></span>$ apt upgrade -y
-</span></span></code></pre></div><h3 id="step-17-set-timezone-the-following-is-for-kolkatta-time">
+</span></span></code></pre></div><p>&ndash;</p>
+<h4 id="step-17-set-timezone-the-following-is-for-kolkatta-time">
   Step 17: set timezone (the following is for Kolkatta time)
   <a class="heading-link" href="#step-17-set-timezone-the-following-is-for-kolkatta-time">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
+</h4>
 <p>See <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">https://en.wikipedia.org/wiki/List_of_tz_database_time_zones</a></p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>timedatectl set-timezone Asia/Kolkata
-</span></span></code></pre></div><h3 id="step-15-log-out-and-log-in-to-system-admin-to-auto-update-the-security-packages">
-  Step 15: log out and log in to system-admin to auto-update the security packages
-  <a class="heading-link" href="#step-15-log-out-and-log-in-to-system-admin-to-auto-update-the-security-packages">
+</span></span></code></pre></div><hr>
+<h4 id="step-18-log-out-and-log-in-to-system-admin-to-auto-update-the-security-packages">
+  Step 18: log out and log in to system-admin to auto-update the security packages
+  <a class="heading-link" href="#step-18-log-out-and-log-in-to-system-admin-to-auto-update-the-security-packages">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
+</h4>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sudo apt install unattended-upgrades
 </span></span><span style="display:flex;"><span>sudo apt install update-notifier-common
 </span></span></code></pre></div><p>Set your automatic upgrade preferences in the</p>
@@ -640,20 +661,22 @@
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>dpkg-reconfigure -plow unattended-upgrades
 </span></span></code></pre></div><p>In the resulting screen with a pink background, you will be asked “Automatically download and install stable updates?”</p>
 <p>Select the <strong>Yes</strong> option to continue.</p>
-<h3 id="test-it-out-with-a-dry-run">
+<hr>
+<h4 id="test-it-out-with-a-dry-run">
   Test it Out with a Dry Run
   <a class="heading-link" href="#test-it-out-with-a-dry-run">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
+</h4>
 <p>You can optionally do a dry run to see what will happen during an unattended upgrade with the following command.</p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>unattended-upgrades --dry-run --debug
-</span></span></code></pre></div><h3 id="look-at-the-daily-timer">
+</span></span></code></pre></div><p>&ndash;</p>
+<h4 id="look-at-the-daily-timer">
   Look at the Daily Timer
   <a class="heading-link" href="#look-at-the-daily-timer">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
+</h4>
 <p>If you look at the <strong>/lib/systemd/system/apt-daily.timer</strong> file, you will see the interval that the <strong>apt update</strong> command is executed. In this case it is twice a day with a random delay after 6 AM and 6 PM.</p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>[Unit]
 </span></span><span style="display:flex;"><span>

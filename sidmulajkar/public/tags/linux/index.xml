@@ -8,12 +8,13 @@
     <language>en</language>
     <lastBuildDate>Sun, 16 Oct 2022 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to Harden Linux Server</title>
+      <title>The Definitive Handbook: Essential Strategies for Strengthening Your Linux Server</title>
       <link>https://sidmulajkar.com/posts/how-harden-linux-server/</link>
       <pubDate>Sun, 16 Oct 2022 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/how-harden-linux-server/</guid>
-      <description>Requirements Computer, virtual private server (VPS) or dedicated server running Debian based server instance. Linux or macOS computer for following the steps and hardening the server Guide Step 1. Create the SSH key pair for login (On Computer) Using a root login password to login is good but not great from the security stand.
+      <description>Requirements Computer, virtual private server (VPS) or dedicated server running Debian based server instance. Linux or macOS computer for following the steps and hardening the server Guide &amp;ndash;
+Step 1. Create the SSH key pair for login (On Computer) Using a root login password to login is good but not great from the security stand.
 When asked for file in which to save key, enter serverlog.
 When asked for passphrase, use output from openssl rand -base64 24 (and store passphrase in password manager).</description>
     </item>
@@ -27,7 +28,7 @@ When asked for passphrase, use output from openssl rand -base64 24 (and store pa
       <description>On Linux, you have two ways you can install Flutter. Install Flutter using snapd open your terminal and use this command to install flutter
 sudo snap install flutter --classic after installing the flutter for the first time type flutter in the terminal as it will install all its dependencies and files
 flutter wait for it to install and then move forward to the pre-requisite section.
-OR Install FLutter Manually If you don’t have a snapd, or can’t use it, you can install Flutter using the following steps.</description>
+Or Install FLutter Manually If you don’t have a snapd, or can’t use it, you can install Flutter using the following steps.</description>
     </item>
     
   </channel>

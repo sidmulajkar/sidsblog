@@ -13,7 +13,7 @@
  
     
     
-      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' 'strict-dynamic' 'unsafe-inline' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self'; object-src 'none'; style-src 'self' 'strict-dynamic' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline' 'https:'; prefetch-src 'self' 'unsafe-inline' 'strict-dynamic';">
+      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' 'strict-dynamic' 'unsafe-inline' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self' 'strict-dynamic'; object-src 'none'; style-src 'self' 'strict-dynamic' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline'; prefetch-src 'self' 'unsafe-inline' 'strict-dynamic';">
     
 
     <meta name="author" content="Hi, I&#39;m Siddhant Mulajkar!">
@@ -21,10 +21,10 @@
     <meta name="keywords" content="blog,developer,personal,hacker,javascript blogs,react blogs,development blogs">
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="When Indexes are not Useable sometimes!"/>
+<meta name="twitter:title" content="Effective Strategies to Optimize Database Performance: Insights into Unusable Indexes"/>
 <meta name="twitter:description" content="This tutorial will help you understand when indexes are useful or not accordingly."/>
 
-    <meta property="og:title" content="When Indexes are not Useable sometimes!" />
+    <meta property="og:title" content="Effective Strategies to Optimize Database Performance: Insights into Unusable Indexes" />
 <meta property="og:description" content="This tutorial will help you understand when indexes are useful or not accordingly." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://sidmulajkar.com/posts/when-indexes-are-not-useable/" /><meta property="article:section" content="posts" />
@@ -34,7 +34,7 @@
 
 
     <title>
-  When Indexes are not Useable sometimes! · &gt; sidmulajkar
+  Effective Strategies to Optimize Database Performance: Insights into Unusable Indexes · &gt; sidmulajkar
 </title>
 
     
@@ -105,8 +105,8 @@
             "@id": "https:\/\/sidmulajkar.com\/"
         },
         "articleSection" : "posts",
-        "name" : "When Indexes are not Useable sometimes!",
-        "headline" : "When Indexes are not Useable sometimes!",
+        "name" : "Effective Strategies to Optimize Database Performance: Insights into Unusable Indexes",
+        "headline" : "Effective Strategies to Optimize Database Performance: Insights into Unusable Indexes",
         "description" : "This tutorial will help you understand when indexes are useful or not accordingly.",
         "inLanguage" : "en-US",
         "author" : "",
@@ -118,7 +118,7 @@
         "datePublished": "2021-11-16 17:26:04 \u002b0530 \u002b0530",
         "dateModified" : "2021-11-16 17:26:04 \u002b0530 \u002b0530",
         "url" : "https:\/\/sidmulajkar.com\/posts\/when-indexes-are-not-useable\/",
-        "wordCount" : "1234",
+        "wordCount" : "1241",
         "keywords" : [ "btrees","indexing","indexing-types","data-structure","database","sidsblog","Blog" ]
     }
 </script>
@@ -170,7 +170,7 @@
         <div class="post-title">
           <h1 class="title">
             <a class="title-link" href="https://sidmulajkar.com/posts/when-indexes-are-not-useable/">
-              When Indexes are not Useable sometimes!
+              Effective Strategies to Optimize Database Performance: Insights into Unusable Indexes
             </a>
           </h1>
         </div>
@@ -232,17 +232,22 @@
 <p>wait&hellip;</p>
 <p>Before getting to the conclusion</p>
 <hr>
-<h3 id="what-is-indexing-firstly">
+<h5 id="what-is-indexing-firstly">
   What is Indexing? firstly&hellip;
   <a class="heading-link" href="#what-is-indexing-firstly">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
+</h5>
 <p>It is a way to optimize the performance of a database by minimizing the number of disk accesses required when a query is processed.</p>
 <p>It is a data structure technique that is used to quickly locate and access the data in a database.</p>
 <p><img src="https://sidmulajkar.com/images/indexingusefulornot/index.png" alt="Indexing"></p>
-<hr>
-<p><strong>Types of Indexing:</strong></p>
+<p>&ndash;</p>
+<h5 id="types-of-indexing">
+  Types of Indexing:
+  <a class="heading-link" href="#types-of-indexing">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h5>
 <p>Indexing in Database is defined based on its indexing attributes. Two main types of indexing methods are:</p>
 <p><img src="https://sidmulajkar.com/images/indexingusefulornot/indextypes.png" alt="Indexing Types"></p>
 <ul>
@@ -289,12 +294,12 @@ This two-level database indexing technique is used to reduce the mapping size of
 <p><img src="https://sidmulajkar.com/images/indexingusefulornot/secondary.png" alt="Secondary Index"></p>
 <p>More In-Depth Details: <a href="https://prepinsta.com/dbms/indexing-and-its-types">https://prepinsta.com/dbms/indexing-and-its-types</a></p>
 <hr>
-<h3 id="there-are-two-types-of-database-indexing-architecture">
+<h4 id="there-are-two-types-of-database-indexing-architecture">
   There are two types of database indexing architecture:
   <a class="heading-link" href="#there-are-two-types-of-database-indexing-architecture">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
+</h4>
 <ol>
 <li>Clustered</li>
 <li>Non-clustered</li>
@@ -302,24 +307,26 @@ This two-level database indexing technique is used to reduce the mapping size of
 <p>Both clustered and non-clustered indexes are stored and searched as B-trees, a data structure similar to a binary tree.</p>
 <p>More Details on that: <a href="https://www.guru99.com/clustered-vs-non-clustered-index.html">https://www.guru99.com/clustered-vs-non-clustered-index.html</a></p>
 <p><em><strong>If you haven&rsquo;t read more on B-Trees <a href="https://sidmulajkar.com/posts/b-bplus-trees/">https://sidmulajkar.com/posts/b-bplus-trees/</a></strong></em></p>
-<hr>
-<h3 id="power-of-indexing">
+<p>&ndash;</p>
+<h4 id="power-of-indexing">
   Power of Indexing:
   <a class="heading-link" href="#power-of-indexing">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
+</h4>
 <p><em><strong>Indexing plays a crucial role especially in applications such as eCommerce websites. Imagine that you are looking to buy a new bag on an eCommerce website.</strong></em></p>
+<p>&ndash;</p>
 <p>You type in the search query and you expect to see a range of options that you’d like to choose from.</p>
 <p>However, due to the <em><strong>absence of indexing you are stuck looking at a blank screen for the next 15 mins waiting for the relevant data to load</strong></em>, or even worse, you get everything ranging from garments to electronics as an answer to your result.</p>
+<p>&ndash;</p>
 <p><em><strong>Given the number of alternative eCommerce websites on the internet, I highly doubt that you’d be willing to patiently wait around instead of simply logging onto a faster one.</strong></em></p>
 <hr>
-<h3 id="when-indexes-need-change-it-requires-doing-a-test-on">
+<h4 id="when-indexes-need-change-it-requires-doing-a-test-on">
   When indexes need change, it requires doing a test on
   <a class="heading-link" href="#when-indexes-need-change-it-requires-doing-a-test-on">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
+</h4>
 <p>How removing an index will affect the overall performance?</p>
 <p>We have two options – either we can disable or drop the index.</p>
 <p>Which is better?</p>
@@ -333,7 +340,12 @@ This two-level database indexing technique is used to reduce the mapping size of
 </h3>
 <p><em><strong>Indexes are meant to speed up the performance of a database, so use indexing whenever it significantly improves the performance of your database.</strong></em></p>
 <p>As your database becomes larger and larger, the more likely you are to see benefits from indexing.</p>
-<p><strong>When not to use Indexes:</strong></p>
+<h4 id="when-not-to-use-indexes">
+  When not to use Indexes:
+  <a class="heading-link" href="#when-not-to-use-indexes">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h4>
 <ul>
 <li>
 <p>Indexes should not be used on small tables.</p>
@@ -352,18 +364,18 @@ This two-level database indexing technique is used to reduce the mapping size of
 </li>
 </ul>
 <hr>
-<h3 id="for-the-longest-time-what-we-do-is-search-the-table-one-by-one-sequentially-page-by-page">
+<h4 id="for-the-longest-time-what-we-do-is-search-the-table-one-by-one-sequentially-page-by-page">
   For the longest time, what we do is search the table one by one sequentially (page by page).
   <a class="heading-link" href="#for-the-longest-time-what-we-do-is-search-the-table-one-by-one-sequentially-page-by-page">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
+</h4>
 <p>It&rsquo;s basically like a full table scan and if the key is also unique you have to scan the whole table anyway, which is very slow.</p>
-<p><strong>How to make it faster?</strong> How do we make searching one million stuff faster?</p>
+<p><strong>How to make it fast?</strong> How do we make searching one million stuff faster?</p>
 <p>Well,</p>
 <ul>
 <li>
-<p>Split the table in like n numbers and parallelly process the database in a distributed manner. (Complicated but one way of doing it)</p>
+<p>Split the table in like <code>n</code> numbers and parallelly process the database in a distributed manner. (Complicated but one way of doing it)</p>
 </li>
 <li>
 <p>Partition the database based on chunk key sizes.</p>
@@ -382,11 +394,18 @@ This two-level database indexing technique is used to reduce the mapping size of
 <p>We have two options – either we can <strong>disable or drop the index.</strong></p>
 <p>Which is better?</p>
 <hr>
-<p><strong>Disabling an Index:</strong></p>
+<h4 id="disabling-an-index">
+  Disabling an Index:
+  <a class="heading-link" href="#disabling-an-index">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h4>
 <p>What happens when you do this?</p>
 <p>The metadata about the <strong>index is retained</strong>, as are the usage statistics. The index is not usable by the query optimizer, however.</p>
 <p>If you have an index hint in a query specifying the index, the query will fail. Also, foreign key constraints are disabled.</p>
-<p>I want it back!</p>
+<p>&ndash;</p>
+<p>Okay, I want it back!</p>
+<p>&ndash;</p>
 <p>How to <strong>re-enable a disabled index</strong></p>
 <p>If you want to re-enable the index, you need to rebuild it – there is no INDEX…ENABLE command.</p>
 <p>&ndash;</p>
@@ -400,12 +419,12 @@ This two-level database indexing technique is used to reduce the mapping size of
 <p>Disabling a Non-clustered index will deallocate the index pages – the space is freed in the database.</p>
 <p>Disabling a Clustered index has additional effects. The data in the table still exists but will be inaccessible for anything other than a drop or rebuild operation.</p>
 <hr>
-<h3 id="how-do-i-know-if-im-using-an-index">
+<h4 id="how-do-i-know-if-im-using-an-index">
   How do I know if I&rsquo;m using an Index:
   <a class="heading-link" href="#how-do-i-know-if-im-using-an-index">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
+</h4>
 <p>Just add &ldquo;explain&rdquo; at the beginning of the query.</p>
 <hr>
 <h5 id="have-you-faced-any-issues-with-the-indexes-while-using-the-database">
@@ -421,12 +440,12 @@ This two-level database indexing technique is used to reduce the mapping size of
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h5>
-<h3 id="let-me-knowmailtohisidmulajkarcom-regarding-this-with-your-experience-using-the-indexes">
+<h4 id="let-me-knowmailtohisidmulajkarcom-regarding-this-with-your-experience-using-the-indexes">
   let me <a href="mailto:hi@sidmulajkar.com">know</a> regarding this with your experience using the indexes
   <a class="heading-link" href="#let-me-knowmailtohisidmulajkarcom-regarding-this-with-your-experience-using-the-indexes">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
+</h4>
 <hr>
 <h3 id="read-more-blogs-related-to">
   Read More Blogs related to:

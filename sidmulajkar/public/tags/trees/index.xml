@@ -13,10 +13,10 @@
       <pubDate>Mon, 25 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/b-bplus-trees/</guid>
-      <description>What are those? Ever used those while searching through the dataset. How they are useful in databases?
+      <description>What are those? Ever used trees while searching through the dataset. How B trees are useful in databases?
 To understand stuff more clearly let&amp;rsquo;s take a scenario:
-Like we have a table, a huge table(millions of rows to go through), and we want to search to a particular numbered row by some id mentioned &amp;ldquo;100035&amp;rdquo; and not only pulling a row but getting most out of the pulled row.
-&amp;ndash;</description>
+&amp;ndash;
+Like we have a table, a huge table(millions of rows to go through), and we want to search to a particular numbered row by some id mentioned &amp;ldquo;100035&amp;rdquo; and not only pulling a row but getting most out of the pulled row.</description>
     </item>
     
   </channel>

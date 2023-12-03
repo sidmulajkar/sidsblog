@@ -14,16 +14,10 @@
     <loc>https://sidmulajkar.com/</loc>
     <lastmod>2022-10-16T17:26:04+05:30</lastmod>
   </url><url>
-    <loc>https://sidmulajkar.com/categories/</loc>
-    <lastmod>2022-10-16T17:26:04+05:30</lastmod>
-  </url><url>
     <loc>https://sidmulajkar.com/tags/hardening/</loc>
     <lastmod>2022-10-16T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/hardening/</loc>
-    <lastmod>2022-10-16T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/posts/how-harden-linux-server/</loc>
     <lastmod>2022-10-16T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/tags/linux/</loc>
@@ -62,6 +56,9 @@
     <loc>https://sidmulajkar.com/tags/</loc>
     <lastmod>2022-10-16T17:26:04+05:30</lastmod>
   </url><url>
+    <loc>https://sidmulajkar.com/posts/how-harden-linux-server/</loc>
+    <lastmod>2022-10-16T17:26:04+05:30</lastmod>
+  </url><url>
     <loc>https://sidmulajkar.com/privacyguide/</loc>
     <lastmod>2022-06-19T19:09:26+05:30</lastmod>
   </url><url>
@@ -75,9 +72,6 @@
     <lastmod>2022-05-30T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/dark-web/</loc>
-    <lastmod>2022-05-30T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/posts/darkweb-tor-website/</loc>
     <lastmod>2022-05-30T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/tags/microservices/</loc>
@@ -108,6 +102,9 @@
     <lastmod>2022-05-30T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/tor-browser/</loc>
+    <lastmod>2022-05-30T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/posts/darkweb-tor-website/</loc>
     <lastmod>2022-05-30T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/sangraha/</loc>
@@ -212,6 +209,9 @@
     <loc>https://sidmulajkar.com/categories/btrees/</loc>
     <lastmod>2021-11-16T17:26:04+05:30</lastmod>
   </url><url>
+    <loc>https://sidmulajkar.com/posts/when-indexes-are-not-useable/</loc>
+    <lastmod>2021-11-16T17:26:04+05:30</lastmod>
+  </url><url>
     <loc>https://sidmulajkar.com/categories/index/</loc>
     <lastmod>2021-11-16T17:26:04+05:30</lastmod>
   </url><url>
@@ -219,9 +219,6 @@
     <lastmod>2021-11-16T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/tags/indexing-types/</loc>
-    <lastmod>2021-11-16T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/posts/when-indexes-are-not-useable/</loc>
     <lastmod>2021-11-16T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/posts/b-bplus-trees/</loc>
@@ -335,10 +332,7 @@
     <loc>https://sidmulajkar.com/posts/tcp-slow-start/</loc>
     <lastmod>2021-10-02T17:26:04+05:30</lastmod>
   </url><url>
-    <loc>https://sidmulajkar.com/posts/linux-subsytem-in-windows-wsl2/</loc>
-    <lastmod>2021-09-23T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/tags/installation/</loc>
+    <loc>https://sidmulajkar.com/tags/guide/</loc>
     <lastmod>2021-09-23T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/installing-wsl2-for-ubuntu-using-linux-subsytem/</loc>
@@ -350,10 +344,13 @@
     <loc>https://sidmulajkar.com/categories/linuxsubsystem/</loc>
     <lastmod>2021-09-23T17:26:04+05:30</lastmod>
   </url><url>
-    <loc>https://sidmulajkar.com/tags/ubuntu/</loc>
+    <loc>https://sidmulajkar.com/posts/linux-subsytem-in-windows-wsl2/</loc>
     <lastmod>2021-09-23T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/ubuntu/</loc>
+    <lastmod>2021-09-23T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/ubuntu-installation/</loc>
     <lastmod>2021-09-23T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/tags/windows10/</loc>
@@ -366,6 +363,9 @@
     <lastmod>2021-09-23T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/wsl/</loc>
+    <lastmod>2021-09-23T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/wsl2/</loc>
     <lastmod>2021-09-23T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/tags/android-studio/</loc>
@@ -387,6 +387,9 @@
     <lastmod>2021-09-05T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/posts/flutter-installation-in-linux/</loc>
+    <lastmod>2021-09-05T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/ubuntu/</loc>
     <lastmod>2021-09-05T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/tags/dns/</loc>
@@ -449,6 +452,9 @@
     <loc>https://sidmulajkar.com/categories/development/</loc>
     <lastmod>2021-03-27T17:26:04+05:30</lastmod>
   </url><url>
+    <loc>https://sidmulajkar.com/posts/best-javascript-resources/</loc>
+    <lastmod>2021-03-27T17:26:04+05:30</lastmod>
+  </url><url>
     <loc>https://sidmulajkar.com/tags/javascript/</loc>
     <lastmod>2021-03-27T17:26:04+05:30</lastmod>
   </url><url>
@@ -471,9 +477,6 @@
     <lastmod>2021-03-27T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/tags/spidermonkey/</loc>
-    <lastmod>2021-03-27T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/posts/best-javascript-resources/</loc>
     <lastmod>2021-03-27T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/tags/what-is-javascript/</loc>
@@ -500,9 +503,6 @@
     <loc>https://sidmulajkar.com/tags/best-hosting-service-provider/</loc>
     <lastmod>2021-02-25T17:26:04+05:30</lastmod>
   </url><url>
-    <loc>https://sidmulajkar.com/posts/best-hosting-provider-2021/</loc>
-    <lastmod>2021-02-25T17:26:04+05:30</lastmod>
-  </url><url>
     <loc>https://sidmulajkar.com/tags/best-web-host/</loc>
     <lastmod>2021-02-25T17:26:04+05:30</lastmod>
   </url><url>
@@ -519,6 +519,9 @@
     <lastmod>2021-02-25T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/tags/fastest-web-hosting/</loc>
+    <lastmod>2021-02-25T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/posts/best-hosting-provider-2021/</loc>
     <lastmod>2021-02-25T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/tags/web-hosting-service/</loc>

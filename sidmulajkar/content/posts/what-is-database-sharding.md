@@ -1,5 +1,5 @@
 ---
-title: "What actually is Database Sharding?"
+title: "Understanding Database Sharding?"
 categories: [sql, database, sharding, benefits-of-sharding, sidsblog]
 tags: [sql, database, sharding, advantages, disadvantages, sidsblog]
 date: 2021-10-14T17:26:04+05:30
@@ -8,20 +8,25 @@ author: Siddhant Mulajkar
 draft: false
 ---
 
-##### How often do you shard your database?
+--
 
-##### Do you prematurely shard?
+###### How often do you shard your database?
 
-##### Do you actually need that for your database?🤔
+###### Do you prematurely shard?
+
+###### Do you actually need that for your database?🤔
 
 --
+
+##### Analogy:
 
 ***Your application is growing. It has more active users, more features, and generates more data every day.***
 
 ***Your database is now becoming a bottleneck for the rest of your application. Database sharding could be the solution to your problems.***
 
-### But Wait...
+### But Wait... Q) What is Database Sharding?
 
+--
 
 ![Database Sharding](/images/databasesharding/dbshardingintro.jpg)
 
@@ -29,29 +34,30 @@ draft: false
 
 ![Database Sharding1](/images/databasesharding/dbshard.png)
 
----
+--
 
 
+- Sharding is a method for distributing a single dataset across multiple databases, which can then be stored on multiple machines. 
 
-### Q) What is Database Sharding?
+- This allows for larger datasets to be split in smaller chunks and stored in multiple data nodes, increasing the capacity.
 
-Sharding is a method for distributing a single dataset across multiple databases, which can then be stored on multiple machines. 
+- Sharding is a form of scaling known as horizontal scaling or scale-out, as additional nodes are brought on to share the load. 
 
-This allows for larger datasets to be split in smaller chunks and stored in multiple data nodes, increasing the capacity.
+- Horizontal scaling allows for near-limitless scalability to handle big data and intense workloads.
 
-Sharding is a form of scaling known as horizontal scaling or scale-out, as additional nodes are brought on to share the load. 
-
-Horizontal scaling allows for near-limitless scalability to handle big data and intense workloads.
+--
 
 ![Horizontal Sharding](/images/databasesharding/horizontalscale.jpeg)
 
 ---
 
-It can be helpful to think of horizontal partitioning in terms of how it relates to vertical partitioning.
+It can be helpful to think of **horizontal partitioning** in terms of how it relates to vertical partitioning.
+
+--
 
 ![Types of Partition for Sharding](/images/databasesharding/partitioneg.png)
 
----
+--
 
 ***Database shards exemplify a shared-nothing architecture.😦***
 
@@ -59,7 +65,7 @@ It can be helpful to think of horizontal partitioning in terms of how it relates
 
 --
 
-### Q) How Does Sharding Work?
+### Q) How does Database Sharding Work?
 
 To shard a database, we must answer several fundamental questions.
 
@@ -69,6 +75,7 @@ To shard a database, we must answer several fundamental questions.
 
 - Finally, how will these shards be maintained?
 
+--
 
 First, how will the data be distributed across shards? This is the fundamental question behind any sharded database. The answer to this question will have effects on both performance and maintenance. More detail on this can be found in the “Sharding Architectures and Types” section.
 
@@ -78,9 +85,9 @@ Finally, how will these shards be maintained? Once you have sharded a database, 
 
 -------------------------------------------------------------------------------
 
-### Q) Do You Need Database Sharding?
+### Q) Do You Actually Need Database Sharding?
 
-Whether or not we should implement a sharded database architecture has always been a matter of debate.
+Whether or not we should **implement a sharded database architecture has always been a matter of debate.**
 
 Some see sharding as an inevitable outcome for databases that reach a certain size, while others see it as a headache that should be avoided unless it’s absolutely necessary, due to the operational complexity that sharding adds.
 
@@ -107,7 +114,9 @@ Some see sharding as an inevitable outcome for databases that reach a certain si
 
 --
 
-**Bear in mind that if your application or website grows past a certain point, none of these strategies will be enough to improve performance on their own. In such cases, sharding may indeed be the best option for you.**
+##### Bear in mind that if your application or website grows past a certain point, none of these strategies will be enough to improve performance on their own. In such cases, sharding may indeed be the best option for you.
+
+--
 
 ---
 
@@ -159,6 +168,7 @@ With a single unsharded database, only the database server itself requires upkee
 
 With every sharded database, on top of managing the shards themselves, there are additional service nodes to maintain. 
 
+--
 
 Plus, in cases where replication is being used, any data updates must be mirrored across each replicated node.
 

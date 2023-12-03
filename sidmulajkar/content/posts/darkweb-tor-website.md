@@ -1,5 +1,5 @@
 ---
-title: "How to create a tor based website?"
+title: "Tutorial: How to Create a Tor Dark Web Site Step-by-Step"
 categories: [tor, dark web, tor browser, cloud services, raspberrypi, microservices, onion website, sidsblog]
 tags: [tor, dark web, tor browser, cloud services, raspberrypi, microservices, onion website, sidsblog]
 date: 2022-05-30T17:26:04+05:30
@@ -47,7 +47,7 @@ As you’d expect, misguided individuals or those with clear criminal intent hav
 
 ---
 
-**Is it legal?**
+##### ---> Is it legal?
 
 **Using Tor or visiting the Dark Web is not unlawful in itself**. It is of course illegal to carry out illegal acts anonymously.
 
@@ -62,7 +62,7 @@ Credit: NetworkChuck
 
 ---
 
-### Okay, How to create a tor-based website?
+#### Okay, How to create a tor-based website?
 
 We can create it using a **Raspberrypi, Virtual Machine, or simply host it on any cloud services such as Google Cloud, AWS, or Azure Webservices**. 
 

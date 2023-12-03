@@ -13,7 +13,7 @@
  
     
     
-      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' 'strict-dynamic' 'unsafe-inline' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self'; object-src 'none'; style-src 'self' 'strict-dynamic' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline' 'https:'; prefetch-src 'self' 'unsafe-inline' 'strict-dynamic';">
+      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' 'strict-dynamic' 'unsafe-inline' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self' 'strict-dynamic'; object-src 'none'; style-src 'self' 'strict-dynamic' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline'; prefetch-src 'self' 'unsafe-inline' 'strict-dynamic';">
     
 
     <meta name="author" content="Hi, I&#39;m Siddhant Mulajkar!">
@@ -118,7 +118,7 @@
         "datePublished": "2021-03-30 16:04:37 \u002b0530 \u002b0530",
         "dateModified" : "2021-03-30 16:04:37 \u002b0530 \u002b0530",
         "url" : "https:\/\/sidmulajkar.com\/posts\/setting-up-pihole-as-a-recursive-dns-server\/",
-        "wordCount" : "823",
+        "wordCount" : "845",
         "keywords" : [ "pihole","raspberrypi","raspberry pi pihole","dns","sidblogs","setting up pihole as recursive-dns","setting up pihole as recursive-dns using raspberrypi","pihole recursive dns","Blog" ]
     }
 </script>
@@ -228,7 +228,9 @@
       <div>
         
         <p><strong>Got an old Raspberry Pi lying around? Hate seeing ads while browsing the web? Pi-hole is an open-source software project that blocks ads for all devices on your home network by routing all advertising servers into nowhere. What’s best is it takes just a few minutes to set up.</strong></p>
+<p>&ndash;</p>
 <p><img src="https://sidmulajkar.com/images/pihole-rdns/logo.png" alt="Pihole"></p>
+<p>&ndash;</p>
 <h5 id="what-is-a-pi-hole">
   What is a Pi-hole?
   <a class="heading-link" href="#what-is-a-pi-hole">
@@ -240,6 +242,7 @@
 <p>The first distinction we have to be aware of is whether a DNS server is authoritative or not. If I&rsquo;m the authoritative server for, e.g., pi-hole.net, then I know which IP is the correct answer for a query. Recursive name servers, in contrast, resolve any query they receive by consulting the servers authoritative for this query by traversing the domain. Example: We want to resolve pi-hole.net. On behalf of the client, the recursive DNS server will traverse the path of the domain across the Internet to deliver the answer to the question.</p>
 <p><strong>Web Interface</strong></p>
 <p><img src="https://sidmulajkar.com/images/pihole-rdns/dashboard.png" alt="Pihole-web"></p>
+<p>&ndash;</p>
 <h5 id="pi-hole-as-all-around-dns-solution">
   Pi-hole as All-Around DNS Solution
   <a class="heading-link" href="#pi-hole-as-all-around-dns-solution">
@@ -250,6 +253,7 @@
 Pi-hole includes a caching and forwarding DNS server, now known as FTLDNS. After applying the blocking lists, it forwards requests made by the clients to configured upstream DNS server(s). However, as has been mentioned by several users in the past, this leads to some privacy concerns as it ultimately raises the question: Whom can you trust? Recently, more and more small (and not so small) DNS upstream providers have appeared on the market, advertising free and private DNS service, but how can you know that they keep their promises? Right, you can&rsquo;t.</p>
 <p>Furthermore, from the point of an attacker, the DNS servers of larger providers are very worthwhile targets, as they only need to poison one DNS server, but millions of users might be affected. Instead of your bank&rsquo;s actual IP address, you could be sent to a phishing site hosted on some island. This scenario has already happened and it isn&rsquo;t unlikely to happen again&hellip;</p>
 <p>When you operate your own (tiny) recursive DNS server, then the likeliness of getting affected by such an attack is greatly reduced.</p>
+<hr>
 <h5 id="setting-up-pi-hole-as-a-recursive-dns-server-solution">
   Setting up Pi-hole as a recursive DNS server solution
   <a class="heading-link" href="#setting-up-pi-hole-as-a-recursive-dns-server-solution">
@@ -320,7 +324,8 @@ Pi-hole includes a caching and forwarding DNS server, now known as FTLDNS. After
 </span></span><span style="display:flex;"><span>    private-address: 10.0.0.0/8
 </span></span><span style="display:flex;"><span>    private-address: fd00::/8
 </span></span><span style="display:flex;"><span>    private-address: fe80::/10
-</span></span></code></pre></div><h5 id="configure-pi-hole">
+</span></span></code></pre></div><p>&ndash;</p>
+<h5 id="configure-pi-hole">
   Configure Pi-hole
   <a class="heading-link" href="#configure-pi-hole">
     <i class="fa fa-link" aria-hidden="true"></i>
@@ -333,6 +338,8 @@ Pi-hole includes a caching and forwarding DNS server, now known as FTLDNS. After
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sudo service unbound restart
 </span></span></code></pre></div><hr>
 <p><strong>And that’s it! New unblocked DNS requests will be made directly to the authoritative servers instead of routing through a third party dns services like Quad9 or Google, etc.</strong></p>
+<p><code>---&gt; Another Option</code></p>
+<p><a href="https://github.com/AdguardTeam/AdGuardHome">Adguard Home - Free and open source, powerful network-wide ads &amp; trackers blocking DNS server</a></p>
 <hr>
 <h3 id="read-more-blogs-related-to">
   Read More Blogs related to:

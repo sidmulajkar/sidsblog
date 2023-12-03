@@ -1,5 +1,5 @@
 ---
-title: "When Indexes are not Useable sometimes!"
+title: "Effective Strategies to Optimize Database Performance: Insights into Unusable Indexes"
 categories: [btrees, index, data-structure, database, sidsblog]
 tags: [btrees, indexing, indexing-types, data-structure, database, sidsblog]
 date: 2021-11-16T17:26:04+05:30
@@ -25,7 +25,7 @@ Before getting to the conclusion
 
 ---
 
-### What is Indexing? firstly...
+##### What is Indexing? firstly...
 
 It is a way to optimize the performance of a database by minimizing the number of disk accesses required when a query is processed. 
 
@@ -33,9 +33,9 @@ It is a data structure technique that is used to quickly locate and access the d
 
 ![Indexing](/images/indexingusefulornot/index.png)
 
----
+--
 
-**Types of Indexing:**
+##### Types of Indexing:
 
 Indexing in Database is defined based on its indexing attributes. Two main types of indexing methods are:
 
@@ -94,7 +94,7 @@ More In-Depth Details: https://prepinsta.com/dbms/indexing-and-its-types
 
 ---
 
-### There are two types of database indexing architecture:
+#### There are two types of database indexing architecture:
 
 1. Clustered
 2. Non-clustered
@@ -105,23 +105,25 @@ More Details on that: https://www.guru99.com/clustered-vs-non-clustered-index.ht
 
 ***If you haven't read more on B-Trees https://sidmulajkar.com/posts/b-bplus-trees/***
 
----
+--
 
-### Power of Indexing:
+#### Power of Indexing:
 
 ***Indexing plays a crucial role especially in applications such as eCommerce websites. Imagine that you are looking to buy a new bag on an eCommerce website.***
 
-You type in the search query and you expect to see a range of options that you’d like to choose from. 
+--
 
+You type in the search query and you expect to see a range of options that you’d like to choose from. 
 
 However, due to the ***absence of indexing you are stuck looking at a blank screen for the next 15 mins waiting for the relevant data to load***, or even worse, you get everything ranging from garments to electronics as an answer to your result.
 
+--
 
 ***Given the number of alternative eCommerce websites on the internet, I highly doubt that you’d be willing to patiently wait around instead of simply logging onto a faster one.***
 
 ---
 
-### When indexes need change, it requires doing a test on
+#### When indexes need change, it requires doing a test on
 
 How removing an index will affect the overall performance?
 
@@ -140,7 +142,7 @@ But...
 As your database becomes larger and larger, the more likely you are to see benefits from indexing.
 
 
-**When not to use Indexes:**
+#### When not to use Indexes:
 
 - Indexes should not be used on small tables.
 
@@ -155,15 +157,15 @@ As your database becomes larger and larger, the more likely you are to see benef
 
 ---
 
-### For the longest time, what we do is search the table one by one sequentially (page by page). 
+#### For the longest time, what we do is search the table one by one sequentially (page by page). 
 
 It's basically like a full table scan and if the key is also unique you have to scan the whole table anyway, which is very slow.
 
-**How to make it faster?** How do we make searching one million stuff faster?
+**How to make it fast?** How do we make searching one million stuff faster?
 
 Well,
 
-- Split the table in like n numbers and parallelly process the database in a distributed manner. (Complicated but one way of doing it)
+- Split the table in like `n` numbers and parallelly process the database in a distributed manner. (Complicated but one way of doing it)
 
 - Partition the database based on chunk key sizes.
 
@@ -180,7 +182,7 @@ Which is better?
 ---
 
 
-**Disabling an Index:**
+#### Disabling an Index:
 
 What happens when you do this? 
 
@@ -189,8 +191,11 @@ The metadata about the **index is retained**, as are the usage statistics. The i
 
 If you have an index hint in a query specifying the index, the query will fail. Also, foreign key constraints are disabled.
 
+--
 
-I want it back! 
+Okay, I want it back! 
+
+--
 
 How to **re-enable a disabled index**
 
@@ -219,7 +224,7 @@ Disabling a Clustered index has additional effects. The data in the table still 
 
 ---
 
-### How do I know if I'm using an Index:
+#### How do I know if I'm using an Index:
 
 Just add "explain" at the beginning of the query.
 
@@ -232,7 +237,7 @@ or
 ##### It has been an advantage to the database and still using it?
 
 
-### let me [know](mailto:hi@sidmulajkar.com) regarding this with your experience using the indexes
+#### let me [know](mailto:hi@sidmulajkar.com) regarding this with your experience using the indexes
 
 ---
 

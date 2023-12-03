@@ -13,7 +13,7 @@
  
     
     
-      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' 'strict-dynamic' 'unsafe-inline' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self'; object-src 'none'; style-src 'self' 'strict-dynamic' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline' 'https:'; prefetch-src 'self' 'unsafe-inline' 'strict-dynamic';">
+      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' 'strict-dynamic' 'unsafe-inline' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self' 'strict-dynamic'; object-src 'none'; style-src 'self' 'strict-dynamic' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline'; prefetch-src 'self' 'unsafe-inline' 'strict-dynamic';">
     
 
     <meta name="author" content="Hi, I&#39;m Siddhant Mulajkar!">
@@ -118,7 +118,7 @@
         "datePublished": "2021-10-25 17:26:04 \u002b0530 \u002b0530",
         "dateModified" : "2021-10-25 17:26:04 \u002b0530 \u002b0530",
         "url" : "https:\/\/sidmulajkar.com\/posts\/b-bplus-trees\/",
-        "wordCount" : "1315",
+        "wordCount" : "1318",
         "keywords" : [ "btrees","bplus-trees","trees","data-structure","database","sidsblog","Blog" ]
     }
 </script>
@@ -221,15 +221,16 @@
 
       <div>
         
-        <h5 id="what-are-those-ever-used-those-while-searching-through-the-dataset">
-  What are those? Ever used those while searching through the dataset.
-  <a class="heading-link" href="#what-are-those-ever-used-those-while-searching-through-the-dataset">
+        <h5 id="what-are-those-ever-used-trees-while-searching-through-the-dataset">
+  What are those? Ever used trees while searching through the dataset.
+  <a class="heading-link" href="#what-are-those-ever-used-trees-while-searching-through-the-dataset">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h5>
-<p><strong>How they are useful in databases?</strong></p>
+<p><strong>How B trees are useful in databases?</strong></p>
 <hr>
 <p>To understand stuff more clearly let&rsquo;s take a scenario:</p>
+<p>&ndash;</p>
 <p><em><strong>Like we have a table, a huge table(millions of rows to go through), and we want to search to a particular numbered row by some id mentioned &ldquo;100035&rdquo; and not only pulling a row but getting most out of the pulled row.</strong></em></p>
 <p>&ndash;</p>
 <h5 id="for-the-longest-time-what-we-do-is-search-the-table-one-by-one-sequentially-page-by-page">
@@ -263,12 +264,12 @@
 <p>So how do we use these trees and are they really useful? Best video to understand the concept by Abdul Bari</p>
 <p><a href="https://cf.piped.video/watch?v=aZjYr87r1b8" title="B Trees"><img src="https://sidmulajkar.com/images/btrees/btree3.jpeg" alt="B Trees"></a></p>
 <hr>
-<h3 id="before-going-in-depth-lets-understand-what-b-tree-is">
+<h4 id="before-going-in-depth-lets-understand-what-b-tree-is">
   Before going in-depth let&rsquo;s understand what B Tree is.
   <a class="heading-link" href="#before-going-in-depth-lets-understand-what-b-tree-is">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
+</h4>
 <p>B-tree is a special type of self-balancing search tree in which each node can contain more than one key and can have more than two children. It is a generalized form of the binary search tree.</p>
 <p><img src="https://sidmulajkar.com/images/btrees/btree.jpeg" alt="B Tree"></p>
 <p>It is also known as a height-balanced m-way tree.</p>
@@ -305,7 +306,13 @@
 <p><a href="https://www.cs.usfca.edu/~galles/visualization/BTree.html">https://www.cs.usfca.edu/~galles/visualization/BTree.html</a></p>
 <p><img src="https://sidmulajkar.com/images/btrees/btree2.jpeg" alt="B Tree Sample"></p>
 <hr>
-<p><strong>B Tree&rsquo;s Application:</strong></p>
+<h5 id="b-trees-application">
+  B Tree&rsquo;s Application:
+  <a class="heading-link" href="#b-trees-application">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h5>
+<p>&ndash;</p>
 <p>B tree is used to index the data and provides fast access to the actual data stored on the disks since access to the value stored in a large database that is stored on a disk is a very time-consuming process.</p>
 <p>&ndash;</p>
 <p>The <strong>major drawback</strong> of the B-tree is the difficulty of traversing the keys sequentially. To understand more clearly,</p>
@@ -320,12 +327,12 @@
 </ul>
 <p>That&rsquo;s where <strong>B+ Trees</strong> comes in to picture&hellip;</p>
 <hr>
-<h3 id="b-tree">
+<h5 id="b-tree">
   B+ Tree:
   <a class="heading-link" href="#b-tree">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h3>
+</h5>
 <p><em><strong>A B+ tree is an advanced form of a self-balancing tree in which all the values are present at the leaf level.</strong></em></p>
 <p><img src="https://sidmulajkar.com/images/btrees/bplus.png" alt="B+ Tree Sample"></p>
 <p>A B+ tree is an extension of a B tree which makes the search, insert and delete operations more efficient. We know that B trees allow both the data pointers and the key values in internal nodes as well as leaf nodes, this certainly becomes a drawback for B trees as the ability to insert the nodes at a particular level is decreased thus increase the node levels in it, which is certainly of no good.</p>

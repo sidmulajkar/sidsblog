@@ -13,14 +13,16 @@
       <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/databases-how-do-we-know-its-the-right-one/</guid>
-      <description>Choosing the Best Database? Whether you are an experienced software engineer or a student doing a university project, at some point we will need to choose a DB for our project.
+      <description>Choosing the Best Database? &amp;ndash;
+Whether you are an experienced software engineer or a student doing a university project, at some point we will need to choose a DB for our project.
 Choosing the right kind of database always requires some consideration.
 &amp;ndash;
-First of all, databases will not impact our functional requirements. Whichever database we use can still achieve our functional requirements somehow, but at the cost of huge performance degradation.</description>
+First of all, databases will not impact our functional requirements. &amp;ndash;
+Whichever database we use can still achieve our functional requirements somehow, but at the cost of huge performance degradation.</description>
     </item>
     
     <item>
-      <title>Message Queues! What are those and when to use them? </title>
+      <title>Message Queues and Their Practical Applications</title>
       <link>https://sidmulajkar.com/posts/message-queues/</link>
       <pubDate>Fri, 26 Nov 2021 17:26:04 +0530</pubDate>
       
@@ -33,7 +35,7 @@ Imagine that we have a web application for customers to upload a text document, 
     </item>
     
     <item>
-      <title>When Indexes are not Useable sometimes!</title>
+      <title>Effective Strategies to Optimize Database Performance: Insights into Unusable Indexes</title>
       <link>https://sidmulajkar.com/posts/when-indexes-are-not-useable/</link>
       <pubDate>Tue, 16 Nov 2021 17:26:04 +0530</pubDate>
       
@@ -50,10 +52,10 @@ wait&amp;hellip;</description>
       <pubDate>Mon, 25 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/b-bplus-trees/</guid>
-      <description>What are those? Ever used those while searching through the dataset. How they are useful in databases?
+      <description>What are those? Ever used trees while searching through the dataset. How B trees are useful in databases?
 To understand stuff more clearly let&amp;rsquo;s take a scenario:
-Like we have a table, a huge table(millions of rows to go through), and we want to search to a particular numbered row by some id mentioned &amp;ldquo;100035&amp;rdquo; and not only pulling a row but getting most out of the pulled row.
-&amp;ndash;</description>
+&amp;ndash;
+Like we have a table, a huge table(millions of rows to go through), and we want to search to a particular numbered row by some id mentioned &amp;ldquo;100035&amp;rdquo; and not only pulling a row but getting most out of the pulled row.</description>
     </item>
     
   </channel>

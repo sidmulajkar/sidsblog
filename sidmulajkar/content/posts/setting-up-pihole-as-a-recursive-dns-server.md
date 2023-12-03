@@ -10,7 +10,11 @@ draft: false
 
 **Got an old Raspberry Pi lying around? Hate seeing ads while browsing the web? Pi-hole is an open-source software project that blocks ads for all devices on your home network by routing all advertising servers into nowhere. What’s best is it takes just a few minutes to set up.**
 
+--
+
 ![Pihole](/images/pihole-rdns/logo.png)
+
+--
 
 ##### What is a Pi-hole?
 
@@ -24,6 +28,7 @@ The first distinction we have to be aware of is whether a DNS server is authorit
 
 ![Pihole-web](/images/pihole-rdns/dashboard.png)
 
+--
 
 ##### Pi-hole as All-Around DNS Solution
 
@@ -34,6 +39,7 @@ Furthermore, from the point of an attacker, the DNS servers of larger providers 
 
 When you operate your own (tiny) recursive DNS server, then the likeliness of getting affected by such an attack is greatly reduced.
 
+---
 
 ##### Setting up Pi-hole as a recursive DNS server solution
 
@@ -110,6 +116,8 @@ server:
     private-address: fe80::/10
 ```
 
+--
+
 ##### Configure Pi-hole
 
 Finally, configure Pi-hole to use your recursive DNS server by specifying **127.0.0.1#5335** as the Custom DNS (IPv4):
@@ -127,6 +135,10 @@ sudo service unbound restart
 ---
 
 **And that’s it! New unblocked DNS requests will be made directly to the authoritative servers instead of routing through a third party dns services like Quad9 or Google, etc.**
+
+``---> Another Option``
+
+[Adguard Home - Free and open source, powerful network-wide ads & trackers blocking DNS server](https://github.com/AdguardTeam/AdGuardHome)
 
 ---
 

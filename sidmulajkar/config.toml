@@ -3,7 +3,7 @@ title = "> sidmulajkar"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
-paginate = 30
+paginate = 150
 pygmentsStyle = "b2"
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
@@ -57,7 +57,7 @@ childsrc = ["'self'"]
 fontsrc = ["'self'", "'strict-dynamic'", "'unsafe-inline'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
 formaction = ["'self'"]
 framesrc = ["'self'"]
-imgsrc = ["'self'"]
+imgsrc = ["'self'","'strict-dynamic'"]
 objectsrc = ["'none'"]
 stylesrc = [
   "'self'",
@@ -67,8 +67,7 @@ stylesrc = [
   "https://cdn.jsdelivr.net/"
 ]
 scriptsrc = ["'self'",
-    "'unsafe-inline'",
-    "'https:'"
+    "'unsafe-inline'"
     ]
 
 prefetchsrc = ["'self'", "'unsafe-inline'", "'strict-dynamic'"]
