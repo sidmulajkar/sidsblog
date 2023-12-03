@@ -89,6 +89,15 @@
     </item>
     
     <item>
+      <title>onion play</title>
+      <link>https://sidmulajkar.com/categories/onion-play/</link>
+      <pubDate>Mon, 30 May 2022 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/onion-play/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>onion website</title>
       <link>https://sidmulajkar.com/categories/onion-website/</link>
       <pubDate>Mon, 30 May 2022 17:26:04 +0530</pubDate>
@@ -98,11 +107,20 @@
     </item>
     
     <item>
-      <title>raspberrypi</title>
-      <link>https://sidmulajkar.com/categories/raspberrypi/</link>
+      <title>raspberry</title>
+      <link>https://sidmulajkar.com/categories/raspberry/</link>
       <pubDate>Mon, 30 May 2022 17:26:04 +0530</pubDate>
       
-      <guid>https://sidmulajkar.com/categories/raspberrypi/</guid>
+      <guid>https://sidmulajkar.com/categories/raspberry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>raspberry pi</title>
+      <link>https://sidmulajkar.com/categories/raspberry-pi/</link>
+      <pubDate>Mon, 30 May 2022 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/raspberry-pi/</guid>
       <description></description>
     </item>
     
@@ -206,11 +224,11 @@
     </item>
     
     <item>
-      <title>data-structure</title>
-      <link>https://sidmulajkar.com/categories/data-structure/</link>
+      <title>data structures</title>
+      <link>https://sidmulajkar.com/categories/data-structures/</link>
       <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
       
-      <guid>https://sidmulajkar.com/categories/data-structure/</guid>
+      <guid>https://sidmulajkar.com/categories/data-structures/</guid>
       <description></description>
     </item>
     
@@ -224,6 +242,69 @@
     </item>
     
     <item>
+      <title>mysql</title>
+      <link>https://sidmulajkar.com/categories/mysql/</link>
+      <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nosql</title>
+      <link>https://sidmulajkar.com/categories/nosql/</link>
+      <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/nosql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nosql database</title>
+      <link>https://sidmulajkar.com/categories/nosql-database/</link>
+      <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/nosql-database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nosql-vs-sql</title>
+      <link>https://sidmulajkar.com/categories/nosql-vs-sql/</link>
+      <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/nosql-vs-sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rdbms</title>
+      <link>https://sidmulajkar.com/categories/rdbms/</link>
+      <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/rdbms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sql</title>
+      <link>https://sidmulajkar.com/categories/sql/</link>
+      <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sql database</title>
+      <link>https://sidmulajkar.com/categories/sql-database/</link>
+      <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/sql-database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>vertical scaling</title>
       <link>https://sidmulajkar.com/categories/vertical-scaling/</link>
       <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
@@ -233,11 +314,29 @@
     </item>
     
     <item>
-      <title>backend-engineering</title>
-      <link>https://sidmulajkar.com/categories/backend-engineering/</link>
+      <title>backend</title>
+      <link>https://sidmulajkar.com/categories/backend/</link>
       <pubDate>Fri, 26 Nov 2021 17:26:04 +0530</pubDate>
       
-      <guid>https://sidmulajkar.com/categories/backend-engineering/</guid>
+      <guid>https://sidmulajkar.com/categories/backend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>engineering</title>
+      <link>https://sidmulajkar.com/categories/engineering/</link>
+      <pubDate>Fri, 26 Nov 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>message</title>
+      <link>https://sidmulajkar.com/categories/message/</link>
+      <pubDate>Fri, 26 Nov 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/message/</guid>
       <description></description>
     </item>
     
@@ -247,6 +346,15 @@
       <pubDate>Fri, 26 Nov 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/categories/queue/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rabbitmq</title>
+      <link>https://sidmulajkar.com/categories/rabbitmq/</link>
+      <pubDate>Fri, 26 Nov 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/rabbitmq/</guid>
       <description></description>
     </item>
     
@@ -269,11 +377,38 @@
     </item>
     
     <item>
+      <title>indexing</title>
+      <link>https://sidmulajkar.com/categories/indexing/</link>
+      <pubDate>Tue, 16 Nov 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/indexing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>b tree</title>
+      <link>https://sidmulajkar.com/categories/b-tree/</link>
+      <pubDate>Mon, 25 Oct 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/b-tree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>bplus-trees</title>
       <link>https://sidmulajkar.com/categories/bplus-trees/</link>
       <pubDate>Mon, 25 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/categories/bplus-trees/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>btree</title>
+      <link>https://sidmulajkar.com/categories/btree/</link>
+      <pubDate>Mon, 25 Oct 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/btree/</guid>
       <description></description>
     </item>
     
@@ -305,6 +440,15 @@
     </item>
     
     <item>
+      <title>database-sharding</title>
+      <link>https://sidmulajkar.com/categories/database-sharding/</link>
+      <pubDate>Sun, 17 Oct 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/database-sharding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>sharding</title>
       <link>https://sidmulajkar.com/categories/sharding/</link>
       <pubDate>Sun, 17 Oct 2021 17:26:04 +0530</pubDate>
@@ -314,20 +458,29 @@
     </item>
     
     <item>
-      <title>sql</title>
-      <link>https://sidmulajkar.com/categories/sql/</link>
-      <pubDate>Sun, 17 Oct 2021 17:26:04 +0530</pubDate>
+      <title>advantages</title>
+      <link>https://sidmulajkar.com/categories/advantages/</link>
+      <pubDate>Thu, 14 Oct 2021 17:26:04 +0530</pubDate>
       
-      <guid>https://sidmulajkar.com/categories/sql/</guid>
+      <guid>https://sidmulajkar.com/categories/advantages/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>backend</title>
-      <link>https://sidmulajkar.com/categories/backend/</link>
-      <pubDate>Wed, 06 Oct 2021 17:26:04 +0530</pubDate>
+      <title>disadvantages</title>
+      <link>https://sidmulajkar.com/categories/disadvantages/</link>
+      <pubDate>Thu, 14 Oct 2021 17:26:04 +0530</pubDate>
       
-      <guid>https://sidmulajkar.com/categories/backend/</guid>
+      <guid>https://sidmulajkar.com/categories/disadvantages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sharding-architectures</title>
+      <link>https://sidmulajkar.com/categories/sharding-architectures/</link>
+      <pubDate>Thu, 14 Oct 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/sharding-architectures/</guid>
       <description></description>
     </item>
     
@@ -337,6 +490,15 @@
       <pubDate>Wed, 06 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/categories/developement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>network</title>
+      <link>https://sidmulajkar.com/categories/network/</link>
+      <pubDate>Wed, 06 Oct 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/network/</guid>
       <description></description>
     </item>
     
@@ -364,6 +526,15 @@
       <pubDate>Wed, 06 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/categories/tcp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tcp ip</title>
+      <link>https://sidmulajkar.com/categories/tcp-ip/</link>
+      <pubDate>Wed, 06 Oct 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/tcp-ip/</guid>
       <description></description>
     </item>
     
@@ -404,29 +575,56 @@
     </item>
     
     <item>
-      <title>installing wsl2 for ubuntu using linux subsytem</title>
-      <link>https://sidmulajkar.com/categories/installing-wsl2-for-ubuntu-using-linux-subsytem/</link>
+      <title>docker desktop</title>
+      <link>https://sidmulajkar.com/categories/docker-desktop/</link>
       <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
       
-      <guid>https://sidmulajkar.com/categories/installing-wsl2-for-ubuntu-using-linux-subsytem/</guid>
+      <guid>https://sidmulajkar.com/categories/docker-desktop/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>linuxsubsystem</title>
-      <link>https://sidmulajkar.com/categories/linuxsubsystem/</link>
+      <title>docker wsl2</title>
+      <link>https://sidmulajkar.com/categories/docker-wsl2/</link>
       <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
       
-      <guid>https://sidmulajkar.com/categories/linuxsubsystem/</guid>
+      <guid>https://sidmulajkar.com/categories/docker-wsl2/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Ubuntu</title>
-      <link>https://sidmulajkar.com/categories/ubuntu/</link>
+      <title>guide</title>
+      <link>https://sidmulajkar.com/categories/guide/</link>
       <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
       
-      <guid>https://sidmulajkar.com/categories/ubuntu/</guid>
+      <guid>https://sidmulajkar.com/categories/guide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu installation</title>
+      <link>https://sidmulajkar.com/categories/ubuntu-installation/</link>
+      <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/ubuntu-installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows subsystem for linux</title>
+      <link>https://sidmulajkar.com/categories/windows-subsystem-for-linux/</link>
+      <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/windows-subsystem-for-linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows wsl</title>
+      <link>https://sidmulajkar.com/categories/windows-wsl/</link>
+      <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/windows-wsl/</guid>
       <description></description>
     </item>
     
@@ -449,6 +647,42 @@
     </item>
     
     <item>
+      <title>wsl 2</title>
+      <link>https://sidmulajkar.com/categories/wsl-2/</link>
+      <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/wsl-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wsl install</title>
+      <link>https://sidmulajkar.com/categories/wsl-install/</link>
+      <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/wsl-install/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wsl2</title>
+      <link>https://sidmulajkar.com/categories/wsl2/</link>
+      <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/wsl2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wsl2 install</title>
+      <link>https://sidmulajkar.com/categories/wsl2-install/</link>
+      <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/wsl2-install/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>flutter installation</title>
       <link>https://sidmulajkar.com/categories/flutter-installation/</link>
       <pubDate>Sun, 05 Sep 2021 17:26:04 +0530</pubDate>
@@ -463,6 +697,15 @@
       <pubDate>Sun, 05 Sep 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/categories/flutter-installation-in-ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>install flutter</title>
+      <link>https://sidmulajkar.com/categories/install-flutter/</link>
+      <pubDate>Sun, 05 Sep 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/install-flutter/</guid>
       <description></description>
     </item>
     

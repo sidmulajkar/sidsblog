@@ -1,7 +1,7 @@
 ---
 title: "Message Queues and Their Practical Applications"
-categories: [queue, data-structure, database,backend-engineering, sidsblog]
-tags: [queue, data-structure, database,backend-engineering, sidsblog]
+categories: [mysql, sql database, nosql, nosql database, rdbms, data structures, database, queue, data structures, message, queue, database, rabbitmq, backend, engineering, sidsblog]
+tags: [mysql, sql database, nosql, nosql database, rdbms, data structures, message, database, queue, data structures, database, rabbitmq, backend, engineering, sidsblog]
 date: 2021-11-26T17:26:04+05:30
 description: "This tutorial will help you understand the message queues."
 author: Siddhant Mulajkar
@@ -164,6 +164,6 @@ The queue can provide protection from service outages and failures.
 
 ### Read More Blogs related to:
 
-***[database]({{< relref "/tags/database/">}}) / [linuxsubsystem(wsl)]({{< relref "/tags/linuxsubsystem/">}}) / [flutter installation]({{< relref "/tags/flutter-installation">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberrypi">}})*** 
+***[db-concepts]({{< relref "/tags/database/">}}) / [linuxsubsystem(wsl)]({{< relref "/tags/wsl2">}}) / [flutter-installation]({{< relref "/tags/flutter">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberry">}})***
 
 --

@@ -89,6 +89,15 @@
     </item>
     
     <item>
+      <title>onion play</title>
+      <link>https://sidmulajkar.com/tags/onion-play/</link>
+      <pubDate>Mon, 30 May 2022 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/onion-play/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>onion website</title>
       <link>https://sidmulajkar.com/tags/onion-website/</link>
       <pubDate>Mon, 30 May 2022 17:26:04 +0530</pubDate>
@@ -98,11 +107,20 @@
     </item>
     
     <item>
-      <title>raspberrypi</title>
-      <link>https://sidmulajkar.com/tags/raspberrypi/</link>
+      <title>raspberry</title>
+      <link>https://sidmulajkar.com/tags/raspberry/</link>
       <pubDate>Mon, 30 May 2022 17:26:04 +0530</pubDate>
       
-      <guid>https://sidmulajkar.com/tags/raspberrypi/</guid>
+      <guid>https://sidmulajkar.com/tags/raspberry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>raspberry pi</title>
+      <link>https://sidmulajkar.com/tags/raspberry-pi/</link>
+      <pubDate>Mon, 30 May 2022 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/raspberry-pi/</guid>
       <description></description>
     </item>
     
@@ -130,6 +148,15 @@
       <pubDate>Sat, 19 Mar 2022 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/tags/concurrency-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data structures</title>
+      <link>https://sidmulajkar.com/tags/data-structures/</link>
+      <pubDate>Sat, 19 Mar 2022 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/data-structures/</guid>
       <description></description>
     </item>
     
@@ -179,6 +206,33 @@
     </item>
     
     <item>
+      <title>mysql</title>
+      <link>https://sidmulajkar.com/tags/mysql/</link>
+      <pubDate>Sat, 19 Mar 2022 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nosql</title>
+      <link>https://sidmulajkar.com/tags/nosql/</link>
+      <pubDate>Sat, 19 Mar 2022 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/nosql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nosql database</title>
+      <link>https://sidmulajkar.com/tags/nosql-database/</link>
+      <pubDate>Sat, 19 Mar 2022 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/nosql-database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>optimistic approach</title>
       <link>https://sidmulajkar.com/tags/optimistic-approach/</link>
       <pubDate>Sat, 19 Mar 2022 17:26:04 +0530</pubDate>
@@ -197,20 +251,29 @@
     </item>
     
     <item>
+      <title>rdbms</title>
+      <link>https://sidmulajkar.com/tags/rdbms/</link>
+      <pubDate>Sat, 19 Mar 2022 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/rdbms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sql database</title>
+      <link>https://sidmulajkar.com/tags/sql-database/</link>
+      <pubDate>Sat, 19 Mar 2022 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/sql-database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>time stamping</title>
       <link>https://sidmulajkar.com/tags/time-stamping/</link>
       <pubDate>Sat, 19 Mar 2022 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/tags/time-stamping/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>data-structure</title>
-      <link>https://sidmulajkar.com/tags/data-structure/</link>
-      <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
-      
-      <guid>https://sidmulajkar.com/tags/data-structure/</guid>
       <description></description>
     </item>
     
@@ -224,6 +287,24 @@
     </item>
     
     <item>
+      <title>nosql-vs-sql</title>
+      <link>https://sidmulajkar.com/tags/nosql-vs-sql/</link>
+      <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/nosql-vs-sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sql</title>
+      <link>https://sidmulajkar.com/tags/sql/</link>
+      <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>vertical scaling</title>
       <link>https://sidmulajkar.com/tags/vertical-scaling/</link>
       <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
@@ -233,11 +314,29 @@
     </item>
     
     <item>
-      <title>backend-engineering</title>
-      <link>https://sidmulajkar.com/tags/backend-engineering/</link>
+      <title>backend</title>
+      <link>https://sidmulajkar.com/tags/backend/</link>
       <pubDate>Fri, 26 Nov 2021 17:26:04 +0530</pubDate>
       
-      <guid>https://sidmulajkar.com/tags/backend-engineering/</guid>
+      <guid>https://sidmulajkar.com/tags/backend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>engineering</title>
+      <link>https://sidmulajkar.com/tags/engineering/</link>
+      <pubDate>Fri, 26 Nov 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>message</title>
+      <link>https://sidmulajkar.com/tags/message/</link>
+      <pubDate>Fri, 26 Nov 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/message/</guid>
       <description></description>
     </item>
     
@@ -251,11 +350,38 @@
     </item>
     
     <item>
-      <title>btrees</title>
-      <link>https://sidmulajkar.com/tags/btrees/</link>
+      <title>rabbitmq</title>
+      <link>https://sidmulajkar.com/tags/rabbitmq/</link>
+      <pubDate>Fri, 26 Nov 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/rabbitmq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>b tree</title>
+      <link>https://sidmulajkar.com/tags/b-tree/</link>
       <pubDate>Tue, 16 Nov 2021 17:26:04 +0530</pubDate>
       
-      <guid>https://sidmulajkar.com/tags/btrees/</guid>
+      <guid>https://sidmulajkar.com/tags/b-tree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bplus-trees</title>
+      <link>https://sidmulajkar.com/tags/bplus-trees/</link>
+      <pubDate>Tue, 16 Nov 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/bplus-trees/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>btree</title>
+      <link>https://sidmulajkar.com/tags/btree/</link>
+      <pubDate>Tue, 16 Nov 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/btree/</guid>
       <description></description>
     </item>
     
@@ -269,27 +395,27 @@
     </item>
     
     <item>
-      <title>indexing-types</title>
-      <link>https://sidmulajkar.com/tags/indexing-types/</link>
+      <title>tree</title>
+      <link>https://sidmulajkar.com/tags/tree/</link>
       <pubDate>Tue, 16 Nov 2021 17:26:04 +0530</pubDate>
       
-      <guid>https://sidmulajkar.com/tags/indexing-types/</guid>
+      <guid>https://sidmulajkar.com/tags/tree/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>bplus-trees</title>
-      <link>https://sidmulajkar.com/tags/bplus-trees/</link>
-      <pubDate>Mon, 25 Oct 2021 17:26:04 +0530</pubDate>
+      <title>tree data structure</title>
+      <link>https://sidmulajkar.com/tags/tree-data-structure/</link>
+      <pubDate>Tue, 16 Nov 2021 17:26:04 +0530</pubDate>
       
-      <guid>https://sidmulajkar.com/tags/bplus-trees/</guid>
+      <guid>https://sidmulajkar.com/tags/tree-data-structure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>trees</title>
       <link>https://sidmulajkar.com/tags/trees/</link>
-      <pubDate>Mon, 25 Oct 2021 17:26:04 +0530</pubDate>
+      <pubDate>Tue, 16 Nov 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/tags/trees/</guid>
       <description></description>
@@ -301,6 +427,15 @@
       <pubDate>Sun, 17 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/tags/advantages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>database sharding</title>
+      <link>https://sidmulajkar.com/tags/database-sharding/</link>
+      <pubDate>Sun, 17 Oct 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/database-sharding/</guid>
       <description></description>
     </item>
     
@@ -332,29 +467,20 @@
     </item>
     
     <item>
-      <title>sql</title>
-      <link>https://sidmulajkar.com/tags/sql/</link>
-      <pubDate>Sun, 17 Oct 2021 17:26:04 +0530</pubDate>
-      
-      <guid>https://sidmulajkar.com/tags/sql/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>backend</title>
-      <link>https://sidmulajkar.com/tags/backend/</link>
-      <pubDate>Wed, 06 Oct 2021 17:26:04 +0530</pubDate>
-      
-      <guid>https://sidmulajkar.com/tags/backend/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>developement</title>
       <link>https://sidmulajkar.com/tags/developement/</link>
       <pubDate>Wed, 06 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/tags/developement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>network</title>
+      <link>https://sidmulajkar.com/tags/network/</link>
+      <pubDate>Wed, 06 Oct 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/network/</guid>
       <description></description>
     </item>
     
@@ -382,6 +508,15 @@
       <pubDate>Wed, 06 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/tags/tcp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tcp ip</title>
+      <link>https://sidmulajkar.com/tags/tcp-ip/</link>
+      <pubDate>Wed, 06 Oct 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/tcp-ip/</guid>
       <description></description>
     </item>
     
@@ -422,6 +557,24 @@
     </item>
     
     <item>
+      <title>docker desktop</title>
+      <link>https://sidmulajkar.com/tags/docker-desktop/</link>
+      <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/docker-desktop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker wsl2</title>
+      <link>https://sidmulajkar.com/tags/docker-wsl2/</link>
+      <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/docker-wsl2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>guide</title>
       <link>https://sidmulajkar.com/tags/guide/</link>
       <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
@@ -431,20 +584,29 @@
     </item>
     
     <item>
-      <title>linuxsubsystem</title>
-      <link>https://sidmulajkar.com/tags/linuxsubsystem/</link>
-      <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
-      
-      <guid>https://sidmulajkar.com/tags/linuxsubsystem/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>ubuntu installation</title>
       <link>https://sidmulajkar.com/tags/ubuntu-installation/</link>
       <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/tags/ubuntu-installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows subsystem for linux</title>
+      <link>https://sidmulajkar.com/tags/windows-subsystem-for-linux/</link>
+      <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/windows-subsystem-for-linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows wsl</title>
+      <link>https://sidmulajkar.com/tags/windows-wsl/</link>
+      <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/windows-wsl/</guid>
       <description></description>
     </item>
     
@@ -467,11 +629,38 @@
     </item>
     
     <item>
+      <title>wsl 2</title>
+      <link>https://sidmulajkar.com/tags/wsl-2/</link>
+      <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/wsl-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wsl install</title>
+      <link>https://sidmulajkar.com/tags/wsl-install/</link>
+      <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/wsl-install/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>wsl2</title>
       <link>https://sidmulajkar.com/tags/wsl2/</link>
       <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/tags/wsl2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wsl2 install</title>
+      <link>https://sidmulajkar.com/tags/wsl2-install/</link>
+      <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/wsl2-install/</guid>
       <description></description>
     </item>
     
@@ -503,11 +692,38 @@
     </item>
     
     <item>
+      <title>flutter docs</title>
+      <link>https://sidmulajkar.com/tags/flutter-docs/</link>
+      <pubDate>Sun, 05 Sep 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/flutter-docs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>flutter installation</title>
       <link>https://sidmulajkar.com/tags/flutter-installation/</link>
       <pubDate>Sun, 05 Sep 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/tags/flutter-installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>flutter sdk</title>
+      <link>https://sidmulajkar.com/tags/flutter-sdk/</link>
+      <pubDate>Sun, 05 Sep 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/flutter-sdk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>install flutter</title>
+      <link>https://sidmulajkar.com/tags/install-flutter/</link>
+      <pubDate>Sun, 05 Sep 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/install-flutter/</guid>
       <description></description>
     </item>
     
@@ -526,6 +742,24 @@
       <pubDate>Tue, 30 Mar 2021 16:04:37 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/tags/dns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dns server</title>
+      <link>https://sidmulajkar.com/tags/dns-server/</link>
+      <pubDate>Tue, 30 Mar 2021 16:04:37 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/dns-server/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dns settings</title>
+      <link>https://sidmulajkar.com/tags/dns-settings/</link>
+      <pubDate>Tue, 30 Mar 2021 16:04:37 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/tags/dns-settings/</guid>
       <description></description>
     </item>
     
@@ -566,11 +800,11 @@
     </item>
     
     <item>
-      <title>setting up pihole as recursive-dns using raspberrypi</title>
-      <link>https://sidmulajkar.com/tags/setting-up-pihole-as-recursive-dns-using-raspberrypi/</link>
+      <title>setting up pihole as recursive-dns using raspberry pi</title>
+      <link>https://sidmulajkar.com/tags/setting-up-pihole-as-recursive-dns-using-raspberry-pi/</link>
       <pubDate>Tue, 30 Mar 2021 16:04:37 +0530</pubDate>
       
-      <guid>https://sidmulajkar.com/tags/setting-up-pihole-as-recursive-dns-using-raspberrypi/</guid>
+      <guid>https://sidmulajkar.com/tags/setting-up-pihole-as-recursive-dns-using-raspberry-pi/</guid>
       <description></description>
     </item>
     

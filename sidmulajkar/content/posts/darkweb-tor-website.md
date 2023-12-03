@@ -1,7 +1,7 @@
 ---
 title: "Tutorial: How to Create a Tor Dark Web Site Step-by-Step"
-categories: [tor, dark web, tor browser, cloud services, raspberrypi, microservices, onion website, sidsblog]
-tags: [tor, dark web, tor browser, cloud services, raspberrypi, microservices, onion website, sidsblog]
+categories: [tor, dark web, onion play, tor browser, cloud services, raspberry, raspberry pi, microservices, onion website, sidsblog]
+tags: [tor, dark web, onion play, tor browser, cloud services, raspberry, raspberry pi, microservices, onion website, sidsblog]
 date: 2022-05-30T17:26:04+05:30
 description: "In this blog, we will learn how to create a tor based website and do we actually need it."
 author: Siddhant Mulajkar
@@ -208,6 +208,6 @@ Despite these noble goals Tor also has a dark side. Obviously, the convenient (a
 
 ### Read More Blogs related to:
 
-***[database]({{< relref "/tags/database/">}}) / [linuxsubsystem(wsl)]({{< relref "/tags/linuxsubsystem/">}}) / [flutter installation]({{< relref "/tags/flutter-installation">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberrypi">}})*** 
+***[db-concepts]({{< relref "/tags/database/">}}) / [linuxsubsystem(wsl)]({{< relref "/tags/wsl2">}}) / [flutter-installation]({{< relref "/tags/flutter">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberry">}})***
 
 --

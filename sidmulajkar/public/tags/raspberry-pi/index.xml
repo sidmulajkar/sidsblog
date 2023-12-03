@@ -8,7 +8,7 @@
     <language>en</language>
     <lastBuildDate>Mon, 30 May 2022 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to create a tor based website?</title>
+      <title>Tutorial: How to Create a Tor Dark Web Site Step-by-Step</title>
       <link>https://sidmulajkar.com/posts/darkweb-tor-website/</link>
       <pubDate>Mon, 30 May 2022 17:26:04 +0530</pubDate>
       
@@ -18,6 +18,18 @@ For eg, as we go to any other website such as google.com or youtube.com, DuckDuc
 can also be accessed using duckduckgo.com or also using the tor address of the website
 https://3g2upl4pq6kufc4m.onion (using the tor browser)
 Why do we need even need it?</description>
+    </item>
+    
+    <item>
+      <title>Setting up Pi-hole as a recursive DNS server (Explained)</title>
+      <link>https://sidmulajkar.com/posts/setting-up-pihole-as-a-recursive-dns-server/</link>
+      <pubDate>Tue, 30 Mar 2021 16:04:37 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/posts/setting-up-pihole-as-a-recursive-dns-server/</guid>
+      <description>Got an old Raspberry Pi lying around? Hate seeing ads while browsing the web? Pi-hole is an open-source software project that blocks ads for all devices on your home network by routing all advertising servers into nowhere. What’s best is it takes just a few minutes to set up.
+&amp;ndash;
+&amp;ndash;
+What is a Pi-hole? Network-wide ad blocking via your own Linux hardware. The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.</description>
     </item>
     
   </channel>

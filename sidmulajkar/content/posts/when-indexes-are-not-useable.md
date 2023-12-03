@@ -1,9 +1,9 @@
 ---
 title: "Effective Strategies to Optimize Database Performance: Insights into Unusable Indexes"
-categories: [btrees, index, data-structure, database, sidsblog]
-tags: [btrees, indexing, indexing-types, data-structure, database, sidsblog]
+categories: [mysql, database, btrees, index, data structures, database, indexing, sidsblog]
+tags: [btree, b tree, bplus-trees, trees, tree, tree data structure, data structures, database, indexing, sidsblog]
 date: 2021-11-16T17:26:04+05:30
-description: "This tutorial will help you understand when indexes are useful or not accordingly."
+description: "This tutorial will help you understand effective strategies to optimize database performance and when indexes are become Unusable Indexes"
 author: Siddhant Mulajkar
 draft: false
 ---
@@ -243,6 +243,6 @@ or
 
 ### Read More Blogs related to:
 
-***[database]({{< relref "/tags/database/">}}) / [linuxsubsystem(wsl)]({{< relref "/tags/linuxsubsystem/">}}) / [flutter installation]({{< relref "/tags/flutter-installation">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberrypi">}})*** 
+***[db-concepts]({{< relref "/tags/database/">}}) / [linuxsubsystem(wsl)]({{< relref "/tags/wsl2">}}) / [flutter-installation]({{< relref "/tags/flutter">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberry">}})*** 
 
 --

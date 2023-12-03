@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mysql on &gt; sidmulajkar</title>
+    <link>https://sidmulajkar.com/tags/mysql/</link>
+    <description>Recent content in mysql on &gt; sidmulajkar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 19 Mar 2022 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Handle the Double booking problem in an app or website just using the database? </title>
+      <link>https://sidmulajkar.com/posts/how-to-handle-double-booking-problem-using-db/</link>
+      <pubDate>Sat, 19 Mar 2022 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/posts/how-to-handle-double-booking-problem-using-db/</guid>
+      <description>&amp;ndash;
+Well the Answer is :
+It totally depends, on what use, we are using the concurrency model, for using the specific database to avoid this problem.
+Firstly, what the heck is double booking problem? An online movie ticket booking system provides its customers with the ability to book movie tickets online. BookMyShow as an example allows the customers to browse movies currently being running in a city and to book seats, anywhere anytime for a show.</description>
+    </item>
+    
+    <item>
+      <title>Databases! How do we know it&#39;s the right one? </title>
+      <link>https://sidmulajkar.com/posts/databases-how-do-we-know-its-the-right-one/</link>
+      <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/posts/databases-how-do-we-know-its-the-right-one/</guid>
+      <description>Choosing the Best Database? &amp;ndash;
+Whether you are an experienced software engineer or a student doing a university project, at some point we will need to choose a DB for our project.
+Choosing the right kind of database always requires some consideration.
+&amp;ndash;
+First of all, databases will not impact our functional requirements. &amp;ndash;
+Whichever database we use can still achieve our functional requirements somehow, but at the cost of huge performance degradation.</description>
+    </item>
+    
+    <item>
+      <title>Message Queues and Their Practical Applications</title>
+      <link>https://sidmulajkar.com/posts/message-queues/</link>
+      <pubDate>Fri, 26 Nov 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/posts/message-queues/</guid>
+      <description>Message queues &amp;hellip;📨 📨
+The role of message queuing in a micro-service architecture.
+&amp;ndash;
+When is the right time to use a message queue and why is a database rarely the best tool for a queue-based problem? A blog on backend engineering&amp;hellip;
+Imagine that we have a web application for customers to upload a text document, which then converts it into a PDF, and then emails it back to the customer.</description>
+    </item>
+    
+    <item>
+      <title>Boosting Performance through Effective Database Sharding Architectures for Optimal Optimization</title>
+      <link>https://sidmulajkar.com/posts/database-sharding-architectures/</link>
+      <pubDate>Sun, 17 Oct 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/posts/database-sharding-architectures/</guid>
+      <description>Once you’ve decided to shard your database, the next thing you need to figure out is how you’ll go about doing so. Your application suddenly becomes popular. Traffic and data are starting to grow, and your database gets more overloaded every day.
+People on the internet tell you to scale your database by sharding, but you don’t know what it means.
+If you haven&amp;rsquo;t read the last blog post and want to know more about Database Sharding check the previous blog &amp;gt; What is Database Sharding</description>
+    </item>
+    
+    <item>
+      <title>Understanding Database Sharding?</title>
+      <link>https://sidmulajkar.com/posts/what-is-database-sharding/</link>
+      <pubDate>Thu, 14 Oct 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/posts/what-is-database-sharding/</guid>
+      <description>&amp;ndash;
+How often do you shard your database? Do you prematurely shard? Do you actually need that for your database?🤔 &amp;ndash;
+Analogy: Your application is growing. It has more active users, more features, and generates more data every day.
+Your database is now becoming a bottleneck for the rest of your application. Database sharding could be the solution to your problems.
+But Wait&amp;hellip; Q) What is Database Sharding? &amp;ndash;
+&amp;ndash;</description>
+    </item>
+    
+  </channel>
+</rss>

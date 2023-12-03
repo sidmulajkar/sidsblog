@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data structures on &gt; sidmulajkar</title>
+    <link>https://sidmulajkar.com/categories/data-structures/</link>
+    <description>Recent content in data structures on &gt; sidmulajkar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 23 Dec 2021 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/categories/data-structures/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Databases! How do we know it&#39;s the right one? </title>
+      <link>https://sidmulajkar.com/posts/databases-how-do-we-know-its-the-right-one/</link>
+      <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/posts/databases-how-do-we-know-its-the-right-one/</guid>
+      <description>Choosing the Best Database? &amp;ndash;
+Whether you are an experienced software engineer or a student doing a university project, at some point we will need to choose a DB for our project.
+Choosing the right kind of database always requires some consideration.
+&amp;ndash;
+First of all, databases will not impact our functional requirements. &amp;ndash;
+Whichever database we use can still achieve our functional requirements somehow, but at the cost of huge performance degradation.</description>
+    </item>
+    
+    <item>
+      <title>Message Queues and Their Practical Applications</title>
+      <link>https://sidmulajkar.com/posts/message-queues/</link>
+      <pubDate>Fri, 26 Nov 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/posts/message-queues/</guid>
+      <description>Message queues &amp;hellip;📨 📨
+The role of message queuing in a micro-service architecture.
+&amp;ndash;
+When is the right time to use a message queue and why is a database rarely the best tool for a queue-based problem? A blog on backend engineering&amp;hellip;
+Imagine that we have a web application for customers to upload a text document, which then converts it into a PDF, and then emails it back to the customer.</description>
+    </item>
+    
+    <item>
+      <title>Effective Strategies to Optimize Database Performance: Insights into Unusable Indexes</title>
+      <link>https://sidmulajkar.com/posts/when-indexes-are-not-useable/</link>
+      <pubDate>Tue, 16 Nov 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/posts/when-indexes-are-not-useable/</guid>
+      <description>What do I even mean by useless indexes? To improve the application and the database, indexes need to change over time.
+As the structure of the database change, the structure of the tables change, data in the tables change, the application changes, also the queries against the data change.
+Indexes that once helped performance now just bloat your database and cause extra work for inserts, updates, and deletes.
+wait&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>B/B&#43; Trees How they are helpful in Database?</title>
+      <link>https://sidmulajkar.com/posts/b-bplus-trees/</link>
+      <pubDate>Mon, 25 Oct 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/posts/b-bplus-trees/</guid>
+      <description>What are those? Ever used trees while searching through the dataset. How B trees are useful in databases?
+To understand stuff more clearly let&amp;rsquo;s take a scenario:
+&amp;ndash;
+Like we have a table, a huge table(millions of rows to go through), and we want to search to a particular numbered row by some id mentioned &amp;ldquo;100035&amp;rdquo; and not only pulling a row but getting most out of the pulled row.</description>
+    </item>
+    
+  </channel>
+</rss>

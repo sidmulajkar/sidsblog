@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nosql on &gt; sidmulajkar</title>
+    <link>https://sidmulajkar.com/categories/nosql/</link>
+    <description>Recent content in nosql on &gt; sidmulajkar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 23 Dec 2021 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/categories/nosql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Databases! How do we know it&#39;s the right one? </title>
+      <link>https://sidmulajkar.com/posts/databases-how-do-we-know-its-the-right-one/</link>
+      <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/posts/databases-how-do-we-know-its-the-right-one/</guid>
+      <description>Choosing the Best Database? &amp;ndash;
+Whether you are an experienced software engineer or a student doing a university project, at some point we will need to choose a DB for our project.
+Choosing the right kind of database always requires some consideration.
+&amp;ndash;
+First of all, databases will not impact our functional requirements. &amp;ndash;
+Whichever database we use can still achieve our functional requirements somehow, but at the cost of huge performance degradation.</description>
+    </item>
+    
+    <item>
+      <title>Message Queues and Their Practical Applications</title>
+      <link>https://sidmulajkar.com/posts/message-queues/</link>
+      <pubDate>Fri, 26 Nov 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/posts/message-queues/</guid>
+      <description>Message queues &amp;hellip;📨 📨
+The role of message queuing in a micro-service architecture.
+&amp;ndash;
+When is the right time to use a message queue and why is a database rarely the best tool for a queue-based problem? A blog on backend engineering&amp;hellip;
+Imagine that we have a web application for customers to upload a text document, which then converts it into a PDF, and then emails it back to the customer.</description>
+    </item>
+    
+  </channel>
+</rss>

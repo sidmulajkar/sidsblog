@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>windows subsystem for linux on &gt; sidmulajkar</title>
+    <link>https://sidmulajkar.com/tags/windows-subsystem-for-linux/</link>
+    <description>Recent content in windows subsystem for linux on &gt; sidmulajkar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 23 Sep 2021 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/tags/windows-subsystem-for-linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Step-by-Step Guide: Installing Ubuntu with Linux Subsystem WSL-2 on Windows 10 for Hassle-free Setup</title>
+      <link>https://sidmulajkar.com/posts/linux-subsytem-in-windows-wsl2/</link>
+      <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/posts/linux-subsytem-in-windows-wsl2/</guid>
+      <description>So, Ready to transform your Windows Environment in to your Linux Beast!!
+Before prcoeeding with the tutorial check if you have the proper version of Windows 10 installed using the winver command in Windows Start options or using the &amp;ldquo;Run&amp;rdquo; command to use the WSL-2. If you don&amp;rsquo;t have the similar version then try the updating the windows to work ahead. 1. Once you have the windows proper version then again open the windows start menu and then type &amp;ldquo;Turn on or off Windows Features&amp;rdquo; to open the dialog box as shown below.</description>
+    </item>
+    
+  </channel>
+</rss>
