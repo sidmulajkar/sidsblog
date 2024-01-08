@@ -6,7 +6,61 @@
     <description>Recent content in Categories on &gt; sidmulajkar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Oct 2022 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Dec 2023 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>email</title>
+      <link>https://sidmulajkar.com/categories/email/</link>
+      <pubDate>Tue, 26 Dec 2023 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/email/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://sidmulajkar.com/categories/linux/</link>
+      <pubDate>Tue, 26 Dec 2023 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>personal thoughts on mail privacy</title>
+      <link>https://sidmulajkar.com/categories/personal-thoughts-on-mail-privacy/</link>
+      <pubDate>Tue, 26 Dec 2023 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/personal-thoughts-on-mail-privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>privacy</title>
+      <link>https://sidmulajkar.com/categories/privacy/</link>
+      <pubDate>Tue, 26 Dec 2023 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>https://sidmulajkar.com/categories/security/</link>
+      <pubDate>Tue, 26 Dec 2023 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sidsblog</title>
+      <link>https://sidmulajkar.com/categories/sidsblog/</link>
+      <pubDate>Tue, 26 Dec 2023 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/sidsblog/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>hardening</title>
       <link>https://sidmulajkar.com/categories/hardening/</link>
@@ -17,11 +71,11 @@
     </item>
     
     <item>
-      <title>linux</title>
-      <link>https://sidmulajkar.com/categories/linux/</link>
+      <title>how to harden linux server</title>
+      <link>https://sidmulajkar.com/categories/how-to-harden-linux-server/</link>
       <pubDate>Sun, 16 Oct 2022 17:26:04 +0530</pubDate>
       
-      <guid>https://sidmulajkar.com/categories/linux/</guid>
+      <guid>https://sidmulajkar.com/categories/how-to-harden-linux-server/</guid>
       <description></description>
     </item>
     
@@ -31,33 +85,6 @@
       <pubDate>Sun, 16 Oct 2022 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/categories/linuxserver/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>privacy</title>
-      <link>https://sidmulajkar.com/categories/privacy/</link>
-      <pubDate>Sun, 16 Oct 2022 17:26:04 +0530</pubDate>
-      
-      <guid>https://sidmulajkar.com/categories/privacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>security</title>
-      <link>https://sidmulajkar.com/categories/security/</link>
-      <pubDate>Sun, 16 Oct 2022 17:26:04 +0530</pubDate>
-      
-      <guid>https://sidmulajkar.com/categories/security/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>sidsblog</title>
-      <link>https://sidmulajkar.com/categories/sidsblog/</link>
-      <pubDate>Sun, 16 Oct 2022 17:26:04 +0530</pubDate>
-      
-      <guid>https://sidmulajkar.com/categories/sidsblog/</guid>
       <description></description>
     </item>
     
@@ -76,6 +103,15 @@
       <pubDate>Mon, 30 May 2022 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/categories/dark-web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>how to create a tor website</title>
+      <link>https://sidmulajkar.com/categories/how-to-create-a-tor-website/</link>
+      <pubDate>Mon, 30 May 2022 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/how-to-create-a-tor-website/</guid>
       <description></description>
     </item>
     
@@ -179,6 +215,15 @@
     </item>
     
     <item>
+      <title>how to handle concurrency and race conditions while using database</title>
+      <link>https://sidmulajkar.com/categories/how-to-handle-concurrency-and-race-conditions-while-using-database/</link>
+      <pubDate>Sat, 19 Mar 2022 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/how-to-handle-concurrency-and-race-conditions-while-using-database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>kubernetes</title>
       <link>https://sidmulajkar.com/categories/kubernetes/</link>
       <pubDate>Sat, 19 Mar 2022 17:26:04 +0530</pubDate>
@@ -238,6 +283,15 @@
       <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/categories/horizontal-scaling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>how to choose the right database</title>
+      <link>https://sidmulajkar.com/categories/how-to-choose-the-right-database/</link>
+      <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/how-to-choose-the-right-database/</guid>
       <description></description>
     </item>
     
@@ -341,6 +395,15 @@
     </item>
     
     <item>
+      <title>Message Queues and Their Practical Applications</title>
+      <link>https://sidmulajkar.com/categories/message-queues-and-their-practical-applications/</link>
+      <pubDate>Fri, 26 Nov 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/message-queues-and-their-practical-applications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>queue</title>
       <link>https://sidmulajkar.com/categories/queue/</link>
       <pubDate>Fri, 26 Nov 2021 17:26:04 +0530</pubDate>
@@ -386,6 +449,15 @@
     </item>
     
     <item>
+      <title>when to use indexes to optimize performance</title>
+      <link>https://sidmulajkar.com/categories/when-to-use-indexes-to-optimize-performance/</link>
+      <pubDate>Tue, 16 Nov 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/when-to-use-indexes-to-optimize-performance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>b tree</title>
       <link>https://sidmulajkar.com/categories/b-tree/</link>
       <pubDate>Mon, 25 Oct 2021 17:26:04 +0530</pubDate>
@@ -409,6 +481,15 @@
       <pubDate>Mon, 25 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/categories/btree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>how trees are helpful while searching</title>
+      <link>https://sidmulajkar.com/categories/how-trees-are-helpful-while-searching/</link>
+      <pubDate>Mon, 25 Oct 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/how-trees-are-helpful-while-searching/</guid>
       <description></description>
     </item>
     
@@ -458,6 +539,15 @@
     </item>
     
     <item>
+      <title>what is database sharding</title>
+      <link>https://sidmulajkar.com/categories/what-is-database-sharding/</link>
+      <pubDate>Sun, 17 Oct 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/what-is-database-sharding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>advantages</title>
       <link>https://sidmulajkar.com/categories/advantages/</link>
       <pubDate>Thu, 14 Oct 2021 17:26:04 +0530</pubDate>
@@ -472,6 +562,15 @@
       <pubDate>Thu, 14 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/categories/disadvantages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>do we actually need to shard the database</title>
+      <link>https://sidmulajkar.com/categories/do-we-actually-need-to-shard-the-database/</link>
+      <pubDate>Thu, 14 Oct 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/do-we-actually-need-to-shard-the-database/</guid>
       <description></description>
     </item>
     
@@ -530,6 +629,15 @@
     </item>
     
     <item>
+      <title>tcp and udp when and how to use it</title>
+      <link>https://sidmulajkar.com/categories/tcp-and-udp-when-and-how-to-use-it/</link>
+      <pubDate>Wed, 06 Oct 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/tcp-and-udp-when-and-how-to-use-it/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>tcp ip</title>
       <link>https://sidmulajkar.com/categories/tcp-ip/</link>
       <pubDate>Wed, 06 Oct 2021 17:26:04 +0530</pubDate>
@@ -557,6 +665,15 @@
     </item>
     
     <item>
+      <title>does tcp slow start impact the network performance</title>
+      <link>https://sidmulajkar.com/categories/does-tcp-slow-start-impact-the-network-performance/</link>
+      <pubDate>Sat, 02 Oct 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/does-tcp-slow-start-impact-the-network-performance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>mechanism</title>
       <link>https://sidmulajkar.com/categories/mechanism/</link>
       <pubDate>Sat, 02 Oct 2021 17:26:04 +0530</pubDate>
@@ -571,6 +688,15 @@
       <pubDate>Sat, 02 Oct 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/categories/slowstart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>what is tcp slow start</title>
+      <link>https://sidmulajkar.com/categories/what-is-tcp-slow-start/</link>
+      <pubDate>Sat, 02 Oct 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/what-is-tcp-slow-start/</guid>
       <description></description>
     </item>
     
@@ -598,6 +724,15 @@
       <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/categories/guide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>how to install wsl in windows</title>
+      <link>https://sidmulajkar.com/categories/how-to-install-wsl-in-windows/</link>
+      <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/categories/how-to-install-wsl-in-windows/</guid>
       <description></description>
     </item>
     

@@ -6,8 +6,16 @@
     <description>A software engineer/researcher who shares his valuable insights with the community through his blogs.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 11 Aug 2023 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Dec 2023 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/posts/index.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>My personal thoughts on Mail Privacy</title>
+      <link>https://sidmulajkar.com/posts/my-thoughts-on-mail-regarding-privacy/</link>
+      <pubDate>Tue, 26 Dec 2023 17:26:04 +0530</pubDate>
+
+      <guid>https://sidmulajkar.com/posts/my-thoughts-on-mail-regarding-privacy/</guid>
+      <description>Email still remains an Essential Backbone for communication, nearly used by approximately 3-4 billion people. I do not recommend to use email as a privacy tool for communication. Click to learn more on end to end encrypted mail service and much more.</description>
+    </item>
 
     <item>
       <title>The Definitive Handbook: Essential Strategies for Strengthening Your Linux Server</title>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>what is tcp slow start on &gt; sidmulajkar</title>
+    <link>https://sidmulajkar.com/tags/what-is-tcp-slow-start/</link>
+    <description>Recent content in what is tcp slow start on &gt; sidmulajkar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 02 Oct 2021 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/tags/what-is-tcp-slow-start/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding TCP Slow Start and its Role in Network Performance</title>
+      <link>https://sidmulajkar.com/posts/tcp-slow-start/</link>
+      <pubDate>Sat, 02 Oct 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/posts/tcp-slow-start/</guid>
+      <description>Does it affect Web Application Performance? Yes, it&amp;rsquo;s a feature, not an issue but can be a problem sometimes while analyzing and designing the app.
+TCP slow start is a congestion-avoidance algorithm that balances the speed of a network connection.
+A slow start gradually increases the amount of data transmitted until it finds the network’s maximum carrying capacity.
+One of the most common ways to optimize the speed of a connection (i.</description>
+    </item>
+    
+  </channel>
+</rss>

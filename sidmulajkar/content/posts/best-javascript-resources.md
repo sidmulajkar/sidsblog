@@ -94,7 +94,7 @@ If you are looking for a [Superhero.js](http://superherojs.com) to fetch you the
 
 **(If you’re dead-ass serious about this then unquestionably watch this series)**
 
-[![NAMASTE JAVASCRIPT](/images/postimgs/namaste_javascript.png)](https://cf.piped.video/watch?v=pN6jk0uUrD8 "NAMASTE JAVASCRIPT")
+[![NAMASTE JAVASCRIPT](/images/postimgs/namaste_javascript.png)](https://yewtu.be/watch?v=pN6jk0uUrD8 "NAMASTE JAVASCRIPT")
 
 
 --
@@ -111,6 +111,6 @@ Also, don’t forget to leave a mail on how the JavaScript post page can be impr
 
 ### Read More Blogs related to:
 
-***[db-concepts]({{< relref "/tags/database/">}}) / [linuxsubsystem(wsl)]({{< relref "/tags/wsl2">}}) / [flutter-installation]({{< relref "/tags/flutter">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberry">}})***
+***[db-concepts]({{< relref "/tags/database/">}}) / [linux]({{< relref "/tags/linux">}}) / [flutter-installation]({{< relref "/tags/flutter">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberry">}})***
 
 --

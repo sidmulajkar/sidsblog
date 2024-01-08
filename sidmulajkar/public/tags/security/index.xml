@@ -6,9 +6,18 @@
     <description>Recent content in security on &gt; sidmulajkar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Oct 2022 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Dec 2023 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Definitive Handbook: Essential Strategies for Strengthening Your Linux Server</title>
+      <title>My personal thoughts on Mail Privacy</title>
+      <link>https://sidmulajkar.com/posts/my-thoughts-on-mail-regarding-privacy/</link>
+      <pubDate>Tue, 26 Dec 2023 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/posts/my-thoughts-on-mail-regarding-privacy/</guid>
+      <description>Email still remains an Essential Backbone for communication, nearly used by ~(3-4) billion people. I do not use email as a privacy tool for communication. Check the last part** The most private and secure way to communicate online is by using end-to-end encryption. If you send an end-to-end encrypted email, it’s encrypted on your device and isn’t decrypted until it reaches the device of the other person you sent the message to.</description>
+    </item>
+    
+    <item>
+      <title>The Definitive Handbook: How to Harden the Linux Server</title>
       <link>https://sidmulajkar.com/posts/how-harden-linux-server/</link>
       <pubDate>Sun, 16 Oct 2022 17:26:04 +0530</pubDate>
       

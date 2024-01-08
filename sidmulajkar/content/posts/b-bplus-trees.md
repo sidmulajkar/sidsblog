@@ -1,7 +1,7 @@
 ---
 title: "B/B+ Trees How they are helpful in Database?"
-categories: [btree, b tree, bplus-trees, trees, data structures, database, sidsblog]
-tags: [btree, b tree, bplus-trees, trees, tree, tree data structure, data structures, database, sidsblog]
+categories: [how trees are helpful while searching, btree, b tree, bplus-trees, trees, data structures, database, sidsblog]
+tags: [how trees are helpful while searching, btree, b tree, bplus-trees, trees, tree, tree data structure, data structures, database, sidsblog]
 date: 2021-10-25T17:26:04+05:30
 description: "This tutorial will clear all your doubts regarding the B/B+ Trees and do you actually need it"
 author: Siddhant Mulajkar
@@ -173,6 +173,6 @@ No. | B Tree | B+ Tree |
 
 ### Read More Blogs related to:
 
-***[db-concepts]({{< relref "/tags/database/">}}) / [linuxsubsystem(wsl)]({{< relref "/tags/wsl2">}}) / [flutter-installation]({{< relref "/tags/flutter">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberry">}})***
+***[db-concepts]({{< relref "/tags/database/">}}) / [[linux]({{< relref "/tags/linux">}}) / [flutter-installation]({{< relref "/tags/flutter">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberry">}})***
 
 --

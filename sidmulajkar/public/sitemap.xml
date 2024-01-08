@@ -2,6 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://sidmulajkar.com/</loc>
+    <lastmod>2023-12-26T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/</loc>
+    <lastmod>2023-12-26T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/email/</loc>
+    <lastmod>2023-12-26T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/linux/</loc>
+    <lastmod>2023-12-26T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/linux/</loc>
+    <lastmod>2023-12-26T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/mail/</loc>
+    <lastmod>2023-12-26T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/posts/my-thoughts-on-mail-regarding-privacy/</loc>
+    <lastmod>2023-12-26T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/personal-thoughts-on-mail-privacy/</loc>
+    <lastmod>2023-12-26T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/personal-thoughts-on-mail-privacy/</loc>
+    <lastmod>2023-12-26T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/posts/</loc>
+    <lastmod>2023-12-26T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/privacy/</loc>
+    <lastmod>2023-12-26T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/privacy/</loc>
+    <lastmod>2023-12-26T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/security/</loc>
+    <lastmod>2023-12-26T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/security/</loc>
+    <lastmod>2023-12-26T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/sidsblog/</loc>
+    <lastmod>2023-12-26T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/sidsblog/</loc>
+    <lastmod>2023-12-26T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/</loc>
+    <lastmod>2023-12-26T17:26:04+05:30</lastmod>
+  </url><url>
     <loc>https://sidmulajkar.com/how-to-verify-pgp-signature/</loc>
     <lastmod>2023-02-02T19:09:26+05:30</lastmod>
   </url><url>
@@ -11,49 +62,22 @@
     <loc>https://sidmulajkar.com/support/</loc>
     <lastmod>2023-01-19T19:09:26+05:30</lastmod>
   </url><url>
-    <loc>https://sidmulajkar.com/</loc>
-    <lastmod>2022-10-16T17:26:04+05:30</lastmod>
-  </url><url>
     <loc>https://sidmulajkar.com/tags/hardening/</loc>
     <lastmod>2022-10-16T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/hardening/</loc>
     <lastmod>2022-10-16T17:26:04+05:30</lastmod>
   </url><url>
-    <loc>https://sidmulajkar.com/tags/linux/</loc>
+    <loc>https://sidmulajkar.com/tags/how-to-harden-linux-server/</loc>
     <lastmod>2022-10-16T17:26:04+05:30</lastmod>
   </url><url>
-    <loc>https://sidmulajkar.com/categories/linux/</loc>
+    <loc>https://sidmulajkar.com/categories/how-to-harden-linux-server/</loc>
     <lastmod>2022-10-16T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/tags/linuxserver/</loc>
     <lastmod>2022-10-16T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/linuxserver/</loc>
-    <lastmod>2022-10-16T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/posts/</loc>
-    <lastmod>2022-10-16T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/tags/privacy/</loc>
-    <lastmod>2022-10-16T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/categories/privacy/</loc>
-    <lastmod>2022-10-16T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/tags/security/</loc>
-    <lastmod>2022-10-16T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/categories/security/</loc>
-    <lastmod>2022-10-16T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/tags/sidsblog/</loc>
-    <lastmod>2022-10-16T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/categories/sidsblog/</loc>
-    <lastmod>2022-10-16T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/tags/</loc>
     <lastmod>2022-10-16T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/posts/how-harden-linux-server/</loc>
@@ -72,6 +96,12 @@
     <lastmod>2022-05-30T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/dark-web/</loc>
+    <lastmod>2022-05-30T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/how-to-create-a-tor-website/</loc>
+    <lastmod>2022-05-30T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/how-to-create-a-tor-website/</loc>
     <lastmod>2022-05-30T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/tags/microservices/</loc>
@@ -149,6 +179,12 @@
     <loc>https://sidmulajkar.com/categories/factors/</loc>
     <lastmod>2022-03-19T17:26:04+05:30</lastmod>
   </url><url>
+    <loc>https://sidmulajkar.com/tags/how-to-handle-concurrency-and-race-conditions-while-using-database/</loc>
+    <lastmod>2022-03-19T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/how-to-handle-concurrency-and-race-conditions-while-using-database/</loc>
+    <lastmod>2022-03-19T17:26:04+05:30</lastmod>
+  </url><url>
     <loc>https://sidmulajkar.com/posts/how-to-handle-double-booking-problem-using-db/</loc>
     <lastmod>2022-03-19T17:26:04+05:30</lastmod>
   </url><url>
@@ -209,6 +245,12 @@
     <loc>https://sidmulajkar.com/categories/horizontal-scaling/</loc>
     <lastmod>2021-12-23T17:26:04+05:30</lastmod>
   </url><url>
+    <loc>https://sidmulajkar.com/tags/how-to-choose-the-right-database/</loc>
+    <lastmod>2021-12-23T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/how-to-choose-the-right-database/</loc>
+    <lastmod>2021-12-23T17:26:04+05:30</lastmod>
+  </url><url>
     <loc>https://sidmulajkar.com/categories/mysql/</loc>
     <lastmod>2021-12-23T17:26:04+05:30</lastmod>
   </url><url>
@@ -260,6 +302,12 @@
     <loc>https://sidmulajkar.com/categories/message/</loc>
     <lastmod>2021-11-26T17:26:04+05:30</lastmod>
   </url><url>
+    <loc>https://sidmulajkar.com/tags/message-queues-and-their-practical-application/</loc>
+    <lastmod>2021-11-26T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/message-queues-and-their-practical-applications/</loc>
+    <lastmod>2021-11-26T17:26:04+05:30</lastmod>
+  </url><url>
     <loc>https://sidmulajkar.com/posts/message-queues/</loc>
     <lastmod>2021-11-26T17:26:04+05:30</lastmod>
   </url><url>
@@ -308,6 +356,12 @@
     <loc>https://sidmulajkar.com/tags/trees/</loc>
     <lastmod>2021-11-16T17:26:04+05:30</lastmod>
   </url><url>
+    <loc>https://sidmulajkar.com/tags/when-to-use-indexes-to-optimize-performance/</loc>
+    <lastmod>2021-11-16T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/when-to-use-indexes-to-optimize-performance/</loc>
+    <lastmod>2021-11-16T17:26:04+05:30</lastmod>
+  </url><url>
     <loc>https://sidmulajkar.com/categories/b-tree/</loc>
     <lastmod>2021-10-25T17:26:04+05:30</lastmod>
   </url><url>
@@ -318,6 +372,12 @@
     <lastmod>2021-10-25T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/btree/</loc>
+    <lastmod>2021-10-25T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/how-trees-are-helpful-while-searching/</loc>
+    <lastmod>2021-10-25T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/how-trees-are-helpful-while-searching/</loc>
     <lastmod>2021-10-25T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/trees/</loc>
@@ -356,10 +416,25 @@
     <loc>https://sidmulajkar.com/tags/sharding-architectures/</loc>
     <lastmod>2021-10-17T17:26:04+05:30</lastmod>
   </url><url>
+    <loc>https://sidmulajkar.com/tags/what-is-database-sharding/</loc>
+    <lastmod>2021-10-17T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/what-is-database-sharding/</loc>
+    <lastmod>2021-10-17T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/when-do-we-use-sharding-in-database/</loc>
+    <lastmod>2021-10-17T17:26:04+05:30</lastmod>
+  </url><url>
     <loc>https://sidmulajkar.com/categories/advantages/</loc>
     <lastmod>2021-10-14T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/disadvantages/</loc>
+    <lastmod>2021-10-14T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/do-we-actually-need-to-shard-the-database/</loc>
+    <lastmod>2021-10-14T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/do-we-actually-need-to-shard-the-database/</loc>
     <lastmod>2021-10-14T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/sharding-architectures/</loc>
@@ -401,6 +476,12 @@
     <loc>https://sidmulajkar.com/posts/tcp-and-udp/</loc>
     <lastmod>2021-10-06T17:26:04+05:30</lastmod>
   </url><url>
+    <loc>https://sidmulajkar.com/tags/tcp-and-udp-when-and-how-to-use-it/</loc>
+    <lastmod>2021-10-06T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/tcp-and-udp-when-and-how-to-use-it/</loc>
+    <lastmod>2021-10-06T17:26:04+05:30</lastmod>
+  </url><url>
     <loc>https://sidmulajkar.com/tags/tcp-ip/</loc>
     <lastmod>2021-10-06T17:26:04+05:30</lastmod>
   </url><url>
@@ -419,6 +500,12 @@
     <loc>https://sidmulajkar.com/categories/congestion-control/</loc>
     <lastmod>2021-10-02T17:26:04+05:30</lastmod>
   </url><url>
+    <loc>https://sidmulajkar.com/tags/does-tcp-slow-start-impact-the-network-performance/</loc>
+    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/does-tcp-slow-start-impact-the-network-performance/</loc>
+    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
+  </url><url>
     <loc>https://sidmulajkar.com/tags/mechanism/</loc>
     <lastmod>2021-10-02T17:26:04+05:30</lastmod>
   </url><url>
@@ -432,6 +519,12 @@
     <lastmod>2021-10-02T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/posts/tcp-slow-start/</loc>
+    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/what-is-tcp-slow-start/</loc>
+    <lastmod>2021-10-02T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/what-is-tcp-slow-start/</loc>
     <lastmod>2021-10-02T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/tags/docker-desktop/</loc>
@@ -450,6 +543,12 @@
     <lastmod>2021-09-23T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/guide/</loc>
+    <lastmod>2021-09-23T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/how-to-install-wsl-in-windows/</loc>
+    <lastmod>2021-09-23T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/how-to-install-wsl-in-windows/</loc>
     <lastmod>2021-09-23T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/posts/linux-subsytem-in-windows-wsl2/</loc>

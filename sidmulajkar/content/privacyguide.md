@@ -38,6 +38,11 @@ Links:
 
 {{< audio src="/audio/introtoprivacy.mp3" class="privacyguides" >}}
 
+
+```
+Update: I used to self host my servers, now I don't and use a service instead.
+```
+
 --
 
 `A series of podcasts and blogs to restore your data privacy and learn more about how the data can be tracked less, one step towards improving the privacy.`

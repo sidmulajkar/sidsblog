@@ -3,7 +3,7 @@ title = "> sidmulajkar"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
-paginate = 150
+paginate = 200
 pygmentsStyle = "b2"
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
@@ -54,23 +54,24 @@ customJS = []
 # If you want to implement a Content-Security-Policy, add this section
 [params.csp]
 childsrc = ["'self'"]
-fontsrc = ["'self'", "'strict-dynamic'", "'unsafe-inline'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
+fontsrc = ["'self'", "'unsafe-inline'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
 formaction = ["'self'"]
 framesrc = ["'self'"]
-imgsrc = ["'self'","'strict-dynamic'"]
-objectsrc = ["'none'"]
+imgsrc = ["'self'"]
+objectsrc = ["'self'"]
 stylesrc = [
   "'self'",
   "'strict-dynamic'",
   "'unsafe-inline'",
+  "nonce-rAnd0m",
   "https://fonts.googleapis.com/",
   "https://cdn.jsdelivr.net/"
 ]
-scriptsrc = ["'self'",
-    "'unsafe-inline'"
+scriptsrc = ["'self'"
     ]
 
-prefetchsrc = ["'self'", "'unsafe-inline'", "'strict-dynamic'"]
+
+prefetchsrc = ["'none'"]
 # connectsrc = ["'self'", "https://www.google-analytics.com"]
 
 [taxonomies]
@@ -158,4 +159,4 @@ url = "references/"
       Referrer-Policy = "strict-origin-when-cross-origin"
       X-Content-Type-Options = "nosniff"
       X-Frame-Options = "DENY"
-      X-XSS-Protection = "1; mode=block"
+      X-XSS-Protection = "1;mode=block"

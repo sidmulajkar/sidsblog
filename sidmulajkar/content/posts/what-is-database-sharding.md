@@ -1,7 +1,8 @@
 ---
 title: "Understanding Database Sharding?"
-categories: [mysql, database, sharding, database sharding, advantages, disadvantages, sharding-architectures, sidsblog]
-tags: [mysql, database, sharding, database sharding, advantages, disadvantages, sharding-architectures, sidsblog]
+categories: [what is database sharding, do we actually need to shard the database,
+mysql, database, sharding, database sharding, advantages, disadvantages, sharding-architectures, sidsblog]
+tags: [what is database sharding, do we actually need to shard the database, mysql, database, sharding, database sharding, advantages, disadvantages, sharding-architectures, sidsblog]
 date: 2021-10-14T17:26:04+05:30
 description: "This tutorial will clear all your doubts regarding the Database Sharding and do you actually need it"
 author: Siddhant Mulajkar
@@ -197,6 +198,6 @@ in a new post...[database sharding architecture]({{< relref "posts/database-shar
 
 ### Read More Blogs related to:
 
-***[db-concepts]({{< relref "/tags/database/">}}) / [linuxsubsystem(wsl)]({{< relref "/tags/wsl2">}}) / [flutter-installation]({{< relref "/tags/flutter">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberry">}})***
+***[db-concepts]({{< relref "/tags/database/">}}) / [linux]({{< relref "/tags/linux">}}) / [flutter-installation]({{< relref "/tags/flutter">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberry">}})***
 
 --

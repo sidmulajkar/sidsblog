@@ -1,7 +1,7 @@
 ---
 title: "Step-by-Step Guide: Installing Ubuntu with Linux Subsystem WSL-2 on Windows 10 for Hassle-free Setup"
-categories: [wsl, wsl2, wsl 2, wsl2 install, wsl install, docker wsl2, docker desktop, windows wsl, windows subsystem for linux, windows10, ubuntu installation, guide, sidsblog]
-tags: [wsl, wsl2, wsl 2, wsl2 install, wsl install, docker wsl2, docker desktop, windows wsl, windows subsystem for linux, windows10, ubuntu installation, guide, sidsblog]
+categories: [how to install wsl in windows, wsl, wsl2, wsl 2, wsl2 install, wsl install, docker wsl2, docker desktop, windows wsl, windows subsystem for linux, linux, windows10, ubuntu installation, guide, sidsblog]
+tags: [how to install wsl in windows, wsl, wsl2, wsl 2, wsl2 install, wsl install, docker wsl2, docker desktop, windows wsl, windows subsystem for linux, linux, windows10, ubuntu installation, guide, sidsblog]
 date: 2021-09-23T17:26:04+05:30
 description: "Best tutorial on how to install ubuntu using linux subsystem wsl2 on windows 10"
 author: Siddhant Mulajkar
@@ -178,6 +178,6 @@ https://docs.microsoft.com/en-us/windows/terminal/troubleshooting#:~:text=the%20
 
 ### Read More Blogs related to:
 
-***[db-concepts]({{< relref "/tags/database/">}}) / [linuxsubsystem(wsl)]({{< relref "/tags/wsl2">}}) / [flutter-installation]({{< relref "/tags/flutter">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberry">}})***
+***[db-concepts]({{< relref "/tags/database/">}}) / [linux]({{< relref "/tags/linux">}}) / [flutter-installation]({{< relref "/tags/flutter">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberry">}})***
 
 --

@@ -1,7 +1,7 @@
 ---
-title: "The Definitive Handbook: Essential Strategies for Strengthening Your Linux Server"
-categories: [linux, linuxserver, hardening, privacy, security, sidsblog]
-tags: [linux, linuxserver, hardening, privacy, security, sidsblog]
+title: "The Definitive Handbook: How to Harden the Linux Server"
+categories: [how to harden linux server, linux, linuxserver, hardening, privacy, security, sidsblog]
+tags: [how to harden linux server, linux, linuxserver, hardening, privacy, security, sidsblog]
 date: 2022-10-16T17:26:04+05:30
 description: "This tutorial will help you understand how to harden the linux server for security."
 author: Siddhant Mulajkar
@@ -588,6 +588,6 @@ TimeoutStopSec=900
 
 ### Read More Blogs related to:
 
-***[db-concepts]({{< relref "/tags/database/">}}) / [linuxsubsystem(wsl)]({{< relref "/tags/wsl2">}}) / [flutter-installation]({{< relref "/tags/flutter">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberry">}})***
+***[db-concepts]({{< relref "/tags/database/">}}) / [linux]({{< relref "/tags/linux">}}) / [flutter-installation]({{< relref "/tags/flutter">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberry">}})***
 
 --

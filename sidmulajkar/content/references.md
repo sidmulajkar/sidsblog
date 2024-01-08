@@ -26,6 +26,8 @@ Below are the lists of some of my favorite digital privacy referenced ***resourc
 
 - [Naked Security](https://nakedsecurity.sophos.com/). Run by Sophos, so keep that in mind – but still a great source for security info, written in accessible language.
 
+- [Privacy,Security and OSINT - Michael Bazzell](https://inteltechniques.com/index.html). Privacy podcasts, blogs, techniques, resources and much more by Michael Bazzell.
+
 - Duck Duck Go’s [Spread Privacy blog](https://spreadprivacy.com/).
 
 - [Privacy Guides](https://www.privacyguides.org/). An amazingly-comprehensive site devoted to the best of the best everyday tools for privacy.
@@ -38,12 +40,12 @@ Below are the lists of some of my favorite digital privacy referenced ***resourc
 
 - [Firewalls Don’t Stop Dragons](https://firewallsdontstopdragons.com/podcast/). Focus on raising the awareness of everyday, non-technical people on the crucially important topics of cybersecurity and privacy. 
 
-- [Naomi Brockwell "NBTV"](https://y.com.sb/channel/UCSuHzQ3GrHSzoBbwrIq3LLA). NBTV: a privacy, technology, blockchain channel.
-    - [Digital Privacy 101 -](https://y.com.sb/watch?v=V6yu0JNNtRw) Essential Privacy Tools
+- [Naomi Brockwell "NBTV"](https://yewtu.be/channel/UCSuHzQ3GrHSzoBbwrIq3LLA). NBTV: a privacy, technology, blockchain channel.
+    - [Digital Privacy 101 -](https://yewtu.be/watch?v=V6yu0JNNtRw) Essential Privacy Tools
 
-- [Mental Outlaw](https://y.com.sb/channel/UC7YOGHUfC1Tb6E4pudI9STA).  This channel is dedicated to helping people become more proficient with linux, scripting, and privacy in general.
+- [Mental Outlaw](https://yewtu.be/channel/UC7YOGHUfC1Tb6E4pudI9STA).  This channel is dedicated to helping people become more proficient with linux, scripting, and privacy in general.
 
-- [Sun Knudsen](https://y.com.sb/channel/UCkHN7h7CFeYL6Y1N5JcEZug).  Privacy and security researcher, YouTuber and founder of Superbacked.
+- [Sun Knudsen](https://yewtu.be/channel/UCkHN7h7CFeYL6Y1N5JcEZug).  Privacy and security researcher, YouTuber and founder of Superbacked.
 
 - [Techlore](https://techlore.tech/). Another great site with great training and tutorials. Check their “resources” page, too.
 
@@ -63,7 +65,7 @@ Below are the lists of some of my favorite digital privacy referenced ***resourc
 
 ---
 
-##### *check out my mini-knowledge wiki 📖 - [sangraha]({{< relref "content/sangraha.md" >}}) | [read my blogs]({{< relref "/posts" >}}) | [support me]({{< relref "/support">}})*
+##### *check out my mini-knowledge wiki 📖 - [sangraha]({{< relref "content/sangraha/index.md" >}}) | [read my blogs]({{< relref "/posts" >}}) | [support me]({{< relref "/support">}})*
 
 --
 

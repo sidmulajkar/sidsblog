@@ -1,7 +1,7 @@
 ---
 title: "Databases! How do we know it's the right one? "
-categories: [mysql, sql, sql database, nosql, nosql database, nosql-vs-sql, rdbms, data structures, database, sidsblog, factors, vertical scaling, horizontal scaling]
-tags: [mysql, sql, sql database, nosql, nosql database, nosql-vs-sql, rdbms, data structures, database, sidsblog, factors, vertical scaling, horizontal scaling]
+categories: [how to choose the right database, mysql, sql, sql database, nosql, nosql database, nosql-vs-sql, rdbms, data structures, database, sidsblog, factors, vertical scaling, horizontal scaling]
+tags: [how to choose the right database, mysql, sql, sql database, nosql, nosql database, nosql-vs-sql, rdbms, data structures, database, sidsblog, factors, vertical scaling, horizontal scaling]
 date: 2021-12-23T17:26:04+05:30
 description: "This tutorial will help you understand what factors to consider before the selecting the database."
 author: Siddhant Mulajkar
@@ -214,6 +214,6 @@ Non-relational databases also work with NoSQL formats like JSON, which has becom
 
 ### Read More Blogs related to:
 
-***[db-concepts]({{< relref "/tags/database/">}}) / [linuxsubsystem(wsl)]({{< relref "/tags/wsl2">}}) / [flutter-installation]({{< relref "/tags/flutter">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberry">}})***
+***[db-concepts]({{< relref "/tags/database/">}}) / [linux]({{< relref "/tags/linux">}}) / [flutter-installation]({{< relref "/tags/flutter">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberry">}})***
 
 --

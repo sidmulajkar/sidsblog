@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>when to use indexes to optimize performance on &gt; sidmulajkar</title>
+    <link>https://sidmulajkar.com/tags/when-to-use-indexes-to-optimize-performance/</link>
+    <description>Recent content in when to use indexes to optimize performance on &gt; sidmulajkar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 16 Nov 2021 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/tags/when-to-use-indexes-to-optimize-performance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Effective Strategies to Optimize Database Performance: Insights into Unusable Indexes</title>
+      <link>https://sidmulajkar.com/posts/when-indexes-are-not-useable/</link>
+      <pubDate>Tue, 16 Nov 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/posts/when-indexes-are-not-useable/</guid>
+      <description>What do I even mean by useless indexes? To improve the application and the database, indexes need to change over time.
+As the structure of the database change, the structure of the tables change, data in the tables change, the application changes, also the queries against the data change.
+Indexes that once helped performance now just bloat your database and cause extra work for inserts, updates, and deletes.
+wait&amp;hellip;</description>
+    </item>
+    
+  </channel>
+</rss>

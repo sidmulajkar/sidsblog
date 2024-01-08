@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>personal thoughts on mail privacy on &gt; sidmulajkar</title>
+    <link>https://sidmulajkar.com/categories/personal-thoughts-on-mail-privacy/</link>
+    <description>Recent content in personal thoughts on mail privacy on &gt; sidmulajkar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 26 Dec 2023 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/categories/personal-thoughts-on-mail-privacy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My personal thoughts on Mail Privacy</title>
+      <link>https://sidmulajkar.com/posts/my-thoughts-on-mail-regarding-privacy/</link>
+      <pubDate>Tue, 26 Dec 2023 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/posts/my-thoughts-on-mail-regarding-privacy/</guid>
+      <description>Email still remains an Essential Backbone for communication, nearly used by ~(3-4) billion people. I do not use email as a privacy tool for communication. Check the last part** The most private and secure way to communicate online is by using end-to-end encryption. If you send an end-to-end encrypted email, it’s encrypted on your device and isn’t decrypted until it reaches the device of the other person you sent the message to.</description>
+    </item>
+    
+  </channel>
+</rss>

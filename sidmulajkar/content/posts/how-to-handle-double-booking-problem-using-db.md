@@ -1,7 +1,7 @@
 ---
 title: "How to Handle the Double booking problem in an app or website just using the database? "
-categories: [factors, double-booking problem, concurrency control, lock mechanism, time stamping, pessimistic approach, optimistic approach, database, kubernetes, microservices, sidsblog]
-tags: [mysql, sql database, nosql, nosql database, rdbms, data structures, database, factors, double-booking problem, concurrency control, lock mechanism, time stamping, pessimistic approach, optimistic approach, kubernetes, microservices, sidsblog]
+categories: [how to handle concurrency and race conditions while using database,factors, double-booking problem, concurrency control, lock mechanism, time stamping, pessimistic approach, optimistic approach, database, kubernetes, microservices, sidsblog]
+tags: [how to handle concurrency and race conditions while using database, mysql, sql database, nosql, nosql database, rdbms, data structures, database, factors, double-booking problem, concurrency control, lock mechanism, time stamping, pessimistic approach, optimistic approach, kubernetes, microservices, sidsblog]
 date: 2022-03-19T17:26:04+05:30
 description: "In this blog, I just want to purely talk from the perspective of handling a situation like this, just considering the database itself."
 author: Siddhant Mulajkar
@@ -217,7 +217,7 @@ https://developers.redhat.com/articles/2021/09/21/distributed-transaction-patter
 
 Here's a Video on Concurrency Control in Postgress:
 
-[![Postgress Conference](/images/doublebookingdb/postgresscon.jpeg)](https://cf.piped.video/watch?v=ZxhBkBNxvR0 "Postgress Conference")
+[![Postgress Conference](/images/doublebookingdb/postgresscon.jpeg)](https://yewtu.be/watch?v=ZxhBkBNxvR0 "Postgress Conference")
 
 ---
 
@@ -234,6 +234,6 @@ https://www.cockroachlabs.com/docs/stable/frequently-asked-questions.html
 
 ### Read More Blogs related to:
 
-***[db-concepts]({{< relref "/tags/database/">}}) / [linuxsubsystem(wsl)]({{< relref "/tags/wsl2">}}) / [flutter-installation]({{< relref "/tags/flutter">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberry">}})***
+***[db-concepts]({{< relref "/tags/database/">}}) / [linux]({{< relref "/tags/linux">}}) / [flutter-installation]({{< relref "/tags/flutter">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberry">}})***
 
 --

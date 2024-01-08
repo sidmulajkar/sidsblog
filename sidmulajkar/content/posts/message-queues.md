@@ -1,7 +1,7 @@
 ---
 title: "Message Queues and Their Practical Applications"
-categories: [mysql, sql database, nosql, nosql database, rdbms, data structures, database, queue, data structures, message, queue, database, rabbitmq, backend, engineering, sidsblog]
-tags: [mysql, sql database, nosql, nosql database, rdbms, data structures, message, database, queue, data structures, database, rabbitmq, backend, engineering, sidsblog]
+categories: [Message Queues and Their Practical Applications, mysql, sql database, nosql, nosql database, rdbms, data structures, database, queue, data structures, message, queue, database, rabbitmq, backend, engineering, sidsblog]
+tags: [Message Queues and Their Practical Application, mysql, sql database, nosql, nosql database, rdbms, data structures, message, database, queue, data structures, database, rabbitmq, backend, engineering, sidsblog]
 date: 2021-11-26T17:26:04+05:30
 description: "This tutorial will help you understand the message queues."
 author: Siddhant Mulajkar
@@ -164,6 +164,6 @@ The queue can provide protection from service outages and failures.
 
 ### Read More Blogs related to:
 
-***[db-concepts]({{< relref "/tags/database/">}}) / [linuxsubsystem(wsl)]({{< relref "/tags/wsl2">}}) / [flutter-installation]({{< relref "/tags/flutter">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberry">}})***
+***[db-concepts]({{< relref "/tags/database/">}}) / [linux]({{< relref "/tags/linux">}}) / [flutter-installation]({{< relref "/tags/flutter">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberry">}})***
 
 --

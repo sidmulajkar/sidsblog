@@ -6,9 +6,18 @@
     <description>Recent content in linux on &gt; sidmulajkar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Oct 2022 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Dec 2023 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Definitive Handbook: Essential Strategies for Strengthening Your Linux Server</title>
+      <title>My personal thoughts on Mail Privacy</title>
+      <link>https://sidmulajkar.com/posts/my-thoughts-on-mail-regarding-privacy/</link>
+      <pubDate>Tue, 26 Dec 2023 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/posts/my-thoughts-on-mail-regarding-privacy/</guid>
+      <description>Email still remains an Essential Backbone for communication, nearly used by ~(3-4) billion people. I do not use email as a privacy tool for communication. Check the last part** The most private and secure way to communicate online is by using end-to-end encryption. If you send an end-to-end encrypted email, it’s encrypted on your device and isn’t decrypted until it reaches the device of the other person you sent the message to.</description>
+    </item>
+    
+    <item>
+      <title>The Definitive Handbook: How to Harden the Linux Server</title>
       <link>https://sidmulajkar.com/posts/how-harden-linux-server/</link>
       <pubDate>Sun, 16 Oct 2022 17:26:04 +0530</pubDate>
       
@@ -17,6 +26,29 @@
 Step 1. Create the SSH key pair for login (On Computer) Using a root login password to login is good but not great from the security stand.
 When asked for file in which to save key, enter serverlog.
 When asked for passphrase, use output from openssl rand -base64 24 (and store passphrase in password manager).</description>
+    </item>
+    
+    <item>
+      <title>Tutorial: How to Create a Tor Dark Web Site Step-by-Step</title>
+      <link>https://sidmulajkar.com/posts/darkweb-tor-website/</link>
+      <pubDate>Mon, 30 May 2022 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/posts/darkweb-tor-website/</guid>
+      <description>What is a tor website? A top-level Internet domain used by anonymous websites on the Dark Web.
+For eg, as we go to any other website such as google.com or youtube.com, DuckDuckGo is an internet search engine such as google that emphasizes protecting searchers&amp;rsquo; privacy,
+can also be accessed using duckduckgo.com or also using the tor address of the website
+https://3g2upl4pq6kufc4m.onion (using the tor browser)
+Why do we need even need it?</description>
+    </item>
+    
+    <item>
+      <title>Step-by-Step Guide: Installing Ubuntu with Linux Subsystem WSL-2 on Windows 10 for Hassle-free Setup</title>
+      <link>https://sidmulajkar.com/posts/linux-subsytem-in-windows-wsl2/</link>
+      <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/posts/linux-subsytem-in-windows-wsl2/</guid>
+      <description>So, Ready to transform your Windows Environment in to your Linux Beast!!
+Before prcoeeding with the tutorial check if you have the proper version of Windows 10 installed using the winver command in Windows Start options or using the &amp;ldquo;Run&amp;rdquo; command to use the WSL-2. If you don&amp;rsquo;t have the similar version then try the updating the windows to work ahead. 1. Once you have the windows proper version then again open the windows start menu and then type &amp;ldquo;Turn on or off Windows Features&amp;rdquo; to open the dialog box as shown below.</description>
     </item>
     
     <item>
@@ -29,6 +61,18 @@ When asked for passphrase, use output from openssl rand -base64 24 (and store pa
 sudo snap install flutter --classic after installing the flutter for the first time type flutter in the terminal as it will install all its dependencies and files
 flutter wait for it to install and then move forward to the pre-requisite section.
 Or Install FLutter Manually If you don’t have a snapd, or can’t use it, you can install Flutter using the following steps.</description>
+    </item>
+    
+    <item>
+      <title>Setting up Pi-hole as a recursive DNS server (Explained)</title>
+      <link>https://sidmulajkar.com/posts/setting-up-pihole-as-a-recursive-dns-server/</link>
+      <pubDate>Tue, 30 Mar 2021 16:04:37 +0530</pubDate>
+      
+      <guid>https://sidmulajkar.com/posts/setting-up-pihole-as-a-recursive-dns-server/</guid>
+      <description>Got an old Raspberry Pi lying around? Hate seeing ads while browsing the web? Pi-hole is an open-source software project that blocks ads for all devices on your home network by routing all advertising servers into nowhere. What’s best is it takes just a few minutes to set up.
+&amp;ndash;
+&amp;ndash;
+What is a Pi-hole? Network-wide ad blocking via your own Linux hardware. The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.</description>
     </item>
     
   </channel>

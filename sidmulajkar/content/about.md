@@ -40,6 +40,6 @@ Contact me at ✉️ hi@sidmulajkar.com
 
 ##### Privacy Resource Reference - [anukramani 🔐]({{< relref "content/references.md" >}})
 
-##### Personal knowledge wiki - [sangraha 🧑🏽‍💻]({{< relref "content/sangraha.md" >}})
+##### Personal knowledge wiki - [sangraha 🧑🏽‍💻]({{< relref "content/sangraha/index.md" >}})
 
 ---

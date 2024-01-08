@@ -1,7 +1,7 @@
 ---
 title: "Understanding TCP Slow Start and its Role in Network Performance"
-categories: [tcp, tcp ip, udp, network, networking, slowstart, networking, congestion-control, mechanism, sidsblog]
-tags: [tcp, tcp ip, udp, network, networking, slowstart, networking, congestion-control, mechanism, sidsblog]
+categories: [what is tcp slow start, does tcp slow start impact the network performance, tcp, tcp ip, udp, network, networking, slowstart, networking, congestion-control, mechanism, sidsblog]
+tags: [what is tcp slow start, does tcp slow start impact the network performance, tcp, tcp ip, udp, network, networking, slowstart, networking, congestion-control, mechanism, sidsblog]
 date: 2021-10-02T17:26:04+05:30
 description: "This tutorial will clear all your doubts regarding the TCP Slow Start and is it really a problem"
 author: Siddhant Mulajkar
@@ -132,6 +132,6 @@ So next time while designing the app and using a networking protocol like TCP, d
 
 ### Read More Blogs related to:
 
-***[db-concepts]({{< relref "/tags/database/">}}) / [linuxsubsystem(wsl)]({{< relref "/tags/wsl2">}}) / [flutter-installation]({{< relref "/tags/flutter">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberry">}})***
+***[db-concepts]({{< relref "/tags/database/">}}) / [linux]({{< relref "/tags/linux">}}) / [flutter-installation]({{< relref "/tags/flutter">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberry">}})***
 
 --

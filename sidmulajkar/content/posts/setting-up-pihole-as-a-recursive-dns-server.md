@@ -1,7 +1,7 @@
 ---
 title: "Setting up Pi-hole as a recursive DNS server (Explained)"
-categories: [pihole, dns, sidblogs,  raspberry, setting pihole as recursive-dns, raspberry pi,raspberry pi pihole, pihole recursive dns]
-tags: [pihole, raspberry, raspberry pi, raspberry pi pihole, dns, dns server, dns settings, sidblogs, setting up pihole as recursive-dns, setting up pihole as recursive-dns using raspberry pi, pihole recursive dns]
+categories: [pihole, dns, sidblogs, linux, privacy, raspberry, setting pihole as recursive-dns, raspberry pi,raspberry pi pihole, pihole recursive dns]
+tags: [pihole, raspberry, linux, privacy, raspberry pi, raspberry pi pihole, dns, dns server, dns settings, sidblogs, setting up pihole as recursive-dns, setting up pihole as recursive-dns using raspberry pi, pihole recursive dns]
 date: 2021-03-30T16:04:37+05:30
 description: "setting up recursive dns using pihole for raspberrypi"
 author: Siddhant Mulajkar
@@ -144,6 +144,6 @@ sudo service unbound restart
 
 ### Read More Blogs related to:
 
-***[db-concepts]({{< relref "/tags/database/">}}) / [linuxsubsystem(wsl)]({{< relref "/tags/wsl2">}}) / [flutter-installation]({{< relref "/tags/flutter">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberry">}})***
+***[db-concepts]({{< relref "/tags/database/">}}) / [linux]({{< relref "/tags/linux">}}) / [flutter-installation]({{< relref "/tags/flutter">}}) / [networking]({{< relref "/tags/networking">}}) / [raspberry-pi]({{< relref "/tags/raspberry">}})***
 
 --

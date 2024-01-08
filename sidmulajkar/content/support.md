@@ -28,17 +28,6 @@ A74FCBC03330811F76E7A45424B58DCCC204D8AE
 
 --
 
-### ![Bitcoin Cash](/images/donate/bch.png) Bitcoin Cash(BCH) | ([PGP Public key](/gpg/sidmulajkar.asc), [PGP Signature](/gpg/btc.asc))
-
-![Bitcoin Cash Address](/images/donate/websitebch.png)
-
-***Add***:
-```
-qpvt2y0km3wht0l5hk5dxqa40zmznh8mruvhq3dfw6
-```
-
---
-
 ### ![Bitcoin](/images/donate/bit.png) Bitcoin(BTC) | ([PGP Public key](/gpg/sidmulajkar.asc), [PGP Signature](/gpg/bitcoin.asc))
 
 ![Bitcoin Wallet Address](/images/donate/websitebtc.png)
@@ -54,12 +43,28 @@ bc1qhngja5r54e8mrfyj4gudhjel4xyn7z4hmf4wrp
 __Thanks for your support. 🙌__ | [How to verify the PGP Key & PGP Signature]({{< relref "/content/how-to-verify-pgp-signature.md">}})
 
 
+Before you **email** anything please read these | [My Thoughts on Mail and Mail Privacy]({{< relref "/content/posts/my-thoughts-on-mail-regarding-privacy.md" >}})
+
+---
+
+### UPI - Just Scan and Pay
+
+![Upi sidmulajkar](/images/donate/rsz_1eg.png)
+
+```
+sidmulajkar@upi
+```
+
 ---
 
 # Other ways (Affiliate Program)
 
-As a note, I’ll put affiliate links here if you want to “support” me in some way by using products and services I use and recommend. If you get the service from one of these links, I usually get some minor discount that minimizes my bills so that’s appreciated.
+As a note, I’ll put affiliate links here if you want to “support” me in some way by using products and services I use and recommend. If you get the service from one of these links, I usually get some minor discount/ referal amount that minimizes my bills so that’s appreciated.
 
-- **[A2 Hosting](http://www.a2hosting.com/?aid=fceb43ba) / [Read the blog regarding the service]({{< relref "/posts/best-hosting-provider-2021">}})**
+- **[A2 Hosting](http://www.a2hosting.com/?aid=fceb43ba) | [Read the blog regarding the service]({{< relref "/posts/best-hosting-provider-2021">}})**
+
+- **[Skiff as Service - Mail, Drive and Pages](https://app.skiff.com/signup?mail&referral=refersid%40skiff.com)**
+
+- **[Mega - Drive](https://mega.nz/aff=pWFfjcC_yVs)**
 
 ---
