@@ -14,11 +14,9 @@
       
       <guid>https://sidmulajkar.com/posts/what-is-database-sharding/</guid>
       <description>&amp;ndash;
-How often do you shard your database? Do you prematurely shard? Do you actually need that for your database?🤔 &amp;ndash;
-Analogy: Your application is growing. It has more active users, more features, and generates more data every day.
-Your database is now becoming a bottleneck for the rest of your application. Database sharding could be the solution to your problems.
-But Wait&amp;hellip; Q) What is Database Sharding? &amp;ndash;
-&amp;ndash;</description>
+How often do you shard your database?    Do you prematurely shard?    Do you actually need that for your database?🤔    &amp;ndash;
+Analogy:    Your application is growing. It has more active users, more features, and generates more data every day.
+Your database is now becoming a bottleneck for the rest of your application. Database sharding could be the solution to your problems.</description>
     </item>
     
   </channel>

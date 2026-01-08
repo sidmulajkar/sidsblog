@@ -16,8 +16,8 @@
       <description>Message queues &amp;hellip;📨 📨
 The role of message queuing in a micro-service architecture.
 &amp;ndash;
-When is the right time to use a message queue and why is a database rarely the best tool for a queue-based problem? A blog on backend engineering&amp;hellip;
-Imagine that we have a web application for customers to upload a text document, which then converts it into a PDF, and then emails it back to the customer.</description>
+When is the right time to use a message queue and why is a database rarely the best tool for a queue-based problem?    A blog on backend engineering&amp;hellip;
+ Imagine that we have a web application for customers to upload a text document, which then converts it into a PDF, and then emails it back to the customer.</description>
     </item>
     
   </channel>

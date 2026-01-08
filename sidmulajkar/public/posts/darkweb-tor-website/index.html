@@ -89,7 +89,7 @@
 
     
 
-    <meta name="generator" content="Hugo 0.102.3" />
+    <meta name="generator" content="Hugo 0.92.2" />
   </head>
 
   
@@ -131,8 +131,8 @@
         "accountablePerson" : "",
         "copyrightHolder" : "",
         "copyrightYear" : "2022",
-        "datePublished": "2022-05-30 17:26:04 \u002b0530 \u002b0530",
-        "dateModified" : "2022-05-30 17:26:04 \u002b0530 \u002b0530",
+        "datePublished": "2022-05-30 17:26:04 \u002b0530 IST",
+        "dateModified" : "2022-05-30 17:26:04 \u002b0530 IST",
         "url" : "https:\/\/sidmulajkar.com\/posts\/darkweb-tor-website\/",
         "wordCount" : "868",
         "keywords" : [ "how to create a tor website","tor","dark web","onion play","tor browser","privacy","linux","cloud services","raspberry","raspberry pi","microservices","onion website","sidsblog","Blog" ]
@@ -153,10 +153,6 @@
                 
                   <li class="navigation-item">
                     <a class="navigation-link" href="https://sidmulajkar.com/posts/">Blogs</a>
-                  </li>
-                
-                  <li class="navigation-item">
-                    <a class="navigation-link" href="https://sidmulajkar.com/projects/">Projects</a>
                   </li>
                 
                   <li class="navigation-item">
@@ -272,7 +268,7 @@
   </a>
 </h3>
 <p>A top-level Internet domain used by anonymous websites on the Dark Web.</p>
-<p>For eg, as we go to any other website such as google.com or youtube.com, DuckDuckGo is an internet search engine such as google that emphasizes protecting searchers&rsquo; privacy,</p>
+<p>For eg, as we go to any other website such as google.com or youtube.com, DuckDuckGo is an internet search engine such as google that emphasizes protecting searchers' privacy,</p>
 <p>can also be accessed using duckduckgo.com or also using the tor address of the website</p>
 <p><em><strong><a href="https://3g2upl4pq6kufc4m.onion">https://3g2upl4pq6kufc4m.onion</a> (using the tor browser)</strong></em></p>
 <hr>
@@ -336,19 +332,19 @@
 <ol start="2">
 <li>Simply, login to the VM and update it(might take around 10-15mins on the first boot update and then reboot it for all packages to work properly)</li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sudo apt update
-</span></span></code></pre></div><p><img src="https://sidmulajkar.com/images/torwebsiteblogdata/update.png" alt="VM Update"></p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo apt update
+</code></pre></div><p><img src="https://sidmulajkar.com/images/torwebsiteblogdata/update.png" alt="VM Update"></p>
 <ol start="3">
 <li>Install the tor and the Nginx for the tor website to work using the commands (you can use apache as well if not Nginx, link to that article is mentioned below at the end)</li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sudo apt install tor
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sudo apt install nginx
-</span></span></code></pre></div><p><img src="https://sidmulajkar.com/images/torwebsiteblogdata/tor1.png" alt="Tor and Nginx Install"></p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo apt install tor
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo apt install nginx
+</code></pre></div><p><img src="https://sidmulajkar.com/images/torwebsiteblogdata/tor1.png" alt="Tor and Nginx Install"></p>
 <ol start="4">
 <li>So we are going to modify some of the lines of tor configuration to make it work</li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sudo nano /etc/tor/torrc
-</span></span></code></pre></div><p>is the file we are modifying, just search for <strong>HiddenServiceDir and HiddenServicePort</strong> as shown in the next image, uncomment them and save them using Ctrl+X, Ctrl+S.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo nano /etc/tor/torrc
+</code></pre></div><p>is the file we are modifying, just search for <strong>HiddenServiceDir and HiddenServicePort</strong> as shown in the next image, uncomment them and save them using Ctrl+X, Ctrl+S.</p>
 <p><img src="https://sidmulajkar.com/images/torwebsiteblogdata/torcconfig.png" alt="Tor Config"></p>
 <p><img src="https://sidmulajkar.com/images/torwebsiteblogdata/torrc2.png" alt="Tor Config"></p>
 <p><strong>The HiddenServiceDir</strong> stores the public and the private key and our .onion address is stored</p>
@@ -356,17 +352,17 @@
 <ol start="5">
 <li>Check whether both the services are running properly and perform a restart operation after the changes made to the tor service.</li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sudo service stop tor
-</span></span><span style="display:flex;"><span>sudo service start tor
-</span></span><span style="display:flex;"><span>sudo service tor status
-</span></span></code></pre></div><p><img src="https://sidmulajkar.com/images/torwebsiteblogdata/torservice.png" alt="Tor Service Working"></p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo service stop tor
+sudo service start tor
+sudo service tor status
+</code></pre></div><p><img src="https://sidmulajkar.com/images/torwebsiteblogdata/torservice.png" alt="Tor Service Working"></p>
 <p>Similarly check for Nginx,</p>
 <p><img src="https://sidmulajkar.com/images/torwebsiteblogdata/nginx.png" alt="Nginx Service Working"></p>
 <ol start="6">
 <li>Now we can check our <strong>.onion address</strong> using the command</li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sudo cat /var/lib/tor/hidden_service/hostname
-</span></span></code></pre></div><p><img src="https://sidmulajkar.com/images/torwebsiteblogdata/toraddress.png" alt="Onion Address"></p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo cat /var/lib/tor/hidden_service/hostname
+</code></pre></div><p><img src="https://sidmulajkar.com/images/torwebsiteblogdata/toraddress.png" alt="Onion Address"></p>
 <ol start="7">
 <li>Now, we can finally check our website using the address just we got with the help of tor-browser</li>
 </ol>
@@ -374,19 +370,19 @@
 <ol start="8">
 <li>Need to modify some more lines of the Nginx to make it safer to access</li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sudo nano /etc/nginx/nginx.conf
-</span></span></code></pre></div><p>we need to uncomment highlighted lines and also add one more line.</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>port_in_redirect off;
-</span></span></code></pre></div><p><img src="https://sidmulajkar.com/images/torwebsiteblogdata/nginxconf.jpeg" alt="Nginx Config"></p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo nano /etc/nginx/nginx.conf
+</code></pre></div><p>we need to uncomment highlighted lines and also add one more line.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">port_in_redirect off;
+</code></pre></div><p><img src="https://sidmulajkar.com/images/torwebsiteblogdata/nginxconf.jpeg" alt="Nginx Config"></p>
 <p>and then restart the Nginx server for one more time</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sudo service nginx restart
-</span></span></code></pre></div><hr>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo service nginx restart
+</code></pre></div><hr>
 <p><strong>Hola!!!</strong> We have our tor website up and running and we can modify it to our heart&rsquo;s content and make it up and live to the world.</p>
 <p><strong>We can simply access this website using the tor address without the need to dynamically set the IP to the domain name service or without extra hassle until the VM, raspberry pi, or Cloud Instance is running. It can be accessed fron the local network or either from the outside network as well.</strong></p>
 <hr>
 <p>We can change the details or redesign the website by modifying/adding more pages in the directory</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>/var/www/html 
-</span></span></code></pre></div><p><img src="https://sidmulajkar.com/images/torwebsiteblogdata/websiteredesign.png" alt="Nginx Config"></p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">/var/www/html 
+</code></pre></div><p><img src="https://sidmulajkar.com/images/torwebsiteblogdata/websiteredesign.png" alt="Nginx Config"></p>
 <hr>
 <p>Link to the Apache Blog if you want to use Apache instead of Nginx:</p>
 <p><a href="https://medium.com/axon-technologies/hosting-anonymous-website-on-tor-network-3a82394d7a01">https://medium.com/axon-technologies/hosting-anonymous-website-on-tor-network-3a82394d7a01</a></p>
@@ -441,7 +437,7 @@
         
           2020 -
         
-        2024
+        2026
           | PGP Key 
       
       
@@ -456,7 +452,7 @@
     
       
         
-        <script src="https://sidmulajkar.com/js/dark-mode.min.c2d8a1f8f2660e4a46d776277c72695a1e0ca65939d79f754441d47551604af5.js" integrity="sha256-wtih&#43;PJmDkpG13YnfHJpWh4Mplk51591REHUdVFgSvU="></script>
+        <script src="https://sidmulajkar.com/js/dark-mode.min.aee9c8a464eb7b3534c7110f7c5e169e7039e2fd92710e0626d451d6725af137.js" integrity="sha256-runIpGTrezU0xxEPfF4WnnA54v2ScQ4GJtRR1nJa8Tc="></script>
       
     
 

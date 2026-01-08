@@ -89,7 +89,7 @@
 
     
 
-    <meta name="generator" content="Hugo 0.102.3" />
+    <meta name="generator" content="Hugo 0.92.2" />
   </head>
 
   
@@ -131,8 +131,8 @@
         "accountablePerson" : "",
         "copyrightHolder" : "",
         "copyrightYear" : "2022",
-        "datePublished": "2022-03-19 17:26:04 \u002b0530 \u002b0530",
-        "dateModified" : "2022-03-19 17:26:04 \u002b0530 \u002b0530",
+        "datePublished": "2022-03-19 17:26:04 \u002b0530 IST",
+        "dateModified" : "2022-03-19 17:26:04 \u002b0530 IST",
         "url" : "https:\/\/sidmulajkar.com\/posts\/how-to-handle-double-booking-problem-using-db\/",
         "wordCount" : "1843",
         "keywords" : [ "how to handle concurrency and race conditions while using database","mysql","sql database","nosql","nosql database","rdbms","data structures","database","factors","double-booking problem","concurrency control","lock mechanism","time stamping","pessimistic approach","optimistic approach","kubernetes","microservices","sidsblog","Blog" ]
@@ -153,10 +153,6 @@
                 
                   <li class="navigation-item">
                     <a class="navigation-link" href="https://sidmulajkar.com/posts/">Blogs</a>
-                  </li>
-                
-                  <li class="navigation-item">
-                    <a class="navigation-link" href="https://sidmulajkar.com/projects/">Projects</a>
                   </li>
                 
                   <li class="navigation-item">
@@ -290,8 +286,8 @@
 <p><img src="https://sidmulajkar.com/images/doublebookingdb/doublebook1.png" alt="Double Booking"></p>
 <hr>
 <p><strong>Now how do we handle this situation as a database/backend engineer?</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span>I am not talking about designing a similar system like this.
-</span></span></code></pre></div><p>In this blog, I want to <em><strong>purely talk from the perspective of handling a situation like this, just considering the database itself.</strong></em></p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go">I am not talking about designing a similar system like this.
+</code></pre></div><p>In this blog, I want to <em><strong>purely talk from the perspective of handling a situation like this, just considering the database itself.</strong></em></p>
 <hr>
 <h3 id="for-simpler-understanding">
   For simpler understanding,
@@ -313,10 +309,10 @@
 </ol>
 <hr>
 <p><em><strong>Before getting into the details of the problem we need to first understand the concepts of</strong></em></p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>- Concurrency Control
-</span></span><span style="display:flex;"><span>- Lock Mechanisms &amp;
-</span></span><span style="display:flex;"><span>- Time Stamping
-</span></span></code></pre></div><ol>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">- Concurrency Control
+- Lock Mechanisms &amp;
+- Time Stamping
+</code></pre></div><ol>
 <li>
 <h3 id="concurrency-control">
   <strong>Concurrency Control</strong>
@@ -476,7 +472,7 @@ Isolation levels define the degree to which a transaction must be isolated from 
 <p><a href="https://developers.redhat.com/articles/2021/09/21/distributed-transaction-patterns-microservices-compared">https://developers.redhat.com/articles/2021/09/21/distributed-transaction-patterns-microservices-compared</a></p>
 <hr>
 <p>Here&rsquo;s a Video on Concurrency Control in Postgress:</p>
-<p><a href="https://yewtu.be/watch?v=ZxhBkBNxvR0" title="Postgress Conference"><img src="https://sidmulajkar.com/images/doublebookingdb/postgresscon.jpeg" alt="Postgress Conference"></a></p>
+<p><a href="https://youtube.com/watch?v=ZxhBkBNxvR0" title="Postgress Conference"><img src="https://sidmulajkar.com/images/doublebookingdb/postgresscon.jpeg" alt="Postgress Conference"></a></p>
 <hr>
 <p>Learned about a <strong>&ldquo;Commercial SQL DB&rdquo;</strong> which is designed for scale:
 <a href="https://www.cockroachlabs.com/">https://www.cockroachlabs.com/</a></p>
@@ -524,7 +520,7 @@ Isolation levels define the degree to which a transaction must be isolated from 
         
           2020 -
         
-        2024
+        2026
           | PGP Key 
       
       
@@ -539,7 +535,7 @@ Isolation levels define the degree to which a transaction must be isolated from 
     
       
         
-        <script src="https://sidmulajkar.com/js/dark-mode.min.c2d8a1f8f2660e4a46d776277c72695a1e0ca65939d79f754441d47551604af5.js" integrity="sha256-wtih&#43;PJmDkpG13YnfHJpWh4Mplk51591REHUdVFgSvU="></script>
+        <script src="https://sidmulajkar.com/js/dark-mode.min.aee9c8a464eb7b3534c7110f7c5e169e7039e2fd92710e0626d451d6725af137.js" integrity="sha256-runIpGTrezU0xxEPfF4WnnA54v2ScQ4GJtRR1nJa8Tc="></script>
       
     
 

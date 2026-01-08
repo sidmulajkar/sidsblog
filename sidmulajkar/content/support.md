@@ -63,7 +63,6 @@ As a note, I’ll put affiliate links here if you want to “support” me in so
 
 - **[A2 Hosting](http://www.a2hosting.com/?aid=fceb43ba) | [Read the blog regarding the service]({{< relref "/posts/best-hosting-provider-2021">}})**
 
-- **[Skiff as Service - Mail, Drive and Pages](https://app.skiff.com/signup?mail&referral=refersid%40skiff.com)**
 
 - **[Mega - Drive](https://mega.nz/aff=pWFfjcC_yVs)**
 

@@ -7,18 +7,20 @@ draft: false
 ---
 # {Security ≠ Privacy ≠ Anonymous}.
 
+
+
+`It is` **axiomatic** `in the world of privacy that privacy matters to people,` **but why it matter's is more complicated.** 
+
+`People often argue about why privacy is important to individuals, but there is no “one-size-fits-all” answer.`
+
 --
 
-### "I have nothing to hide..." *[watch](https://www.ted.com/talks/glenn_greenwald_why_privacy_matters) this*.
+### "I have nothing to hide..." *[watch](https://www.ted.com/talks/glenn_greenwald_why_privacy_matters) this*. 👀
 
 --
 
-`It is` **axiomatic** `in the world of privacy that privacy matters to people,` **but why it matter's is more complicated.** `People often argue about why privacy is important to individuals, but there is no “one-size-fits-all” answer.`
 
-
----
-
-#### Beginner's Guide to Digital Privacy
+### Beginner's Guide to Digital Privacy
 
 Links:
 
@@ -45,7 +47,7 @@ Update: I used to self host my servers, now I don't and use a service instead.
 
 --
 
-`A series of podcasts and blogs to restore your data privacy and learn more about how the data can be tracked less, one step towards improving the privacy.`
+`A series of audio podcasts and blogs to restore your data privacy and learn more about how the data can be tracked less, one step towards improving the privacy.`
 
 ---
 

@@ -217,7 +217,7 @@ https://developers.redhat.com/articles/2021/09/21/distributed-transaction-patter
 
 Here's a Video on Concurrency Control in Postgress:
 
-[![Postgress Conference](/images/doublebookingdb/postgresscon.jpeg)](https://yewtu.be/watch?v=ZxhBkBNxvR0 "Postgress Conference")
+[![Postgress Conference](/images/doublebookingdb/postgresscon.jpeg)](https://youtube.com/watch?v=ZxhBkBNxvR0 "Postgress Conference")
 
 ---
 

@@ -45,7 +45,7 @@ Well,
 
 So how do we use these trees and are they really useful? Best video to understand the concept by Abdul Bari
 
-[![B Trees](/images/btrees/btree3.jpeg)](https://cf.piped.video/watch?v=aZjYr87r1b8 "B Trees")
+[![B Trees](/images/btrees/btree3.jpeg)](https://youtube.com/watch?v=aZjYr87r1b8 "B Trees")
 
 ---
 

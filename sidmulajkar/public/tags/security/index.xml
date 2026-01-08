@@ -13,7 +13,7 @@
       <pubDate>Tue, 26 Dec 2023 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/my-thoughts-on-mail-regarding-privacy/</guid>
-      <description>Email still remains an Essential Backbone for communication, nearly used by ~(3-4) billion people. I do not use email as a privacy tool for communication. Check the last part** The most private and secure way to communicate online is by using end-to-end encryption. If you send an end-to-end encrypted email, it’s encrypted on your device and isn’t decrypted until it reaches the device of the other person you sent the message to.</description>
+      <description>Email still remains an Essential Backbone for communication, nearly used by ~(3-4) billion people.    I do not use email as a privacy tool for communication. Check the last part**     The most private and secure way to communicate online is by using end-to-end encryption. If you send an end-to-end encrypted email, it’s encrypted on your device and isn’t decrypted until it reaches the device of the other person you sent the message to.</description>
     </item>
     
     <item>
@@ -22,10 +22,9 @@
       <pubDate>Sun, 16 Oct 2022 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/how-harden-linux-server/</guid>
-      <description>Requirements Computer, virtual private server (VPS) or dedicated server running Debian based server instance. Linux or macOS computer for following the steps and hardening the server Guide &amp;ndash;
-Step 1. Create the SSH key pair for login (On Computer) Using a root login password to login is good but not great from the security stand.
-When asked for file in which to save key, enter serverlog.
-When asked for passphrase, use output from openssl rand -base64 24 (and store passphrase in password manager).</description>
+      <description>Requirements     Computer, virtual private server (VPS) or dedicated server running Debian based server instance. Linux or macOS computer for following the steps and hardening the server  Guide    &amp;ndash;
+Step 1. Create the SSH key pair for login (On Computer)    Using a root login password to login is good but not great from the security stand.
+When asked for file in which to save key, enter serverlog.</description>
     </item>
     
   </channel>

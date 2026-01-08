@@ -29,7 +29,7 @@ The data-safety concerns paved the way for many privacy-first email providers. L
 
 --
 
-**LavaBit** >> https://yewtu.be/watch?v=NM8fAnEqs1Q
+**LavaBit** >> https://youtube.com/watch?v=NM8fAnEqs1Q
 
 
 ![Lavabit Image](/images/emailser/lavabitemail.png)

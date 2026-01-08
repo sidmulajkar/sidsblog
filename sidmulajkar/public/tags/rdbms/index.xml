@@ -16,7 +16,7 @@
       <description>&amp;ndash;
 Well the Answer is :
 It totally depends, on what use, we are using the concurrency model, for using the specific database to avoid this problem.
-Firstly, what the heck is double booking problem? An online movie ticket booking system provides its customers with the ability to book movie tickets online. BookMyShow as an example allows the customers to browse movies currently being running in a city and to book seats, anywhere anytime for a show.</description>
+ Firstly, what the heck is double booking problem?    An online movie ticket booking system provides its customers with the ability to book movie tickets online. BookMyShow as an example allows the customers to browse movies currently being running in a city and to book seats, anywhere anytime for a show.</description>
     </item>
     
     <item>
@@ -25,11 +25,11 @@ Firstly, what the heck is double booking problem? An online movie ticket booking
       <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/posts/databases-how-do-we-know-its-the-right-one/</guid>
-      <description>Choosing the Best Database? &amp;ndash;
-Whether you are an experienced software engineer or a student doing a university project, at some point we will need to choose a DB for our project.
+      <description>Choosing the Best Database?    &amp;ndash;
+ Whether you are an experienced software engineer or a student doing a university project, at some point we will need to choose a DB for our project.
 Choosing the right kind of database always requires some consideration.
 &amp;ndash;
-First of all, databases will not impact our functional requirements. &amp;ndash;
+First of all, databases will not impact our functional requirements.    &amp;ndash;
 Whichever database we use can still achieve our functional requirements somehow, but at the cost of huge performance degradation.</description>
     </item>
     
@@ -42,8 +42,8 @@ Whichever database we use can still achieve our functional requirements somehow,
       <description>Message queues &amp;hellip;📨 📨
 The role of message queuing in a micro-service architecture.
 &amp;ndash;
-When is the right time to use a message queue and why is a database rarely the best tool for a queue-based problem? A blog on backend engineering&amp;hellip;
-Imagine that we have a web application for customers to upload a text document, which then converts it into a PDF, and then emails it back to the customer.</description>
+When is the right time to use a message queue and why is a database rarely the best tool for a queue-based problem?    A blog on backend engineering&amp;hellip;
+ Imagine that we have a web application for customers to upload a text document, which then converts it into a PDF, and then emails it back to the customer.</description>
     </item>
     
   </channel>

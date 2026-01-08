@@ -6,37 +6,49 @@ draft: false
 ---
 
 
-I am a **CS engineer** passionate about building and using systems that **respects privacy and security at the forefront**.
+DevOps Engineer with 5 years of experience across Security, Linux infrastructure, and Site Reliability Engineering (SRE). I have architected secure, scalable infrastructure for high-traffic platforms and sports broadcasting networks (IPL), specializing in bridging the gap between efficient software delivery and robust security posture (DevSecOps).
 
-Started my career **freelancing** to starting a **startup**, all with pretty much the same fascination that drove me as a kid. Throughout my career, I have worked **across domains** and have built specific **platforms, and mini-services**.
+My core focus lies in building resilient CI/CD pipelines, automating cloud infrastructure, and conducting vulnerability assessments to ensure production stability.
 
-**Founder** of Tech Sid Solutions, helped new aspiring entrepreneurs make a digital presence marking their first footprint.
+--
+#### Professional Highlights:
 
-On the side, I am
+Infrastructure & SRE: Managed extensive Linux infrastructure and orchestrated containerized environments (Kubernetes/Docker) for high-demand streaming services.
 
-- **Freelance Security Consultant** for a **Startup**, and have helped launch mini-services.
+DevSecOps Implementation: Integrated security into the development lifecycle, utilizing tools like OWASP ZAP to minimize vulnerabilities pre-production.
 
-- Part-time **"Video Editor"** which makes me happy to find myself as a person.
+Leadership & Initiative: Founder of Tech Sid Solutions, enabling digital transformation for startups, and served as a Security Consultant to harden microservices architectures.
+
+--
+#### Technical Stack:
+
+Cloud & OS: AWS, Linode, Ubuntu, Kali, Red Hat/Fedora.
+
+Containerization & Orchestration: Kubernetes, Docker, Ansible, Git, GitHub Actions, Gitea (On-Premise), Terraform(Beginner).
+
+Security & Analysis: Burp Suite, Metasploit, Nmap, Wireshark, Graylog, OWASP ZAP.
+
+Monitoring: Prometheus, Grafana, Netdata (Hardware Monitoring).
+
+Scripting: C++, JavaScript, Python, Bash.
+
 
 --
 
-**Currently Working on**: **c++**, Javascript, **Cyber Security Research & Privacy Guides**, SwiftUI, Node(Beginner), React(Beginner), Machine Learning
-
-**Security Tools**: BurpSuite, Metasploit, Wireshark, OWASP-ZAP(Beginner)
-
-**Devops Tools**: Docker, Kubernetes, Ansible, Git, Jenkins(Beginner)
-
---
-
-There's unequivocally yet more to learn, more problems to solve, and more to build. And for this, I'm very obliged.
+Outside of core engineering, I work as a part-time video editor, which keeps my creative side active.
 
 
-**Contriver** by heart 💚, **developer** by profession. 
+There’s still much to learn, more problems to solve, and more to create. For this, I am very grateful. 
 
-Contact me at ✉️ hi@sidmulajkar.com
 
---
-##### [If interested do check out my Resume by clicking this 👈](/resume/ResumeSEC-Siddhant_Mulajkar.pdf)
+
+**Contriver** by heart 💚, **developer** by profession. Contact me at hi@sidmulajkar.com
+
+
+
+---
+
+##### [If interested do check out my Resume by clicking this 👈](https://drive.google.com/file/d/1uP4N8n9t5hol4Ie2PnLiUiFdrrezlpr4/view?usp=sharing)
 
 ##### Privacy Resource Reference - [anukramani 🔐]({{< relref "content/references.md" >}})
 

@@ -30,7 +30,7 @@ hg<?xml version="1.0" encoding="utf-8" standalone="yes"?>
       <title>References</title>
       <link>https://sidmulajkar.com/references/</link>
       <pubDate>Thu, 19 Jan 2023 19:09:26 +0530</pubDate>
-      
+
       <guid>https://sidmulajkar.com/references/</guid>
       <description> A list of curated references regarding the web resources, books, podcasts, ted-talks and privacy documentaries.</description>
     </item>
@@ -49,18 +49,18 @@ hg<?xml version="1.0" encoding="utf-8" standalone="yes"?>
       <title>The Definitive Handbook: Essential Strategies for Strengthening Your Linux Server</title>
       <link>https://sidmulajkar.com/posts/how-harden-linux-server/</link>
       <pubDate>Sun, 16 Oct 2022 17:26:04 +0530</pubDate>
-      
+
       <guid>https://sidmulajkar.com/posts/how-harden-linux-server/</guid>
       <description>This tutorial help out in how to harden the linux server for better security and privacy.</description>
     </item>
-    
+
 
 
     <item>
       <title>Privacy Guides</title>
       <link>https://sidmulajkar.com/privacyguide/</link>
       <pubDate>Sun, 19 Jun 2022 19:09:26 +0530</pubDate>
-      
+
       <guid>https://sidmulajkar.com/privacyguide/</guid>
       <description>A series of podcasts and blogs to restore your data privacy and learn more about how the data can be tracked less, one step towards improving the privacy.</description>
     </item>
@@ -71,7 +71,7 @@ hg<?xml version="1.0" encoding="utf-8" standalone="yes"?>
       <title>Tutorial: How to Create a Tor Dark Web Site Step-by-Step</title>
       <link>https://sidmulajkar.com/posts/darkweb-tor-website/</link>
       <pubDate>Mon, 30 May 2022 17:26:04 +0530</pubDate>
-      
+
       <guid>https://sidmulajkar.com/posts/darkweb-tor-website/</guid>
       <description>In this blog, we will learn how to create a tor(dark-web) based website. Tor offers anonymous browsing capabilities to people across the world.</description>
     </item>
@@ -89,7 +89,7 @@ hg<?xml version="1.0" encoding="utf-8" standalone="yes"?>
       <title>How to Handle the Double booking problem in an app or website just using the database? </title>
       <link>https://sidmulajkar.com/posts/how-to-handle-double-booking-problem-using-db/</link>
       <pubDate>Sat, 19 Mar 2022 17:26:04 +0530</pubDate>
-      
+
       <guid>https://sidmulajkar.com/posts/how-to-handle-double-booking-problem-using-db/</guid>
       <description>It totally depends, on what use, we are using the concurrency model for using the specific database to avoid this problem.</description>
     </item>
@@ -98,7 +98,7 @@ hg<?xml version="1.0" encoding="utf-8" standalone="yes"?>
       <title>Databases! How do we know it&#39;s the right one? </title>
       <link>https://sidmulajkar.com/posts/databases-how-do-we-know-its-the-right-one/</link>
       <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
-      
+
       <guid>https://sidmulajkar.com/posts/databases-how-do-we-know-its-the-right-one/</guid>
       <description>How to Identify the Right Database for Your Needs. There are different types of modern databases available, each with a distinct set of advantages and disadvantages. This article gives you a bird's eye view of the most popular types of modern databases.</description>
     </item>
@@ -107,145 +107,144 @@ hg<?xml version="1.0" encoding="utf-8" standalone="yes"?>
       <title>Message Queues and Their Practical Applications</title>
       <link>https://sidmulajkar.com/posts/message-queues/</link>
       <pubDate>Fri, 26 Nov 2021 17:26:04 +0530</pubDate>
-      
+
       <guid>https://sidmulajkar.com/posts/message-queues/</guid>
       <description>Message queues, what are those and when to use them? Message queues makes it possible for applications to communicate asynchronously, by sending messages to each other via a queue.</description>
     </item>
-    
+
     <item>
       <title>Effective Strategies to Optimize Database Performance: Insights into Unusable Indexes</title>
       <link>https://sidmulajkar.com/posts/when-indexes-are-not-useable/</link>
       <pubDate>Tue, 16 Nov 2021 17:26:04 +0530</pubDate>
-      
+
       <guid>https://sidmulajkar.com/posts/when-indexes-are-not-useable/</guid>
       <description>What do I even mean by unusable indexes? Indexes that once helped performance now just bloat your database and cause extra work for inserts, updates, and deletes. Indexing is a way to optimize the performance of a database by minimizing the number of disk accesses required when a query is processed.</description>
     </item>
-    
+
     <item>
       <title>B/B&#43; Trees How they are helpful in Database?</title>
       <link>https://sidmulajkar.com/posts/b-bplus-trees/</link>
       <pubDate>Mon, 25 Oct 2021 17:26:04 +0530</pubDate>
-      
+
       <guid>https://sidmulajkar.com/posts/b-bplus-trees/</guid>
       <description>B-tree is a special type of self-balancing search tree in which each node can contain more than one key and can have more than two children. It is a generalized form of the binary search tree. It is also known as a height-balanced m-way tree.</description>
     </item>
-    
+
     <item>
       <title></title>
       <link>https://sidmulajkar.com/services/</link>
       <pubDate>Wed, 20 Oct 2021 19:09:26 +0530</pubDate>
-      
+
       <guid>https://sidmulajkar.com/services/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Boosting Performance through Effective Database Sharding Architectures for Optimal Optimization</title>
       <link>https://sidmulajkar.com/posts/database-sharding-architectures/</link>
       <pubDate>Sun, 17 Oct 2021 17:26:04 +0530</pubDate>
-      
+
       <guid>https://sidmulajkar.com/posts/database-sharding-architectures/</guid>
       <description>Once you’ve decided to shard your database, the next thing you need to figure out is how you’ll go about doing so. When running queries or distributing incoming data to sharded tables or databases, it’s crucial that it goes to the correct shard. Otherwise, it could result in lost data or painfully slow queries. In this section, we’ll go over a effective database sharding architectures, each of which uses a slightly different process to distribute data across shards.</description>
     </item>
-    
+
     <item>
       <title>What actually is Database Sharding?</title>
       <link>https://sidmulajkar.com/posts/what-is-database-sharding/</link>
       <pubDate>Thu, 14 Oct 2021 17:26:04 +0530</pubDate>
-      
+
       <guid>https://sidmulajkar.com/posts/what-is-database-sharding/</guid>
       <description>In this blog, we will understand database sharding. Sharding is a method for distributing a single dataset across multiple databases, which can then be stored on multiple machines. This allows for larger datasets to be split in smaller chunks and stored in multiple data nodes, increasing the total storage capacity of the system.</description>
     </item>
-    
+
     <item>
       <title>TCP and UDP - Simple yet Confusing🤔</title>
       <link>https://sidmulajkar.com/posts/tcp-and-udp/</link>
       <pubDate>Wed, 06 Oct 2021 17:26:04 +0530</pubDate>
-      
+
       <guid>https://sidmulajkar.com/posts/tcp-and-udp/</guid>
       <description>TCP and UDP, a simple open-ended question that can test your whole sort of knowledge. In this blog, The problem with packets (IP) - TCP pros and cons - TCP communication sample code - UDP pros and cons - UDP communication sample code - Some questions based on them. To start, I was asked a question in an interview</description>
     </item>
-    
+
     <item>
       <title></title>
       <link>https://sidmulajkar.com/course/</link>
       <pubDate>Sat, 02 Oct 2021 19:09:26 +0530</pubDate>
-      
+
       <guid>https://sidmulajkar.com/course/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Understanding TCP Slow Start and its Role in Network Performance</title>
       <link>https://sidmulajkar.com/posts/tcp-slow-start/</link>
       <pubDate>Sat, 02 Oct 2021 17:26:04 +0530</pubDate>
-      
+
       <guid>https://sidmulajkar.com/posts/tcp-slow-start/</guid>
       <description>TCP Slow Start and Does it affect Web Application Performance? Yes, it&amp;rsquo;s a feature, not an issue but can be a problem sometimes while analyzing and designing the app. TCP slow start is an algorithm which balances the speed of a network connection. Slow start gradually increases the amount of data transmitted until it finds the network's maximum carrying capacity.</description>
     </item>
-    
+
     <item>
       <title>Step-by-Step Guide: Installing Ubuntu with Linux Subsystem WSL-2 on Windows 10 for Hassle-free Setup</title>
       <link>https://sidmulajkar.com/posts/linux-subsytem-in-windows-wsl2/</link>
       <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
-      
+
       <guid>https://sidmulajkar.com/posts/linux-subsytem-in-windows-wsl2/</guid>
       <description>So, Ready to transform your Windows Environment in to your Linux Beast!! Step by Step guide on installing ubuntu with linux subsystem wsl2 on windows for hassle free setup.</description>
     </item>
-    
+
     <item>
       <title>How to install Flutter in Linux(Debian) based Systems</title>
       <link>https://sidmulajkar.com/posts/flutter-installation-in-linux/</link>
       <pubDate>Sun, 05 Sep 2021 17:26:04 +0530</pubDate>
-      
+
       <guid>https://sidmulajkar.com/posts/flutter-installation-in-linux/</guid>
       <description>On Linux, you have two ways you can install Flutter. Install Flutter using snapd open your terminal and use this command to install flutter sudo snap install flutter --classic</description>
     </item>
-    
+
     <item>
       <title>Setting up Pi-hole as a recursive DNS server (Explained)</title>
       <link>https://sidmulajkar.com/posts/setting-up-pihole-as-a-recursive-dns-server/</link>
       <pubDate>Tue, 30 Mar 2021 16:04:37 +0530</pubDate>
-      
+
       <guid>https://sidmulajkar.com/posts/setting-up-pihole-as-a-recursive-dns-server/</guid>
       <description>Got an old Raspberry Pi lying around? Hate seeing ads while browsing the web? Pi-hole is an open-source software project that blocks ads for all devices on your home network by routing all advertising servers into nowhere. What’s best is it takes just a few minutes to set up. Network-wide ad blocking via your own Linux hardware. The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.</description>
     </item>
-    
+
     <item>
       <title>Enhance Your Coding Skills with the Best 4 JavaScript Blogs and Resources</title>
       <link>https://sidmulajkar.com/posts/best-javascript-resources/</link>
       <pubDate>Sat, 27 Mar 2021 17:26:04 +0530</pubDate>
-      
+
       <guid>https://sidmulajkar.com/posts/best-javascript-resources/</guid>
       <description>With two decades of improvement, JavaScript has become one of the most popular programming languages of all time. The journey started in 1995 when Brendan Eich created JavaScript in just 10 days. From there, it has seen multiple revisions, drafts, and growth in the form of frameworks, APIs, modules, etc. Today, we will go forward and list the best resources of JavaScript blogs from the net so that you can enjoy the lastest development things in the field of JavaScript.</description>
     </item>
-    
+
     <item>
       <title>Projects</title>
       <link>https://sidmulajkar.com/projects/</link>
       <pubDate>Thu, 25 Mar 2021 19:09:26 +0530</pubDate>
-      
+
       <guid>https://sidmulajkar.com/projects/</guid>
       <description>Sentiment-Predictor-for-Stress-Detection-using-Voice. A Machine Learning Project based on the deep learning model that helps in predicting Emotions which eventually helps in detecting the mental state of the person. Trained the model on the RAVDESS Dataset (24 Actors, 1440 audio files) using the CNN Model with the raw mfcc voice sets. This method helped in improving the overall accuracy from 74% to 93% from the other methods.</description>
     </item>
-    
+
     <item>
       <title>About</title>
       <link>https://sidmulajkar.com/about/</link>
       <pubDate>Thu, 25 Mar 2021 17:26:04 +0530</pubDate>
-      
+
       <guid>https://sidmulajkar.com/about/</guid>
       <description>A CS engineer with freelancing experience pivoting into Security.</description>
     </item>
-    
+
     <item>
       <title>Top Hosting Service Provider 2021 - Comprehensive Review for Finding the Best</title>
       <link>https://sidmulajkar.com/posts/best-hosting-provider-2021/</link>
       <pubDate>Thu, 25 Feb 2021 17:26:04 +0530</pubDate>
-      
+
       <guid>https://sidmulajkar.com/posts/best-hosting-provider-2021/</guid>
       <description>At first glance, A2 Hosting might seem like nothing more than another hosting platform that sings high praises then falls flat on the delivery. The features almost seem too good to be true. Everyone claims to be faster than the competitors, but twenty times so? Can A2 Hosting live up to its promises? Let’s take a look.</description>
     </item>
-    
+
   </channel>
-</rss>

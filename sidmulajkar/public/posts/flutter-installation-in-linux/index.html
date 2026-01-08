@@ -89,7 +89,7 @@
 
     
 
-    <meta name="generator" content="Hugo 0.102.3" />
+    <meta name="generator" content="Hugo 0.92.2" />
   </head>
 
   
@@ -131,8 +131,8 @@
         "accountablePerson" : "",
         "copyrightHolder" : "",
         "copyrightYear" : "2021",
-        "datePublished": "2021-09-05 17:26:04 \u002b0530 \u002b0530",
-        "dateModified" : "2021-09-05 17:26:04 \u002b0530 \u002b0530",
+        "datePublished": "2021-09-05 17:26:04 \u002b0530 IST",
+        "dateModified" : "2021-09-05 17:26:04 \u002b0530 IST",
         "url" : "https:\/\/sidmulajkar.com\/posts\/flutter-installation-in-linux\/",
         "wordCount" : "510",
         "keywords" : [ "flutter","flutter installation","linux","flutter sdk","flutter docs","install flutter","ubuntu","debian","linux","android studio","sidsblog","Blog" ]
@@ -153,10 +153,6 @@
                 
                   <li class="navigation-item">
                     <a class="navigation-link" href="https://sidmulajkar.com/posts/">Blogs</a>
-                  </li>
-                
-                  <li class="navigation-item">
-                    <a class="navigation-link" href="https://sidmulajkar.com/projects/">Projects</a>
                   </li>
                 
                   <li class="navigation-item">
@@ -259,10 +255,10 @@
   </a>
 </h5>
 <p>open your terminal and use this command to install flutter</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sudo snap install flutter --classic
-</span></span></code></pre></div><p>after installing the flutter for the first time type flutter in the terminal as it will install all its dependencies and files</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>flutter
-</span></span></code></pre></div><p>wait for it to install and then move forward to the pre-requisite section.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo snap install flutter --classic
+</code></pre></div><p>after installing the flutter for the first time type flutter in the terminal as it will install all its dependencies and files</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">flutter
+</code></pre></div><p>wait for it to install and then move forward to the pre-requisite section.</p>
 <h5 id="or-install-flutter-manually">
   Or Install FLutter Manually
   <a class="heading-link" href="#or-install-flutter-manually">
@@ -279,16 +275,16 @@
 <p>Extract the file in the desired location, for example:</p>
 </li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>cd ~/development
-</span></span><span style="display:flex;"><span>tar xf ~/Downloads/flutter_linux_2.2.3-stable.tar.xz
-</span></span></code></pre></div><p>&ndash;</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">cd ~/development
+tar xf ~/Downloads/flutter_linux_2.2.3-stable.tar.xz
+</code></pre></div><p>&ndash;</p>
 <p>If you don’t want to install a fixed version of the installation bundle, you can skip steps 1 and 2. Instead, get the source code from the Flutter repo on GitHub with the following command:</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>git clone https://github.com/flutter/flutter.git
-</span></span></code></pre></div><ol start="3">
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">git clone https://github.com/flutter/flutter.git
+</code></pre></div><ol start="3">
 <li>Add the flutter tool to your path:</li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-mysql" data-lang="mysql"><span style="display:flex;"><span>export PATH=<span style="color:#0ff;font-weight:bold">&#34;$PATH:`pwd`/flutter/bin&#34;</span>
-</span></span></code></pre></div><p>This command sets your PATH variable for the current terminal window only. To permanently add Flutter to your path, see Update your path.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-mysql" data-lang="mysql">export PATH=<span style="color:#0ff;font-weight:bold">&#34;$PATH:`pwd`/flutter/bin&#34;</span>
+</code></pre></div><p>This command sets your PATH variable for the current terminal window only. To permanently add Flutter to your path, see Update your path.</p>
 <h4 id="how-to-check-whether-the-flutter-is-installed-properly-or-not">
   How to check whether the flutter is installed properly or not?
   <a class="heading-link" href="#how-to-check-whether-the-flutter-is-installed-properly-or-not">
@@ -315,26 +311,26 @@
 </h4>
 <p>&ndash;</p>
 <p>Either <strong>download it directly from the site</strong> and install it or, <strong>use the terminal</strong> to install it, just as you installed flutter.</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sudo snap install android-studio --classic
-</span></span></code></pre></div><p>After downloading the Android Studio open the Android Studio from the App Drawer and perform the initial setup of it.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo snap install android-studio --classic
+</code></pre></div><p>After downloading the Android Studio open the Android Studio from the App Drawer and perform the initial setup of it.</p>
 <p>Create an Android Emulator to test the apps developed, for this follow the images below:</p>
 <p><img src="https://sidmulajkar.com/images/flutterimgs/androidstudio.png" alt="Android Studio"></p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>Click on the More Actions and select the AVD Manager option
-</span></span></code></pre></div><p><img src="https://sidmulajkar.com/images/flutterimgs/avdmanager.png" alt="Android AVDManager"></p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">Click on the More Actions and select the AVD Manager option
+</code></pre></div><p><img src="https://sidmulajkar.com/images/flutterimgs/avdmanager.png" alt="Android AVDManager"></p>
 <p>Since there will be no AVD in the starting create a new Device using the Create Virtual Device Button and leave to default options if don&rsquo;t want to edit the config of the device</p>
 <p><img src="https://sidmulajkar.com/images/flutterimgs/andvirtualdeviceconfig.png" alt="Android AVDCreation"></p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>Upon successful creation, the AVD should start-up
-</span></span></code></pre></div><p><img src="https://sidmulajkar.com/images/flutterimgs/androidemulator2.png" alt="Android Emulator"></p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">Upon successful creation, the AVD should start-up
+</code></pre></div><p><img src="https://sidmulajkar.com/images/flutterimgs/androidemulator2.png" alt="Android Emulator"></p>
 <hr>
 <ol start="2">
 <li><strong>Java JDK</strong></li>
 </ol>
 <p>To install use this command</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sudo apt install openjdk-8-jdk
-</span></span></code></pre></div><pre><code>Then set JAVA in path variable using
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo apt install openjdk-8-jdk
+</code></pre></div><pre><code>Then set JAVA in path variable using
 </code></pre>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
-</span></span></code></pre></div><hr>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+</code></pre></div><hr>
 <p>(Optional step as you can install your preferred code editor)</p>
 <ol start="3">
 <li><a href="https://code.visualstudio.com/">Visual Studio Code</a> (Text editor to edit the code and install some plugins regarding the development)</li>
@@ -354,11 +350,11 @@
   </a>
 </h4>
 <p>create a directory to install the flutter app basics using the terminal</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>mkdir HelloWorld
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>cd HelloWorld
-</span></span></code></pre></div><p>then use this command to create</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>flutter create helloworld
-</span></span></code></pre></div><p>the files after the app are created using the above command</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">mkdir HelloWorld
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">cd HelloWorld
+</code></pre></div><p>then use this command to create</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">flutter create helloworld
+</code></pre></div><p>the files after the app are created using the above command</p>
 <p><img src="https://sidmulajkar.com/images/flutterimgs/flutterfilesaftercreating.png" alt="Flutter Files"></p>
 <h5 id="finally-time-to-run-the-flutter-app">
   Finally, time to run the flutter app
@@ -366,8 +362,8 @@
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h5>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>flutter run
-</span></span></code></pre></div><p><img src="https://sidmulajkar.com/images/flutterimgs/androidemulatorapprun.png" alt="Flutter App"></p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">flutter run
+</code></pre></div><p><img src="https://sidmulajkar.com/images/flutterimgs/androidemulatorapprun.png" alt="Flutter App"></p>
 <hr>
 <h5 id="if-you-still-face-the-issue-then-use-the-flutter-doctor-command-to-find-out-whats-not-installed-and-needs-a-look">
   If you still face the issue then use the flutter doctor command to find out what&rsquo;s not installed and needs a look
@@ -375,8 +371,8 @@
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h5>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>flutter doctor
-</span></span></code></pre></div><hr>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">flutter doctor
+</code></pre></div><hr>
 <h4 id="hope-this-tutorial-helped-you-in-some-way-thank-you-for-following-it">
   Hope this tutorial helped you in some way. Thank you for following it.
   <a class="heading-link" href="#hope-this-tutorial-helped-you-in-some-way-thank-you-for-following-it">
@@ -424,7 +420,7 @@
         
           2020 -
         
-        2024
+        2026
           | PGP Key 
       
       
@@ -439,7 +435,7 @@
     
       
         
-        <script src="https://sidmulajkar.com/js/dark-mode.min.c2d8a1f8f2660e4a46d776277c72695a1e0ca65939d79f754441d47551604af5.js" integrity="sha256-wtih&#43;PJmDkpG13YnfHJpWh4Mplk51591REHUdVFgSvU="></script>
+        <script src="https://sidmulajkar.com/js/dark-mode.min.aee9c8a464eb7b3534c7110f7c5e169e7039e2fd92710e0626d451d6725af137.js" integrity="sha256-runIpGTrezU0xxEPfF4WnnA54v2ScQ4GJtRR1nJa8Tc="></script>
       
     
 
