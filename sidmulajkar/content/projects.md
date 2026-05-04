@@ -9,7 +9,7 @@ draft: false
 
 #### Privacy Resource Reference - [anukramani 🔐]({{< relref "content/references.md" >}})
 
-#### Personal knowledge wiki - [sangraha 🧑🏽‍💻]({{< relref "content/sangraha/index.md" >}})
+#### Personal knowledge wiki - [sangraha 🧑🏽‍💻]({{< relref "content/sangraha.md" >}})
 
 --
 

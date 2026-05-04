@@ -8,14 +8,15 @@ draft: false
 
 --
 
-- [./minimalism]()
+- [./devops]()
 - [./privacy]()
-- [./software engineering]()
+- [./software-engineering]({{< relref "content/software-engineering.md" >}})
 - [./cybersecurity]()
 - [./linux]()
 - [./cryptography]()
 - [./software]()
 - [./books]()
+- [./personal-finance]()
 
 --
 

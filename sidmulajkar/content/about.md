@@ -48,10 +48,10 @@ There’s still much to learn, more problems to solve, and more to create. For t
 
 ---
 
-##### [If interested do check out my Resume by clicking this 👈](https://drive.google.com/file/d/1uP4N8n9t5hol4Ie2PnLiUiFdrrezlpr4/view?usp=sharing)
+##### Resume - [Resume_Siddhant_Mulajkar-Devops.pdf 📄](https://drive.google.com/file/d/1hqbFefdVNYAXmORiJWj5Mc9rGWhms1Ei/view?usp=drive_link)
 
 ##### Privacy Resource Reference - [anukramani 🔐]({{< relref "content/references.md" >}})
 
-##### Personal knowledge wiki - [sangraha 🧑🏽‍💻]({{< relref "content/sangraha/index.md" >}})
+##### Personal knowledge wiki - [sangraha 🧑🏽‍💻]({{< relref "content/sangraha.md" >}})
 
 ---
