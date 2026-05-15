@@ -16,7 +16,7 @@ I’m a **DevOps Engineer** at **Quidich Innovation Labs**, where I keep the GPU
 ### What I Build  
 
 - **Bare‑metal Linux + GPUDirect RDMA** – Set up Mellanox and NVIDIA Ada 6000/Blackwell stacks, rewrote the kernel path (DMA‑BUF instead of nvidia‑peermem) to sustain **37 GB/s** throughput for computer‑vision pipelines.  
-- **Self‑hosted CI/CD** – Run Gitea across on‑prem GPU farms, cutting deployment errors by **78 %**.  
+- **Self‑hosted CI/CD** – Run Gitea server for on-prem systems using gitea runners(ubuntu-servers) for docker based deployment, cutting deployment errors by **78 %**.  
 - **AWS reliability** – Automate EC2, Auto‑Scaling Groups, ALB, Aurora, Route 53 with Ansible; keep the cloud side as dependable as the on‑prem racks.  
 - **On‑call ownership** – Average MTTR under **15 minutes**, maintaining **99.9 %+** availability throughout the tournaments.  
 
@@ -28,7 +28,7 @@ Two years focused on **DevSecOps**, embedding SAST/DAST into CI/CD pipelines so 
 
 - **CKA preparation** – deepening my Kubernetes admin skills.  
 - **Homelab experiments** – Proxmox + Terraform + k3s + ArgoCD.  
-- **Writing** – expanding the technical blog at sidmulajkar.com.  
+- **Working** – on blogs at sidmulajkar.com.  
 
 ### How I Help  
 
@@ -47,7 +47,7 @@ There’s still much to learn, more problems to solve, and more to create. For t
 
 
 
-**Contriver** by heart 💚, **developer** by profession. Contact me at hi@sidmulajkar.com
+**Contriver** by heart 💚, **developer** by profession. 
 
 
 
