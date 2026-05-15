@@ -296,10 +296,9 @@ A Machine Learning Project based on the deep learning model that helps in predic
       <pubDate>Thu, 25 Mar 2021 17:26:04 +0530</pubDate>
       
       <guid>https://sidmulajkar.com/about/</guid>
-      <description>DevOps Engineer with 5 years of experience across Security, Linux infrastructure, and Site Reliability Engineering (SRE). I have architected secure, scalable infrastructure for high-traffic platforms and sports broadcasting networks (IPL), specializing in bridging the gap between efficient software delivery and robust security posture (DevSecOps).
-My core focus lies in building resilient CI/CD pipelines, automating cloud infrastructure, and conducting vulnerability assessments to ensure production stability.
-&amp;ndash;
-Professional Highlights:    Infrastructure &amp;amp; SRE: Managed extensive Linux infrastructure and orchestrated containerized environments (Kubernetes/Docker) for high-demand streaming services.</description>
+      <description>Most DevOps engineers tend to the safety nets of staging environments.
+My “stage” is a live cricket broadcast—​the moment the cameras roll, the infrastructure has to stay on‑air. No rollbacks, no maintenance windows, no “we’ll fix it in the next sprint.”
+Who I Am    I’m a DevOps Engineer at Quidich Innovation Labs, where I keep the GPU‑compute platform running the real‑time sports‑analytics pipeline for IPL 2025 and the ICC Women’s World Cup 2025.</description>
     </item>
     
     <item>

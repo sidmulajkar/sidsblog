@@ -157,5 +157,3 @@ url = "references/"
       X-XSS-Protection = "1;mode=block"
 
 
-[permalinks]
-  sangraha = "/sangraha/:slug/"

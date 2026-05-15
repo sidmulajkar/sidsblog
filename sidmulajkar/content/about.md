@@ -6,37 +6,42 @@ draft: false
 ---
 
 
-DevOps Engineer with 5 years of experience across Security, Linux infrastructure, and Site Reliability Engineering (SRE). I have architected secure, scalable infrastructure for high-traffic platforms and sports broadcasting networks (IPL), specializing in bridging the gap between efficient software delivery and robust security posture (DevSecOps).
+Most DevOps engineers tend to the safety nets of staging environments.  
+My “stage” is a live cricket broadcast—​the moment the cameras roll, the infrastructure has to **stay** on‑air. No rollbacks, no maintenance windows, no “we’ll fix it in the next sprint.”  
 
-My core focus lies in building resilient CI/CD pipelines, automating cloud infrastructure, and conducting vulnerability assessments to ensure production stability.
+### Who I Am  
 
---
-#### Professional Highlights:
+I’m a **DevOps Engineer** at **Quidich Innovation Labs**, where I keep the GPU‑compute platform running the real‑time sports‑analytics pipeline for IPL 2025 and the ICC Women’s World Cup 2025. When the game is live, the system has to be rock‑solid; a single hiccup means a missed play for millions of viewers.  
 
-Infrastructure & SRE: Managed extensive Linux infrastructure and orchestrated containerized environments (Kubernetes/Docker) for high-demand streaming services.
+### What I Build  
 
-DevSecOps Implementation: Integrated security into the development lifecycle, utilizing tools like OWASP ZAP to minimize vulnerabilities pre-production.
+- **Bare‑metal Linux + GPUDirect RDMA** – Set up Mellanox and NVIDIA Ada 6000/Blackwell stacks, rewrote the kernel path (DMA‑BUF instead of nvidia‑peermem) to sustain **37 GB/s** throughput for computer‑vision pipelines.  
+- **Self‑hosted CI/CD** – Run Gitea across on‑prem GPU farms, cutting deployment errors by **78 %**.  
+- **AWS reliability** – Automate EC2, Auto‑Scaling Groups, ALB, Aurora, Route 53 with Ansible; keep the cloud side as dependable as the on‑prem racks.  
+- **On‑call ownership** – Average MTTR under **15 minutes**, maintaining **99.9 %+** availability throughout the tournaments.  
 
-Leadership & Initiative: Founder of Tech Sid Solutions, enabling digital transformation for startups, and served as a Security Consultant to harden microservices architectures.
+### Before Quidich  
 
---
-#### Technical Stack:
+Two years focused on **DevSecOps**, embedding SAST/DAST into CI/CD pipelines so teams could ship fast **without shipping vulnerable code**.  
 
-Cloud & OS: AWS, Linode, Ubuntu, Kali, Red Hat/Fedora.
+### What I’m Learning Now  
 
-Containerization & Orchestration: Kubernetes, Docker, Ansible, Git, GitHub Actions, Gitea (On-Premise), Terraform(Beginner).
+- **CKA preparation** – deepening my Kubernetes admin skills.  
+- **Homelab experiments** – Proxmox + Terraform + k3s + ArgoCD.  
+- **Writing** – expanding the technical blog at sidmulajkar.com.  
 
-Security & Analysis: Burp Suite, Metasploit, Nmap, Wireshark, Graylog, OWASP ZAP.
+### How I Help  
 
-Monitoring: Prometheus, Grafana, Netdata (Hardware Monitoring).
+I consult on cloud‑infrastructure design and DevSecOps automation. If you need a resilient pipeline that can survive a live‑broadcast load, or just want to tighten security without slowing delivery, drop me a line at **hi@sidmulajkar.com**.  
 
-Scripting: C++, JavaScript, Python, Bash.
+---  
+
+**Core Skills**  
+
+AWS • Kubernetes • Docker • Terraform • Ansible • Helm • ArgoCD • GitOps • GitHub Actions • Prometheus • Grafana • Linux • GPUDirect RDMA • DMA‑BUF • CUDA • CI/CD • DevSecOps • SAST • DAST • IaC • SRE • SLO • MTTR  
 
 
---
-
-Outside of core engineering, I work as a part-time video editor, which keeps my creative side active.
-
+---
 
 There’s still much to learn, more problems to solve, and more to create. For this, I am very grateful. 
 
@@ -48,7 +53,7 @@ There’s still much to learn, more problems to solve, and more to create. For t
 
 ---
 
-##### Resume - [Resume_Siddhant_Mulajkar-Devops.pdf 📄](https://drive.google.com/file/d/1hqbFefdVNYAXmORiJWj5Mc9rGWhms1Ei/view?usp=drive_link)
+##### Resume - [Resume_Siddhant_Mulajkar-Devops.pdf 📄](https://drive.google.com/file/d/1Ed_echFtZZd6GVBh14-UW5sDiDYIMWSV/view?usp=sharing)
 
 ##### Privacy Resource Reference - [anukramani 🔐]({{< relref "content/references.md" >}})
 
