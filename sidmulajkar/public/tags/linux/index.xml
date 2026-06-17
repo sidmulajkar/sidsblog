@@ -1,77 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>linux on &gt; sidmulajkar</title>
+    <title>Linux on &gt; sidmulajkar</title>
     <link>https://sidmulajkar.com/tags/linux/</link>
-    <description>Recent content in linux on &gt; sidmulajkar</description>
+    <description>Recent content in Linux on &gt; sidmulajkar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 26 Dec 2023 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Dec 2023 17:26:04 +0530</lastBuildDate>
+    <atom:link href="https://sidmulajkar.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My personal thoughts on Mail Privacy</title>
       <link>https://sidmulajkar.com/posts/my-thoughts-on-mail-regarding-privacy/</link>
       <pubDate>Tue, 26 Dec 2023 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/posts/my-thoughts-on-mail-regarding-privacy/</guid>
-      <description>Email still remains an Essential Backbone for communication, nearly used by ~(3-4) billion people.    I do not use email as a privacy tool for communication. Check the last part**     The most private and secure way to communicate online is by using end-to-end encryption. If you send an end-to-end encrypted email, it’s encrypted on your device and isn’t decrypted until it reaches the device of the other person you sent the message to.</description>
+      <description>Email is still an essential backbone of communication Nearly ~3–4 billion people use email today.&#xA;I still rely on it daily.&#xA;But I do not use email as a privacy tool for communication.&#xA;This post explains why.&#xA;End-to-end encryption is the baseline for private communication The most private way to communicate online is end-to-end encryption (E2EE).&#xA;In a proper E2EE system: Messages are encrypted on your device They stay encrypted in transit Only the recipient’s device can decrypt them This removes the service provider from the trust boundary for content access.</description>
     </item>
-    
     <item>
       <title>The Definitive Handbook: How to Harden the Linux Server</title>
       <link>https://sidmulajkar.com/posts/how-harden-linux-server/</link>
       <pubDate>Sun, 16 Oct 2022 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/posts/how-harden-linux-server/</guid>
-      <description>Requirements     Computer, virtual private server (VPS) or dedicated server running Debian based server instance. Linux or macOS computer for following the steps and hardening the server  Guide    &amp;ndash;
-Step 1. Create the SSH key pair for login (On Computer)    Using a root login password to login is good but not great from the security stand.
-When asked for file in which to save key, enter serverlog.</description>
+      <description>Requirements Computer, virtual private server (VPS) or dedicated server running Debian based server instance. Linux or macOS computer for following the steps and hardening the server Guide &amp;ndash;&#xA;Step 1. Create the SSH key pair for login (On Computer) Using a root login password to login is good but not great from the security stand.&#xA;When asked for file in which to save key, enter serverlog.&#xA;When asked for passphrase, use output from openssl rand -base64 24 (and store passphrase in password manager).</description>
     </item>
-    
     <item>
       <title>Tutorial: How to Create a Tor Dark Web Site Step-by-Step</title>
       <link>https://sidmulajkar.com/posts/darkweb-tor-website/</link>
       <pubDate>Mon, 30 May 2022 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/posts/darkweb-tor-website/</guid>
-      <description>What is a tor website?    A top-level Internet domain used by anonymous websites on the Dark Web.
-For eg, as we go to any other website such as google.com or youtube.com, DuckDuckGo is an internet search engine such as google that emphasizes protecting searchers&#39; privacy,
-can also be accessed using duckduckgo.com or also using the tor address of the website
-https://3g2upl4pq6kufc4m.onion (using the tor browser)
- Why do we need even need it?</description>
+      <description>What is a tor website? A top-level Internet domain used by anonymous websites on the Dark Web.&#xA;For eg, as we go to any other website such as google.com or youtube.com, DuckDuckGo is an internet search engine such as google that emphasizes protecting searchers&amp;rsquo; privacy,&#xA;can also be accessed using duckduckgo.com or also using the tor address of the website&#xA;https://3g2upl4pq6kufc4m.onion (using the tor browser)&#xA;Why do we need even need it?</description>
     </item>
-    
     <item>
       <title>Step-by-Step Guide: Installing Ubuntu with Linux Subsystem WSL-2 on Windows 10 for Hassle-free Setup</title>
       <link>https://sidmulajkar.com/posts/linux-subsytem-in-windows-wsl2/</link>
       <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/posts/linux-subsytem-in-windows-wsl2/</guid>
-      <description>So, Ready to transform your Windows Environment in to your Linux Beast!!
- Before prcoeeding with the tutorial check if you have the proper version of Windows 10 installed using the winver command in Windows Start options or using the &amp;ldquo;Run&amp;rdquo; command to use the WSL-2.    If you don&amp;rsquo;t have the similar version then try the updating the windows to work ahead.    1. Once you have the windows proper version then again open the windows start menu and then type &amp;ldquo;Turn on or off Windows Features&amp;rdquo; to open the dialog box as shown below.</description>
+      <description>So, Ready to transform your Windows Environment in to your Linux Beast!!&#xA;Before prcoeeding with the tutorial check if you have the proper version of Windows 10 installed using the winver command in Windows Start options or using the &amp;ldquo;Run&amp;rdquo; command to use the WSL-2. If you don&amp;rsquo;t have the similar version then try the updating the windows to work ahead. 1. Once you have the windows proper version then again open the windows start menu and then type &amp;ldquo;Turn on or off Windows Features&amp;rdquo; to open the dialog box as shown below.</description>
     </item>
-    
     <item>
       <title>How to install Flutter in Linux(Debian) based Systems</title>
       <link>https://sidmulajkar.com/posts/flutter-installation-in-linux/</link>
       <pubDate>Sun, 05 Sep 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/posts/flutter-installation-in-linux/</guid>
-      <description>On Linux, you have two ways you can install Flutter.    Install Flutter using snapd    open your terminal and use this command to install flutter
-sudo snap install flutter --classic after installing the flutter for the first time type flutter in the terminal as it will install all its dependencies and files
-flutter wait for it to install and then move forward to the pre-requisite section.</description>
+      <description>On Linux, you have two ways you can install Flutter. Install Flutter using snapd open your terminal and use this command to install flutter&#xA;sudo snap install flutter --classic after installing the flutter for the first time type flutter in the terminal as it will install all its dependencies and files&#xA;flutter wait for it to install and then move forward to the pre-requisite section.&#xA;Or Install FLutter Manually If you don’t have a snapd, or can’t use it, you can install Flutter using the following steps.</description>
     </item>
-    
     <item>
       <title>Setting up Pi-hole as a recursive DNS server (Explained)</title>
       <link>https://sidmulajkar.com/posts/setting-up-pihole-as-a-recursive-dns-server/</link>
       <pubDate>Tue, 30 Mar 2021 16:04:37 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/posts/setting-up-pihole-as-a-recursive-dns-server/</guid>
-      <description>Got an old Raspberry Pi lying around? Hate seeing ads while browsing the web? Pi-hole is an open-source software project that blocks ads for all devices on your home network by routing all advertising servers into nowhere. What’s best is it takes just a few minutes to set up.
-&amp;ndash;
-&amp;ndash;
-What is a Pi-hole?    Network-wide ad blocking via your own Linux hardware. The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.</description>
+      <description>Got an old Raspberry Pi lying around? Hate seeing ads while browsing the web? Pi-hole is an open-source software project that blocks ads for all devices on your home network by routing all advertising servers into nowhere. What’s best is it takes just a few minutes to set up.&#xA;&amp;ndash;&#xA;&amp;ndash;&#xA;What is a Pi-hole? Network-wide ad blocking via your own Linux hardware. The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.</description>
     </item>
-    
   </channel>
 </rss>

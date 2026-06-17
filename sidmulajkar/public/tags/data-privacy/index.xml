@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Privacy on &gt; sidmulajkar</title>
+    <link>https://sidmulajkar.com/tags/data-privacy/</link>
+    <description>Recent content in Data Privacy on &gt; sidmulajkar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 17 Jun 2026 17:26:04 +0530</lastBuildDate>
+    <atom:link href="https://sidmulajkar.com/tags/data-privacy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Missing Layer in AI Security</title>
+      <link>https://sidmulajkar.com/posts/fortress/</link>
+      <pubDate>Wed, 17 Jun 2026 17:26:04 +0530</pubDate>
+      <guid>https://sidmulajkar.com/posts/fortress/</guid>
+      <description>Stop Pasting Sensitive Data into AI Tools: The Hidden Risk No One Is Talking About &amp;gt; Apologies for the huge gap in writing posts, got busy with other aspects and job. Most conversations about AI safety start in the wrong place.&#xA;They focus on:&#xA;ChatGPT hallucinations Claude data retention policies Copilot enterprise controls Model-level security and compliance But that’s not where real-world data exposure happens.&#xA;The risk happens earlier.</description>
+    </item>
+  </channel>
+</rss>

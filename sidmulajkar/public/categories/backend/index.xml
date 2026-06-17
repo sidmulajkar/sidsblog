@@ -1,40 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>backend on &gt; sidmulajkar</title>
+    <title>Backend on &gt; sidmulajkar</title>
     <link>https://sidmulajkar.com/categories/backend/</link>
-    <description>Recent content in backend on &gt; sidmulajkar</description>
+    <description>Recent content in Backend on &gt; sidmulajkar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 26 Nov 2021 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/categories/backend/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Nov 2021 17:26:04 +0530</lastBuildDate>
+    <atom:link href="https://sidmulajkar.com/categories/backend/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Message Queues and Their Practical Applications</title>
       <link>https://sidmulajkar.com/posts/message-queues/</link>
       <pubDate>Fri, 26 Nov 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/posts/message-queues/</guid>
-      <description>Message queues &amp;hellip;📨 📨
-The role of message queuing in a micro-service architecture.
-&amp;ndash;
-When is the right time to use a message queue and why is a database rarely the best tool for a queue-based problem?    A blog on backend engineering&amp;hellip;
- Imagine that we have a web application for customers to upload a text document, which then converts it into a PDF, and then emails it back to the customer.</description>
+      <description>Message queues &amp;hellip;📨 📨&#xA;The role of message queuing in a micro-service architecture.&#xA;&amp;ndash;&#xA;When is the right time to use a message queue and why is a database rarely the best tool for a queue-based problem? A blog on backend engineering&amp;hellip;&#xA;Imagine that we have a web application for customers to upload a text document, which then converts it into a PDF, and then emails it back to the customer.</description>
     </item>
-    
     <item>
       <title>TCP and UDP - Simple yet Confusing🤔</title>
       <link>https://sidmulajkar.com/posts/tcp-and-udp/</link>
       <pubDate>Wed, 06 Oct 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/posts/tcp-and-udp/</guid>
-      <description>TCP and UDP    A simple open-ended question that can test whole schemas of knowledge.
- What will be addressed in this post?      The problem with packets (IP)
-  TCP pros and cons
-  TCP communication sample code
-  UDP pros and cons
-  UDP communication sample code
-  Some questions based on them
-   To start, I was asked a question in an interview,</description>
+      <description>TCP and UDP A simple open-ended question that can test whole schemas of knowledge.&#xA;What will be addressed in this post? The problem with packets (IP)&#xA;TCP pros and cons&#xA;TCP communication sample code&#xA;UDP pros and cons&#xA;UDP communication sample code&#xA;Some questions based on them&#xA;To start, I was asked a question in an interview,&#xA;What to use UDP or TCP in Building a Backend Application?&#xA;I was like why only these 2 protocols, there are many others, like HTTP, HTTP2, XMPP, GRPC, QUIC</description>
     </item>
-    
   </channel>
 </rss>

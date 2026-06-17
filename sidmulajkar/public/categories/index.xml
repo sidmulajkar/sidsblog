@@ -6,1005 +6,798 @@
     <description>Recent content in Categories on &gt; sidmulajkar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 26 Dec 2023 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Jun 2026 17:26:04 +0530</lastBuildDate>
+    <atom:link href="https://sidmulajkar.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>email</title>
-      <link>https://sidmulajkar.com/categories/email/</link>
-      <pubDate>Tue, 26 Dec 2023 17:26:04 +0530</pubDate>
-      
-      <guid>https://sidmulajkar.com/categories/email/</guid>
+      <title>AI Security</title>
+      <link>https://sidmulajkar.com/categories/ai-security/</link>
+      <pubDate>Wed, 17 Jun 2026 17:26:04 +0530</pubDate>
+      <guid>https://sidmulajkar.com/categories/ai-security/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>linux</title>
-      <link>https://sidmulajkar.com/categories/linux/</link>
-      <pubDate>Tue, 26 Dec 2023 17:26:04 +0530</pubDate>
-      
-      <guid>https://sidmulajkar.com/categories/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>personal thoughts on mail privacy</title>
-      <link>https://sidmulajkar.com/categories/personal-thoughts-on-mail-privacy/</link>
-      <pubDate>Tue, 26 Dec 2023 17:26:04 +0530</pubDate>
-      
-      <guid>https://sidmulajkar.com/categories/personal-thoughts-on-mail-privacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>privacy</title>
+      <title>Privacy</title>
       <link>https://sidmulajkar.com/categories/privacy/</link>
-      <pubDate>Tue, 26 Dec 2023 17:26:04 +0530</pubDate>
-      
+      <pubDate>Wed, 17 Jun 2026 17:26:04 +0530</pubDate>
       <guid>https://sidmulajkar.com/categories/privacy/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>security</title>
+      <title>Security</title>
       <link>https://sidmulajkar.com/categories/security/</link>
-      <pubDate>Tue, 26 Dec 2023 17:26:04 +0530</pubDate>
-      
+      <pubDate>Wed, 17 Jun 2026 17:26:04 +0530</pubDate>
       <guid>https://sidmulajkar.com/categories/security/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>sidsblog</title>
+      <title>Sidsblog</title>
       <link>https://sidmulajkar.com/categories/sidsblog/</link>
-      <pubDate>Tue, 26 Dec 2023 17:26:04 +0530</pubDate>
-      
+      <pubDate>Wed, 17 Jun 2026 17:26:04 +0530</pubDate>
       <guid>https://sidmulajkar.com/categories/sidsblog/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>hardening</title>
+      <title>Systems Design</title>
+      <link>https://sidmulajkar.com/categories/systems-design/</link>
+      <pubDate>Wed, 17 Jun 2026 17:26:04 +0530</pubDate>
+      <guid>https://sidmulajkar.com/categories/systems-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Email</title>
+      <link>https://sidmulajkar.com/categories/email/</link>
+      <pubDate>Tue, 26 Dec 2023 17:26:04 +0530</pubDate>
+      <guid>https://sidmulajkar.com/categories/email/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://sidmulajkar.com/categories/linux/</link>
+      <pubDate>Tue, 26 Dec 2023 17:26:04 +0530</pubDate>
+      <guid>https://sidmulajkar.com/categories/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Personal Thoughts on Mail Privacy</title>
+      <link>https://sidmulajkar.com/categories/personal-thoughts-on-mail-privacy/</link>
+      <pubDate>Tue, 26 Dec 2023 17:26:04 +0530</pubDate>
+      <guid>https://sidmulajkar.com/categories/personal-thoughts-on-mail-privacy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hardening</title>
       <link>https://sidmulajkar.com/categories/hardening/</link>
       <pubDate>Sun, 16 Oct 2022 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/hardening/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>how to harden linux server</title>
+      <title>How to Harden Linux Server</title>
       <link>https://sidmulajkar.com/categories/how-to-harden-linux-server/</link>
       <pubDate>Sun, 16 Oct 2022 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/how-to-harden-linux-server/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>linuxserver</title>
+      <title>Linuxserver</title>
       <link>https://sidmulajkar.com/categories/linuxserver/</link>
       <pubDate>Sun, 16 Oct 2022 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/linuxserver/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>cloud services</title>
+      <title>Cloud Services</title>
       <link>https://sidmulajkar.com/categories/cloud-services/</link>
       <pubDate>Mon, 30 May 2022 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/cloud-services/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>dark web</title>
+      <title>Dark Web</title>
       <link>https://sidmulajkar.com/categories/dark-web/</link>
       <pubDate>Mon, 30 May 2022 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/dark-web/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>how to create a tor website</title>
+      <title>How to Create a Tor Website</title>
       <link>https://sidmulajkar.com/categories/how-to-create-a-tor-website/</link>
       <pubDate>Mon, 30 May 2022 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/how-to-create-a-tor-website/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>microservices</title>
+      <title>Microservices</title>
       <link>https://sidmulajkar.com/categories/microservices/</link>
       <pubDate>Mon, 30 May 2022 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/microservices/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>onion play</title>
+      <title>Onion Play</title>
       <link>https://sidmulajkar.com/categories/onion-play/</link>
       <pubDate>Mon, 30 May 2022 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/onion-play/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>onion website</title>
+      <title>Onion Website</title>
       <link>https://sidmulajkar.com/categories/onion-website/</link>
       <pubDate>Mon, 30 May 2022 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/onion-website/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>raspberry</title>
+      <title>Raspberry</title>
       <link>https://sidmulajkar.com/categories/raspberry/</link>
       <pubDate>Mon, 30 May 2022 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/raspberry/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>raspberry pi</title>
+      <title>Raspberry Pi</title>
       <link>https://sidmulajkar.com/categories/raspberry-pi/</link>
       <pubDate>Mon, 30 May 2022 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/raspberry-pi/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>tor</title>
+      <title>Tor</title>
       <link>https://sidmulajkar.com/categories/tor/</link>
       <pubDate>Mon, 30 May 2022 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/tor/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>tor browser</title>
+      <title>Tor Browser</title>
       <link>https://sidmulajkar.com/categories/tor-browser/</link>
       <pubDate>Mon, 30 May 2022 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/tor-browser/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>concurrency control</title>
+      <title>Concurrency Control</title>
       <link>https://sidmulajkar.com/categories/concurrency-control/</link>
       <pubDate>Sat, 19 Mar 2022 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/concurrency-control/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>database</title>
+      <title>Database</title>
       <link>https://sidmulajkar.com/categories/database/</link>
       <pubDate>Sat, 19 Mar 2022 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/database/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>double-booking problem</title>
+      <title>Double-Booking Problem</title>
       <link>https://sidmulajkar.com/categories/double-booking-problem/</link>
       <pubDate>Sat, 19 Mar 2022 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/double-booking-problem/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>factors</title>
+      <title>Factors</title>
       <link>https://sidmulajkar.com/categories/factors/</link>
       <pubDate>Sat, 19 Mar 2022 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/factors/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>how to handle concurrency and race conditions while using database</title>
+      <title>How to Handle Concurrency and Race Conditions While Using Database</title>
       <link>https://sidmulajkar.com/categories/how-to-handle-concurrency-and-race-conditions-while-using-database/</link>
       <pubDate>Sat, 19 Mar 2022 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/how-to-handle-concurrency-and-race-conditions-while-using-database/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>kubernetes</title>
+      <title>Kubernetes</title>
       <link>https://sidmulajkar.com/categories/kubernetes/</link>
       <pubDate>Sat, 19 Mar 2022 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/kubernetes/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>lock mechanism</title>
+      <title>Lock Mechanism</title>
       <link>https://sidmulajkar.com/categories/lock-mechanism/</link>
       <pubDate>Sat, 19 Mar 2022 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/lock-mechanism/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>optimistic approach</title>
+      <title>Optimistic Approach</title>
       <link>https://sidmulajkar.com/categories/optimistic-approach/</link>
       <pubDate>Sat, 19 Mar 2022 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/optimistic-approach/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>pessimistic approach</title>
+      <title>Pessimistic Approach</title>
       <link>https://sidmulajkar.com/categories/pessimistic-approach/</link>
       <pubDate>Sat, 19 Mar 2022 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/pessimistic-approach/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>time stamping</title>
+      <title>Time Stamping</title>
       <link>https://sidmulajkar.com/categories/time-stamping/</link>
       <pubDate>Sat, 19 Mar 2022 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/time-stamping/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>data structures</title>
+      <title>Data Structures</title>
       <link>https://sidmulajkar.com/categories/data-structures/</link>
       <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/data-structures/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>horizontal scaling</title>
+      <title>Horizontal Scaling</title>
       <link>https://sidmulajkar.com/categories/horizontal-scaling/</link>
       <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/horizontal-scaling/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>how to choose the right database</title>
+      <title>How to Choose the Right Database</title>
       <link>https://sidmulajkar.com/categories/how-to-choose-the-right-database/</link>
       <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/how-to-choose-the-right-database/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>mysql</title>
+      <title>Mysql</title>
       <link>https://sidmulajkar.com/categories/mysql/</link>
       <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/mysql/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>nosql</title>
+      <title>Nosql</title>
       <link>https://sidmulajkar.com/categories/nosql/</link>
       <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/nosql/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>nosql database</title>
+      <title>Nosql Database</title>
       <link>https://sidmulajkar.com/categories/nosql-database/</link>
       <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/nosql-database/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>nosql-vs-sql</title>
+      <title>Nosql-vs-Sql</title>
       <link>https://sidmulajkar.com/categories/nosql-vs-sql/</link>
       <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/nosql-vs-sql/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>rdbms</title>
+      <title>Rdbms</title>
       <link>https://sidmulajkar.com/categories/rdbms/</link>
       <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/rdbms/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>sql</title>
+      <title>Sql</title>
       <link>https://sidmulajkar.com/categories/sql/</link>
       <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/sql/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>sql database</title>
+      <title>Sql Database</title>
       <link>https://sidmulajkar.com/categories/sql-database/</link>
       <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/sql-database/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>vertical scaling</title>
+      <title>Vertical Scaling</title>
       <link>https://sidmulajkar.com/categories/vertical-scaling/</link>
       <pubDate>Thu, 23 Dec 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/vertical-scaling/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>backend</title>
+      <title>Backend</title>
       <link>https://sidmulajkar.com/categories/backend/</link>
       <pubDate>Fri, 26 Nov 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/backend/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>engineering</title>
+      <title>Engineering</title>
       <link>https://sidmulajkar.com/categories/engineering/</link>
       <pubDate>Fri, 26 Nov 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/engineering/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>message</title>
+      <title>Message</title>
       <link>https://sidmulajkar.com/categories/message/</link>
       <pubDate>Fri, 26 Nov 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/message/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Message Queues and Their Practical Applications</title>
       <link>https://sidmulajkar.com/categories/message-queues-and-their-practical-applications/</link>
       <pubDate>Fri, 26 Nov 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/message-queues-and-their-practical-applications/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>queue</title>
+      <title>Queue</title>
       <link>https://sidmulajkar.com/categories/queue/</link>
       <pubDate>Fri, 26 Nov 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/queue/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>rabbitmq</title>
+      <title>Rabbitmq</title>
       <link>https://sidmulajkar.com/categories/rabbitmq/</link>
       <pubDate>Fri, 26 Nov 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/rabbitmq/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>btrees</title>
+      <title>Btrees</title>
       <link>https://sidmulajkar.com/categories/btrees/</link>
       <pubDate>Tue, 16 Nov 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/btrees/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>index</title>
+      <title>Index</title>
       <link>https://sidmulajkar.com/categories/index/</link>
       <pubDate>Tue, 16 Nov 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/index/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>indexing</title>
+      <title>Indexing</title>
       <link>https://sidmulajkar.com/categories/indexing/</link>
       <pubDate>Tue, 16 Nov 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/indexing/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>when to use indexes to optimize performance</title>
+      <title>When to Use Indexes to Optimize Performance</title>
       <link>https://sidmulajkar.com/categories/when-to-use-indexes-to-optimize-performance/</link>
       <pubDate>Tue, 16 Nov 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/when-to-use-indexes-to-optimize-performance/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>b tree</title>
+      <title>B Tree</title>
       <link>https://sidmulajkar.com/categories/b-tree/</link>
       <pubDate>Mon, 25 Oct 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/b-tree/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>bplus-trees</title>
+      <title>Bplus-Trees</title>
       <link>https://sidmulajkar.com/categories/bplus-trees/</link>
       <pubDate>Mon, 25 Oct 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/bplus-trees/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>btree</title>
+      <title>Btree</title>
       <link>https://sidmulajkar.com/categories/btree/</link>
       <pubDate>Mon, 25 Oct 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/btree/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>how trees are helpful while searching</title>
+      <title>How Trees Are Helpful While Searching</title>
       <link>https://sidmulajkar.com/categories/how-trees-are-helpful-while-searching/</link>
       <pubDate>Mon, 25 Oct 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/how-trees-are-helpful-while-searching/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>trees</title>
+      <title>Trees</title>
       <link>https://sidmulajkar.com/categories/trees/</link>
       <pubDate>Mon, 25 Oct 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/trees/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>architecures</title>
+      <title>Architecures</title>
       <link>https://sidmulajkar.com/categories/architecures/</link>
       <pubDate>Sun, 17 Oct 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/architecures/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>benefits-of-sharding</title>
+      <title>Benefits-of-Sharding</title>
       <link>https://sidmulajkar.com/categories/benefits-of-sharding/</link>
       <pubDate>Sun, 17 Oct 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/benefits-of-sharding/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>database-sharding</title>
+      <title>Database Sharding</title>
       <link>https://sidmulajkar.com/categories/database-sharding/</link>
       <pubDate>Sun, 17 Oct 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/database-sharding/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>sharding</title>
+      <title>Sharding</title>
       <link>https://sidmulajkar.com/categories/sharding/</link>
       <pubDate>Sun, 17 Oct 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/sharding/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>what is database sharding</title>
+      <title>What Is Database Sharding</title>
       <link>https://sidmulajkar.com/categories/what-is-database-sharding/</link>
       <pubDate>Sun, 17 Oct 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/what-is-database-sharding/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>advantages</title>
+      <title>Advantages</title>
       <link>https://sidmulajkar.com/categories/advantages/</link>
       <pubDate>Thu, 14 Oct 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/advantages/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>disadvantages</title>
+      <title>Disadvantages</title>
       <link>https://sidmulajkar.com/categories/disadvantages/</link>
       <pubDate>Thu, 14 Oct 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/disadvantages/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>do we actually need to shard the database</title>
+      <title>Do We Actually Need to Shard the Database</title>
       <link>https://sidmulajkar.com/categories/do-we-actually-need-to-shard-the-database/</link>
       <pubDate>Thu, 14 Oct 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/do-we-actually-need-to-shard-the-database/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>sharding-architectures</title>
+      <title>Sharding-Architectures</title>
       <link>https://sidmulajkar.com/categories/sharding-architectures/</link>
       <pubDate>Thu, 14 Oct 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/sharding-architectures/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>developement</title>
+      <title>Developement</title>
       <link>https://sidmulajkar.com/categories/developement/</link>
       <pubDate>Wed, 06 Oct 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/developement/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>network</title>
+      <title>Network</title>
       <link>https://sidmulajkar.com/categories/network/</link>
       <pubDate>Wed, 06 Oct 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/network/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>networking</title>
+      <title>Networking</title>
       <link>https://sidmulajkar.com/categories/networking/</link>
       <pubDate>Wed, 06 Oct 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/networking/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>protocols</title>
+      <title>Protocols</title>
       <link>https://sidmulajkar.com/categories/protocols/</link>
       <pubDate>Wed, 06 Oct 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/protocols/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>tcp</title>
+      <title>Tcp</title>
       <link>https://sidmulajkar.com/categories/tcp/</link>
       <pubDate>Wed, 06 Oct 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/tcp/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>tcp and udp when and how to use it</title>
+      <title>Tcp and Udp When and How to Use It</title>
       <link>https://sidmulajkar.com/categories/tcp-and-udp-when-and-how-to-use-it/</link>
       <pubDate>Wed, 06 Oct 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/tcp-and-udp-when-and-how-to-use-it/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>tcp ip</title>
+      <title>Tcp Ip</title>
       <link>https://sidmulajkar.com/categories/tcp-ip/</link>
       <pubDate>Wed, 06 Oct 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/tcp-ip/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>udp</title>
+      <title>Udp</title>
       <link>https://sidmulajkar.com/categories/udp/</link>
       <pubDate>Wed, 06 Oct 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/udp/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>congestion-control</title>
+      <title>Congestion-Control</title>
       <link>https://sidmulajkar.com/categories/congestion-control/</link>
       <pubDate>Sat, 02 Oct 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/congestion-control/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>does tcp slow start impact the network performance</title>
+      <title>Does Tcp Slow Start Impact the Network Performance</title>
       <link>https://sidmulajkar.com/categories/does-tcp-slow-start-impact-the-network-performance/</link>
       <pubDate>Sat, 02 Oct 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/does-tcp-slow-start-impact-the-network-performance/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>mechanism</title>
+      <title>Mechanism</title>
       <link>https://sidmulajkar.com/categories/mechanism/</link>
       <pubDate>Sat, 02 Oct 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/mechanism/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>slowstart</title>
+      <title>Slowstart</title>
       <link>https://sidmulajkar.com/categories/slowstart/</link>
       <pubDate>Sat, 02 Oct 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/slowstart/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>what is tcp slow start</title>
+      <title>What Is Tcp Slow Start</title>
       <link>https://sidmulajkar.com/categories/what-is-tcp-slow-start/</link>
       <pubDate>Sat, 02 Oct 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/what-is-tcp-slow-start/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>docker desktop</title>
+      <title>Docker Desktop</title>
       <link>https://sidmulajkar.com/categories/docker-desktop/</link>
       <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/docker-desktop/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>docker wsl2</title>
+      <title>Docker Wsl2</title>
       <link>https://sidmulajkar.com/categories/docker-wsl2/</link>
       <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/docker-wsl2/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>guide</title>
+      <title>Guide</title>
       <link>https://sidmulajkar.com/categories/guide/</link>
       <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/guide/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>how to install wsl in windows</title>
+      <title>How to Install Wsl in Windows</title>
       <link>https://sidmulajkar.com/categories/how-to-install-wsl-in-windows/</link>
       <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/how-to-install-wsl-in-windows/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ubuntu installation</title>
+      <title>Ubuntu Installation</title>
       <link>https://sidmulajkar.com/categories/ubuntu-installation/</link>
       <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/ubuntu-installation/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>windows subsystem for linux</title>
+      <title>Windows Subsystem for Linux</title>
       <link>https://sidmulajkar.com/categories/windows-subsystem-for-linux/</link>
       <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/windows-subsystem-for-linux/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>windows wsl</title>
+      <title>Windows Wsl</title>
       <link>https://sidmulajkar.com/categories/windows-wsl/</link>
       <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/windows-wsl/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>windows10</title>
+      <title>Windows10</title>
       <link>https://sidmulajkar.com/categories/windows10/</link>
       <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/windows10/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>wsl</title>
+      <title>Wsl</title>
       <link>https://sidmulajkar.com/categories/wsl/</link>
       <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/wsl/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>wsl 2</title>
+      <title>Wsl 2</title>
       <link>https://sidmulajkar.com/categories/wsl-2/</link>
       <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/wsl-2/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>wsl install</title>
+      <title>Wsl Install</title>
       <link>https://sidmulajkar.com/categories/wsl-install/</link>
       <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/wsl-install/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>wsl2</title>
+      <title>Wsl2</title>
       <link>https://sidmulajkar.com/categories/wsl2/</link>
       <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/wsl2/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>wsl2 install</title>
+      <title>Wsl2 Install</title>
       <link>https://sidmulajkar.com/categories/wsl2-install/</link>
       <pubDate>Thu, 23 Sep 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/wsl2-install/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>flutter installation</title>
+      <title>Flutter Installation</title>
       <link>https://sidmulajkar.com/categories/flutter-installation/</link>
       <pubDate>Sun, 05 Sep 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/flutter-installation/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>flutter installation in ubuntu</title>
+      <title>Flutter Installation in Ubuntu</title>
       <link>https://sidmulajkar.com/categories/flutter-installation-in-ubuntu/</link>
       <pubDate>Sun, 05 Sep 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/flutter-installation-in-ubuntu/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>install flutter</title>
+      <title>Install Flutter</title>
       <link>https://sidmulajkar.com/categories/install-flutter/</link>
       <pubDate>Sun, 05 Sep 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/install-flutter/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>dns</title>
+      <title>Dns</title>
       <link>https://sidmulajkar.com/categories/dns/</link>
       <pubDate>Tue, 30 Mar 2021 16:04:37 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/dns/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>pihole</title>
+      <title>Pihole</title>
       <link>https://sidmulajkar.com/categories/pihole/</link>
       <pubDate>Tue, 30 Mar 2021 16:04:37 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/pihole/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>pihole recursive dns</title>
+      <title>Pihole Recursive Dns</title>
       <link>https://sidmulajkar.com/categories/pihole-recursive-dns/</link>
       <pubDate>Tue, 30 Mar 2021 16:04:37 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/pihole-recursive-dns/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>raspberry pi pihole</title>
+      <title>Raspberry Pi Pihole</title>
       <link>https://sidmulajkar.com/categories/raspberry-pi-pihole/</link>
       <pubDate>Tue, 30 Mar 2021 16:04:37 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/raspberry-pi-pihole/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>setting pihole as recursive-dns</title>
+      <title>Setting Pihole as Recursive-Dns</title>
       <link>https://sidmulajkar.com/categories/setting-pihole-as-recursive-dns/</link>
       <pubDate>Tue, 30 Mar 2021 16:04:37 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/setting-pihole-as-recursive-dns/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>sidblogs</title>
+      <title>Sidblogs</title>
       <link>https://sidmulajkar.com/categories/sidblogs/</link>
       <pubDate>Tue, 30 Mar 2021 16:04:37 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/sidblogs/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>best javascript resources</title>
+      <title>Best Javascript Resources</title>
       <link>https://sidmulajkar.com/categories/best-javascript-resources/</link>
       <pubDate>Sat, 27 Mar 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/best-javascript-resources/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>best resources to learn javascript in 2021</title>
+      <title>Best Resources to Learn Javascript in 2021</title>
       <link>https://sidmulajkar.com/categories/best-resources-to-learn-javascript-in-2021/</link>
       <pubDate>Sat, 27 Mar 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/best-resources-to-learn-javascript-in-2021/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>development</title>
+      <title>Development</title>
       <link>https://sidmulajkar.com/categories/development/</link>
       <pubDate>Sat, 27 Mar 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/development/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>javascript</title>
+      <title>Javascript</title>
       <link>https://sidmulajkar.com/categories/javascript/</link>
       <pubDate>Sat, 27 Mar 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/javascript/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>javascript interview questions</title>
+      <title>Javascript Interview Questions</title>
       <link>https://sidmulajkar.com/categories/javascript-interview-questions/</link>
       <pubDate>Sat, 27 Mar 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/javascript-interview-questions/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>javascript tutorial</title>
+      <title>Javascript Tutorial</title>
       <link>https://sidmulajkar.com/categories/javascript-tutorial/</link>
       <pubDate>Sat, 27 Mar 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/javascript-tutorial/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>learn javascript</title>
+      <title>Learn Javascript</title>
       <link>https://sidmulajkar.com/categories/learn-javascript/</link>
       <pubDate>Sat, 27 Mar 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/learn-javascript/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>a2hosting</title>
+      <title>A2hosting</title>
       <link>https://sidmulajkar.com/categories/a2hosting/</link>
       <pubDate>Thu, 25 Feb 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/a2hosting/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>best hosting provider 2021</title>
+      <title>Best Hosting Provider 2021</title>
       <link>https://sidmulajkar.com/categories/best-hosting-provider-2021/</link>
       <pubDate>Thu, 25 Feb 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/best-hosting-provider-2021/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>best web host</title>
+      <title>Best Web Host</title>
       <link>https://sidmulajkar.com/categories/best-web-host/</link>
       <pubDate>Thu, 25 Feb 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/best-web-host/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>best wordpress hostings</title>
+      <title>Best Wordpress Hostings</title>
       <link>https://sidmulajkar.com/categories/best-wordpress-hostings/</link>
       <pubDate>Thu, 25 Feb 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/best-wordpress-hostings/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>web hosting service</title>
+      <title>Web Hosting Service</title>
       <link>https://sidmulajkar.com/categories/web-hosting-service/</link>
       <pubDate>Thu, 25 Feb 2021 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/categories/web-hosting-service/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

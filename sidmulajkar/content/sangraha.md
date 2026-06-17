@@ -10,7 +10,7 @@ draft: false
 
 - [./devops]()
 - [./privacy]()
-- [./software-engineering]({{< relref "content/software-engineering.md" >}})
+- [./software-engineering]({{< relref "/software-engineering.md" >}})
 - [./cybersecurity]()
 - [./linux]()
 - [./cryptography]()
@@ -24,4 +24,4 @@ draft: false
 
 --
 
-##### *Want to contribute [contact me](mailto:hi@sidmulajkar.com)* / *[read my blogs]({{< relref "/posts" >}})* / *[privacy resources]({{< relref "content/references.md" >}})* / *[support me]({{< relref "/support">}})*
+##### *Want to contribute [contact me](mailto:hi@sidmulajkar.com)* / *[read my blogs]({{< relref "/posts" >}})* / *[privacy resources]({{< relref "/references.md" >}})* / *[support me]({{< relref "/support.md">}})*

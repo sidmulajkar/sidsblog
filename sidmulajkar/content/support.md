@@ -72,9 +72,9 @@ bc1qhngja5r54e8mrfyj4gudhjel4xyn7z4hmf4wrp
 
 --
 
-__Thanks for your support. 🙌__ | [How to verify the PGP Key & PGP Signature]({{< relref "/content/how-to-verify-pgp-signature.md">}})
+__Thanks for your support. 🙌__ | [How to verify the PGP Key & PGP Signature]({{< relref "/how-to-verify-pgp-signature.md">}})
 
 
-Before you **email** anything please read these | [My Thoughts on Mail and Mail Privacy]({{< relref "/content/posts/my-thoughts-on-mail-regarding-privacy.md" >}})
+Before you **email** anything please read these | [My Thoughts on Mail and Mail Privacy]({{< relref "/posts/my-thoughts-on-mail-regarding-privacy.md" >}})
 
 ---

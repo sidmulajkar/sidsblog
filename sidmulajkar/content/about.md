@@ -55,8 +55,8 @@ There’s still much to learn, more problems to solve, and more to create. For t
 
 ##### Resume - [Resume_Siddhant_Mulajkar-Devops.pdf 📄](https://drive.google.com/file/d/1Ed_echFtZZd6GVBh14-UW5sDiDYIMWSV/view?usp=sharing)
 
-##### Privacy Resource Reference - [anukramani 🔐]({{< relref "content/references.md" >}})
+##### Privacy Resource Reference - [anukramani 🔐]({{< relref "/references.md" >}})
 
-##### Personal knowledge wiki - [sangraha 🧑🏽‍💻]({{< relref "content/sangraha.md" >}})
+##### Personal knowledge wiki - [sangraha 🧑🏽‍💻]({{< relref "/sangraha.md" >}})
 
 ---

@@ -55,7 +55,7 @@ Update: I used to self host my servers, now I don't and use a service instead.
 
 ---
 
-### Check out the [Privacy resources]({{< relref "content/references.md" >}}) section for more insights about privacy.
+### Check out the [Privacy resources]({{< relref "/references.md" >}}) section for more insights about privacy.
 
 ---
 
@@ -68,7 +68,7 @@ Link: https://thereader.mitpress.mit.edu/a-history-of-the-data-tracked-user/
 
 ---
 
-##### *Want to suggest [contact me](mailto:hi@sidmulajkar.com)* /  *[read my blogs]({{< relref "/posts" >}})* / *[knowledge-wiki]({{< relref "/sangraha">}})* / *[support me]({{< relref "/support">}})*
+##### *Want to suggest [contact me](mailto:hi@sidmulajkar.com)* /  *[read my blogs]({{< relref "/posts" >}})* / *[knowledge-wiki]({{< relref "/sangraha.md">}})* / *[support me]({{< relref "/support.md">}})*
 
 --
 

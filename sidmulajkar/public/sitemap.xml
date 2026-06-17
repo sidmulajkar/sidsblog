@@ -3,10 +3,67 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://sidmulajkar.com/</loc>
-    <lastmod>2023-12-26T17:26:04+05:30</lastmod>
+    <lastmod>2026-06-17T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/ai-governance/</loc>
+    <lastmod>2026-06-17T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/ai-security/</loc>
+    <lastmod>2026-06-17T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/ai-security/</loc>
+    <lastmod>2026-06-17T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/</loc>
-    <lastmod>2023-12-26T17:26:04+05:30</lastmod>
+    <lastmod>2026-06-17T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/cybersecurity/</loc>
+    <lastmod>2026-06-17T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/data-privacy/</loc>
+    <lastmod>2026-06-17T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/dpdp-act/</loc>
+    <lastmod>2026-06-17T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/gdpr/</loc>
+    <lastmod>2026-06-17T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/llm-security/</loc>
+    <lastmod>2026-06-17T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/pii/</loc>
+    <lastmod>2026-06-17T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/posts/</loc>
+    <lastmod>2026-06-17T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/privacy/</loc>
+    <lastmod>2026-06-17T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/privacy/</loc>
+    <lastmod>2026-06-17T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/security/</loc>
+    <lastmod>2026-06-17T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/security/</loc>
+    <lastmod>2026-06-17T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/sidsblog/</loc>
+    <lastmod>2026-06-17T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/sidsblog/</loc>
+    <lastmod>2026-06-17T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/categories/systems-design/</loc>
+    <lastmod>2026-06-17T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/tags/</loc>
+    <lastmod>2026-06-17T17:26:04+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/posts/fortress/</loc>
+    <lastmod>2026-06-17T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/email/</loc>
     <lastmod>2023-12-26T17:26:04+05:30</lastmod>
@@ -27,30 +84,6 @@
     <lastmod>2023-12-26T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/categories/personal-thoughts-on-mail-privacy/</loc>
-    <lastmod>2023-12-26T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/posts/</loc>
-    <lastmod>2023-12-26T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/tags/privacy/</loc>
-    <lastmod>2023-12-26T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/categories/privacy/</loc>
-    <lastmod>2023-12-26T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/tags/security/</loc>
-    <lastmod>2023-12-26T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/categories/security/</loc>
-    <lastmod>2023-12-26T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/tags/sidsblog/</loc>
-    <lastmod>2023-12-26T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/categories/sidsblog/</loc>
-    <lastmod>2023-12-26T17:26:04+05:30</lastmod>
-  </url><url>
-    <loc>https://sidmulajkar.com/tags/</loc>
     <lastmod>2023-12-26T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/how-to-verify-pgp-signature/</loc>
@@ -152,7 +185,10 @@
     <loc>https://sidmulajkar.com/sangraha/</loc>
     <lastmod>2022-03-25T19:09:26+05:30</lastmod>
   </url><url>
-    <loc>https://sidmulajkar.com/software-engineering/</loc>
+    <loc>https://sidmulajkar.com/sanghra-grantha/</loc>
+    <lastmod>2022-03-25T19:09:26+05:30</lastmod>
+  </url><url>
+    <loc>https://sidmulajkar.com/sanghra-grantha/software-engineering/</loc>
     <lastmod>2022-03-25T19:09:26+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/tags/concurrency-control/</loc>
@@ -792,22 +828,16 @@
     <lastmod>2021-02-25T17:26:04+05:30</lastmod>
   </url><url>
     <loc>https://sidmulajkar.com/books/</loc>
-    <priority>0</priority>
   </url><url>
     <loc>https://sidmulajkar.com/cybersecurity/</loc>
-    <priority>0</priority>
   </url><url>
     <loc>https://sidmulajkar.com/linux/</loc>
-    <priority>0</priority>
   </url><url>
     <loc>https://sidmulajkar.com/minimalism/</loc>
-    <priority>0</priority>
   </url><url>
     <loc>https://sidmulajkar.com/personal-finance/</loc>
-    <priority>0</priority>
   </url><url>
     <loc>https://sidmulajkar.com/privacy/</loc>
-    <priority>0</priority>
   </url><url>
     <loc>https://sidmulajkar.com/authors/</loc>
   </url><url>

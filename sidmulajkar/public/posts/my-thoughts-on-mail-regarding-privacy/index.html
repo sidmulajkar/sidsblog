@@ -36,8 +36,7 @@
     <meta name="description" content="Personal thoughts on mail as how it is unsecure and privay concerns regarding the service.">
     <meta name="keywords" content="blog,developer,personal,hacker,javascript blogs,react blogs,development blogs">
 
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="My personal thoughts on Mail Privacy"/>
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="My personal thoughts on Mail Privacy"/>
 <meta name="twitter:description" content="Personal thoughts on mail as how it is unsecure and privay concerns regarding the service."/>
 
     <meta property="og:title" content="My personal thoughts on Mail Privacy" />
@@ -89,7 +88,7 @@
 
     
 
-    <meta name="generator" content="Hugo 0.92.2" />
+    <meta name="generator" content="Hugo 0.123.7">
   </head>
 
   
@@ -134,7 +133,7 @@
         "datePublished": "2023-12-26 17:26:04 \u002b0530 IST",
         "dateModified" : "2023-12-26 17:26:04 \u002b0530 IST",
         "url" : "https:\/\/sidmulajkar.com\/posts\/my-thoughts-on-mail-regarding-privacy\/",
-        "wordCount" : "692",
+        "wordCount" : "674",
         "keywords" : [ "personal thoughts on mail privacy","linux","mail","privacy","security","sidsblog","Blog" ]
     }
 </script>
@@ -233,135 +232,271 @@
 
       <div>
         
-        <h3 id="email-still-remains-an-essential-backbone-for-communication-nearly-used-by-3-4-billion-people">
-  Email still remains an Essential Backbone for communication, nearly used by ~(3-4) billion people.
-  <a class="heading-link" href="#email-still-remains-an-essential-backbone-for-communication-nearly-used-by-3-4-billion-people">
+        <hr>
+<h3 id="email-is-still-an-essential-backbone-of-communication">
+  Email is still an essential backbone of communication
+  <a class="heading-link" href="#email-is-still-an-essential-backbone-of-communication">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h3>
-<h4 id="i-do-not-use-email-as-a-privacy-tool-for-communication-check-the-last-part">
-  I do not use email as a privacy tool for communication. Check the last part**
-  <a class="heading-link" href="#i-do-not-use-email-as-a-privacy-tool-for-communication-check-the-last-part">
-    <i class="fa fa-link" aria-hidden="true"></i>
-  </a>
-</h4>
+<p>Nearly <strong>~3–4</strong> billion people use email today.</p>
+<p>I still rely on it daily.</p>
+<p>But I do not use email as a privacy tool for communication.</p>
+<p><strong>This post explains why.</strong></p>
 <hr>
-<p>The most private and secure way to communicate online is by using end-to-end encryption. If you send an end-to-end encrypted email, it’s encrypted on your device and isn’t decrypted until it reaches the device of the other person you sent the message to.</p>
-<p>&ndash;</p>
-<h3 id="mail-is-defacto-not-designed-for-privacy">
-  Mail is Defacto not designed for privacy!
-  <a class="heading-link" href="#mail-is-defacto-not-designed-for-privacy">
+<h3 id="end-to-end-encryption-is-the-baseline-for-private-communication">
+  End-to-end encryption is the baseline for private communication
+  <a class="heading-link" href="#end-to-end-encryption-is-the-baseline-for-private-communication">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h3>
-<p>The data-safety concerns paved the way for many privacy-first email providers. Lavabit as an example, was the encrypted email service provider, was forced to comply or shutdown the businesss after the Snowden Leaks(now started again).</p>
-<p><strong>Not every company stop their operations for normal people&rsquo;s rights, just like Lavabit.</strong></p>
-<p>&ndash;</p>
-<p><strong>LavaBit</strong> &raquo; <a href="https://youtube.com/watch?v=NM8fAnEqs1Q">https://youtube.com/watch?v=NM8fAnEqs1Q</a></p>
-<p><img src="https://sidmulajkar.com/images/emailser/lavabitemail.png" alt="Lavabit Image"></p>
-<p>&ndash;</p>
-<blockquote>
-<h4 id="email-is-more-than-communication--its-your-identity-and-worth-protecting---source-protonmail">
-  Email is more than communication – It’s your identity and worth protecting - Source ProtonMail
-  <a class="heading-link" href="#email-is-more-than-communication--its-your-identity-and-worth-protecting---source-protonmail">
+<p>The most private way to communicate online is end-to-end encryption (E2EE).</p>
+<h3 id="in-a-proper-e2ee-system">
+  In a proper E2EE system:
+  <a class="heading-link" href="#in-a-proper-e2ee-system">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h4>
-</blockquote>
-<blockquote>
-<p>Let&rsquo;s just move on to some generalized patterns&hellip;</p>
-</blockquote>
-<p>&ndash;</p>
-<h4 id="mail-stats--personal">
-  Mail Stats &gt; personal:
-  <a class="heading-link" href="#mail-stats--personal">
+</h3>
+<ul>
+<li>Messages are encrypted on your device</li>
+<li>They stay encrypted in transit</li>
+<li>Only the recipient’s device can decrypt them</li>
+</ul>
+<p>This removes the service provider from the trust boundary for content access.</p>
+<hr>
+<h3 id="email-was-not-built-with-privacy-as-the-default">
+  Email was not built with privacy as the default
+  <a class="heading-link" href="#email-was-not-built-with-privacy-as-the-default">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Email predates modern cryptographic communication models.</p>
+<p>Most email today still works as:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>Sender → SMTP servers → provider storage → recipient
+</span></span></code></pre></div><p>Even with TLS:</p>
+<ul>
+<li>Data is encrypted in transit (server-to-server)</li>
+<li>But decrypted at provider level for processing and storage</li>
+</ul>
+<p>This means:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>&gt; The email provider typically has access to message content at rest.
+</span></span></code></pre></div><hr>
+<h3 id="why-privacy-first-email-providers-exist">
+  Why privacy-first email providers exist
+  <a class="heading-link" href="#why-privacy-first-email-providers-exist">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Concerns around data access and surveillance led to privacy-focused email services.</p>
+<p>Examples include:</p>
+<ul>
+<li>Proton Mail</li>
+<li>Tutanota</li>
+<li>Skiff (historically)</li>
+</ul>
+<p>A well-known historical case is Lavabit.</p>
+<p>Lavabit was an encrypted email provider that shut down under legal pressure after the Snowden leaks and later restarted.</p>
+<p><a href="https://youtube.com/watch?v=NM8fAnEqs1Q">https://youtube.com/watch?v=NM8fAnEqs1Q</a></p>
+<p><img alt="Lavabit Image" src="https://sidmulajkar.com/images/emailser/lavabitemail.png"></p>
+<p>Not every provider exits under pressure.</p>
+<p>But the incentive structure exists.</p>
+<hr>
+<h3 id="email-is-more-than-communication--it-is-identity">
+  Email is more than communication — it is identity
+  <a class="heading-link" href="#email-is-more-than-communication--it-is-identity">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>&gt; “Email is more than communication – It’s your identity and worth protecting.” — Proton Mail
+</span></span></code></pre></div><hr>
+<h2 id="real-world-email-usage-patterns-personal-observation">
+  Real-world email usage patterns (personal observation)
+  <a class="heading-link" href="#real-world-email-usage-patterns-personal-observation">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>From my own mailbox:</p>
+<ul>
+<li><strong>~60–85%</strong>: Gmail / Google Workspace / Outlook</li>
+<li><strong>~2–3%</strong>: privacy-focused providers (Proton, etc.), mostly backups or product-related</li>
+<li><strong>~10–12%</strong>: newsletters, campaigns, RSS, ads, marketing traffic</li>
+</ul>
+<p>Email is still mostly infrastructure, not private communication.</p>
+<hr>
+<h3 id="tls-does-not-equal-end-to-end-encryption">
+  TLS does not equal end-to-end encryption
+  <a class="heading-link" href="#tls-does-not-equal-end-to-end-encryption">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>A common misunderstanding is equating TLS with end-to-end encryption.</p>
+<p>TLS protects data:</p>
+<ul>
+<li>between servers</li>
+<li>during transit</li>
+</ul>
+<p>But:</p>
+<ul>
+<li>Email is decrypted at provider servers</li>
+<li>Stored content is accessible to the provider in most standard setups</li>
+</ul>
+<p>As described in Proton’s documentation:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>&gt; TLS encrypts data in transit, but does not provide end-to-end protection.
+</span></span></code></pre></div><p>Source:
+<a href="https://proton.me/blog/zero-access-encryption">https://proton.me/blog/zero-access-encryption</a></p>
+<hr>
+<h3 id="what-about-proton-mail-tutanota-skiff-etc">
+  What about Proton Mail, Tutanota, Skiff, etc.?
+  <a class="heading-link" href="#what-about-proton-mail-tutanota-skiff-etc">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Privacy-focused email providers use different models.</p>
+<h4 id="when-both-sender-and-receiver-use-the-same-encrypted-system">
+  When both sender and receiver use the same encrypted system:
+  <a class="heading-link" href="#when-both-sender-and-receiver-use-the-same-encrypted-system">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h4>
 <ul>
-<li>60-85% mails in my mailbox are from addresses based on Gmail-Gsuite and Outlook</li>
-<li>2-3% mails are from skiff proton that to my personal backups or some other product marketing mails.</li>
-<li>Rest 10-12% are from other people using other mail service for campaigns, ads, newsletters, rss, podcasts etc.</li>
+<li>Proton → Proton</li>
+<li>Tutanota → Tutanota</li>
 </ul>
-<p>&ndash;</p>
-<p>For better default <strong>privacy</strong>, and not for sensitive use cases, you can still shift from <strong>gmail</strong> to other providers like <strong>skiff or proton</strong>.</p>
+<p>Messages are encrypted end-to-end using provider-managed keys.</p>
 <hr>
-<h4 id="q--problem-with-the-in-transit-tls-encryption">
-  Q) &raquo; Problem with the in-transit TLS Encryption?
-  <a class="heading-link" href="#q--problem-with-the-in-transit-tls-encryption">
+<h3 id="when-sending-across-providers">
+  When sending across providers:
+  <a class="heading-link" href="#when-sending-across-providers">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h4>
-<p>When you send an email, your message is routed from server to server until it reaches your recipient’s inbox. All major email providers use TLS (Transport Layer Security), which provides an encrypted route for your email as it is sent between servers. This keeps your message private while it is in transit.</p>
-<p>However, with TLS encryption, your emails are decrypted once they reach your email provider’s server rather than upon reaching your recipient’s device. This gives email providers that only use TLS access to all the messages stored on their servers.  &ndash; {source ProtonMail Blogs - Lisa Whelan}</p>
-<p>&ndash;</p>
-<h4 id="then-what-about-proton-mail-skiff-tutanota-startmail-and-other-similar-end-to-end-encrpyted-mail-services">
-  Then what about Proton Mail, Skiff, Tutanota, StartMail and other similar end-to-end encrpyted Mail Services?
-  <a class="heading-link" href="#then-what-about-proton-mail-skiff-tutanota-startmail-and-other-similar-end-to-end-encrpyted-mail-services">
-    <i class="fa fa-link" aria-hidden="true"></i>
-  </a>
-</h4>
-<p>&ndash;</p>
-<h4 id="mails-sent-and-received-from-skiff-to-skiff-proton-to-proton-or-tutanota-to-tutanota-are-encrypted-by-default-with-the-encryption-keys">
-  Mails sent and received from skiff to skiff, proton to proton, or tutanota to tutanota are encrypted by default with the encryption keys.
-  <a class="heading-link" href="#mails-sent-and-received-from-skiff-to-skiff-proton-to-proton-or-tutanota-to-tutanota-are-encrypted-by-default-with-the-encryption-keys">
-    <i class="fa fa-link" aria-hidden="true"></i>
-  </a>
-</h4>
-<p>&ndash;</p>
-<h5 id="if-you-send-mails-from-either-proton-to-skiff-skiff-to-tutanota-or-viceversa">
-  If you send mails from either proton to skiff, skiff to tutanota, or viceversa&hellip;
-  <a class="heading-link" href="#if-you-send-mails-from-either-proton-to-skiff-skiff-to-tutanota-or-viceversa">
-    <i class="fa fa-link" aria-hidden="true"></i>
-  </a>
-</h5>
-<h6 id="the-emails-are-not-encrypted-by-default-and-are-only-encrypted-in-transit-and-the-mails-that-are-received-by-the-encrypted-mail-providers-from-other-un-encryptedencrypted-providers-are-in-plain-format-once-recieved-and-then-encrypted-on-their-servers-for-storage">
-  The emails are not encrypted by default and are only encrypted in transit, and the mails that are received by the encrypted mail providers from other un-encrypted/encrypted providers are in plain format once recieved and then encrypted on their servers for storage.
-  <a class="heading-link" href="#the-emails-are-not-encrypted-by-default-and-are-only-encrypted-in-transit-and-the-mails-that-are-received-by-the-encrypted-mail-providers-from-other-un-encryptedencrypted-providers-are-in-plain-format-once-recieved-and-then-encrypted-on-their-servers-for-storage">
-    <i class="fa fa-link" aria-hidden="true"></i>
-  </a>
-</h6>
-<p><strong>Above statement is not true when using PGP</strong> &ndash; but the <strong>subject line</strong> is still <strong>not encrypted</strong> and metdata is collected even if you use the end-to-end encrypted providers, <strong>unless you opt-out</strong>, and some providers <strong>don&rsquo;t</strong> even let you opt out.</p>
-<p><img src="https://sidmulajkar.com/images/emailser/tuta-screen.png" alt="Lavabit Image"></p>
-<p>Statement reference links from the Encrypted Mail Providers &gt;
-<a href="https://proton.me/blog/zero-access-encryption">ProtonMail</a>
-<a href="https://tuta.com/blog/posts/what-is-end-to-end-encryption-why-it-matters">Tutuanota</a>
-<a href="https://skiff.com/blog/end-to-end-encryption-email">Skiff</a></p>
-<p>&ndash;</p>
-<p>&ldquo;<strong>As a Analyst, I would prefer looking at the metadata rather than the content</strong> &ndash; Edward Snowden&rdquo;</p>
-<p>&ndash;</p>
-<h4 id="what-is-end-to-end-encryption-email">
-  What is end-to-end encryption Email?
-  <a class="heading-link" href="#what-is-end-to-end-encryption-email">
-    <i class="fa fa-link" aria-hidden="true"></i>
-  </a>
-</h4>
-<p>If you send an end-to-end encrypted email, it’s encrypted on your device and isn’t decrypted until it reaches the device of the other person you sent the message to.</p>
-<p><strong>However, end-to-end email encryption only works if both people are using PGP or the same E2EE email service, such as Proton Mail, Skiff or Tutanota.</strong></p>
+</h3>
+<p>Example:</p>
+<ul>
+<li>Proton → Gmail</li>
+<li>Tutanota → Outlook</li>
+</ul>
+<p>Then:</p>
+<ul>
+<li>Email is encrypted only in transit (TLS)</li>
+<li>Provider-side storage may be readable after delivery</li>
+</ul>
 <hr>
-<h4 id="conclusion">
+<h3 id="pgp-changes-the-model">
+  PGP changes the model
+  <a class="heading-link" href="#pgp-changes-the-model">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>PGP enables true end-to-end encryption across providers.</p>
+<p>However:</p>
+<ul>
+<li>Requires manual setup</li>
+<li>Not widely adopted</li>
+<li>Metadata (especially subject lines) is still exposed</li>
+</ul>
+<p>Even with E2EE systems:</p>
+<ul>
+<li>Metadata leakage is still a major issue</li>
+<li>Subject lines are often not encrypted</li>
+</ul>
+<hr>
+<h3 id="metadata-is-still-visible">
+  Metadata is still visible
+  <a class="heading-link" href="#metadata-is-still-visible">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Even when content is protected:</p>
+<ul>
+<li>sender/receiver</li>
+<li>timestamps</li>
+<li>subject lines (in many cases)</li>
+<li>routing information</li>
+</ul>
+<p>As Edward Snowden has noted:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>&gt; “As an analyst, I would prefer looking at the metadata rather than the content.”
+</span></span></code></pre></div><p>Metadata alone can be highly revealing.</p>
+<hr>
+<h3 id="example-encrypted-email-providers">
+  Example: encrypted email providers
+  <a class="heading-link" href="#example-encrypted-email-providers">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Reference material:</p>
+<ul>
+<li>Proton Mail: <a href="https://proton.me/blog/zero-access-encryption">https://proton.me/blog/zero-access-encryption</a></li>
+<li>Tutanota: <a href="https://tuta.com/blog/posts/what-is-end-to-end-encryption-why-it-matters">https://tuta.com/blog/posts/what-is-end-to-end-encryption-why-it-matters</a></li>
+<li>Skiff: <a href="https://skiff.com/blog/end-to-end-encryption-email">https://skiff.com/blog/end-to-end-encryption-email</a></li>
+</ul>
+<p><img alt="Tutanota Screenshot" src="https://sidmulajkar.com/images/emailser/tuta-screen.png"></p>
+<hr>
+<h3 id="what-end-to-end-encrypted-email-actually-means">
+  What end-to-end encrypted email actually means
+  <a class="heading-link" href="#what-end-to-end-encrypted-email-actually-means">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>A correct definition:</p>
+<p>If you send an end-to-end encrypted email:</p>
+<ul>
+<li>It is encrypted on your device</li>
+<li>It remains encrypted until the recipient decrypts it locally</li>
+</ul>
+<p>However:</p>
+<ul>
+<li>This only works when both parties use compatible encryption systems (PGP or same provider ecosystem)</li>
+</ul>
+<p>Otherwise:</p>
+<ul>
+<li>Email falls back to standard server-mediated encryption (TLS)</li>
+</ul>
+<hr>
+<h3 id="conclusion">
   Conclusion
   <a class="heading-link" href="#conclusion">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h4>
-<h6 id="i-do-not-recommend-and-use-email-as-a-privacy-tool-for-communication-but-still-if-you-want-to-send-me-private-data-through-mail-encrypt-it-using-a-filefolder-and-send-it-to-me---keep-the-subject-line-simple">
-  I do not recommend and use email as a privacy tool for communication, but still if you want to send me private data through mail, encrypt it using a file/folder and send it to me. - (Keep the Subject line simple)
-  <a class="heading-link" href="#i-do-not-recommend-and-use-email-as-a-privacy-tool-for-communication-but-still-if-you-want-to-send-me-private-data-through-mail-encrypt-it-using-a-filefolder-and-send-it-to-me---keep-the-subject-line-simple">
+</h3>
+<p>Email is still foundational infrastructure for communication.</p>
+<p>But I do not treat it as a privacy-preserving communication channel.</p>
+<p>If I need to share sensitive data:</p>
+<ul>
+<li>I encrypt files locally (PGP or equivalent)</li>
+<li>Then send encrypted artifacts over email</li>
+<li>Subject lines remain minimal and non-sensitive</li>
+</ul>
+<p>Email providers may comply with legal requests depending on jurisdiction and operational constraints.</p>
+<p>That risk model is not optional — it is structural.</p>
+<hr>
+<h2 id="encryption-tooling-references">
+  Encryption tooling references
+  <a class="heading-link" href="#encryption-tooling-references">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h6>
-<p>I don&rsquo;t want to additionally rely on email providers for extra defence protection. If given a case, they might have to comply to the law to operate or shutdown the service.</p>
-<p>How to encrypt and sign the file using the public PGP Key</p>
+</h2>
 <ul>
 <li>
-<p><a href="https://kevinsguides.com/guides/security/software/pgp-encryption">using Windows Kleopatra</a></p>
+<p>Windows (Kleopatra):<br>
+<a href="https://kevinsguides.com/guides/security/software/pgp-encryption">https://kevinsguides.com/guides/security/software/pgp-encryption</a></p>
 </li>
 <li>
-<p><a href="https://itsfoss.com/gpg-encrypt-files-basic/">using linux terminal gpg utility</a> | <a href="https://www.digitalocean.com/community/tutorials/how-to-use-gpg-to-encrypt-and-sign-messages">Another blog ref link</a></p>
+<p>Linux (GPG):
+<a href="https://itsfoss.com/gpg-encrypt-files-basic/">https://itsfoss.com/gpg-encrypt-files-basic/</a><br>
+<a href="https://www.digitalocean.com/community/tutorials/how-to-use-gpg-to-encrypt-and-sign-messages">https://www.digitalocean.com/community/tutorials/how-to-use-gpg-to-encrypt-and-sign-messages</a></p>
 </li>
 </ul>
-<p>use it as a <strong>escalation</strong> point to other better privacy alternative communication methods.</p>
+<hr>
+<h3 id="closing-note">
+  Closing note
+  <a class="heading-link" href="#closing-note">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Email is useful.</p>
+<p>Email is universal.</p>
+<p>But email is not inherently private.</p>
+<p>If privacy matters, encryption must move to the file, not the inbox.</p>
 <hr>
 <h3 id="read-more-blogs-related-to">
   Read More Blogs related to:
@@ -418,7 +553,7 @@
     
       
         
-        <script src="https://sidmulajkar.com/js/dark-mode.min.aee9c8a464eb7b3534c7110f7c5e169e7039e2fd92710e0626d451d6725af137.js" integrity="sha256-runIpGTrezU0xxEPfF4WnnA54v2ScQ4GJtRR1nJa8Tc="></script>
+        <script src="https://sidmulajkar.com/js/dark-mode.min.c2d8a1f8f2660e4a46d776277c72695a1e0ca65939d79f754441d47551604af5.js" integrity="sha256-wtih&#43;PJmDkpG13YnfHJpWh4Mplk51591REHUdVFgSvU="></script>
       
     
 

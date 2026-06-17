@@ -9,115 +9,262 @@ draft: false
 ---
 
 
-### Email still remains an Essential Backbone for communication, nearly used by ~(3-4) billion people. 
+---
 
-#### I do not use email as a privacy tool for communication. Check the last part**
+### Email is still an essential backbone of communication
+
+Nearly **~3–4** billion people use email today.
+
+I still rely on it daily.
+
+But I do not use email as a privacy tool for communication.
+
+
+**This post explains why.**
 
 ---
 
+### End-to-end encryption is the baseline for private communication
 
-The most private and secure way to communicate online is by using end-to-end encryption. If you send an end-to-end encrypted email, it’s encrypted on your device and isn’t decrypted until it reaches the device of the other person you sent the message to.
+The most private way to communicate online is end-to-end encryption (E2EE).
 
---
+### In a proper E2EE system:
+
+- Messages are encrypted on your device
+- They stay encrypted in transit
+- Only the recipient’s device can decrypt them
+
+This removes the service provider from the trust boundary for content access.
+
+---
+
+### Email was not built with privacy as the default
+
+Email predates modern cryptographic communication models.
+
+Most email today still works as:
+
+```
+Sender → SMTP servers → provider storage → recipient
+```
 
 
-### Mail is Defacto not designed for privacy!
+Even with TLS:
 
-The data-safety concerns paved the way for many privacy-first email providers. Lavabit as an example, was the encrypted email service provider, was forced to comply or shutdown the businesss after the Snowden Leaks(now started again).
+- Data is encrypted in transit (server-to-server)
+- But decrypted at provider level for processing and storage
 
-**Not every company stop their operations for normal people's rights, just like Lavabit.**
+This means:
 
---
+```
+> The email provider typically has access to message content at rest.
+```
 
-**LavaBit** >> https://youtube.com/watch?v=NM8fAnEqs1Q
+---
 
+### Why privacy-first email providers exist
+
+Concerns around data access and surveillance led to privacy-focused email services.
+
+Examples include:
+
+- Proton Mail
+- Tutanota
+- Skiff (historically)
+
+A well-known historical case is Lavabit.
+
+Lavabit was an encrypted email provider that shut down under legal pressure after the Snowden leaks and later restarted.
+
+[https://youtube.com/watch?v=NM8fAnEqs1Q](https://youtube.com/watch?v=NM8fAnEqs1Q)
 
 ![Lavabit Image](/images/emailser/lavabitemail.png)
 
---
+Not every provider exits under pressure.
 
-
-> #### Email is more than communication – It’s your identity and worth protecting - Source ProtonMail
-
-> Let's just move on to some generalized patterns...
-
---
-
-#### Mail Stats > personal:   
-+ 60-85% mails in my mailbox are from addresses based on Gmail-Gsuite and Outlook
-+ 2-3% mails are from skiff proton that to my personal backups or some other product marketing mails.
-+ Rest 10-12% are from other people using other mail service for campaigns, ads, newsletters, rss, podcasts etc.
-
---
-
-For better default **privacy**, and not for sensitive use cases, you can still shift from **gmail** to other providers like **skiff or proton**. 
+But the incentive structure exists.
 
 ---
 
-#### Q) >> Problem with the in-transit TLS Encryption?
+### Email is more than communication — it is identity
 
-When you send an email, your message is routed from server to server until it reaches your recipient’s inbox. All major email providers use TLS (Transport Layer Security), which provides an encrypted route for your email as it is sent between servers. This keeps your message private while it is in transit.
-
-However, with TLS encryption, your emails are decrypted once they reach your email provider’s server rather than upon reaching your recipient’s device. This gives email providers that only use TLS access to all the messages stored on their servers.  -- {source ProtonMail Blogs - Lisa Whelan}
-
-
---
-
-
-#### Then what about Proton Mail, Skiff, Tutanota, StartMail and other similar end-to-end encrpyted Mail Services?
-
---
-
-#### Mails sent and received from skiff to skiff, proton to proton, or tutanota to tutanota are encrypted by default with the encryption keys.
-
---
-
-##### If you send mails from either proton to skiff, skiff to tutanota, or viceversa...
-
-###### The emails are not encrypted by default and are only encrypted in transit, and the mails that are received by the encrypted mail providers from other un-encrypted/encrypted providers are in plain format once recieved and then encrypted on their servers for storage. 
-
-**Above statement is not true when using PGP** -- but the **subject line** is still **not encrypted** and metdata is collected even if you use the end-to-end encrypted providers, **unless you opt-out**, and some providers **don't** even let you opt out.
-
-![Lavabit Image](/images/emailser/tuta-screen.png)
-
-Statement reference links from the Encrypted Mail Providers >
-[ProtonMail](https://proton.me/blog/zero-access-encryption)
-[Tutuanota](https://tuta.com/blog/posts/what-is-end-to-end-encryption-why-it-matters)
-[Skiff](https://skiff.com/blog/end-to-end-encryption-email)
-
---
-
-"**As a Analyst, I would prefer looking at the metadata rather than the content** -- Edward Snowden"
-
---
-
-#### What is end-to-end encryption Email?
-
-If you send an end-to-end encrypted email, it’s encrypted on your device and isn’t decrypted until it reaches the device of the other person you sent the message to.
-
-**However, end-to-end email encryption only works if both people are using PGP or the same E2EE email service, such as Proton Mail, Skiff or Tutanota.**
-
-
-
-
-
-
-
+```
+> “Email is more than communication – It’s your identity and worth protecting.” — Proton Mail
+```
 
 ---
 
-#### Conclusion
+## Real-world email usage patterns (personal observation)
 
-###### I do not recommend and use email as a privacy tool for communication, but still if you want to send me private data through mail, encrypt it using a file/folder and send it to me. - (Keep the Subject line simple)
+From my own mailbox:
 
-I don't want to additionally rely on email providers for extra defence protection. If given a case, they might have to comply to the law to operate or shutdown the service.
+- **~60–85%**: Gmail / Google Workspace / Outlook
+- **~2–3%**: privacy-focused providers (Proton, etc.), mostly backups or product-related
+- **~10–12%**: newsletters, campaigns, RSS, ads, marketing traffic
 
-How to encrypt and sign the file using the public PGP Key
-- [using Windows Kleopatra](https://kevinsguides.com/guides/security/software/pgp-encryption)
+Email is still mostly infrastructure, not private communication.
 
-- [using linux terminal gpg utility](https://itsfoss.com/gpg-encrypt-files-basic/) | [Another blog ref link](https://www.digitalocean.com/community/tutorials/how-to-use-gpg-to-encrypt-and-sign-messages)
+---
 
-use it as a **escalation** point to other better privacy alternative communication methods.
+### TLS does not equal end-to-end encryption
+
+A common misunderstanding is equating TLS with end-to-end encryption.
+
+TLS protects data:
+
+- between servers
+- during transit
+
+But:
+
+- Email is decrypted at provider servers
+- Stored content is accessible to the provider in most standard setups
+
+As described in Proton’s documentation:
+
+```
+> TLS encrypts data in transit, but does not provide end-to-end protection.
+```
+
+
+Source:
+https://proton.me/blog/zero-access-encryption
+
+---
+
+### What about Proton Mail, Tutanota, Skiff, etc.?
+
+Privacy-focused email providers use different models.
+
+#### When both sender and receiver use the same encrypted system:
+
+- Proton → Proton
+- Tutanota → Tutanota
+
+Messages are encrypted end-to-end using provider-managed keys.
+
+---
+
+### When sending across providers:
+
+Example:
+
+- Proton → Gmail
+- Tutanota → Outlook
+
+Then:
+
+- Email is encrypted only in transit (TLS)
+- Provider-side storage may be readable after delivery
+
+---
+
+### PGP changes the model
+
+PGP enables true end-to-end encryption across providers.
+
+However:
+
+- Requires manual setup
+- Not widely adopted
+- Metadata (especially subject lines) is still exposed
+
+Even with E2EE systems:
+
+- Metadata leakage is still a major issue
+- Subject lines are often not encrypted
+
+---
+
+### Metadata is still visible
+
+Even when content is protected:
+
+- sender/receiver
+- timestamps
+- subject lines (in many cases)
+- routing information
+
+As Edward Snowden has noted:
+
+```
+> “As an analyst, I would prefer looking at the metadata rather than the content.”
+
+```
+
+Metadata alone can be highly revealing.
+
+---
+
+### Example: encrypted email providers
+
+Reference material:
+
+- Proton Mail: https://proton.me/blog/zero-access-encryption  
+- Tutanota: https://tuta.com/blog/posts/what-is-end-to-end-encryption-why-it-matters  
+- Skiff: https://skiff.com/blog/end-to-end-encryption-email  
+
+![Tutanota Screenshot](/images/emailser/tuta-screen.png)
+
+---
+
+### What end-to-end encrypted email actually means
+
+A correct definition:
+
+If you send an end-to-end encrypted email:
+
+- It is encrypted on your device
+- It remains encrypted until the recipient decrypts it locally
+
+However:
+
+- This only works when both parties use compatible encryption systems (PGP or same provider ecosystem)
+
+Otherwise:
+
+- Email falls back to standard server-mediated encryption (TLS)
+
+---
+
+### Conclusion
+
+Email is still foundational infrastructure for communication.
+
+But I do not treat it as a privacy-preserving communication channel.
+
+If I need to share sensitive data:
+
+- I encrypt files locally (PGP or equivalent)
+- Then send encrypted artifacts over email
+- Subject lines remain minimal and non-sensitive
+
+Email providers may comply with legal requests depending on jurisdiction and operational constraints.
+
+That risk model is not optional — it is structural.
+
+---
+
+## Encryption tooling references
+
+- Windows (Kleopatra):  
+  https://kevinsguides.com/guides/security/software/pgp-encryption
+
+- Linux (GPG):
+  https://itsfoss.com/gpg-encrypt-files-basic/  
+  https://www.digitalocean.com/community/tutorials/how-to-use-gpg-to-encrypt-and-sign-messages
+
+---
+
+###  Closing note
+
+Email is useful.
+
+Email is universal.
+
+But email is not inherently private.
+
+If privacy matters, encryption must move to the file, not the inbox.
 
 ---
 

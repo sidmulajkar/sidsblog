@@ -1,56 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>privacy on &gt; sidmulajkar</title>
+    <title>Privacy on &gt; sidmulajkar</title>
     <link>https://sidmulajkar.com/tags/privacy/</link>
-    <description>Recent content in privacy on &gt; sidmulajkar</description>
+    <description>Recent content in Privacy on &gt; sidmulajkar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 26 Dec 2023 17:26:04 +0530</lastBuildDate><atom:link href="https://sidmulajkar.com/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Jun 2026 17:26:04 +0530</lastBuildDate>
+    <atom:link href="https://sidmulajkar.com/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Missing Layer in AI Security</title>
+      <link>https://sidmulajkar.com/posts/fortress/</link>
+      <pubDate>Wed, 17 Jun 2026 17:26:04 +0530</pubDate>
+      <guid>https://sidmulajkar.com/posts/fortress/</guid>
+      <description>Stop Pasting Sensitive Data into AI Tools: The Hidden Risk No One Is Talking About &amp;gt; Apologies for the huge gap in writing posts, got busy with other aspects and job. Most conversations about AI safety start in the wrong place.&#xA;They focus on:&#xA;ChatGPT hallucinations Claude data retention policies Copilot enterprise controls Model-level security and compliance But that’s not where real-world data exposure happens.&#xA;The risk happens earlier.</description>
+    </item>
     <item>
       <title>My personal thoughts on Mail Privacy</title>
       <link>https://sidmulajkar.com/posts/my-thoughts-on-mail-regarding-privacy/</link>
       <pubDate>Tue, 26 Dec 2023 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/posts/my-thoughts-on-mail-regarding-privacy/</guid>
-      <description>Email still remains an Essential Backbone for communication, nearly used by ~(3-4) billion people.    I do not use email as a privacy tool for communication. Check the last part**     The most private and secure way to communicate online is by using end-to-end encryption. If you send an end-to-end encrypted email, it’s encrypted on your device and isn’t decrypted until it reaches the device of the other person you sent the message to.</description>
+      <description>Email is still an essential backbone of communication Nearly ~3–4 billion people use email today.&#xA;I still rely on it daily.&#xA;But I do not use email as a privacy tool for communication.&#xA;This post explains why.&#xA;End-to-end encryption is the baseline for private communication The most private way to communicate online is end-to-end encryption (E2EE).&#xA;In a proper E2EE system: Messages are encrypted on your device They stay encrypted in transit Only the recipient’s device can decrypt them This removes the service provider from the trust boundary for content access.</description>
     </item>
-    
     <item>
       <title>The Definitive Handbook: How to Harden the Linux Server</title>
       <link>https://sidmulajkar.com/posts/how-harden-linux-server/</link>
       <pubDate>Sun, 16 Oct 2022 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/posts/how-harden-linux-server/</guid>
-      <description>Requirements     Computer, virtual private server (VPS) or dedicated server running Debian based server instance. Linux or macOS computer for following the steps and hardening the server  Guide    &amp;ndash;
-Step 1. Create the SSH key pair for login (On Computer)    Using a root login password to login is good but not great from the security stand.
-When asked for file in which to save key, enter serverlog.</description>
+      <description>Requirements Computer, virtual private server (VPS) or dedicated server running Debian based server instance. Linux or macOS computer for following the steps and hardening the server Guide &amp;ndash;&#xA;Step 1. Create the SSH key pair for login (On Computer) Using a root login password to login is good but not great from the security stand.&#xA;When asked for file in which to save key, enter serverlog.&#xA;When asked for passphrase, use output from openssl rand -base64 24 (and store passphrase in password manager).</description>
     </item>
-    
     <item>
       <title>Tutorial: How to Create a Tor Dark Web Site Step-by-Step</title>
       <link>https://sidmulajkar.com/posts/darkweb-tor-website/</link>
       <pubDate>Mon, 30 May 2022 17:26:04 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/posts/darkweb-tor-website/</guid>
-      <description>What is a tor website?    A top-level Internet domain used by anonymous websites on the Dark Web.
-For eg, as we go to any other website such as google.com or youtube.com, DuckDuckGo is an internet search engine such as google that emphasizes protecting searchers&#39; privacy,
-can also be accessed using duckduckgo.com or also using the tor address of the website
-https://3g2upl4pq6kufc4m.onion (using the tor browser)
- Why do we need even need it?</description>
+      <description>What is a tor website? A top-level Internet domain used by anonymous websites on the Dark Web.&#xA;For eg, as we go to any other website such as google.com or youtube.com, DuckDuckGo is an internet search engine such as google that emphasizes protecting searchers&amp;rsquo; privacy,&#xA;can also be accessed using duckduckgo.com or also using the tor address of the website&#xA;https://3g2upl4pq6kufc4m.onion (using the tor browser)&#xA;Why do we need even need it?</description>
     </item>
-    
     <item>
       <title>Setting up Pi-hole as a recursive DNS server (Explained)</title>
       <link>https://sidmulajkar.com/posts/setting-up-pihole-as-a-recursive-dns-server/</link>
       <pubDate>Tue, 30 Mar 2021 16:04:37 +0530</pubDate>
-      
       <guid>https://sidmulajkar.com/posts/setting-up-pihole-as-a-recursive-dns-server/</guid>
-      <description>Got an old Raspberry Pi lying around? Hate seeing ads while browsing the web? Pi-hole is an open-source software project that blocks ads for all devices on your home network by routing all advertising servers into nowhere. What’s best is it takes just a few minutes to set up.
-&amp;ndash;
-&amp;ndash;
-What is a Pi-hole?    Network-wide ad blocking via your own Linux hardware. The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.</description>
+      <description>Got an old Raspberry Pi lying around? Hate seeing ads while browsing the web? Pi-hole is an open-source software project that blocks ads for all devices on your home network by routing all advertising servers into nowhere. What’s best is it takes just a few minutes to set up.&#xA;&amp;ndash;&#xA;&amp;ndash;&#xA;What is a Pi-hole? Network-wide ad blocking via your own Linux hardware. The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.</description>
     </item>
-    
   </channel>
 </rss>

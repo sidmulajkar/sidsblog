@@ -36,8 +36,7 @@
     <meta name="description" content="This tutorial will clear all your doubts regarding the Database Sharding Architectures and how to implement them.">
     <meta name="keywords" content="blog,developer,personal,hacker,javascript blogs,react blogs,development blogs">
 
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Boosting Performance through Effective Database Sharding Architectures for Optimal Optimization"/>
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Boosting Performance through Effective Database Sharding Architectures for Optimal Optimization"/>
 <meta name="twitter:description" content="This tutorial will clear all your doubts regarding the Database Sharding Architectures and how to implement them."/>
 
     <meta property="og:title" content="Boosting Performance through Effective Database Sharding Architectures for Optimal Optimization" />
@@ -89,7 +88,7 @@
 
     
 
-    <meta name="generator" content="Hugo 0.92.2" />
+    <meta name="generator" content="Hugo 0.123.7">
   </head>
 
   
@@ -253,7 +252,7 @@
 </h3>
 <p>Your application suddenly becomes popular. Traffic and data are starting to grow, and your database gets more overloaded every day.</p>
 <p>People on the internet tell you to scale your database by sharding, but you don’t know what it means.</p>
-<p><img src="https://sidmulajkar.com/images/shardingarch/shard1.png" alt="Database Sharding1"></p>
+<p><img alt="Database Sharding1" src="https://sidmulajkar.com/images/shardingarch/shard1.png"></p>
 <hr>
 <p>If you haven&rsquo;t read the last blog post and want to know more about Database Sharding check the previous blog &gt; <a href="https://sidmulajkar.com/posts/what-is-database-sharding/">What is Database Sharding</a></p>
 <h3 id="driving-principles">
@@ -307,7 +306,7 @@
   </a>
 </h3>
 <p>It is also known as hash-based sharding, involves using a value taken from newly written data — such as a customer’s ID number, a client appl’s IP address, a ZIP code, etc. — and plugging it into a hash function to determine which shard the data should go to.</p>
-<p><img src="https://sidmulajkar.com/images/shardingarch/shardkey.png" alt="Key Based Sharding"></p>
+<p><img alt="Key Based Sharding" src="https://sidmulajkar.com/images/shardingarch/shardkey.png"></p>
 <p>While key-based sharding is a fairly common sharding architecture, it can make things tricky when trying to dynamically add or remove additional servers to a database.</p>
 <p>As you add servers, each one will need a corresponding hash value, and many of your existing entries, if not all of them, will need to be remapped to their new, correct hash value and then migrated to the appropriate server.</p>
 <p>As you begin rebalancing the data, neither the new nor the old hashing functions will be valid.</p>
@@ -321,7 +320,7 @@
   </a>
 </h3>
 <p>This sharding involves sharding data based on the ranges of a given value. To illustrate, let’s say you have a database that stores information about all the products within a retailer’s catalog. You could create a few different shards.</p>
-<p><img src="https://sidmulajkar.com/images/shardingarch/rangebased.png" alt="Range Based Sharding"></p>
+<p><img alt="Range Based Sharding" src="https://sidmulajkar.com/images/shardingarch/rangebased.png"></p>
 <p>The main benefit of range-based sharding is that it’s relatively simple to implement.</p>
 <p>Every shard holds a different set of data but they all have an identical schema as one another, as well as the original database.</p>
 <p>The application code just reads which range the data falls into and writes it to the corresponding shard.</p>
@@ -334,7 +333,7 @@
   </a>
 </h3>
 <p>To implement this sharding, one must create and maintain a lookup table that uses a shard key to keep track of which shard holds which data. In a jiffy, a lookup table is a table that holds a static set of information about where specific data is found.</p>
-<p><img src="https://sidmulajkar.com/images/shardingarch/dirbased.png" alt="Directory Based Sharding"></p>
+<p><img alt="Directory Based Sharding" src="https://sidmulajkar.com/images/shardingarch/dirbased.png"></p>
 <p>The main appeal of directory-based sharding is its flexibility.
 Range-based sharding architectures limit you to specifying ranges of values, while key-based ones limit you to using a fixed hash function which, as mentioned previously, can be exceedingly difficult to change later.</p>
 <p>Directory-based sharding, on the other hand, allows you to use whatever system or algorithm you want to assign data entries to shards, and it’s relatively easy to dynamically add shards using this approach.</p>
@@ -428,7 +427,7 @@ Range-based sharding architectures limit you to specifying ranges of values, whi
     
       
         
-        <script src="https://sidmulajkar.com/js/dark-mode.min.aee9c8a464eb7b3534c7110f7c5e169e7039e2fd92710e0626d451d6725af137.js" integrity="sha256-runIpGTrezU0xxEPfF4WnnA54v2ScQ4GJtRR1nJa8Tc="></script>
+        <script src="https://sidmulajkar.com/js/dark-mode.min.c2d8a1f8f2660e4a46d776277c72695a1e0ca65939d79f754441d47551604af5.js" integrity="sha256-wtih&#43;PJmDkpG13YnfHJpWh4Mplk51591REHUdVFgSvU="></script>
       
     
 

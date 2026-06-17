@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="color-scheme" content="light dark">
+
+
+
+
+
+
+    
+
+ 
+    
+    
+      <meta http-equiv="Content-Security-Policy" 
+    content="upgrade-insecure-requests; block-all-mixed-content; 
+    default-src 'self'; 
+    
+    child-src 'self'; 
+    font-src 'self' 'unsafe-inline' https://fonts.gstatic.com https://cdn.jsdelivr.net/; 
+    form-action 'self'; 
+    frame-src 'self'; 
+    img-src 'self'; 
+    object-src 'self'; 
+    style-src 'self' 'strict-dynamic' 'unsafe-inline' nonce-rAnd0m https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; 
+    script-src 'self'; 
+    prefetch-src 'none';">
+    
+
+    <meta name="author" content="Hi, I&#39;m Siddhant Mulajkar!">
+    <meta name="description" content="Personal thoughts on mail as how it is unsecure and privay concerns regarding the service.">
+    <meta name="keywords" content="blog,developer,personal,hacker,javascript blogs,react blogs,development blogs">
+
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="The Missing Layer in AI Security"/>
+<meta name="twitter:description" content="Personal thoughts on mail as how it is unsecure and privay concerns regarding the service."/>
+
+    <meta property="og:title" content="The Missing Layer in AI Security" />
+<meta property="og:description" content="Personal thoughts on mail as how it is unsecure and privay concerns regarding the service." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://sidmulajkar.com/posts/fortress/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2026-06-17T17:26:04+05:30" />
+<meta property="article:modified_time" content="2026-06-17T17:26:04+05:30" />
+
+
+
+    <title>
+  The Missing Layer in AI Security · &gt; sidmulajkar
+</title>
+
+    
+      <link rel="canonical" href="https://sidmulajkar.com/posts/fortress/">
+    
+
+    
+    
+    <link rel="preload" href="https://sidmulajkar.com/fonts/forkawesome-webfont.woff2" as="font" type="font/woff2" integrity="sha256-hEIt6X6xzye8ubyk8/uxjz68cRZHsJxoKS9fQ8idUGQ=" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="https://sidmulajkar.com/scss/coder.min.24a09f76f51018352bc5ee1b99abd3e58a3f339bf62fe9ed22badd4af74691f8.css" integrity="sha256-JKCfdvUQGDUrxe4bmavT5Yo/M5v2L&#43;ntIrrdSvdGkfg=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="https://sidmulajkar.com/scss/coder-dark.min.5d4a66b4da5625f547ad4a63f2dfc99ccd3f4f093e2adf653609d4d6a020c21f.css" integrity="sha256-XUpmtNpWJfVHrUpj8t/JnM0/Twk&#43;Kt9lNgnU1qAgwh8=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://sidmulajkar.com/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://sidmulajkar.com/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="https://sidmulajkar.com/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://sidmulajkar.com/images/apple-touch-icon.png">
+
+    
+
+    <meta name="generator" content="Hugo 0.123.7">
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-dark"
+        onload=""
+  >
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+        <section class="container">
+          <a class="navigation-title" href="https://sidmulajkar.com/">
+            &gt; sidmulajkar
+            <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/sidmulajkar.com\/"
+        },
+        "articleSection" : "posts",
+        "name" : "The Missing Layer in AI Security",
+        "headline" : "The Missing Layer in AI Security",
+        "description" : "Personal thoughts on mail as how it is unsecure and privay concerns regarding the service.",
+        "inLanguage" : "en-US",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2026",
+        "datePublished": "2026-06-17 17:26:04 \u002b0530 IST",
+        "dateModified" : "2026-06-17 17:26:04 \u002b0530 IST",
+        "url" : "https:\/\/sidmulajkar.com\/posts\/fortress\/",
+        "wordCount" : "969",
+        "keywords" : [ "AI security","data privacy","PII","GDPR","DPDP Act","LLM security","AI governance","cybersecurity","Security","privacy","sidsblog","Blog" ]
+    }
+</script>
+          </a>
+          
+            <input type="checkbox" id="menu-toggle" />
+            <label class="menu-button float-right" for="menu-toggle">
+              <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+            </label>
+            <ul class="navigation-list">
+              
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/about/">About</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/posts/">Blogs</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/services/">Services</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/privacyguide/">Privacy 101</a>
+                  </li>
+                
+                  <li class="navigation-item">
+                    <a class="navigation-link" href="https://sidmulajkar.com/references/">References</a>
+                  </li>
+                
+              
+              
+            </ul>
+          
+        </section>
+</nav>
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://sidmulajkar.com/posts/fortress/">
+              The Missing Layer in AI Security
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2026-06-17T17:26:04&#43;05:30'>
+                June 17, 2026
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              5-minute read
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="https://sidmulajkar.com/categories/ai-security/">AI Security</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/privacy/">privacy</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/systems-design/">Systems Design</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/security/">Security</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/categories/sidsblog/">sidsblog</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <a href="https://sidmulajkar.com/tags/ai-security/">AI security</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/data-privacy/">data privacy</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/pii/">PII</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/gdpr/">GDPR</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/dpdp-act/">DPDP Act</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/llm-security/">LLM security</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/ai-governance/">AI governance</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/cybersecurity/">cybersecurity</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/security/">Security</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/privacy/">privacy</a>
+      <span class="separator">•</span>
+    <a href="https://sidmulajkar.com/tags/sidsblog/">sidsblog</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <h1 id="stop-pasting-sensitive-data-into-ai-tools-the-hidden-risk-no-one-is-talking-about">
+  Stop Pasting Sensitive Data into AI Tools: The Hidden Risk No One Is Talking About
+  <a class="heading-link" href="#stop-pasting-sensitive-data-into-ai-tools-the-hidden-risk-no-one-is-talking-about">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>&gt; Apologies for the huge gap in writing posts, got busy with other aspects and job. 
+</span></span></code></pre></div><p>Most conversations about AI safety start in the wrong place.</p>
+<p>They focus on:</p>
+<ul>
+<li>ChatGPT hallucinations</li>
+<li>Claude data retention policies</li>
+<li>Copilot enterprise controls</li>
+<li>Model-level security and compliance</li>
+</ul>
+<p>But that’s not where real-world data exposure happens.</p>
+<p>The risk happens earlier.</p>
+<p><strong>Before the prompt. Before the model. Before any system logs anything.</strong></p>
+<p>It happens in a much smaller, invisible moment:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>&gt; When someone copies production data and pastes it into an AI <span style="color:#fff;font-weight:bold">tool</span>.
+</span></span></code></pre></div><p>That moment takes seconds.</p>
+<p>And it happens thousands of times a day inside engineering teams, data teams, and product workflows.</p>
+<hr>
+<h3 id="the-overlooked-workflow-that-creates-data-leaks">
+  The overlooked workflow that creates data leaks
+  <a class="heading-link" href="#the-overlooked-workflow-that-creates-data-leaks">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>A typical AI-assisted workflow looks like this:</p>
+<ol>
+<li>Production data lives in logs, SQL dumps, or internal systems</li>
+<li>A developer or analyst needs help debugging or transforming it</li>
+<li>The data is copied into ChatGPT, Claude, Cursor, or Copilot</li>
+<li>The AI generates an output</li>
+</ol>
+<p>On paper, this seems harmless.</p>
+<p>In reality, it often includes:</p>
+<ul>
+<li>Customer PII (emails, phone numbers, addresses)</li>
+<li>Government IDs (Aadhaar, PAN, SSN, passport numbers)</li>
+<li>API keys and authentication tokens</li>
+<li>Internal system logs and infrastructure metadata</li>
+<li>AWS, Kubernetes, or GPU identifiers</li>
+</ul>
+<p>This creates a critical issue:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>&gt; Sensitive data leaves your controlled environment and enters an external AI system in seconds.
+</span></span></code></pre></div><p>No audit step.<br>
+No validation step.<br>
+No warning.</p>
+<hr>
+<h3 id="why-traditional-ai-governance-tools-miss-this-problem">
+  Why traditional AI governance tools miss this problem
+  <a class="heading-link" href="#why-traditional-ai-governance-tools-miss-this-problem">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Most AI governance frameworks focus on:</p>
+<ul>
+<li>Model access control</li>
+<li>Enterprise data retention policies</li>
+<li>API-level monitoring</li>
+<li>Network security boundaries</li>
+</ul>
+<p>These are important — but they operate <strong>after the data is already inside the system.</strong></p>
+<p>The real gap is earlier:</p>
+<h3 id="the-pre-prompt-decision-layer">
+  The “pre-prompt” decision layer
+  <a class="heading-link" href="#the-pre-prompt-decision-layer">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>This is the moment where:</p>
+<ul>
+<li>A log file becomes a copy-paste action</li>
+<li>A CSV becomes a prompt</li>
+<li>A debugging session becomes data exposure</li>
+</ul>
+<p>This decision is usually:</p>
+<ul>
+<li>Unstructured</li>
+<li>Individual-driven</li>
+<li>Time-sensitive</li>
+<li>Not audited</li>
+</ul>
+<p>And that’s exactly why it fails under pressure.</p>
+<p><img alt="Lavabit Image" src="https://sidmulajkar.com/images/fortress/playground.png"></p>
+<hr>
+<h3 id="why-this-problem-is-growing-now">
+  Why this problem is growing now
+  <a class="heading-link" href="#why-this-problem-is-growing-now">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Several shifts are accelerating this issue:</p>
+<h4 id="1-ai-tools-are-now-default-in-workflows">
+  1. AI tools are now default in workflows
+  <a class="heading-link" href="#1-ai-tools-are-now-default-in-workflows">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h4>
+<p>Developers routinely use:</p>
+<ul>
+<li>ChatGPT</li>
+<li>Claude</li>
+<li>Cursor</li>
+<li>GitHub Copilot</li>
+</ul>
+<p>These are embedded in daily work, not occasional tools.</p>
+<h3 id="2-faster-debugging-expectations">
+  2. Faster debugging expectations
+  <a class="heading-link" href="#2-faster-debugging-expectations">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Teams are expected to resolve issues faster than ever.</p>
+<h3 id="3-larger-production-datasets">
+  3. Larger production datasets
+  <a class="heading-link" href="#3-larger-production-datasets">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Modern logs contain:</p>
+<ul>
+<li>structured events</li>
+<li>identifiers</li>
+<li>user traces</li>
+<li>infrastructure metadata</li>
+</ul>
+<h3 id="4-no-safe-input-layer-exists">
+  4. No safe input layer exists
+  <a class="heading-link" href="#4-no-safe-input-layer-exists">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Most tools optimize for output quality, not input safety.</p>
+<hr>
+<h3 id="the-real-question-is-not-are-people-aware">
+  The real question is not “Are people aware?”
+  <a class="heading-link" href="#the-real-question-is-not-are-people-aware">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Most engineers already know:</p>
+<ul>
+<li>Don’t paste secrets into AI tools</li>
+<li>Don’t expose customer data</li>
+<li>Be careful with production logs</li>
+</ul>
+<p>Awareness is not the issue.</p>
+<p>The issue is:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>&gt; What does a safe workflow look like when speed matters?
+</span></span></code></pre></div><p>Because in practice:</p>
+<ul>
+<li>Deadlines override caution</li>
+<li>Debugging overrides policy</li>
+<li>Convenience overrides compliance</li>
+</ul>
+<p>And that’s where leaks happen.</p>
+<hr>
+<h1 id="introducing-fortress-zero">
+  Introducing Fortress Zero
+  <a class="heading-link" href="#introducing-fortress-zero">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<p>To explore this gap, I built <strong>Fortress Zero</strong> — a browser-based tool that runs entirely locally.</p>
+<p>Its purpose is simple:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>&gt; Detect and sanitize sensitive data before it reaches any AI <span style="color:#fff;font-weight:bold">tool</span>.
+</span></span></code></pre></div><h3 id="what-it-does">
+  What it does
+  <a class="heading-link" href="#what-it-does">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Fortress Zero identifies and replaces:</p>
+<h3 id="personally-identifiable-information-pii">
+  Personally Identifiable Information (PII)
+  <a class="heading-link" href="#personally-identifiable-information-pii">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li>Aadhaar (Verhoeff validated)</li>
+<li>PAN numbers</li>
+<li>Emails</li>
+<li>Phone numbers</li>
+<li>SSNs and passport numbers</li>
+<li>Credit cards (Luhn validated)</li>
+<li>IBANs (checksum validated)</li>
+</ul>
+<h3 id="ai-security-risks">
+  AI security risks
+  <a class="heading-link" href="#ai-security-risks">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li>API keys (sk-, AKIA*)</li>
+<li>JWT tokens</li>
+<li>Access credentials</li>
+</ul>
+<h3 id="infrastructure-fingerprints">
+  Infrastructure fingerprints
+  <a class="heading-link" href="#infrastructure-fingerprints">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li>AWS EC2 instance IDs</li>
+<li>GPU UUIDs</li>
+<li>Kubernetes pod names</li>
+<li>Container IDs</li>
+<li>MAC addresses</li>
+<li>Kernel memory addresses</li>
+<li>Function offsets from logs</li>
+</ul>
+<hr>
+<h3 id="how-it-works">
+  How it works
+  <a class="heading-link" href="#how-it-works">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Everything runs locally in the browser:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>Your Data → Fortress Zero (local engine) → Sanitized Output → AI Tool
+</span></span></code></pre></div><p>No servers.<br>
+No telemetry.<br>
+No network calls.</p>
+<h3 id="workflow">
+  Workflow
+  <a class="heading-link" href="#workflow">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ol>
+<li>Paste logs / CSV / SQL / text</li>
+<li>Run sanitization</li>
+<li>Copy sanitized output</li>
+<li>Paste safely into AI tools</li>
+</ol>
+<hr>
+<h3 id="why-this-approach-matters">
+  Why this approach matters
+  <a class="heading-link" href="#why-this-approach-matters">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Most security tools operate at:</p>
+<ul>
+<li>infrastructure level</li>
+<li>policy level</li>
+<li>enterprise governance level</li>
+</ul>
+<p>Fortress Zero operates at a different layer:</p>
+<blockquote>
+<p>The human decision moment.</p>
+</blockquote>
+<p>It assumes something simple:</p>
+<ul>
+<li>People will keep using AI tools</li>
+<li>People will keep working under pressure</li>
+<li>Copy-paste workflows are not going away</li>
+</ul>
+<p>So instead of restricting behavior, it:</p>
+<blockquote>
+<p>Makes the safe action the easiest action.</p>
+</blockquote>
+<hr>
+<h1 id="compliance-relevance-gdpr-dpdp-ccpa">
+  Compliance relevance (GDPR, DPDP, CCPA)
+  <a class="heading-link" href="#compliance-relevance-gdpr-dpdp-ccpa">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<p>This approach aligns with modern privacy frameworks:</p>
+<h3 id="gdpr-eu">
+  GDPR (EU)
+  <a class="heading-link" href="#gdpr-eu">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li>Article 25: Data protection by design</li>
+<li>Article 32: Security of processing</li>
+<li>Supports pseudonymization before processing</li>
+</ul>
+<h3 id="dpdp-act-2023-india">
+  DPDP Act 2023 (India)
+  <a class="heading-link" href="#dpdp-act-2023-india">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li>Section 8(5): Security safeguards</li>
+<li>Section 16: Cross-border data risks</li>
+</ul>
+<h3 id="ccpa-us">
+  CCPA (US)
+  <a class="heading-link" href="#ccpa-us">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li>Reasonable security expectations for personal data handling</li>
+</ul>
+<p>Fortress Zero is not a compliance tool, but it helps demonstrate <strong>due diligence before data leaves the machine.</strong></p>
+<hr>
+<h3 id="who-this-is-for">
+  Who this is for
+  <a class="heading-link" href="#who-this-is-for">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>This is relevant for:</p>
+<ul>
+<li>Software engineers</li>
+<li>Data engineers</li>
+<li>Security teams</li>
+<li>AI product teams</li>
+<li>Startups using LLMs</li>
+<li>Enterprises with AI governance requirements</li>
+</ul>
+<hr>
+<h3 id="what-this-is-not">
+  What this is NOT
+  <a class="heading-link" href="#what-this-is-not">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Fortress Zero is not:</p>
+<ul>
+<li>A model firewall</li>
+<li>A cloud DLP system</li>
+<li>An enterprise governance suite</li>
+<li>A replacement for security policy</li>
+</ul>
+<p>It is a <strong>pre-prompt safety layer</strong>.</p>
+<p>A missing layer in most AI workflows today.</p>
+<hr>
+<h3 id="open-questions">
+  Open questions
+  <a class="heading-link" href="#open-questions">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>This project started as an observation, not a conclusion:</p>
+<ul>
+<li>Do teams actually have a defined “pre-AI data step”?</li>
+<li>Or is it always individual judgment?</li>
+<li>Can this be standardized without slowing work?</li>
+<li>Where does automation help — and where does it fail?</li>
+</ul>
+<p>These are still open questions.</p>
+<p>That’s why this exists.</p>
+<hr>
+<h3 id="try-fortress-zero">
+  Try Fortress Zero
+  <a class="heading-link" href="#try-fortress-zero">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>👉 Live Playground: <a href="https://sidmulajkar.com/fortress/playground.html">https://sidmulajkar.com/fortress/playground.html</a></p>
+<p>Or run locally:</p>
+<ul>
+<li>Download <code>playground.html</code></li>
+<li>Open in browser</li>
+<li>Paste data → sanitize → copy → use safely</li>
+</ul>
+<p>No setup. No dependencies. No accounts.</p>
+<hr>
+<h1 id="final-thought">
+  Final thought
+  <a class="heading-link" href="#final-thought">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<p>Most AI safety discussions focus on models, policies, and enterprise controls.</p>
+<p>But the real risk is smaller — and more frequent.</p>
+<p>It happens in a single action:</p>
+<blockquote>
+<p>Copy → Paste → Send</p>
+</blockquote>
+<p>If we want safer AI systems in practice, not just in theory, we need to examine that moment more closely.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>That is the gap Fortress Zero is exploring.
+</span></span></code></pre></div><hr>
+<h3 id="read-more-blogs-related-to">
+  Read More Blogs related to:
+  <a class="heading-link" href="#read-more-blogs-related-to">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p><em><strong><a href="https://sidmulajkar.com/tags/database/">db-concepts</a> / <a href="https://sidmulajkar.com/tags/linux/">linux</a> / <a href="https://sidmulajkar.com/tags/flutter/">flutter-installation</a> / <a href="https://sidmulajkar.com/tags/networking/">networking</a> / <a href="https://sidmulajkar.com/tags/raspberry/">raspberry-pi</a></strong></em></p>
+<p>&ndash;</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+
+      
+      <a href="https://sidmulajkar.com/gpg/sidmulajkar.asc" >
+      
+      
+      
+        ©
+        
+          2020 -
+        
+        2026
+          | PGP Key 
+      
+      
+
+      
+    </section>
+  </footer>
+
+
+    </main>
+
+    
+      
+        
+        <script src="https://sidmulajkar.com/js/dark-mode.min.c2d8a1f8f2660e4a46d776277c72695a1e0ca65939d79f754441d47551604af5.js" integrity="sha256-wtih&#43;PJmDkpG13YnfHJpWh4Mplk51591REHUdVFgSvU="></script>
+      
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

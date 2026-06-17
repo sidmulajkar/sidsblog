@@ -18,4 +18,4 @@ type: "page"
 
 --
 
-##### *Want to contribute [contact me](mailto:hi@sidmulajkar.com)* / *[read my blogs]({{< relref "/posts" >}})* / *[privacy resources]({{< relref "content/references.md" >}})* / *[support me]({{< relref "/support">}})*
+##### *Want to contribute [contact me](mailto:hi@sidmulajkar.com)* / *[read my blogs]({{< relref "/posts" >}})* / *[privacy resources]({{< relref "/references.md" >}})* / *[support me]({{< relref "/support.md">}})*
